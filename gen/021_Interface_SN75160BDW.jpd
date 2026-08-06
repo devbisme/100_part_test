@@ -1,0 +1,31 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "SN75160BDW",
+      "package": "SOIC-20 (DW)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/sn75160b.pdf",
+        "Description": "Octal general-purpose GPIB (IEEE-488) bus transceiver"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "TE", "numbers": ["1"], "type": "input" },
+            { "name": "B1", "numbers": ["2", "3", "4", "5", "6", "7", "8", "9"],
+              "type": "bidirectional", "increment": true },
+            { "name": "GND", "numbers": ["10"], "type": "power_in" }
+          ],
+          "right": [
+            { "name": "VCC", "numbers": ["20"], "type": "power_in" },
+            { "name": "D1", "numbers": ["19", "18", "17", "16", "15", "14", "13", "12"],
+              "type": "bidirectional", "increment": true },
+            { "name": "PE", "numbers": ["11"], "type": "input" }
+          ]
+        }
+      ]
+    }
+  ]
+}

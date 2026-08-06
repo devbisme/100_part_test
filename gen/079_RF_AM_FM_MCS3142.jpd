@@ -1,0 +1,50 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MCS3142",
+      "package": "TSSOP-20",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/40001747A.pdf",
+        "Description": "KeeLoq dual-output remote keyless entry transmitter with UHF RF output"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "SW0", "numbers": ["19"], "type": "input" },
+            { "name": "SW1", "numbers": ["18"], "type": "input" },
+            { "name": "SW2", "numbers": ["17"], "type": "input" },
+            { "name": "SW3", "numbers": ["4"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "DATA_IN", "numbers": ["12"], "type": "input" },
+            { "name": "CTRL_IN", "numbers": ["9"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "PGC", "numbers": ["5"], "type": "input" },
+            { "name": "PGD", "numbers": ["6"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "RFOUT", "numbers": ["10"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "DATA_OUT", "numbers": ["15"], "type": "output" },
+            { "name": "CTRL_OUT", "numbers": ["14"], "type": "output" },
+            { "name": "~{LED}", "numbers": ["16"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "SOSCI", "numbers": ["2"], "type": "unspecified" },
+            { "name": "SOSCO", "numbers": ["3"], "type": "unspecified" },
+            { "name": "XTAL", "numbers": ["13"], "type": "unspecified" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["7"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["1", "8"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["11", "20"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MIC2178",
+      "package": "20-lead Wide Power SOIC (WM)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/mic2178.pdf",
+        "Description": "2.5A synchronous buck regulator with selectable PWM/skip mode"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "EN", "numbers": ["20"], "type": "input" },
+            { "name": "~{PWM}", "numbers": ["10"], "type": "input" },
+            { "name": "SYNC", "numbers": ["18"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "FB", "numbers": ["12"], "type": "input" },
+            { "name": "COMP", "numbers": ["13"], "type": "output" }
+          ],
+          "right": [
+            { "name": "SW", "numbers": ["3", "8"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "BIAS", "numbers": ["19"], "type": "power_out" },
+            { "name": "PWRGD", "numbers": ["11"], "type": "open_collector" }
+          ],
+          "top": [
+            { "name": "VIN", "numbers": ["1", "2", "9"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "PGND", "numbers": ["4", "5", "6", "7"], "type": "power_in" },
+            { "name": "SGND", "numbers": ["14", "15", "16", "17"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

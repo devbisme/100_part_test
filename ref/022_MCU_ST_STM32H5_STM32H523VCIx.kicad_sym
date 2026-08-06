@@ -1,0 +1,1862 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol STM32H523VCIx
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at -27.94 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property Value STM32H523VCIx
+      (at 12.7 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property Footprint Package_BGA:UFBGA-100_7x7mm_Layout12x12_P0.5mm
+      (at -27.94 -66.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property Datasheet https://www.st.com/resource/en/datasheet/stm32h523vc.pdf
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description STMicroelectronics Arm Cortex-M33 MCU, 256KB flash, 272KB RAM, 80 GPIO, UFBGA100
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords Arm Cortex-M33 STM32H5 STM32H5x3
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters UFBGA*7x7mm*Layout12x12*P0.5mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol STM32H523VCIx_0_1
+      (rectangle
+        (start -27.94 -66.04)
+        (end 27.94 66.04)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol STM32H523VCIx_1_1
+      (pin input line
+        (at -33.02 60.96 0)
+        (length 5.08)
+        (name NRST
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number G2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -33.02 55.88 0)
+        (length 5.08)
+        (name BOOT0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number A3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -33.02 50.8 0)
+        (length 5.08)
+        (name VREF+
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number J1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -33.02 45.72 0)
+        (length 5.08)
+        (name PH0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number F1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate RCC_OSC_IN bidirectional line))
+      (pin bidirectional line
+        (at -33.02 43.18 0)
+        (length 5.08)
+        (name PH1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number F2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate RCC_OSC_OUT bidirectional line))
+      (pin bidirectional line
+        (at -33.02 38.1 0)
+        (length 5.08)
+        (name PE0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D2 bidirectional line)
+        (alternate FDCAN1_RX bidirectional line)
+        (alternate FMC_NBL0 bidirectional line)
+        (alternate LPTIM1_ETR bidirectional line)
+        (alternate LPTIM2_CH2 bidirectional line)
+        (alternate LPTIM2_ETR bidirectional line)
+        (alternate PSSI_D2 bidirectional line)
+        (alternate SPI3_RDY bidirectional line)
+        (alternate TIM4_ETR bidirectional line))
+      (pin bidirectional line
+        (at -33.02 35.56 0)
+        (length 5.08)
+        (name PE2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D3 bidirectional line)
+        (alternate DEBUG_TRACECLK bidirectional line)
+        (alternate FMC_A23 bidirectional line)
+        (alternate LPTIM1_IN2 bidirectional line)
+        (alternate OCTOSPI1_IO2 bidirectional line)
+        (alternate PSSI_D3 bidirectional line)
+        (alternate SPI4_SCK bidirectional line))
+      (pin bidirectional line
+        (at -33.02 33.02 0)
+        (length 5.08)
+        (name PE3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DEBUG_TRACED0 bidirectional line)
+        (alternate FMC_A19 bidirectional line)
+        (alternate TAMP_IN6 bidirectional line)
+        (alternate TAMP_OUT3 bidirectional line)
+        (alternate TIM15_BKIN bidirectional line))
+      (pin bidirectional line
+        (at -33.02 30.48 0)
+        (length 5.08)
+        (name PE4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D4 bidirectional line)
+        (alternate DEBUG_TRACED1 bidirectional line)
+        (alternate FMC_A20 bidirectional line)
+        (alternate PSSI_D4 bidirectional line)
+        (alternate SPI4_NSS bidirectional line)
+        (alternate TAMP_IN7 bidirectional line)
+        (alternate TAMP_OUT8 bidirectional line)
+        (alternate TIM15_CH1N bidirectional line))
+      (pin bidirectional line
+        (at -33.02 27.94 0)
+        (length 5.08)
+        (name PE5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D6 bidirectional line)
+        (alternate DEBUG_TRACED2 bidirectional line)
+        (alternate FMC_A21 bidirectional line)
+        (alternate PSSI_D6 bidirectional line)
+        (alternate SPI4_MISO bidirectional line)
+        (alternate TAMP_IN8 bidirectional line)
+        (alternate TAMP_OUT7 bidirectional line)
+        (alternate TIM15_CH1 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 25.4 0)
+        (length 5.08)
+        (name PE6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number D2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D7 bidirectional line)
+        (alternate DEBUG_TRACED3 bidirectional line)
+        (alternate FMC_A22 bidirectional line)
+        (alternate PSSI_D7 bidirectional line)
+        (alternate SPI4_MOSI bidirectional line)
+        (alternate TAMP_IN3 bidirectional line)
+        (alternate TAMP_OUT6 bidirectional line)
+        (alternate TIM15_CH2 bidirectional line)
+        (alternate TIM1_BKIN2 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 22.86 0)
+        (length 5.08)
+        (name PE7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D4 bidirectional line)
+        (alternate FMC_DA4 bidirectional line)
+        (alternate OCTOSPI1_IO4 bidirectional line)
+        (alternate TIM1_ETR bidirectional line))
+      (pin bidirectional line
+        (at -33.02 20.32 0)
+        (length 5.08)
+        (name PE8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D5 bidirectional line)
+        (alternate FMC_DA5 bidirectional line)
+        (alternate OCTOSPI1_IO5 bidirectional line)
+        (alternate TIM1_CH1N bidirectional line))
+      (pin bidirectional line
+        (at -33.02 17.78 0)
+        (length 5.08)
+        (name PE9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DAC1_EXTI9 bidirectional line)
+        (alternate FMC_D6 bidirectional line)
+        (alternate FMC_DA6 bidirectional line)
+        (alternate OCTOSPI1_IO6 bidirectional line)
+        (alternate TIM1_CH1 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 15.24 0)
+        (length 5.08)
+        (name PE10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D7 bidirectional line)
+        (alternate FMC_DA7 bidirectional line)
+        (alternate OCTOSPI1_IO7 bidirectional line)
+        (alternate TIM1_CH2N bidirectional line))
+      (pin bidirectional line
+        (at -33.02 12.7 0)
+        (length 5.08)
+        (name PE11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_EXTI11 bidirectional line)
+        (alternate ADC2_EXTI11 bidirectional line)
+        (alternate FMC_D8 bidirectional line)
+        (alternate FMC_DA8 bidirectional line)
+        (alternate OCTOSPI1_NCS bidirectional line)
+        (alternate SPI1_RDY bidirectional line)
+        (alternate SPI4_NSS bidirectional line)
+        (alternate TIM1_CH2 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 10.16 0)
+        (length 5.08)
+        (name PE12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D9 bidirectional line)
+        (alternate FMC_DA9 bidirectional line)
+        (alternate SPI4_SCK bidirectional line)
+        (alternate TIM1_CH3N bidirectional line))
+      (pin bidirectional line
+        (at -33.02 7.62 0)
+        (length 5.08)
+        (name PE13
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D10 bidirectional line)
+        (alternate FMC_DA10 bidirectional line)
+        (alternate SPI4_MISO bidirectional line)
+        (alternate TIM1_CH3 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 5.08 0)
+        (length 5.08)
+        (name PE14
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D11 bidirectional line)
+        (alternate FMC_DA11 bidirectional line)
+        (alternate SPI4_MOSI bidirectional line)
+        (alternate TIM1_CH4 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 2.54 0)
+        (length 5.08)
+        (name PE15
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_EXTI15 bidirectional line)
+        (alternate ADC2_EXTI15 bidirectional line)
+        (alternate FMC_D12 bidirectional line)
+        (alternate FMC_DA12 bidirectional line)
+        (alternate TIM1_BKIN bidirectional line)
+        (alternate TIM1_CH4N bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -2.54 0)
+        (length 5.08)
+        (name PD0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FDCAN1_RX bidirectional line)
+        (alternate FMC_D2 bidirectional line)
+        (alternate FMC_DA2 bidirectional line)
+        (alternate TIM8_CH4N bidirectional line)
+        (alternate UART4_RX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -5.08 0)
+        (length 5.08)
+        (name PD1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number A9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FDCAN1_TX bidirectional line)
+        (alternate FMC_D3 bidirectional line)
+        (alternate FMC_DA3 bidirectional line)
+        (alternate UART4_TX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -7.62 0)
+        (length 5.08)
+        (name PD2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D11 bidirectional line)
+        (alternate DEBUG_TRACED2 bidirectional line)
+        (alternate PSSI_D11 bidirectional line)
+        (alternate PWR_WKUP7 bidirectional line)
+        (alternate SDMMC1_CMD bidirectional line)
+        (alternate TIM15_BKIN bidirectional line)
+        (alternate TIM3_ETR bidirectional line)
+        (alternate UART5_RX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -10.16 0)
+        (length 5.08)
+        (name PD3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number A8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D5 bidirectional line)
+        (alternate FMC_CLK bidirectional line)
+        (alternate I2S2_CK bidirectional line)
+        (alternate PSSI_D5 bidirectional line)
+        (alternate PWR_WKUP8 bidirectional line)
+        (alternate SPI2_SCK bidirectional line)
+        (alternate USART2_CTS bidirectional line)
+        (alternate USART2_NSS bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -12.7 0)
+        (length 5.08)
+        (name PD4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number A7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_NOE bidirectional line)
+        (alternate OCTOSPI1_IO4 bidirectional line)
+        (alternate USART2_DE bidirectional line)
+        (alternate USART2_RTS bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -15.24 0)
+        (length 5.08)
+        (name PD5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FDCAN1_TX bidirectional line)
+        (alternate FMC_NWE bidirectional line)
+        (alternate OCTOSPI1_IO5 bidirectional line)
+        (alternate SPI2_RDY bidirectional line)
+        (alternate TIM1_CH4N bidirectional line)
+        (alternate USART2_TX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -17.78 0)
+        (length 5.08)
+        (name PD6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number A6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D10 bidirectional line)
+        (alternate FMC_NWAIT bidirectional line)
+        (alternate I2C3_SCL bidirectional line)
+        (alternate I2S3_SDO bidirectional line)
+        (alternate I3C2_SCL bidirectional line)
+        (alternate OCTOSPI1_IO6 bidirectional line)
+        (alternate PSSI_D10 bidirectional line)
+        (alternate SDMMC1_CK bidirectional line)
+        (alternate SPI3_MOSI bidirectional line)
+        (alternate USART2_RX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -20.32 0)
+        (length 5.08)
+        (name PD7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number B6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_NCE bidirectional line)
+        (alternate FMC_NE1 bidirectional line)
+        (alternate I2C3_SDA bidirectional line)
+        (alternate I2S1_SDO bidirectional line)
+        (alternate I2S3_SDI bidirectional line)
+        (alternate I3C2_SDA bidirectional line)
+        (alternate OCTOSPI1_IO7 bidirectional line)
+        (alternate SDMMC1_CMD bidirectional line)
+        (alternate SPI1_MOSI bidirectional line)
+        (alternate SPI3_MISO bidirectional line)
+        (alternate USART2_CK bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -22.86 0)
+        (length 5.08)
+        (name PD8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D13 bidirectional line)
+        (alternate FMC_DA13 bidirectional line)
+        (alternate USART3_TX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -25.4 0)
+        (length 5.08)
+        (name PD9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number J11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DAC1_EXTI9 bidirectional line)
+        (alternate FDCAN2_RX bidirectional line)
+        (alternate FMC_D14 bidirectional line)
+        (alternate FMC_DA14 bidirectional line)
+        (alternate USART3_RX bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -27.94 0)
+        (length 5.08)
+        (name PD10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number J12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D15 bidirectional line)
+        (alternate FMC_DA15 bidirectional line)
+        (alternate LPTIM2_CH2 bidirectional line)
+        (alternate USART3_CK bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -30.48 0)
+        (length 5.08)
+        (name PD11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number H10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_EXTI11 bidirectional line)
+        (alternate ADC2_EXTI11 bidirectional line)
+        (alternate FMC_A16 bidirectional line)
+        (alternate FMC_CLE bidirectional line)
+        (alternate LPTIM2_IN2 bidirectional line)
+        (alternate OCTOSPI1_IO0 bidirectional line)
+        (alternate UART4_RX bidirectional line)
+        (alternate USART3_CTS bidirectional line)
+        (alternate USART3_NSS bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -33.02 0)
+        (length 5.08)
+        (name PD12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number H11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D12 bidirectional line)
+        (alternate FMC_A17 bidirectional line)
+        (alternate FMC_ALE bidirectional line)
+        (alternate I3C1_SCL bidirectional line)
+        (alternate LPTIM1_IN1 bidirectional line)
+        (alternate LPTIM2_IN1 bidirectional line)
+        (alternate OCTOSPI1_IO1 bidirectional line)
+        (alternate PSSI_D12 bidirectional line)
+        (alternate TIM4_CH1 bidirectional line)
+        (alternate UART4_TX bidirectional line)
+        (alternate USART3_DE bidirectional line)
+        (alternate USART3_RTS bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -35.56 0)
+        (length 5.08)
+        (name PD13
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number H12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D13 bidirectional line)
+        (alternate FMC_A18 bidirectional line)
+        (alternate I3C1_SDA bidirectional line)
+        (alternate LPTIM1_CH1 bidirectional line)
+        (alternate LPTIM2_CH1 bidirectional line)
+        (alternate OCTOSPI1_IO3 bidirectional line)
+        (alternate PSSI_D13 bidirectional line)
+        (alternate TIM4_CH2 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -38.1 0)
+        (length 5.08)
+        (name PD14
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number G11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FMC_D0 bidirectional line)
+        (alternate FMC_DA0 bidirectional line)
+        (alternate TIM4_CH3 bidirectional line))
+      (pin bidirectional line
+        (at -33.02 -40.64 0)
+        (length 5.08)
+        (name PD15
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number G12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_EXTI15 bidirectional line)
+        (alternate ADC2_EXTI15 bidirectional line)
+        (alternate FMC_D1 bidirectional line)
+        (alternate FMC_DA1 bidirectional line)
+        (alternate TIM4_CH4 bidirectional line))
+      (pin power_out line
+        (at -33.02 -45.72 0)
+        (length 5.08)
+        (name VCAP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at -33.02 -48.26 0)
+        (length 5.08)
+        (name VCAP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.16 71.12 270)
+        (length 5.08)
+        (name VBAT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number D1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.62 71.12 270)
+        (length 5.08)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number D3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 71.12 270)
+        (length 5.08)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number D10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 71.12 270)
+        (length 5.08)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number J3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 71.12 270)
+        (length 5.08)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number J10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -71.12 90)
+        (length 5.08)
+        (name VSS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -71.12 90)
+        (length 5.08)
+        (hide yes)
+        (name VSS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -71.12 90)
+        (length 5.08)
+        (hide yes)
+        (name VSS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -71.12 90)
+        (length 5.08)
+        (hide yes)
+        (name VSS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -71.12 90)
+        (length 5.08)
+        (hide yes)
+        (name VSS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 71.12 270)
+        (length 5.08)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -71.12 90)
+        (length 5.08)
+        (name VSSA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number J2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 5.08 71.12 270)
+        (length 5.08)
+        (name VDDA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 7.62 71.12 270)
+        (length 5.08)
+        (name VDDIO2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 10.16 71.12 270)
+        (length 5.08)
+        (name VDDUSB
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 33.02 60.96 180)
+        (length 5.08)
+        (name PA0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INN1 bidirectional line)
+        (alternate ADC1_INP0 bidirectional line)
+        (alternate ADC2_INN1 bidirectional line)
+        (alternate ADC2_INP0 bidirectional line)
+        (alternate FDCAN2_RX bidirectional line)
+        (alternate PWR_WKUP1 bidirectional line)
+        (alternate SPI3_RDY bidirectional line)
+        (alternate SPI4_SCK bidirectional line)
+        (alternate TAMP_IN2 bidirectional line)
+        (alternate TAMP_OUT1 bidirectional line)
+        (alternate TIM15_BKIN bidirectional line)
+        (alternate TIM2_CH1 bidirectional line)
+        (alternate TIM2_ETR bidirectional line)
+        (alternate TIM5_CH1 bidirectional line)
+        (alternate TIM8_ETR bidirectional line)
+        (alternate UART4_TX bidirectional line)
+        (alternate USART2_CTS bidirectional line)
+        (alternate USART2_NSS bidirectional line))
+      (pin bidirectional line
+        (at 33.02 58.42 180)
+        (length 5.08)
+        (name PA1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INP1 bidirectional line)
+        (alternate ADC2_INP1 bidirectional line)
+        (alternate LPTIM1_IN1 bidirectional line)
+        (alternate OCTOSPI1_DQS bidirectional line)
+        (alternate OCTOSPI1_IO3 bidirectional line)
+        (alternate TAMP_IN5 bidirectional line)
+        (alternate TAMP_OUT4 bidirectional line)
+        (alternate TIM15_CH1N bidirectional line)
+        (alternate TIM2_CH2 bidirectional line)
+        (alternate TIM5_CH2 bidirectional line)
+        (alternate UART4_RX bidirectional line)
+        (alternate USART2_DE bidirectional line)
+        (alternate USART2_RTS bidirectional line)
+        (alternate USART6_CK bidirectional line))
+      (pin bidirectional line
+        (at 33.02 55.88 180)
+        (length 5.08)
+        (name PA2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number K4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INP14 bidirectional line)
+        (alternate ADC2_INP14 bidirectional line)
+        (alternate LPTIM1_IN2 bidirectional line)
+        (alternate LPUART1_TX bidirectional line)
+        (alternate PWR_WKUP2 bidirectional line)
+        (alternate TAMP_IN4 bidirectional line)
+        (alternate TAMP_OUT3 bidirectional line)
+        (alternate TIM15_CH1 bidirectional line)
+        (alternate TIM2_CH3 bidirectional line)
+        (alternate TIM5_CH3 bidirectional line)
+        (alternate USART2_TX bidirectional line))
+      (pin bidirectional line
+        (at 33.02 53.34 180)
+        (length 5.08)
+        (name PA3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INP15 bidirectional line)
+        (alternate ADC2_INP15 bidirectional line)
+        (alternate I2S2_WS bidirectional line)
+        (alternate I2S3_SDO bidirectional line)
+        (alternate OCTOSPI1_CLK bidirectional line)
+        (alternate SPI2_NSS bidirectional line)
+        (alternate SPI3_MOSI bidirectional line)
+        (alternate TIM15_CH2 bidirectional line)
+        (alternate TIM2_CH4 bidirectional line)
+        (alternate TIM5_CH4 bidirectional line)
+        (alternate USART2_RX bidirectional line))
+      (pin bidirectional line
+        (at 33.02 50.8 180)
+        (length 5.08)
+        (name PA4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INP18 bidirectional line)
+        (alternate ADC2_INP18 bidirectional line)
+        (alternate DAC1_OUT1 bidirectional line)
+        (alternate DCMI_HSYNC bidirectional line)
+        (alternate I2S1_WS bidirectional line)
+        (alternate I2S3_SDO bidirectional line)
+        (alternate I2S3_WS bidirectional line)
+        (alternate LPTIM2_CH1 bidirectional line)
+        (alternate PSSI_DE bidirectional line)
+        (alternate SPI1_NSS bidirectional line)
+        (alternate SPI3_MOSI bidirectional line)
+        (alternate SPI3_NSS bidirectional line)
+        (alternate TIM5_ETR bidirectional line)
+        (alternate USART2_CK bidirectional line))
+      (pin bidirectional line
+        (at 33.02 48.26 180)
+        (length 5.08)
+        (name PA5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INN18 bidirectional line)
+        (alternate ADC1_INP19 bidirectional line)
+        (alternate ADC2_INN18 bidirectional line)
+        (alternate ADC2_INP19 bidirectional line)
+        (alternate DAC1_OUT2 bidirectional line)
+        (alternate I2S1_CK bidirectional line)
+        (alternate PSSI_D14 bidirectional line)
+        (alternate SPI1_SCK bidirectional line)
+        (alternate TIM2_CH1 bidirectional line)
+        (alternate TIM2_ETR bidirectional line)
+        (alternate TIM8_CH1N bidirectional line))
+      (pin bidirectional line
+        (at 33.02 45.72 180)
+        (length 5.08)
+        (name PA6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number M1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INP3 bidirectional line)
+        (alternate ADC2_INP3 bidirectional line)
+        (alternate DCMI_PIXCLK bidirectional line)
+        (alternate I2S1_SDI bidirectional line)
+        (alternate OCTOSPI1_IO3 bidirectional line)
+        (alternate PSSI_PDCK bidirectional line)
+        (alternate SPI1_MISO bidirectional line)
+        (alternate TIM1_BKIN bidirectional line)
+        (alternate TIM3_CH1 bidirectional line)
+        (alternate TIM8_BKIN bidirectional line))
+      (pin bidirectional line
+        (at 33.02 43.18 180)
+        (length 5.08)
+        (name PA7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number L4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_INN3 bidirectional line)
+        (alternate ADC1_INP7 bidirectional line)
+        (alternate ADC2_INN3 bidirectional line)
+        (alternate ADC2_INP7 bidirectional line)
+        (alternate FMC_NWE bidirectional line)
+        (alternate I2S1_SDO bidirectional line)
+        (alternate OCTOSPI1_IO2 bidirectional line)
+        (alternate SPI1_MOSI bidirectional line)
+        (alternate TIM1_CH1N bidirectional line)
+        (alternate TIM3_CH2 bidirectional line)
+        (alternate TIM8_CH1N bidirectional line))
+      (pin bidirectional line
+        (at 33.02 40.64 180)
+        (length 5.08)
+        (name PA8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number E10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D3 bidirectional line)
+        (alternate FMC_NOE bidirectional line)
+        (alternate I2C3_SCL bidirectional line)
+        (alternate I3C2_SCL bidirectional line)
+        (alternate PSSI_D3 bidirectional line)
+        (alternate RCC_MCO_1 bidirectional line)
+        (alternate SPI1_RDY bidirectional line)
+        (alternate SPI4_MOSI bidirectional line)
+        (alternate TIM1_CH1 bidirectional line)
+        (alternate TIM8_BKIN2 bidirectional line)
+        (alternate USART1_CK bidirectional line)
+        (alternate USB_SOF bidirectional line))
+      (pin bidirectional line
+        (at 33.02 38.1 180)
+        (length 5.08)
+        (name PA9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number D12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DAC1_EXTI9 bidirectional line)
+        (alternate DCMI_D0 bidirectional line)
+        (alternate FMC_NWE bidirectional line)
+        (alternate I2C3_SMBA bidirectional line)
+        (alternate I2S2_CK bidirectional line)
+        (alternate LPUART1_TX bidirectional line)
+        (alternate PSSI_D0 bidirectional line)
+        (alternate SPI2_SCK bidirectional line)
+        (alternate TIM1_CH2 bidirectional line)
+        (alternate UCPD1_DB1 bidirectional line)
+        (alternate USART1_TX bidirectional line))
+      (pin bidirectional line
+        (at 33.02 35.56 180)
+        (length 5.08)
+        (name PA10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number D11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate DCMI_D1 bidirectional line)
+        (alternate FDCAN2_TX bidirectional line)
+        (alternate LPTIM2_IN2 bidirectional line)
+        (alternate LPUART1_RX bidirectional line)
+        (alternate PSSI_D1 bidirectional line)
+        (alternate SDMMC1_D0 bidirectional line)
+        (alternate TIM1_CH3 bidirectional line)
+        (alternate UCPD1_FRSTX bidirectional line)
+        (alternate USART1_RX bidirectional line))
+      (pin bidirectional line
+        (at 33.02 33.02 180)
+        (length 5.08)
+        (name PA11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate ADC1_EXTI11 bidirectional line)
+        (alternate ADC2_EXTI11 bidirectional line)
+        (alternate FDCAN1_RX bidirectional line)
+        (alternate I2S2_WS bidirectional line)
+        (alternate LPUART1_CTS bidirectional line)
+        (alternate SPI2_NSS bidirectional line)
+        (alternate TIM1_CH4 bidirectional line)
+        (alternate UART4_RX bidirectional line)
+        (alternate USART1_CTS bidirectional line)
+        (alternate USART1_NSS bidirectional line)
+        (alternate USB_DM bidirectional line))
+      (pin bidirectional line
+        (at 33.02 30.48 180)
+        (length 5.08)
+        (name PA12
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number C11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate FDCAN1_TX bidirectional line)
+        (alternate I2S2_CK bidirectional line)
+        (alternate LPUART1_DE bidirectional line)
+        (alternate LPUART1_RTS bidirectional line)
+        (alternate SPI2_SCK bidirectional line)
+        (alternate TIM1_ETR bidirectional line)
+        (alternate UART4_TX bidirectional line)
+        (alternate USART1_DE bidirectional line)
+        (alternate USART1_RTS bidirectional line)
+        (alternate USB_DP bidirectional line))
+      (pin bidirectional line
+        (at 33.02 27.94 180)
+        (length 5.08)
+        (name PA13
+          (JTMS
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number B12
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (alternate DEBUG_JTMS-SWDIO bidirectional line))
+        (pin bidirectional line
+          (at 33.02 25.4 180)
+          (length 5.08)
+          (name PA14
+            (JTCK
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (number B11
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (alternate DEBUG_JTCK-SWCLK bidirectional line))
+          (pin bidirectional line
+            (at 33.02 22.86 180)
+            (length 5.08)
+            (name PA15
+              (JTDI)
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (number A11
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (alternate ADC1_EXTI15 bidirectional line)
+            (alternate ADC2_EXTI15 bidirectional line)
+            (alternate CEC bidirectional line)
+            (alternate DCMI_D11 bidirectional line)
+            (alternate DEBUG_JTDI bidirectional line)
+            (alternate FMC_NBL1 bidirectional line)
+            (alternate I2S1_WS bidirectional line)
+            (alternate I2S3_WS bidirectional line)
+            (alternate OCTOSPI1_NCS bidirectional line)
+            (alternate PSSI_D11 bidirectional line)
+            (alternate SPI1_NSS bidirectional line)
+            (alternate SPI3_NSS bidirectional line)
+            (alternate TIM2_CH1 bidirectional line)
+            (alternate TIM2_ETR bidirectional line)
+            (alternate UART4_DE bidirectional line)
+            (alternate UART4_RTS bidirectional line)
+            (alternate USART1_TX bidirectional line))
+          (pin bidirectional line
+            (at 33.02 17.78 180)
+            (length 5.08)
+            (name PB0
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (number M5
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (alternate ADC1_INN5 bidirectional line)
+            (alternate ADC1_INP9 bidirectional line)
+            (alternate ADC2_INN5 bidirectional line)
+            (alternate ADC2_INP9 bidirectional line)
+            (alternate I2S3_SDI bidirectional line)
+            (alternate OCTOSPI1_IO1 bidirectional line)
+            (alternate SPI3_MISO bidirectional line)
+            (alternate TIM1_CH2N bidirectional line)
+            (alternate TIM3_CH3 bidirectional line)
+            (alternate TIM8_CH2N bidirectional line)
+            (alternate UART4_CTS bidirectional line)
+            (alternate USART2_TX bidirectional line))
+          (pin bidirectional line
+            (at 33.02 15.24 180)
+            (length 5.08)
+            (name PB1
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (number K5
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (alternate ADC1_INP5 bidirectional line)
+            (alternate ADC2_INP5 bidirectional line)
+            (alternate I2S2_WS bidirectional line)
+            (alternate OCTOSPI1_IO0 bidirectional line)
+            (alternate SPI2_NSS bidirectional line)
+            (alternate SPI3_SCK bidirectional line)
+            (alternate TIM1_CH3N bidirectional line)
+            (alternate TIM3_CH4 bidirectional line)
+            (alternate TIM8_CH3N bidirectional line)
+            (alternate USART3_RX bidirectional line))
+          (pin bidirectional line
+            (at 33.02 12.7 180)
+            (length 5.08)
+            (name PB2
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (number L5
+              (effects
+                (font
+                  (size 1.27 1.27))))
+            (alternate I2S2_CK bidirectional line)
+            (alternate I2S3_SDO bidirectional line)
+            (alternate LPTIM1_CH1 bidirectional line)
+            (alternate OCTOSPI1_CLK bidirectional line)
+            (alternate OCTOSPI1_DQS bidirectional line)
+            (alternate RCC_LSCO bidirectional line)
+            (alternate RTC_OUT2 bidirectional line)
+            (alternate SDMMC1_CMD bidirectional line)
+            (alternate SPI1_RDY bidirectional line)
+            (alternate SPI2_SCK bidirectional line)
+            (alternate SPI3_MOSI bidirectional line)
+            (alternate TIM8_CH4N bidirectional line))
+          (pin bidirectional line
+            (at 33.02 10.16 180)
+            (length 5.08)
+            (name PB3
+              (JTDO
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number A5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate CRS_SYNC bidirectional line)
+              (alternate DEBUG_JTDO-SWO bidirectional line)
+              (alternate FDCAN2_TX bidirectional line)
+              (alternate I2C2_SDA bidirectional line)
+              (alternate I2S1_CK bidirectional line)
+              (alternate I2S3_CK bidirectional line)
+              (alternate I3C2_SCL bidirectional line)
+              (alternate LPUART1_TX bidirectional line)
+              (alternate SPI1_SCK bidirectional line)
+              (alternate SPI3_SCK bidirectional line)
+              (alternate TIM2_CH2 bidirectional line)
+              (alternate UART5_TX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 7.62 180)
+              (length 5.08)
+              (name PB4
+                (NJTRST)
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number B5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D7 bidirectional line)
+              (alternate DEBUG_NJTRST bidirectional line)
+              (alternate I2C3_SDA bidirectional line)
+              (alternate I2S1_SDI bidirectional line)
+              (alternate I2S2_WS bidirectional line)
+              (alternate I2S3_SDI bidirectional line)
+              (alternate I3C2_SDA bidirectional line)
+              (alternate LPTIM1_CH2 bidirectional line)
+              (alternate OCTOSPI1_CLK bidirectional line)
+              (alternate PSSI_D7 bidirectional line)
+              (alternate SPI1_MISO bidirectional line)
+              (alternate SPI2_NSS bidirectional line)
+              (alternate SPI3_MISO bidirectional line)
+              (alternate TIM3_CH1 bidirectional line))
+            (pin bidirectional line
+              (at 33.02 5.08 180)
+              (length 5.08)
+              (name PB5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number A4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D10 bidirectional line)
+              (alternate FDCAN2_RX bidirectional line)
+              (alternate I2C1_SMBA bidirectional line)
+              (alternate I2S1_SDO bidirectional line)
+              (alternate I2S3_SDO bidirectional line)
+              (alternate I3C2_SCL bidirectional line)
+              (alternate OCTOSPI1_NCLK bidirectional line)
+              (alternate PSSI_D10 bidirectional line)
+              (alternate SPI1_MOSI bidirectional line)
+              (alternate SPI3_MOSI bidirectional line)
+              (alternate TIM3_CH2 bidirectional line)
+              (alternate UART5_RX bidirectional line)
+              (alternate USART6_TX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 2.54 180)
+              (length 5.08)
+              (name PB6
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number B4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate CEC bidirectional line)
+              (alternate DCMI_D5 bidirectional line)
+              (alternate FDCAN2_TX bidirectional line)
+              (alternate I2C1_SCL bidirectional line)
+              (alternate I3C1_SCL bidirectional line)
+              (alternate LPUART1_TX bidirectional line)
+              (alternate OCTOSPI1_NCS bidirectional line)
+              (alternate PSSI_D5 bidirectional line)
+              (alternate TIM4_CH1 bidirectional line)
+              (alternate UART5_TX bidirectional line)
+              (alternate USART1_TX bidirectional line)
+              (alternate USART6_RX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 0 180)
+              (length 5.08)
+              (name PB7
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number C5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_VSYNC bidirectional line)
+              (alternate FDCAN1_TX bidirectional line)
+              (alternate FMC_NL bidirectional line)
+              (alternate I2C1_SDA bidirectional line)
+              (alternate I3C1_SDA bidirectional line)
+              (alternate LPUART1_RX bidirectional line)
+              (alternate PSSI_RDY bidirectional line)
+              (alternate PWR_WKUP5 bidirectional line)
+              (alternate SPI4_MISO bidirectional line)
+              (alternate TIM4_CH2 bidirectional line)
+              (alternate USART1_RX bidirectional line)
+              (alternate USART6_CTS bidirectional line)
+              (alternate USART6_NSS bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -2.54 180)
+              (length 5.08)
+              (name PB8
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number A2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D6 bidirectional line)
+              (alternate FDCAN1_RX bidirectional line)
+              (alternate I2C1_SCL bidirectional line)
+              (alternate I2S3_WS bidirectional line)
+              (alternate I3C1_SCL bidirectional line)
+              (alternate PSSI_D6 bidirectional line)
+              (alternate SDMMC1_CKIN bidirectional line)
+              (alternate SDMMC1_D4 bidirectional line)
+              (alternate SPI3_NSS bidirectional line)
+              (alternate SPI4_RDY bidirectional line)
+              (alternate TIM4_CH3 bidirectional line)
+              (alternate UART4_RX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -5.08 180)
+              (length 5.08)
+              (name PB9
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number A1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DAC1_EXTI9 bidirectional line)
+              (alternate DCMI_D7 bidirectional line)
+              (alternate FDCAN1_TX bidirectional line)
+              (alternate I2C1_SDA bidirectional line)
+              (alternate I2S2_WS bidirectional line)
+              (alternate I2S3_CK bidirectional line)
+              (alternate I3C1_SDA bidirectional line)
+              (alternate PSSI_D7 bidirectional line)
+              (alternate SDMMC1_CDIR bidirectional line)
+              (alternate SDMMC1_D5 bidirectional line)
+              (alternate SPI2_NSS bidirectional line)
+              (alternate SPI3_SCK bidirectional line)
+              (alternate TIM4_CH4 bidirectional line)
+              (alternate UART4_TX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -7.62 180)
+              (length 5.08)
+              (name PB10
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number M11
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate I2C2_SCL bidirectional line)
+              (alternate I2S2_CK bidirectional line)
+              (alternate LPTIM2_IN1 bidirectional line)
+              (alternate OCTOSPI1_NCS bidirectional line)
+              (alternate SPI2_SCK bidirectional line)
+              (alternate TIM2_CH3 bidirectional line)
+              (alternate TIM8_CH1 bidirectional line)
+              (alternate USART3_TX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -10.16 180)
+              (length 5.08)
+              (name PB12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number L11
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate FDCAN2_RX bidirectional line)
+              (alternate I2C2_SDA bidirectional line)
+              (alternate I2S2_WS bidirectional line)
+              (alternate OCTOSPI1_NCLK bidirectional line)
+              (alternate SPI2_NSS bidirectional line)
+              (alternate TIM1_BKIN bidirectional line)
+              (alternate TIM8_CH3 bidirectional line)
+              (alternate UART5_RX bidirectional line)
+              (alternate UCPD1_FRSTX bidirectional line)
+              (alternate USART3_CK bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -12.7 180)
+              (length 5.08)
+              (name PB13
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number M12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate FDCAN2_TX bidirectional line)
+              (alternate I2C2_SMBA bidirectional line)
+              (alternate I2S2_CK bidirectional line)
+              (alternate LPTIM2_CH1 bidirectional line)
+              (alternate LPUART1_RX bidirectional line)
+              (alternate SDMMC1_D0 bidirectional line)
+              (alternate SPI2_SCK bidirectional line)
+              (alternate TIM1_CH1N bidirectional line)
+              (alternate TIM8_CH2 bidirectional line)
+              (alternate UART5_TX bidirectional line)
+              (alternate UCPD1_CC1 bidirectional line)
+              (alternate USART3_CTS bidirectional line)
+              (alternate USART3_NSS bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -15.24 180)
+              (length 5.08)
+              (name PB14
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number K11
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate I2S2_SDI bidirectional line)
+              (alternate SPI2_MISO bidirectional line)
+              (alternate TIM12_CH1 bidirectional line)
+              (alternate TIM1_CH2N bidirectional line)
+              (alternate TIM8_CH2N bidirectional line)
+              (alternate UART4_DE bidirectional line)
+              (alternate UART4_RTS bidirectional line)
+              (alternate UCPD1_CC2 bidirectional line)
+              (alternate USART1_TX bidirectional line)
+              (alternate USART3_DE bidirectional line)
+              (alternate USART3_RTS bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -17.78 180)
+              (length 5.08)
+              (name PB15
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number L12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_EXTI15 bidirectional line)
+              (alternate ADC2_EXTI15 bidirectional line)
+              (alternate DCMI_D2 bidirectional line)
+              (alternate I2S1_SDO bidirectional line)
+              (alternate I2S2_SDO bidirectional line)
+              (alternate OCTOSPI1_CLK bidirectional line)
+              (alternate PSSI_D2 bidirectional line)
+              (alternate PWR_PVD_IN bidirectional line)
+              (alternate RTC_REFIN bidirectional line)
+              (alternate SPI1_MOSI bidirectional line)
+              (alternate SPI2_MOSI bidirectional line)
+              (alternate TIM12_CH2 bidirectional line)
+              (alternate TIM1_CH3N bidirectional line)
+              (alternate TIM8_CH3N bidirectional line)
+              (alternate UART4_CTS bidirectional line)
+              (alternate UART5_RX bidirectional line)
+              (alternate USART1_RX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -22.86 180)
+              (length 5.08)
+              (name PC0
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number G1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_INP10 bidirectional line)
+              (alternate ADC2_INP10 bidirectional line)
+              (alternate FMC_A25 bidirectional line)
+              (alternate OCTOSPI1_IO7 bidirectional line)
+              (alternate SPI2_RDY bidirectional line)
+              (alternate SPI4_MISO bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -25.4 180)
+              (length 5.08)
+              (name PC1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number H3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_INN10 bidirectional line)
+              (alternate ADC1_INP11 bidirectional line)
+              (alternate ADC2_INN10 bidirectional line)
+              (alternate ADC2_INP11 bidirectional line)
+              (alternate DEBUG_TRACED0 bidirectional line)
+              (alternate I2S2_SDO bidirectional line)
+              (alternate OCTOSPI1_IO4 bidirectional line)
+              (alternate PWR_WKUP6 bidirectional line)
+              (alternate SPI2_MOSI bidirectional line)
+              (alternate SPI4_MOSI bidirectional line)
+              (alternate TAMP_IN3 bidirectional line)
+              (alternate TAMP_OUT5 bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -27.94 180)
+              (length 5.08)
+              (name PC2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number H1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_INN11 bidirectional line)
+              (alternate ADC1_INP12 bidirectional line)
+              (alternate ADC2_INN11 bidirectional line)
+              (alternate ADC2_INP12 bidirectional line)
+              (alternate I2S2_SDI bidirectional line)
+              (alternate OCTOSPI1_IO2 bidirectional line)
+              (alternate OCTOSPI1_IO5 bidirectional line)
+              (alternate PWR_CSLEEP bidirectional line)
+              (alternate SPI2_MISO bidirectional line)
+              (alternate TIM4_CH4 bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -30.48 180)
+              (length 5.08)
+              (name PC3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number H2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_INN12 bidirectional line)
+              (alternate ADC1_INP13 bidirectional line)
+              (alternate ADC2_INN12 bidirectional line)
+              (alternate ADC2_INP13 bidirectional line)
+              (alternate I2S2_SDO bidirectional line)
+              (alternate LPUART1_TX bidirectional line)
+              (alternate OCTOSPI1_IO0 bidirectional line)
+              (alternate OCTOSPI1_IO6 bidirectional line)
+              (alternate PWR_CSTOP bidirectional line)
+              (alternate SPI2_MOSI bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -33.02 180)
+              (length 5.08)
+              (name PC4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number M3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_INP4 bidirectional line)
+              (alternate ADC2_INP4 bidirectional line)
+              (alternate I2S1_MCK bidirectional line)
+              (alternate LPTIM2_ETR bidirectional line)
+              (alternate TIM2_CH4 bidirectional line)
+              (alternate USART3_RX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -35.56 180)
+              (length 5.08)
+              (name PC5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number M4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_INN4 bidirectional line)
+              (alternate ADC1_INP8 bidirectional line)
+              (alternate ADC2_INN4 bidirectional line)
+              (alternate ADC2_INP8 bidirectional line)
+              (alternate OCTOSPI1_DQS bidirectional line)
+              (alternate PSSI_D15 bidirectional line)
+              (alternate SPI4_SCK bidirectional line)
+              (alternate TIM1_CH4N bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -38.1 180)
+              (length 5.08)
+              (name PC6
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number F12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D0 bidirectional line)
+              (alternate FMC_NWAIT bidirectional line)
+              (alternate I2S2_MCK bidirectional line)
+              (alternate I3C2_SCL bidirectional line)
+              (alternate OCTOSPI1_IO5 bidirectional line)
+              (alternate PSSI_D0 bidirectional line)
+              (alternate SDMMC1_D0DIR bidirectional line)
+              (alternate SDMMC1_D6 bidirectional line)
+              (alternate TIM3_CH1 bidirectional line)
+              (alternate TIM8_CH1 bidirectional line)
+              (alternate USART6_TX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -40.64 180)
+              (length 5.08)
+              (name PC7
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number F11
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D1 bidirectional line)
+              (alternate FMC_NE1 bidirectional line)
+              (alternate I2S3_MCK bidirectional line)
+              (alternate I3C2_SDA bidirectional line)
+              (alternate OCTOSPI1_IO6 bidirectional line)
+              (alternate PSSI_D1 bidirectional line)
+              (alternate SDMMC1_D123DIR bidirectional line)
+              (alternate SDMMC1_D7 bidirectional line)
+              (alternate TIM3_CH2 bidirectional line)
+              (alternate TIM8_CH2 bidirectional line)
+              (alternate USART6_RX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -43.18 180)
+              (length 5.08)
+              (name PC8
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number E12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D2 bidirectional line)
+              (alternate DEBUG_TRACED1 bidirectional line)
+              (alternate FMC_ALE bidirectional line)
+              (alternate FMC_INT bidirectional line)
+              (alternate FMC_NCE bidirectional line)
+              (alternate FMC_NE2 bidirectional line)
+              (alternate PSSI_D2 bidirectional line)
+              (alternate SDMMC1_D0 bidirectional line)
+              (alternate TIM3_CH3 bidirectional line)
+              (alternate TIM8_CH3 bidirectional line)
+              (alternate UART5_DE bidirectional line)
+              (alternate UART5_RTS bidirectional line)
+              (alternate USART6_CK bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -45.72 180)
+              (length 5.08)
+              (name PC9
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number E11
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate AUDIOCLK bidirectional line)
+              (alternate DAC1_EXTI9 bidirectional line)
+              (alternate DCMI_D3 bidirectional line)
+              (alternate FMC_CLE bidirectional line)
+              (alternate I2C3_SDA bidirectional line)
+              (alternate OCTOSPI1_IO0 bidirectional line)
+              (alternate PSSI_D3 bidirectional line)
+              (alternate RCC_MCO_2 bidirectional line)
+              (alternate SDMMC1_D1 bidirectional line)
+              (alternate TIM3_CH4 bidirectional line)
+              (alternate TIM8_CH4 bidirectional line)
+              (alternate UART5_CTS bidirectional line)
+              (alternate UCPD1_DB2 bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -48.26 180)
+              (length 5.08)
+              (name PC10
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number A12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D8 bidirectional line)
+              (alternate I2S3_CK bidirectional line)
+              (alternate I3C2_SCL bidirectional line)
+              (alternate OCTOSPI1_IO1 bidirectional line)
+              (alternate PSSI_D8 bidirectional line)
+              (alternate SDMMC1_D2 bidirectional line)
+              (alternate SPI3_SCK bidirectional line)
+              (alternate UART4_TX bidirectional line)
+              (alternate USART3_TX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -50.8 180)
+              (length 5.08)
+              (name PC11
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number A10
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_EXTI11 bidirectional line)
+              (alternate ADC2_EXTI11 bidirectional line)
+              (alternate DCMI_D4 bidirectional line)
+              (alternate I2S3_SDI bidirectional line)
+              (alternate I3C2_SDA bidirectional line)
+              (alternate OCTOSPI1_NCS bidirectional line)
+              (alternate PSSI_D4 bidirectional line)
+              (alternate SDMMC1_D3 bidirectional line)
+              (alternate SPI3_MISO bidirectional line)
+              (alternate UART4_RX bidirectional line)
+              (alternate USART3_RX bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -53.34 180)
+              (length 5.08)
+              (name PC12
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number B10
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate DCMI_D9 bidirectional line)
+              (alternate DEBUG_TRACED3 bidirectional line)
+              (alternate I2S3_SDO bidirectional line)
+              (alternate LPTIM2_CH2 bidirectional line)
+              (alternate PSSI_D9 bidirectional line)
+              (alternate SDMMC1_CK bidirectional line)
+              (alternate SPI3_MOSI bidirectional line)
+              (alternate TIM15_CH1 bidirectional line)
+              (alternate UART5_TX bidirectional line)
+              (alternate USART3_CK bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -55.88 180)
+              (length 5.08)
+              (name PC13
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number E3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate PWR_WKUP4 bidirectional line)
+              (alternate RTC_OUT1 bidirectional line)
+              (alternate RTC_TS bidirectional line)
+              (alternate TAMP_IN1 bidirectional line)
+              (alternate TAMP_OUT2 bidirectional line)
+              (alternate TAMP_OUT3 bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -58.42 180)
+              (length 5.08)
+              (name PC14
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number E1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate RCC_OSC32_IN bidirectional line))
+            (pin bidirectional line
+              (at 33.02 -60.96 180)
+              (length 5.08)
+              (name PC15
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number E2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (alternate ADC1_EXTI15 bidirectional line)
+              (alternate ADC2_EXTI15 bidirectional line)
+              (alternate RCC_OSC32_OUT bidirectional line)))
+          (embedded_fonts no)))

@@ -1,0 +1,50 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "OPA569DWP",
+      "package": "SO-20 PowerPAD (DWP)",
+      "expected_pin_count": 21,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/opa569.pdf",
+        "Description": "2A high-current, low-noise operational amplifier with current limit and monitor"
+      },
+      "units": [
+        {
+          "name": "A",
+          "left": [
+            { "name": "+IN", "numbers": ["6"], "type": "input" },
+            { "name": "-IN", "numbers": ["5"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "ENABLE", "numbers": ["8"], "type": "input" },
+            { "name": "CURRENT_LIMIT_SET", "numbers": ["3"], "type": "input" }
+          ],
+          "right": [
+            { "name": "VO", "numbers": ["14", "15"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "I_MONITOR", "numbers": ["19"], "type": "output" },
+            { "name": "~{CURRENT_LIMIT_FLAG}", "numbers": ["4"], "type": "output" },
+            { "name": "~{THERMAL_FLAG}", "numbers": ["7"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "PARALLEL_OUT_1", "numbers": ["2"], "type": "passive" },
+            { "name": "PARALLEL_OUT_2", "numbers": ["9"], "type": "passive" }
+          ]
+        },
+        {
+          "name": "PWR",
+          "left": [
+            { "name": "NC", "numbers": ["16"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "V+", "numbers": ["12", "13"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "V-", "numbers": ["17", "18"], "type": "power_in" },
+            { "name": "POWERPAD", "numbers": ["1", "10", "11", "20", "21"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ISOW7744",
+      "package": "SOIC-WB-20 (DFM)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/isow7744.pdf",
+        "Description": "Quad-channel digital isolator with integrated DC-DC converter, 4 reverse channels"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "OUTA", "numbers": ["2"], "type": "output" },
+            { "name": "OUTB", "numbers": ["3"], "type": "output" },
+            { "name": "OUTC", "numbers": ["4"], "type": "output" },
+            { "name": "OUTD", "numbers": ["5"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "EN_IO1", "numbers": ["7"], "type": "input" },
+            { "name": "EN/FLT", "numbers": ["8"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "INA", "numbers": ["19"], "type": "input" },
+            { "name": "INB", "numbers": ["18"], "type": "input" },
+            { "name": "INC", "numbers": ["17"], "type": "input" },
+            { "name": "IND", "numbers": ["16"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "EN_IO2", "numbers": ["14"], "type": "input" },
+            { "name": "VSEL", "numbers": ["13"], "type": "input" }
+          ],
+          "top": [
+            { "name": "VIO", "numbers": ["1"], "type": "power_in" },
+            { "name": "VDD", "numbers": ["9"], "type": "power_in" },
+            { "name": "VISOIN", "numbers": ["20"], "type": "power_in" },
+            { "name": "VISOOUT", "numbers": ["12"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GNDIO", "numbers": ["6"], "type": "power_in" },
+            { "name": "GND1", "numbers": ["10"], "type": "power_in" },
+            { "name": "GND2", "numbers": ["11"], "type": "power_in" },
+            { "name": "GISOIN", "numbers": ["15"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

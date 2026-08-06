@@ -1,0 +1,301 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "PY32F002AF15P"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -7.62 22.860000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "PY32F002AF15P"
+      (at -7.62 20.320000000000004 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -7.62 19.685000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "https://www.puyasemi.com/uploadfiles/2023/08/PY32F002A.pdf"
+      (at -7.62 19.685000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "32-bit Cortex-M0+ MCU"
+      (at -7.62 19.685000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -7.62 19.685000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -7.62 19.685000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -7.62 19.685000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "PY32F002AF15P_1_1"
+      (rectangle
+        (start -7.62 -19.05)
+        (end 7.62 19.05)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -12.7 12.7 0)
+        (length 5.08)
+        (name "PA0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 10.16 0)
+        (length 5.08)
+        (name "PA1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 7.62 0)
+        (length 5.08)
+        (name "PA2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 5.08 0)
+        (length 5.08)
+        (name "PA3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 2.54 0)
+        (length 5.08)
+        (name "PA4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 0.0 0)
+        (length 5.08)
+        (name "PA5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 -2.54 0)
+        (length 5.08)
+        (name "PA6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 -5.08 0)
+        (length 5.08)
+        (name "PA7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 -10.16 0)
+        (length 5.08)
+        (name "PA13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SWD" bidirectional line))
+      (pin bidirectional line
+        (at -12.7 -12.7 0)
+        (length 5.08)
+        (name "PA14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SWC" input line))
+      (pin bidirectional line
+        (at 12.7 10.16 180)
+        (length 5.08)
+        (name "PB0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 12.7 7.62 180)
+        (length 5.08)
+        (name "PB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 12.7 5.08 180)
+        (length 5.08)
+        (name "PB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 12.7 2.54 180)
+        (length 5.08)
+        (name "PB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 12.7 0.0 180)
+        (length 5.08)
+        (name "PB6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PF4" bidirectional line)
+        (alternate "BOOT0" input line))
+      (pin bidirectional line
+        (at 12.7 -5.08 180)
+        (length 5.08)
+        (name "PF0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "OSC_IN" input line))
+      (pin bidirectional line
+        (at 12.7 -7.62 180)
+        (length 5.08)
+        (name "PF1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "OSC_OUT" output line))
+      (pin bidirectional line
+        (at 12.7 -10.16 180)
+        (length 5.08)
+        (name "PF2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "NRST" input input_low))
+      (pin power_in line
+        (at 0.0 24.13 270)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -24.13 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

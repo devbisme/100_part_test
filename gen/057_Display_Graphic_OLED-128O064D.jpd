@@ -1,0 +1,52 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "OLED-128O064D",
+      "package": "30-pin FPC",
+      "expected_pin_count": 30,
+      "properties": {
+        "Datasheet": "https://www.vishay.com/docs/37902/oled128o064dbpp3n00000.pdf",
+        "Description": "128x64 graphic OLED display module, SSD1306-class controller"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "~{CS}", "numbers": ["13"], "type": "input" },
+            { "name": "~{RES}", "numbers": ["14"], "type": "input" },
+            { "name": "D/~{C}", "numbers": ["15"], "type": "input" },
+            { "name": "R/~{W}", "numbers": ["16"], "type": "input" },
+            { "name": "E/~{RD}", "numbers": ["17"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "BS0", "numbers": ["10", "11", "12"], "type": "input", "increment": true }
+          ],
+          "right": [
+            { "name": "D0", "numbers": ["18", "19", "20", "21", "22", "23", "24", "25"],
+              "type": "bidirectional", "increment": true },
+            { "spacer": 1 },
+            { "name": "IREF", "numbers": ["26"], "type": "passive" },
+            { "name": "VCOMH", "numbers": ["27"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "C1P", "numbers": ["4"], "type": "passive" },
+            { "name": "C1N", "numbers": ["5"], "type": "passive" },
+            { "name": "C2P", "numbers": ["3"], "type": "passive" },
+            { "name": "C2N", "numbers": ["2"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["7"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["9"], "type": "power_in" },
+            { "name": "VBAT", "numbers": ["6"], "type": "power_in" },
+            { "name": "VCC", "numbers": ["28"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["8"], "type": "power_in" },
+            { "name": "VLSS", "numbers": ["29"], "type": "power_in" },
+            { "name": "NC_GND", "numbers": ["1", "30"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

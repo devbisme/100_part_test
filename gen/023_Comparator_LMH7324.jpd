@@ -1,0 +1,273 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "LMH7324",
+      "package": "WQFN-32",
+      "expected_pin_count": 33,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/lmh7324.pdf",
+        "Description": "Quad 700ps high-speed comparator with LVDS outputs"
+      },
+      "units": [
+        {
+          "name": "A",
+          "left": [
+            {
+              "name": "INA+",
+              "numbers": [
+                "30"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "INA-",
+              "numbers": [
+                "31"
+              ],
+              "type": "input"
+            }
+          ],
+          "right": [
+            {
+              "name": "QA",
+              "numbers": [
+                "3"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "~{QA}",
+              "numbers": [
+                "2"
+              ],
+              "type": "output"
+            }
+          ],
+          "top": [
+            {
+              "name": "VCCIA",
+              "numbers": [
+                "32"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCOA",
+              "numbers": [
+                "1"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "VEEA",
+              "numbers": [
+                "4",
+                "29"
+              ],
+              "type": "power_in"
+            }
+          ]
+        },
+        {
+          "name": "B",
+          "left": [
+            {
+              "name": "INB+",
+              "numbers": [
+                "11"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "INB-",
+              "numbers": [
+                "10"
+              ],
+              "type": "input"
+            }
+          ],
+          "right": [
+            {
+              "name": "QB",
+              "numbers": [
+                "6"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "~{QB}",
+              "numbers": [
+                "7"
+              ],
+              "type": "output"
+            }
+          ],
+          "top": [
+            {
+              "name": "VCCIB",
+              "numbers": [
+                "9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCOB",
+              "numbers": [
+                "8"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "VEEB",
+              "numbers": [
+                "5",
+                "12"
+              ],
+              "type": "power_in"
+            }
+          ]
+        },
+        {
+          "name": "C",
+          "left": [
+            {
+              "name": "INC+",
+              "numbers": [
+                "14"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "INC-",
+              "numbers": [
+                "15"
+              ],
+              "type": "input"
+            }
+          ],
+          "right": [
+            {
+              "name": "QC",
+              "numbers": [
+                "19"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "~{QC}",
+              "numbers": [
+                "18"
+              ],
+              "type": "output"
+            }
+          ],
+          "top": [
+            {
+              "name": "VCCIC",
+              "numbers": [
+                "16"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCOC",
+              "numbers": [
+                "17"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "VEEC",
+              "numbers": [
+                "13",
+                "20"
+              ],
+              "type": "power_in"
+            }
+          ]
+        },
+        {
+          "name": "D",
+          "left": [
+            {
+              "name": "IND+",
+              "numbers": [
+                "27"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "IND-",
+              "numbers": [
+                "26"
+              ],
+              "type": "input"
+            }
+          ],
+          "right": [
+            {
+              "name": "QD",
+              "numbers": [
+                "22"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "~{QD}",
+              "numbers": [
+                "23"
+              ],
+              "type": "output"
+            }
+          ],
+          "top": [
+            {
+              "name": "VCCID",
+              "numbers": [
+                "25"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCOD",
+              "numbers": [
+                "24"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "VEED",
+              "numbers": [
+                "21",
+                "28"
+              ],
+              "type": "power_in"
+            }
+          ]
+        },
+        {
+          "name": "PAD",
+          "bottom": [
+            {
+              "name": "PAD",
+              "numbers": [
+                "33"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MCP25625x-x-SS",
+      "package": "SSOP-28",
+      "expected_pin_count": 28,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005282C.pdf",
+        "Description": "CAN controller with integrated transceiver, SPI interface"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "~{CS}", "numbers": ["17"], "type": "input" },
+            { "name": "SCK", "numbers": ["14"], "type": "input", "style": "clock" },
+            { "name": "SI", "numbers": ["15"], "type": "input" },
+            { "name": "SO", "numbers": ["16"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{RESET}", "numbers": ["18"], "type": "input" },
+            { "name": "~{INT}", "numbers": ["13"], "type": "output" },
+            { "name": "~{Rx0BF}", "numbers": ["12"], "type": "output" },
+            { "name": "~{Rx1BF}", "numbers": ["11"], "type": "output" },
+            { "name": "~{Tx0RTS}", "numbers": ["23"], "type": "input" },
+            { "name": "~{Tx1RTS}", "numbers": ["6"], "type": "input" },
+            { "name": "~{Tx2RTS}", "numbers": ["7"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "OSC1", "numbers": ["9"], "type": "input" },
+            { "name": "OSC2", "numbers": ["8"], "type": "output" },
+            { "name": "CLKOUT", "numbers": ["22"], "type": "output" }
+          ],
+          "right": [
+            { "name": "CANH", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "CANL", "numbers": ["3"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "STBY", "numbers": ["5"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "TxCAN", "numbers": ["20"], "type": "output" },
+            { "name": "RxCAN", "numbers": ["21"], "type": "input" },
+            { "name": "TXD", "numbers": ["24"], "type": "input" },
+            { "name": "RXD", "numbers": ["28"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["2", "25"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["19"], "type": "power_in" },
+            { "name": "VDDA", "numbers": ["27"], "type": "power_in" },
+            { "name": "VIO", "numbers": ["1"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["10"], "type": "power_in" },
+            { "name": "VSS", "numbers": ["26"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

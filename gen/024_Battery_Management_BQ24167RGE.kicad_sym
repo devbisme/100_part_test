@@ -1,0 +1,349 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "BQ24167RGE"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -12.7 29.21 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "BQ24167RGE"
+      (at -12.7 26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -12.7 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24167.pdf"
+      (at -12.7 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "2.5A switch-mode Li-Ion battery charger with power path management and NTC monitoring"
+      (at -12.7 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -12.7 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -12.7 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -12.7 26.035 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "BQ24167RGE_1_1"
+      (rectangle
+        (start -12.7 -25.4)
+        (end 12.7 25.4)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at -17.78 17.78 0)
+        (length 5.08)
+        (name "IN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -17.78 15.240000000000002 0)
+        (length 5.08)
+        (name "USB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -17.78 10.160000000000004 0)
+        (length 5.08)
+        (name "PMIDI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -17.78 7.620000000000004 0)
+        (length 5.08)
+        (name "PMIDU"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 2.5400000000000036 0)
+        (length 5.08)
+        (name "~{CE}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 3.552713678800501e-15 0)
+        (length 5.08)
+        (name "VDPM"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -2.5399999999999965 0)
+        (length 5.08)
+        (name "USB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -5.0799999999999965 0)
+        (length 5.08)
+        (name "USB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -7.6199999999999966 0)
+        (length 5.08)
+        (name "USB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -12.699999999999996 0)
+        (length 5.08)
+        (name "ISET"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -15.239999999999995 0)
+        (length 5.08)
+        (name "ILIM"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -17.779999999999994 0)
+        (length 5.08)
+        (name "TS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 17.78 15.24 180)
+        (length 5.08)
+        (name "SW"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 17.78 12.7 180)
+        (length 5.08)
+        (name "BOOT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 17.78 7.62 180)
+        (length 5.08)
+        (name "SYS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 17.78 5.08 180)
+        (length 5.08)
+        (name "SYS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 17.78 2.54 180)
+        (length 5.08)
+        (name "BAT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 17.78 0.0 180)
+        (length 5.08)
+        (name "BAT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 17.78 -5.08 180)
+        (length 5.08)
+        (name "BGATE"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 17.78 -7.62 180)
+        (length 5.08)
+        (name "DRV"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 17.78 -12.7 180)
+        (length 5.08)
+        (name "~{PG}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 17.78 -15.239999999999998 180)
+        (length 5.08)
+        (name "~{CHG}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 -30.48 90)
+        (length 5.08)
+        (name "PGND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -30.48 90)
+        (length 5.08)
+        (name "PGND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -30.48 90)
+        (length 5.08)
+        (name "PAD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

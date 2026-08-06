@@ -1,0 +1,3053 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ATSAMA5D21",
+      "package": "TFBGA-196",
+      "expected_pin_count": 196,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf",
+        "Description": "ARM Cortex-A5 MPU with NEON, L2 cache, TrustZone, DDR2/LPDDR, TFBGA-196"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "PA18",
+              "numbers": [
+                "L9"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "SPI0_NPCS1",
+                  "type": "output"
+                },
+                {
+                  "name": "RK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI0_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC1_DO0",
+                  "type": "output"
+                },
+                {
+                  "name": "SDMMC1_DAT0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D13",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA19",
+              "numbers": [
+                "N9"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "SPI0_NPCS2",
+                  "type": "output"
+                },
+                {
+                  "name": "RF1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI0_IO3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOA0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SDMMC1_DAT1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D14",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA20",
+              "numbers": [
+                "M9"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "SPI0_NPCS3",
+                  "type": "output"
+                },
+                {
+                  "name": "TIOB0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SDMMC1_DAT2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D15",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA21",
+              "numbers": [
+                "M10"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "IRQ",
+                  "type": "input"
+                },
+                {
+                  "name": "PCK2",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "TCLK0",
+                  "type": "input"
+                },
+                {
+                  "name": "SDMMC1_DAT3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "NANDRDY",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PA22",
+              "numbers": [
+                "P9"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM1_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCK",
+                  "type": "input",
+                  "style": "clock"
+                },
+                {
+                  "name": "SPI1_SPCK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "SDMMC1_CK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "QSPI0_SCK",
+                  "type": "output",
+                  "style": "clock"
+                }
+              ]
+            },
+            {
+              "name": "PA23",
+              "numbers": [
+                "P10"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM1_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TDI",
+                  "type": "input"
+                },
+                {
+                  "name": "SPI1_MOSI",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI0_CS",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PA24",
+              "numbers": [
+                "N10"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM1_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TDO",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI1_MISO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI0_IO0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB0",
+              "numbers": [
+                "A6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "A21/NANDALE",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI0_MOSI",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMH1",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB1",
+              "numbers": [
+                "A5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "A22/NANDCLE",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI0_SPCK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "PWML1",
+                  "type": "output"
+                },
+                {
+                  "name": "CLASSD_R0",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB2",
+              "numbers": [
+                "B6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "NRD/NANDOE",
+                  "type": "output"
+                },
+                {
+                  "name": "PWMFI0",
+                  "type": "input"
+                },
+                {
+                  "name": "CLASSD_R1",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB3",
+              "numbers": [
+                "B5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "URXD4",
+                  "type": "input"
+                },
+                {
+                  "name": "D8",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "IRQ",
+                  "type": "input"
+                },
+                {
+                  "name": "PWMEXTRG1",
+                  "type": "input"
+                },
+                {
+                  "name": "CLASSD_R2",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB4",
+              "numbers": [
+                "A4"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "UTXD4",
+                  "type": "output"
+                },
+                {
+                  "name": "D9",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FIQ",
+                  "type": "input"
+                },
+                {
+                  "name": "CLASSD_R3",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB5",
+              "numbers": [
+                "D6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TCLK2",
+                  "type": "input"
+                },
+                {
+                  "name": "D10",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMH2",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI1_SCK",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "GTSUCOMP",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB6",
+              "numbers": [
+                "A3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOA2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D11",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWML2",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI1_CS",
+                  "type": "output"
+                },
+                {
+                  "name": "GTXER",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB7",
+              "numbers": [
+                "B4"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOB2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D12",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMH3",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI1_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GRXCK",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB8",
+              "numbers": [
+                "A2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TCLK3",
+                  "type": "input"
+                },
+                {
+                  "name": "D13",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWML3",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI1_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GCRS",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB9",
+              "numbers": [
+                "B3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOA3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D14",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMFI1",
+                  "type": "input"
+                },
+                {
+                  "name": "QSPI1_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GCOL",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB10",
+              "numbers": [
+                "A1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOB3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D15",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMEXTRG2",
+                  "type": "input"
+                },
+                {
+                  "name": "QSPI1_IO3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GRX2",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB11",
+              "numbers": [
+                "B1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT0",
+                  "type": "output"
+                },
+                {
+                  "name": "A0/NBS0",
+                  "type": "output"
+                },
+                {
+                  "name": "URXD3",
+                  "type": "input"
+                },
+                {
+                  "name": "GRX3",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB12",
+              "numbers": [
+                "B2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT1",
+                  "type": "output"
+                },
+                {
+                  "name": "A1",
+                  "type": "output"
+                },
+                {
+                  "name": "UTXD3",
+                  "type": "output"
+                },
+                {
+                  "name": "GTX2",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB13",
+              "numbers": [
+                "C1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT2",
+                  "type": "output"
+                },
+                {
+                  "name": "A2",
+                  "type": "output"
+                },
+                {
+                  "name": "PCK1",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "GTX3",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB14",
+              "numbers": [
+                "D5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT3",
+                  "type": "output"
+                },
+                {
+                  "name": "A3",
+                  "type": "output"
+                },
+                {
+                  "name": "TK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC1_MCK",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "QSPI1_SCK",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "GTXCK",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB15",
+              "numbers": [
+                "E5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT4",
+                  "type": "output"
+                },
+                {
+                  "name": "A4",
+                  "type": "output"
+                },
+                {
+                  "name": "TF1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC1_CK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "QSPI1_CS",
+                  "type": "output"
+                },
+                {
+                  "name": "GTXEN",
+                  "type": "output"
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "name": "PA25",
+              "numbers": [
+                "L10"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM1_IO3",
+                  "type": "output"
+                },
+                {
+                  "name": "D3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TMS",
+                  "type": "input"
+                },
+                {
+                  "name": "SPI1_NPCS0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI0_IO1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA26",
+              "numbers": [
+                "P11"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM1_IO4",
+                  "type": "output"
+                },
+                {
+                  "name": "D4",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "NTRST",
+                  "type": "input"
+                },
+                {
+                  "name": "SPI1_NPCS1",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI0_IO2",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA27",
+              "numbers": [
+                "P12"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOA1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D5",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_NPCS2",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI1_NPCS2",
+                  "type": "output"
+                },
+                {
+                  "name": "SDMMC1_RSTN",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI0_IO3",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA28",
+              "numbers": [
+                "M11"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOB1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "D6",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_NPCS3",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI1_NPCS3",
+                  "type": "output"
+                },
+                {
+                  "name": "SDMMC1_CMD",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "CLASSD_L0",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PA29",
+              "numbers": [
+                "N11"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TCLK1",
+                  "type": "input"
+                },
+                {
+                  "name": "D7",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_NPCS1",
+                  "type": "output"
+                },
+                {
+                  "name": "SDMMC1_WP",
+                  "type": "input"
+                },
+                {
+                  "name": "CLASSD_L1",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PA30",
+              "numbers": [
+                "N12"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "NWE/NANDWE",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI0_NPCS0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMH0",
+                  "type": "output"
+                },
+                {
+                  "name": "SDMMC1_CD",
+                  "type": "input"
+                },
+                {
+                  "name": "CLASSD_L2",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PA31",
+              "numbers": [
+                "M12"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "NCS3",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI0_MISO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWML0",
+                  "type": "output"
+                },
+                {
+                  "name": "CLASSD_L3",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB16",
+              "numbers": [
+                "C5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT5",
+                  "type": "output"
+                },
+                {
+                  "name": "A5",
+                  "type": "output"
+                },
+                {
+                  "name": "TD1",
+                  "type": "output"
+                },
+                {
+                  "name": "I2SC1_WS",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI1_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GRXDV",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB17",
+              "numbers": [
+                "C2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT6",
+                  "type": "output"
+                },
+                {
+                  "name": "A6",
+                  "type": "output"
+                },
+                {
+                  "name": "RD1",
+                  "type": "input"
+                },
+                {
+                  "name": "I2SC1_DI0",
+                  "type": "input"
+                },
+                {
+                  "name": "QSPI1_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GRXER",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB18",
+              "numbers": [
+                "D4"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT7",
+                  "type": "output"
+                },
+                {
+                  "name": "A7",
+                  "type": "output"
+                },
+                {
+                  "name": "RK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC1_DO0",
+                  "type": "output"
+                },
+                {
+                  "name": "QSPI1_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GRX0",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB19",
+              "numbers": [
+                "C4"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT8",
+                  "type": "output"
+                },
+                {
+                  "name": "A8",
+                  "type": "output"
+                },
+                {
+                  "name": "RF1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOA3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSPI1_IO3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GRX1",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB20",
+              "numbers": [
+                "C3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT9",
+                  "type": "output"
+                },
+                {
+                  "name": "A9",
+                  "type": "output"
+                },
+                {
+                  "name": "TK0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOB3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK1",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "GTX0",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB21",
+              "numbers": [
+                "D1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT10",
+                  "type": "output"
+                },
+                {
+                  "name": "A10",
+                  "type": "output"
+                },
+                {
+                  "name": "TF0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCLK3",
+                  "type": "input"
+                },
+                {
+                  "name": "FLEXCOM3_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GTX1",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB22",
+              "numbers": [
+                "D2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT11",
+                  "type": "output"
+                },
+                {
+                  "name": "A11",
+                  "type": "output"
+                },
+                {
+                  "name": "TD0",
+                  "type": "output"
+                },
+                {
+                  "name": "TIOA2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FLEXCOM3_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GMDC",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PB23",
+              "numbers": [
+                "E1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT12",
+                  "type": "output"
+                },
+                {
+                  "name": "A12",
+                  "type": "output"
+                },
+                {
+                  "name": "RD0",
+                  "type": "input"
+                },
+                {
+                  "name": "TIOB2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FLEXCOM3_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GMDIO",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB24",
+              "numbers": [
+                "D3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT13",
+                  "type": "output"
+                },
+                {
+                  "name": "A13",
+                  "type": "output"
+                },
+                {
+                  "name": "RK0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCLK2",
+                  "type": "input"
+                },
+                {
+                  "name": "FLEXCOM3_IO3",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_D10",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB25",
+              "numbers": [
+                "E3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT14",
+                  "type": "output"
+                },
+                {
+                  "name": "A14",
+                  "type": "output"
+                },
+                {
+                  "name": "RF0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FLEXCOM3_IO4",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_D11",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB26",
+              "numbers": [
+                "E2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT15",
+                  "type": "output"
+                },
+                {
+                  "name": "A15",
+                  "type": "output"
+                },
+                {
+                  "name": "URXD0",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D0",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB27",
+              "numbers": [
+                "E6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT16",
+                  "type": "output"
+                },
+                {
+                  "name": "A16",
+                  "type": "output"
+                },
+                {
+                  "name": "UTXD0",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_D1",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB28",
+              "numbers": [
+                "F1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT17",
+                  "type": "output"
+                },
+                {
+                  "name": "A17",
+                  "type": "output"
+                },
+                {
+                  "name": "FLEXCOM0_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOA5",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_D2",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB29",
+              "numbers": [
+                "F6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT18",
+                  "type": "output"
+                },
+                {
+                  "name": "A18",
+                  "type": "output"
+                },
+                {
+                  "name": "FLEXCOM0_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOB5",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_D3",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB30",
+              "numbers": [
+                "F2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT19",
+                  "type": "output"
+                },
+                {
+                  "name": "A19",
+                  "type": "output"
+                },
+                {
+                  "name": "FLEXCOM0_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCLK5",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D4",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PB31",
+              "numbers": [
+                "F7"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT20",
+                  "type": "output"
+                },
+                {
+                  "name": "A20",
+                  "type": "output"
+                },
+                {
+                  "name": "FLEXCOM0_IO3",
+                  "type": "output"
+                },
+                {
+                  "name": "TWD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_D5",
+                  "type": "input"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "PC0",
+              "numbers": [
+                "M13"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT21",
+                  "type": "output"
+                },
+                {
+                  "name": "A23",
+                  "type": "output"
+                },
+                {
+                  "name": "FLEXCOM0_IO4",
+                  "type": "output"
+                },
+                {
+                  "name": "TWCK0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_D6",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PC1",
+              "numbers": [
+                "P13"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT22",
+                  "type": "output"
+                },
+                {
+                  "name": "A24",
+                  "type": "output"
+                },
+                {
+                  "name": "CANTX0",
+                  "type": "output"
+                },
+                {
+                  "name": "SPI1_SPCK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "I2SC0_CK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "ISC_D7",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PC2",
+              "numbers": [
+                "N13"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDAT23",
+                  "type": "output"
+                },
+                {
+                  "name": "A25",
+                  "type": "output"
+                },
+                {
+                  "name": "CANRX0",
+                  "type": "input"
+                },
+                {
+                  "name": "SPI1_MOSI",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC0_MCK",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "ISC_D8",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PC3",
+              "numbers": [
+                "K10"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDPWM",
+                  "type": "output"
+                },
+                {
+                  "name": "NWAIT",
+                  "type": "input"
+                },
+                {
+                  "name": "TIOA1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_MISO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC0_WS",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_D9",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PC4",
+              "numbers": [
+                "P14"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDISP",
+                  "type": "output"
+                },
+                {
+                  "name": "NWR1/NBS1",
+                  "type": "output"
+                },
+                {
+                  "name": "TIOB1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_NPCS0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC0_DI0",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_PCK",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD7",
+              "numbers": [
+                "F5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TDI",
+                  "type": "input"
+                },
+                {
+                  "name": "UTMI_RXVAL",
+                  "type": "output"
+                },
+                {
+                  "name": "GTX2",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_D0",
+                  "type": "input"
+                },
+                {
+                  "name": "NWR1/NBS1",
+                  "type": "output"
+                }
+              ]
+            },
+            {
+              "name": "PD8",
+              "numbers": [
+                "F3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TDO",
+                  "type": "output"
+                },
+                {
+                  "name": "UTMI_RXERR",
+                  "type": "output"
+                },
+                {
+                  "name": "GTX3",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_D1",
+                  "type": "input"
+                },
+                {
+                  "name": "NANDRDY",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD9",
+              "numbers": [
+                "G5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TMS",
+                  "type": "input"
+                },
+                {
+                  "name": "UTMI_RXACT",
+                  "type": "output"
+                },
+                {
+                  "name": "GTXCK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_D2",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD10",
+              "numbers": [
+                "G4"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "NTRST",
+                  "type": "input"
+                },
+                {
+                  "name": "UTMI_HDIS",
+                  "type": "output"
+                },
+                {
+                  "name": "GTXEN",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_D3",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD11",
+              "numbers": [
+                "H1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOA1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK2",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "UTMI_LS0",
+                  "type": "output"
+                },
+                {
+                  "name": "GRXDV",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D4",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_MCK",
+                  "type": "output",
+                  "style": "clock"
+                }
+              ]
+            },
+            {
+              "name": "PD12",
+              "numbers": [
+                "H6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOB1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FLEXCOM4_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTMI_LS1",
+                  "type": "output"
+                },
+                {
+                  "name": "GRXER",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D5",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D4",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD13",
+              "numbers": [
+                "H3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TCLK1",
+                  "type": "input"
+                },
+                {
+                  "name": "FLEXCOM4_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTMI_CDRCPSEL0",
+                  "type": "input"
+                },
+                {
+                  "name": "GRX0",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D6",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D5",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD14",
+              "numbers": [
+                "G6"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM4_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTMI_CDRCPSEL1",
+                  "type": "input"
+                },
+                {
+                  "name": "GRX1",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D7",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D6",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD15",
+              "numbers": [
+                "H5"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM4_IO3",
+                  "type": "output"
+                },
+                {
+                  "name": "UTMI_CDRCPDIVEN",
+                  "type": "input"
+                },
+                {
+                  "name": "GTX0",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_PCK",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D7",
+                  "type": "input"
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "name": "PC5",
+              "numbers": [
+                "J8"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDVSYNC",
+                  "type": "output"
+                },
+                {
+                  "name": "NCS0",
+                  "type": "output"
+                },
+                {
+                  "name": "TCLK1",
+                  "type": "input"
+                },
+                {
+                  "name": "SPI1_NPCS1",
+                  "type": "output"
+                },
+                {
+                  "name": "I2SC0_DO0",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_VSYNC",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PC6",
+              "numbers": [
+                "N14"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDHSYNC",
+                  "type": "output"
+                },
+                {
+                  "name": "NCS1",
+                  "type": "output"
+                },
+                {
+                  "name": "TWD1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_NPCS2",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_HSYNC",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PC7",
+              "numbers": [
+                "M14"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDPCK",
+                  "type": "output"
+                },
+                {
+                  "name": "NCS2",
+                  "type": "output"
+                },
+                {
+                  "name": "TWCK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_NPCS3",
+                  "type": "output"
+                },
+                {
+                  "name": "URXD1",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_MCK",
+                  "type": "output",
+                  "style": "clock"
+                }
+              ]
+            },
+            {
+              "name": "PC8",
+              "numbers": [
+                "J9"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "LCDDEN",
+                  "type": "output"
+                },
+                {
+                  "name": "NANDRDY",
+                  "type": "input"
+                },
+                {
+                  "name": "FIQ",
+                  "type": "input"
+                },
+                {
+                  "name": "PCK0",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "UTXD1",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_FIELD",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD16",
+              "numbers": [
+                "G1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "FLEXCOM4_IO4",
+                  "type": "output"
+                },
+                {
+                  "name": "UTMI_CDRBISTEN",
+                  "type": "input"
+                },
+                {
+                  "name": "GTX1",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_VSYNC",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D8",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD17",
+              "numbers": [
+                "G2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "UTMI_CDRCPSELDIV",
+                  "type": "output"
+                },
+                {
+                  "name": "GMDC",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_HSYNC",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D9",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD18",
+              "numbers": [
+                "G3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GMDIO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_FIELD",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_D10",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD19",
+              "numbers": [
+                "H4"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PCK0",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "TWD1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "URXD2",
+                  "type": "input"
+                },
+                {
+                  "name": "I2SC0_CK",
+                  "type": "bidirectional",
+                  "style": "clock"
+                },
+                {
+                  "name": "ISC_D11",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD20",
+              "numbers": [
+                "J1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOA2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TWCK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD2",
+                  "type": "output"
+                },
+                {
+                  "name": "I2SC0_MCK",
+                  "type": "output",
+                  "style": "clock"
+                },
+                {
+                  "name": "ISC_PCK",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD21",
+              "numbers": [
+                "K1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TIOB2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TWD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FLEXCOM4_IO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC0_WS",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISC_VSYNC",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD22",
+              "numbers": [
+                "J3"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TCLK2",
+                  "type": "input"
+                },
+                {
+                  "name": "TWCK0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "FLEXCOM4_IO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC0_DI0",
+                  "type": "input"
+                },
+                {
+                  "name": "ISC_HSYNC",
+                  "type": "input"
+                }
+              ]
+            },
+            {
+              "name": "PD23",
+              "numbers": [
+                "K2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "URXD2",
+                  "type": "input"
+                },
+                {
+                  "name": "FLEXCOM4_IO2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "I2SC0_DO0",
+                  "type": "output"
+                },
+                {
+                  "name": "ISC_FIELD",
+                  "type": "input"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "DDR_A0",
+              "numbers": [
+                "E11"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A1",
+              "numbers": [
+                "C11"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A2",
+              "numbers": [
+                "B12"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A3",
+              "numbers": [
+                "A12"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A4",
+              "numbers": [
+                "D11"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A5",
+              "numbers": [
+                "D14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A6",
+              "numbers": [
+                "B14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A7",
+              "numbers": [
+                "D9"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A8",
+              "numbers": [
+                "C10"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A9",
+              "numbers": [
+                "D10"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A10",
+              "numbers": [
+                "F9"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A11",
+              "numbers": [
+                "A11"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A12",
+              "numbers": [
+                "B11"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_A13",
+              "numbers": [
+                "E13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_BA0",
+              "numbers": [
+                "F13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_BA1",
+              "numbers": [
+                "G13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_BA2",
+              "numbers": [
+                "F14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_CAL",
+              "numbers": [
+                "F10"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "DDR_CAS",
+              "numbers": [
+                "C13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_CKE",
+              "numbers": [
+                "E14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_CLK",
+              "numbers": [
+                "A13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_CLKN",
+              "numbers": [
+                "B13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_CS",
+              "numbers": [
+                "F11"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_D0",
+              "numbers": [
+                "B7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D1",
+              "numbers": [
+                "A7"
+              ],
+              "type": "bidirectional"
+            }
+          ],
+          "right": [
+            {
+              "name": "DDR_D2",
+              "numbers": [
+                "C8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D3",
+              "numbers": [
+                "B9"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D4",
+              "numbers": [
+                "A9"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D5",
+              "numbers": [
+                "C9"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D6",
+              "numbers": [
+                "A10"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D7",
+              "numbers": [
+                "B10"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D8",
+              "numbers": [
+                "H13"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D9",
+              "numbers": [
+                "H14"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D10",
+              "numbers": [
+                "J13"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D11",
+              "numbers": [
+                "J14"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D12",
+              "numbers": [
+                "L13"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D13",
+              "numbers": [
+                "L14"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D14",
+              "numbers": [
+                "J12"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_D15",
+              "numbers": [
+                "K12"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DDR_DQM0",
+              "numbers": [
+                "D8"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_DQM1",
+              "numbers": [
+                "G14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_DQS0",
+              "numbers": [
+                "B8"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_DQS1",
+              "numbers": [
+                "K14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_DQSN0",
+              "numbers": [
+                "A8"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_DQSN1",
+              "numbers": [
+                "K13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_RAS",
+              "numbers": [
+                "C14"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_RESETN",
+              "numbers": [
+                "D13"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "DDR_VREF",
+              "numbers": [
+                "C12"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "DDR_VREF",
+              "numbers": [
+                "H12"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "DDR_WE",
+              "numbers": [
+                "A14"
+              ],
+              "type": "output"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "ADVREF",
+              "numbers": [
+                "L2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "CLK_AUDIO",
+              "numbers": [
+                "J7"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "COMPN",
+              "numbers": [
+                "P2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "COMPP",
+              "numbers": [
+                "N2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "HHSDMA",
+              "numbers": [
+                "P7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HHSDMB",
+              "numbers": [
+                "P8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HHSDPA",
+              "numbers": [
+                "N7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HHSDPB",
+              "numbers": [
+                "N8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "JTAGSEL",
+              "numbers": [
+                "L4"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "PIOBU0",
+              "numbers": [
+                "K5"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "PIOBU1",
+              "numbers": [
+                "L3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "PIOBU2",
+              "numbers": [
+                "M3"
+              ],
+              "type": "bidirectional"
+            }
+          ],
+          "right": [
+            {
+              "name": "PIOBU3",
+              "numbers": [
+                "N4"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "PIOBU4",
+              "numbers": [
+                "L5"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "PIOBU5",
+              "numbers": [
+                "M6"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SHDN",
+              "numbers": [
+                "N1"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "TST",
+              "numbers": [
+                "M2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "VBG",
+              "numbers": [
+                "L7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "WKUP",
+              "numbers": [
+                "P1"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "XIN",
+              "numbers": [
+                "P5"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "XIN32",
+              "numbers": [
+                "M1"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "XOUT",
+              "numbers": [
+                "P6"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "XOUT32",
+              "numbers": [
+                "L1"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "~{NRST}",
+              "numbers": [
+                "N3"
+              ],
+              "type": "input"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "GNDANA",
+              "numbers": [
+                "K4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDANA",
+              "numbers": [
+                "J2"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDAUDIOPLL",
+              "numbers": [
+                "J6"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDBU",
+              "numbers": [
+                "M5"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDCORE",
+              "numbers": [
+                "F8"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDCORE",
+              "numbers": [
+                "G7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDCORE",
+              "numbers": [
+                "G9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDCORE",
+              "numbers": [
+                "H7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDCORE",
+              "numbers": [
+                "J4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDDPLL",
+              "numbers": [
+                "L6"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "C7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "D12"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "E9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "F12"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "G11"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "H10"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIODDR",
+              "numbers": [
+                "J11"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIOP0",
+              "numbers": [
+                "E4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIOP0",
+              "numbers": [
+                "E7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIOP1",
+              "numbers": [
+                "K9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDIOP1",
+              "numbers": [
+                "L12"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDOSC",
+              "numbers": [
+                "N6"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDPLLA",
+              "numbers": [
+                "P4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDUTMIC",
+              "numbers": [
+                "M8"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "GNDUTMII",
+              "numbers": [
+                "L8"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "right": [
+            {
+              "name": "VDDANA",
+              "numbers": [
+                "K3"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDANA",
+              "numbers": [
+                "H2"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDAUDIOPLL",
+              "numbers": [
+                "K6"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDBU",
+              "numbers": [
+                "M4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDCORE",
+              "numbers": [
+                "E8"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDCORE",
+              "numbers": [
+                "G8"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDCORE",
+              "numbers": [
+                "H8"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDCORE",
+              "numbers": [
+                "H9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDCORE",
+              "numbers": [
+                "J5"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDFUSE",
+              "numbers": [
+                "K11"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "C6"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "E10"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "E12"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "G10"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "G12"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "H11"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIODDR",
+              "numbers": [
+                "J10"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIOP0",
+              "numbers": [
+                "D7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIOP0",
+              "numbers": [
+                "F4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIOP1",
+              "numbers": [
+                "K8"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDIOP1",
+              "numbers": [
+                "L11"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDOSC",
+              "numbers": [
+                "N5"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDPLLA",
+              "numbers": [
+                "P3"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDUTMIC",
+              "numbers": [
+                "M7"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDUTMII",
+              "numbers": [
+                "K7"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

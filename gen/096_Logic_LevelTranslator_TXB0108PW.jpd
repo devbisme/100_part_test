@@ -1,0 +1,33 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TXB0108PW",
+      "package": "TSSOP-20 (PW)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/txb0108.pdf",
+        "Description": "8-bit bidirectional voltage-level translator with auto direction sensing"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "A1", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "VCCA", "numbers": ["2"], "type": "power_in" },
+            { "name": "A2", "numbers": ["3", "4", "5", "6", "7", "8", "9"],
+              "type": "bidirectional", "increment": true },
+            { "name": "OE", "numbers": ["10"], "type": "input" }
+          ],
+          "right": [
+            { "name": "B1", "numbers": ["20"], "type": "bidirectional" },
+            { "name": "VCCB", "numbers": ["19"], "type": "power_in" },
+            { "name": "B2", "numbers": ["18", "17", "16", "15", "14", "13", "12"],
+              "type": "bidirectional", "increment": true },
+            { "name": "GND", "numbers": ["11"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

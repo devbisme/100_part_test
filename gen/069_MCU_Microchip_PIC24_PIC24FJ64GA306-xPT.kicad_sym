@@ -1,0 +1,1005 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "PIC24FJ64GA306-xPT"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -16.51 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "PIC24FJ64GA306-xPT"
+      (at -16.51 59.69 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -16.51 59.055 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/30009996G.pdf"
+      (at -16.51 59.055 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "16-bit PIC24F MCU"
+      (at -16.51 59.055 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -16.51 59.055 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -16.51 59.055 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -16.51 59.055 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "PIC24FJ64GA306-xPT_1_1"
+      (rectangle
+        (start -16.51 -58.42)
+        (end 16.51 58.42)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -21.59 40.64 0)
+        (length 5.08)
+        (name "RB0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PGED1" bidirectional line)
+        (alternate "CVREF+" bidirectional line)
+        (alternate "AN0" bidirectional line)
+        (alternate "RP0" bidirectional line)
+        (alternate "SEG7" bidirectional line)
+        (alternate "PMA6" bidirectional line)
+        (alternate "CN2" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 38.1 0)
+        (length 5.08)
+        (name "RB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PGEC1" bidirectional line)
+        (alternate "CVREF-" bidirectional line)
+        (alternate "AN1" bidirectional line)
+        (alternate "RP1" bidirectional line)
+        (alternate "SEG6" bidirectional line)
+        (alternate "CTED12" bidirectional line)
+        (alternate "CN3" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 35.56 0)
+        (length 5.08)
+        (name "RB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN2" bidirectional line)
+        (alternate "C2INB" bidirectional line)
+        (alternate "CTCMP" bidirectional line)
+        (alternate "CTED13" bidirectional line)
+        (alternate "RP13" bidirectional line)
+        (alternate "SEG5" bidirectional line)
+        (alternate "CN4" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 33.02 0)
+        (length 5.08)
+        (name "RB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN3" bidirectional line)
+        (alternate "C2INA" bidirectional line)
+        (alternate "SEG4" bidirectional line)
+        (alternate "CN5" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 30.480000000000004 0)
+        (length 5.08)
+        (name "RB4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PGED3" bidirectional line)
+        (alternate "AN4" bidirectional line)
+        (alternate "C1INB" bidirectional line)
+        (alternate "RP28" bidirectional line)
+        (alternate "SEG3" bidirectional line)
+        (alternate "CN6" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 27.940000000000005 0)
+        (length 5.08)
+        (name "RB5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PGEC3" bidirectional line)
+        (alternate "AN5" bidirectional line)
+        (alternate "C1INA" bidirectional line)
+        (alternate "RP18" bidirectional line)
+        (alternate "SEG2" bidirectional line)
+        (alternate "CN7" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 25.400000000000006 0)
+        (length 5.08)
+        (name "RB6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PGEC2" bidirectional line)
+        (alternate "AN6" bidirectional line)
+        (alternate "RP6" bidirectional line)
+        (alternate "LCDBIAS3" bidirectional line)
+        (alternate "CN24" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 22.860000000000007 0)
+        (length 5.08)
+        (name "RB7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PGED2" bidirectional line)
+        (alternate "AN7" bidirectional line)
+        (alternate "RP7" bidirectional line)
+        (alternate "CN25" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 20.320000000000007 0)
+        (length 5.08)
+        (name "RB8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN8" bidirectional line)
+        (alternate "RP8" bidirectional line)
+        (alternate "SEG31" bidirectional line)
+        (alternate "COM7" bidirectional line)
+        (alternate "CN26" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 17.78000000000001 0)
+        (length 5.08)
+        (name "RB9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN9" bidirectional line)
+        (alternate "RP9" bidirectional line)
+        (alternate "SEG30" bidirectional line)
+        (alternate "COM6" bidirectional line)
+        (alternate "PMA7" bidirectional line)
+        (alternate "CN27" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 15.240000000000009 0)
+        (length 5.08)
+        (name "RB10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TMS" bidirectional line)
+        (alternate "CVREF" bidirectional line)
+        (alternate "AN10" bidirectional line)
+        (alternate "SEG29" bidirectional line)
+        (alternate "COM5" bidirectional line)
+        (alternate "PMA13" bidirectional line)
+        (alternate "CN28" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 12.70000000000001 0)
+        (length 5.08)
+        (name "RB11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TDO" bidirectional line)
+        (alternate "AN11" bidirectional line)
+        (alternate "PMA12" bidirectional line)
+        (alternate "CN29" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 10.16000000000001 0)
+        (length 5.08)
+        (name "RB12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TCK" bidirectional line)
+        (alternate "AN12" bidirectional line)
+        (alternate "CTED2" bidirectional line)
+        (alternate "PMA11" bidirectional line)
+        (alternate "SEG18" bidirectional line)
+        (alternate "CN30" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 7.620000000000011 0)
+        (length 5.08)
+        (name "RB13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TDI" bidirectional line)
+        (alternate "AN13" bidirectional line)
+        (alternate "SEG19" bidirectional line)
+        (alternate "CTED1" bidirectional line)
+        (alternate "PMA10" bidirectional line)
+        (alternate "CN31" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 5.080000000000011 0)
+        (length 5.08)
+        (name "RB14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN14" bidirectional line)
+        (alternate "RP14" bidirectional line)
+        (alternate "SEG8" bidirectional line)
+        (alternate "CTED5" bidirectional line)
+        (alternate "CTPLS" bidirectional line)
+        (alternate "PMA1" bidirectional line)
+        (alternate "CN32" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 2.5400000000000107 0)
+        (length 5.08)
+        (name "RB15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN15" bidirectional line)
+        (alternate "RP29" bidirectional line)
+        (alternate "SEG9" bidirectional line)
+        (alternate "CTED6" bidirectional line)
+        (alternate "REFO" bidirectional line)
+        (alternate "PMA0" bidirectional line)
+        (alternate "CN12" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -2.5399999999999894 0)
+        (length 5.08)
+        (name "RE0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "60"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "COM3" bidirectional line)
+        (alternate "PMD0" bidirectional line)
+        (alternate "CN58" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -5.079999999999989 0)
+        (length 5.08)
+        (name "RE1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "61"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "COM2" bidirectional line)
+        (alternate "PMD1" bidirectional line)
+        (alternate "CN59" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -7.6199999999999894 0)
+        (length 5.08)
+        (name "RE2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "62"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "COM1" bidirectional line)
+        (alternate "PMD2" bidirectional line)
+        (alternate "CN60" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -10.15999999999999 0)
+        (length 5.08)
+        (name "RE3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "63"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "COM0" bidirectional line)
+        (alternate "CTED9" bidirectional line)
+        (alternate "PMD3" bidirectional line)
+        (alternate "CN61" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -12.699999999999989 0)
+        (length 5.08)
+        (name "RE4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "64"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "HLVDIN" bidirectional line)
+        (alternate "CTED8" bidirectional line)
+        (alternate "PMD4" bidirectional line)
+        (alternate "CN62" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -15.239999999999988 0)
+        (length 5.08)
+        (name "RE5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PMD5" bidirectional line)
+        (alternate "CTED4" bidirectional line)
+        (alternate "LCDBIAS2" bidirectional line)
+        (alternate "CN63" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -17.779999999999987 0)
+        (length 5.08)
+        (name "RE6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PMD6" bidirectional line)
+        (alternate "LCDBIAS1" bidirectional line)
+        (alternate "CN64" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -20.319999999999986 0)
+        (length 5.08)
+        (name "RE7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PMD7" bidirectional line)
+        (alternate "LCDBIAS0" bidirectional line)
+        (alternate "CN65" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -25.399999999999984 0)
+        (length 5.08)
+        (name "RF0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "58"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SEG27" bidirectional line)
+        (alternate "CN68" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -27.939999999999984 0)
+        (length 5.08)
+        (name "RF1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "59"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "COM4" bidirectional line)
+        (alternate "SEG48" bidirectional line)
+        (alternate "CN69" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -30.479999999999983 0)
+        (length 5.08)
+        (name "RF2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP30" bidirectional line)
+        (alternate "CN70" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -33.01999999999998 0)
+        (length 5.08)
+        (name "RF3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP16" bidirectional line)
+        (alternate "SEG12" bidirectional line)
+        (alternate "CN71" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -35.55999999999998 0)
+        (length 5.08)
+        (name "RF4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP10" bidirectional line)
+        (alternate "SDA2" bidirectional line)
+        (alternate "SEG10" bidirectional line)
+        (alternate "PMA9" bidirectional line)
+        (alternate "CN17" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -38.09999999999998 0)
+        (length 5.08)
+        (name "RF5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PMA8" bidirectional line)
+        (alternate "RP17" bidirectional line)
+        (alternate "SCL2" bidirectional line)
+        (alternate "SEG11" bidirectional line)
+        (alternate "CN18" bidirectional line))
+      (pin bidirectional line
+        (at -21.59 -40.63999999999998 0)
+        (length 5.08)
+        (name "RF6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT0" bidirectional line)
+        (alternate "CN84" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 31.75 180)
+        (length 5.08)
+        (name "RD0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP11" bidirectional line)
+        (alternate "SEG17" bidirectional line)
+        (alternate "CN49" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 29.21 180)
+        (length 5.08)
+        (name "RD1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP24" bidirectional line)
+        (alternate "SEG20" bidirectional line)
+        (alternate "CN50" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 26.67 180)
+        (length 5.08)
+        (name "RD2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "50"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP23" bidirectional line)
+        (alternate "SEG21" bidirectional line)
+        (alternate "PMACK1" bidirectional line)
+        (alternate "CN51" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 24.130000000000003 180)
+        (length 5.08)
+        (name "RD3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "51"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP22" bidirectional line)
+        (alternate "SEG22" bidirectional line)
+        (alternate "PMBE0" bidirectional line)
+        (alternate "CN52" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 21.590000000000003 180)
+        (length 5.08)
+        (name "RD4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "52"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP25" bidirectional line)
+        (alternate "SEG23" bidirectional line)
+        (alternate "PMWR" bidirectional line)
+        (alternate "CN13" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 19.050000000000004 180)
+        (length 5.08)
+        (name "RD5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "53"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP20" bidirectional line)
+        (alternate "SEG24" bidirectional line)
+        (alternate "PMRD" bidirectional line)
+        (alternate "CN14" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 16.510000000000005 180)
+        (length 5.08)
+        (name "RD6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "54"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "C3INB" bidirectional line)
+        (alternate "SEG25" bidirectional line)
+        (alternate "CN15" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 13.970000000000006 180)
+        (length 5.08)
+        (name "RD7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "55"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "C3INA" bidirectional line)
+        (alternate "SEG26" bidirectional line)
+        (alternate "CN16" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 11.430000000000007 180)
+        (length 5.08)
+        (name "RD8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP2" bidirectional line)
+        (alternate "SEG13" bidirectional line)
+        (alternate "RTCC" bidirectional line)
+        (alternate "CN53" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 8.890000000000008 180)
+        (length 5.08)
+        (name "RD9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP4" bidirectional line)
+        (alternate "SEG14" bidirectional line)
+        (alternate "PMACK2" bidirectional line)
+        (alternate "CN54" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 6.350000000000008 180)
+        (length 5.08)
+        (name "RD10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP3" bidirectional line)
+        (alternate "SEG15" bidirectional line)
+        (alternate "PMA15" bidirectional line)
+        (alternate "C3IND" bidirectional line)
+        (alternate "CS2" bidirectional line)
+        (alternate "CN55" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 3.8100000000000076 180)
+        (length 5.08)
+        (name "RD11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RP12" bidirectional line)
+        (alternate "C3INC" bidirectional line)
+        (alternate "SEG16" bidirectional line)
+        (alternate "PMA14" bidirectional line)
+        (alternate "CS1" bidirectional line)
+        (alternate "CN56" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -1.2699999999999925 180)
+        (length 5.08)
+        (name "RG2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SEG28" bidirectional line)
+        (alternate "CN72" bidirectional line)
+        (alternate "SCL1" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -3.8099999999999925 180)
+        (length 5.08)
+        (name "RG3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SEG47" bidirectional line)
+        (alternate "CN73" bidirectional line)
+        (alternate "SDA1" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -6.3499999999999925 180)
+        (length 5.08)
+        (name "RG6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "C1IND" bidirectional line)
+        (alternate "RP21" bidirectional line)
+        (alternate "SEG0" bidirectional line)
+        (alternate "PMA5" bidirectional line)
+        (alternate "CN8" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -8.889999999999993 180)
+        (length 5.08)
+        (name "RG7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "VLCAP1" bidirectional line)
+        (alternate "C1INC" bidirectional line)
+        (alternate "RP26" bidirectional line)
+        (alternate "PMA4" bidirectional line)
+        (alternate "CN9" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -11.429999999999993 180)
+        (length 5.08)
+        (name "RG8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "VLCAP2" bidirectional line)
+        (alternate "C2IND" bidirectional line)
+        (alternate "RP19" bidirectional line)
+        (alternate "PMA3" bidirectional line)
+        (alternate "CN10" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -13.969999999999992 180)
+        (length 5.08)
+        (name "RG9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "C2INC" bidirectional line)
+        (alternate "RP27" bidirectional line)
+        (alternate "SEG1" bidirectional line)
+        (alternate "PMA2" bidirectional line)
+        (alternate "CN11" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -19.04999999999999 180)
+        (length 5.08)
+        (name "RC12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "OSCI" bidirectional line)
+        (alternate "CLKI" bidirectional line)
+        (alternate "CN23" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -21.58999999999999 180)
+        (length 5.08)
+        (name "RC15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "OSCO" bidirectional line)
+        (alternate "CLKO" bidirectional line)
+        (alternate "CN22" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -24.12999999999999 180)
+        (length 5.08)
+        (name "RC13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SOSCI" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -26.669999999999987 180)
+        (length 5.08)
+        (name "RC14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SOSCO" bidirectional line)
+        (alternate "RPI37" bidirectional line)
+        (alternate "SCKLI" bidirectional line))
+      (pin input line
+        (at 21.59 -31.749999999999986 180)
+        (length 5.08)
+        (name "~{MCLR}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.35 63.5 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.8099999999999996 63.5 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.2699999999999996 63.5 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.2700000000000005 63.5 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 3.8100000000000005 63.5 270)
+        (length 5.08)
+        (name "VBAT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "57"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 6.3500000000000005 63.5 270)
+        (length 5.08)
+        (name "VCAP/VDDCORE"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "56"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.81 -63.5 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.27 -63.5 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.27 -63.5 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 3.81 -63.5 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

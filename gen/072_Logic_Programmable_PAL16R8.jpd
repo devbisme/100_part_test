@@ -1,0 +1,37 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "PAL16R8",
+      "package": "DIP-20",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://www.futurlec.com/Datasheet/Logic/PAL16R8.pdf",
+        "Description": "20-pin TTL programmable array logic, 8 registered outputs"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "CLK", "numbers": ["1"], "type": "input", "style": "clock" },
+            { "spacer": 1 },
+            { "name": "I1", "numbers": ["2", "3", "4", "5", "6", "7", "8", "9"],
+              "type": "input", "increment": true },
+            { "spacer": 1 },
+            { "name": "~{OE}", "numbers": ["11"], "type": "input" }
+          ],
+          "right": [
+            { "name": "O1", "numbers": ["12", "13", "14", "15", "16", "17", "18", "19"],
+              "type": "tri_state", "increment": true }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["20"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["10"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

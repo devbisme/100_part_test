@@ -1,0 +1,96 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "LAN9514",
+      "package": "QFN-64-1EP",
+      "expected_pin_count": 65,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf",
+        "Description": "USB 2.0 four-port hub with integrated 10/100 Ethernet controller, QFN-64"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "~{RESET}", "numbers": ["12"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "XI", "numbers": ["61"], "type": "input" },
+            { "name": "XO", "numbers": ["60"], "type": "output" },
+            { "name": "CLK24_EN", "numbers": ["44"], "type": "input" },
+            { "name": "CLK24_OUT", "numbers": ["45"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{TRST}", "numbers": ["28"], "type": "input" },
+            { "name": "TMS", "numbers": ["29"], "type": "input" },
+            { "name": "TDI", "numbers": ["30"], "type": "input" },
+            { "name": "TDO", "numbers": ["31"], "type": "output" },
+            { "name": "TCK", "numbers": ["32"], "type": "input", "style": "clock" },
+            { "spacer": 1 },
+            { "name": "EECLK", "numbers": ["23"], "type": "output" },
+            { "name": "EECS", "numbers": ["24"], "type": "output" },
+            { "name": "EEDO", "numbers": ["25"], "type": "output" },
+            { "name": "EEDI", "numbers": ["26"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "VBUS_DET", "numbers": ["11"], "type": "input" },
+            { "name": "AUTOMDIX_EN", "numbers": ["41"], "type": "input" },
+            { "name": "USBRBIAS", "numbers": ["63"], "type": "input" },
+            { "name": "EXRES", "numbers": ["50"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "TEST1", "numbers": ["13"], "type": "input" },
+            { "name": "TEST2", "numbers": ["34"], "type": "input" },
+            { "name": "TEST3", "numbers": ["40"], "type": "input" },
+            { "name": "TEST4", "numbers": ["47"], "type": "input" }
+          ],
+          "right": [
+            { "name": "USBDP0", "numbers": ["59"], "type": "bidirectional" },
+            { "name": "USBDM0", "numbers": ["58"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "USBDP2", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "USBDM2", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "PRTCTL2", "numbers": ["14"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "USBDP3", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "USBDM3", "numbers": ["3"], "type": "bidirectional" },
+            { "name": "PRTCTL3", "numbers": ["16"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "USBDP4", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "USBDM4", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "PRTCTL4", "numbers": ["17"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "USBDP5", "numbers": ["9"], "type": "bidirectional" },
+            { "name": "USBDM5", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "PRTCTL5", "numbers": ["18"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "TXP", "numbers": ["55"], "type": "bidirectional" },
+            { "name": "TXN", "numbers": ["56"], "type": "bidirectional" },
+            { "name": "RXP", "numbers": ["52"], "type": "bidirectional" },
+            { "name": "RXN", "numbers": ["53"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "~{FDX_LED}", "numbers": ["20"], "type": "open_collector",
+              "alternates": [ { "name": "GPIO0", "type": "bidirectional" } ] },
+            { "name": "~{LNKA_LED}", "numbers": ["21"], "type": "open_collector",
+              "alternates": [ { "name": "GPIO1", "type": "bidirectional" } ] },
+            { "name": "~{SPD_LED}", "numbers": ["22"], "type": "open_collector",
+              "alternates": [ { "name": "GPIO2", "type": "bidirectional" } ] },
+            { "name": "GPIO3", "numbers": ["35"], "type": "bidirectional" },
+            { "name": "GPIO4", "numbers": ["36"], "type": "bidirectional" },
+            { "name": "GPIO5", "numbers": ["37"], "type": "bidirectional" },
+            { "name": "GPIO6", "numbers": ["42"], "type": "bidirectional" },
+            { "name": "GPIO7", "numbers": ["43"], "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "VDD33IO", "numbers": ["19", "27", "33", "39", "46"], "type": "power_in" },
+            { "name": "VDD33A", "numbers": ["5", "10", "49", "51", "54", "57", "64"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "VDD18CORE", "numbers": ["15", "38"], "type": "power_in" },
+            { "name": "VDD18ETHPLL", "numbers": ["48"], "type": "power_in" },
+            { "name": "VDD18USBPLL", "numbers": ["62"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["65"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

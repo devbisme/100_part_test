@@ -1,0 +1,437 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "AT86RF233-Z"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -24.13 26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "AT86RF233-Z"
+      (at -24.13 24.130000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -24.13 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8351-MCU_Wireless-AT86RF233_Datasheet.pdf"
+      (at -24.13 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "2.4 GHz IEEE 802.15.4 / ZigBee RF transceiver"
+      (at -24.13 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -24.13 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -24.13 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -24.13 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "AT86RF233-Z_1_1"
+      (rectangle
+        (start -24.13 -22.86)
+        (end 24.13 22.86)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input clock
+        (at -29.21 13.97 0)
+        (length 5.08)
+        (name "SCLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -29.21 11.43 0)
+        (length 5.08)
+        (name "MOSI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -29.21 8.89 0)
+        (length 5.08)
+        (name "MISO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -29.21 6.3500000000000005 0)
+        (length 5.08)
+        (name "~{SEL}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -29.21 1.2700000000000005 0)
+        (length 5.08)
+        (name "~{RST}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -29.21 -1.2699999999999996 0)
+        (length 5.08)
+        (name "SLP_TR"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -29.21 -3.8099999999999996 0)
+        (length 5.08)
+        (name "IRQ"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -29.21 -8.89 0)
+        (length 5.08)
+        (name "XTAL1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -29.21 -11.43 0)
+        (length 5.08)
+        (name "XTAL2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -29.21 -13.969999999999999 0)
+        (length 5.08)
+        (name "CLKM"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 29.21 7.62 180)
+        (length 5.08)
+        (name "RFP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 29.21 5.08 180)
+        (length 5.08)
+        (name "RFN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 29.21 0.0 180)
+        (length 5.08)
+        (name "DIG1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 29.21 -2.54 180)
+        (length 5.08)
+        (name "DIG2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 29.21 -5.08 180)
+        (length 5.08)
+        (name "DIG3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 29.21 -7.62 180)
+        (length 5.08)
+        (name "DIG4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 27.94 270)
+        (length 5.08)
+        (name "EVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 27.94 270)
+        (length 5.08)
+        (name "DEVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 0.0 27.94 270)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 2.54 27.94 270)
+        (length 5.08)
+        (name "DVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 5.08 27.94 270)
+        (length 5.08)
+        (name "DVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -13.97 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -11.43 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -8.89 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.3500000000000005 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.8100000000000005 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.2700000000000005 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.2699999999999996 -27.94 90)
+        (length 5.08)
+        (name "AVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 3.8099999999999996 -27.94 90)
+        (length 5.08)
+        (name "DVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 6.35 -27.94 90)
+        (length 5.08)
+        (name "DVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 8.89 -27.94 90)
+        (length 5.08)
+        (name "DVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 11.43 -27.94 90)
+        (length 5.08)
+        (name "DVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 13.969999999999999 -27.94 90)
+        (length 5.08)
+        (name "DVSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

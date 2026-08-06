@@ -1,0 +1,112 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "AT90USB162-16A",
+      "package": "TQFP-32",
+      "expected_pin_count": 32,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7707.pdf",
+        "Description": "8-bit AVR microcontroller with USB device controller, 16KB flash, TQFP-32"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "PB0", "numbers": ["14"], "type": "bidirectional",
+              "alternates": [ { "name": "~{SS}", "type": "input" },
+                              { "name": "PCINT0", "type": "input" } ] },
+            { "name": "PB1", "numbers": ["15"], "type": "bidirectional",
+              "alternates": [ { "name": "SCLK", "type": "bidirectional" },
+                              { "name": "PCINT1", "type": "input" } ] },
+            { "name": "PB2", "numbers": ["16"], "type": "bidirectional",
+              "alternates": [ { "name": "PDI", "type": "input" },
+                              { "name": "MOSI", "type": "bidirectional" },
+                              { "name": "PCINT2", "type": "input" } ] },
+            { "name": "PB3", "numbers": ["17"], "type": "bidirectional",
+              "alternates": [ { "name": "PDO", "type": "output" },
+                              { "name": "MISO", "type": "bidirectional" },
+                              { "name": "PCINT3", "type": "input" } ] },
+            { "name": "PB4", "numbers": ["18"], "type": "bidirectional",
+              "alternates": [ { "name": "T1", "type": "input" },
+                              { "name": "PCINT4", "type": "input" } ] },
+            { "name": "PB5", "numbers": ["19"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT5", "type": "input" } ] },
+            { "name": "PB6", "numbers": ["20"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT6", "type": "input" } ] },
+            { "name": "PB7", "numbers": ["21"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT7", "type": "input" },
+                              { "name": "OC.0A", "type": "output" },
+                              { "name": "OC.1C", "type": "output" } ] },
+            { "spacer": 1 },
+            { "name": "PC2", "numbers": ["5"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT11", "type": "input" } ] },
+            { "name": "PC4", "numbers": ["26"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT10", "type": "input" } ] },
+            { "name": "PC5", "numbers": ["25"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT9", "type": "input" },
+                              { "name": "OC.1B", "type": "output" } ] },
+            { "name": "PC6", "numbers": ["23"], "type": "bidirectional",
+              "alternates": [ { "name": "OC.1A", "type": "output" },
+                              { "name": "PCINT8", "type": "input" } ] },
+            { "name": "PC7", "numbers": ["22"], "type": "bidirectional",
+              "alternates": [ { "name": "INT4", "type": "input" },
+                              { "name": "ICP1", "type": "input" },
+                              { "name": "CLKO", "type": "output" } ] }
+          ],
+          "right": [
+            { "name": "PD0", "numbers": ["6"], "type": "bidirectional",
+              "alternates": [ { "name": "OC.0B", "type": "output" },
+                              { "name": "INT0", "type": "input" } ] },
+            { "name": "PD1", "numbers": ["7"], "type": "bidirectional",
+              "alternates": [ { "name": "AIN0", "type": "input" },
+                              { "name": "INT1", "type": "input" } ] },
+            { "name": "PD2", "numbers": ["8"], "type": "bidirectional",
+              "alternates": [ { "name": "RXD1", "type": "input" },
+                              { "name": "AIN1", "type": "input" },
+                              { "name": "INT2", "type": "input" } ] },
+            { "name": "PD3", "numbers": ["9"], "type": "bidirectional",
+              "alternates": [ { "name": "TXD1", "type": "output" },
+                              { "name": "INT3", "type": "input" } ] },
+            { "name": "PD4", "numbers": ["10"], "type": "bidirectional",
+              "alternates": [ { "name": "INT5", "type": "input" } ] },
+            { "name": "PD5", "numbers": ["11"], "type": "bidirectional",
+              "alternates": [ { "name": "XCK", "type": "bidirectional" },
+                              { "name": "PCINT12", "type": "input" } ] },
+            { "name": "PD6", "numbers": ["12"], "type": "bidirectional",
+              "alternates": [ { "name": "~{RTS}", "type": "output" },
+                              { "name": "INT6", "type": "input" } ] },
+            { "name": "PD7", "numbers": ["13"], "type": "bidirectional",
+              "alternates": [ { "name": "~{CTS}", "type": "input" },
+                              { "name": "~{HWB}", "type": "input" },
+                              { "name": "T0", "type": "input" },
+                              { "name": "INT7", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "XTAL1", "numbers": ["1"], "type": "input" },
+            { "name": "XTAL2", "numbers": ["2"], "type": "output",
+              "alternates": [ { "name": "PC0", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "D+", "numbers": ["29"], "type": "bidirectional",
+              "alternates": [ { "name": "SCK", "type": "bidirectional" } ] },
+            { "name": "D-", "numbers": ["30"], "type": "bidirectional",
+              "alternates": [ { "name": "SDATA", "type": "bidirectional" } ] },
+            { "name": "UCAP", "numbers": ["27"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "~{Reset}", "numbers": ["24"], "type": "input",
+              "alternates": [ { "name": "PC1", "type": "bidirectional" },
+                              { "name": "dW", "type": "bidirectional" } ] }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["4"], "type": "power_in" },
+            { "name": "AVCC", "numbers": ["32"], "type": "power_in" },
+            { "name": "UVCC", "numbers": ["31"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["3"], "type": "power_in" },
+            { "name": "UGND", "numbers": ["28"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

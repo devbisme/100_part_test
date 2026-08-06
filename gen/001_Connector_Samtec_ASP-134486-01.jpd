@@ -1,0 +1,2877 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "Samtec_ASP-134486-01",
+      "package": "SEARAY 10x40 socket array",
+      "expected_pin_count": 400,
+      "properties": {
+        "Datasheet": "https://suddendocs.samtec.com/prints/asp-134486-01-mkt.pdf",
+        "Description": "VITA 57 FMC HPC socket array, 0.050 in pitch, 10 rows x 40 positions, 400 contacts"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "A1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "A2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "A3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "A4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "A5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "A6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "A7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "A8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "A9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "A10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "A11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "A12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "A13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "A14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "A15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "A16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "A17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "A18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "A19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "A20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "A21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "A22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "A23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "A24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "A25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "A26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "A27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "A28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "A29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "A30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "A31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "A32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "A33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "A34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "A35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "A36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "A37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "A38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "A39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "A40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "B1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "B2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "B3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "B4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "B5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "B6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "B7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "B8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "B9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "B10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "B11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "B12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "B13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "B14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "B15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "B16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "B17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "B18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "B19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "B20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "B21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "B22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "B23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "B24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "B25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "B26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "B27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "B28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "B29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "B30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "B31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "B32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "B33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "B34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "B35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "B36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "B37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "B38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "B39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "B40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "C1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "C2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "C3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "C4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "C5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "C6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "C7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "C8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "C9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "C10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "C11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "C12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "C13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "C14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "C15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "C16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "C17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "C18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "C19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "C20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "C21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "C22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "C23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "C24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "C25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "C26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "C27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "C28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "C29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "C30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "C31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "C32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "C33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "C34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "C35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "C36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "C37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "C38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "C39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "C40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "D1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "D2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "D3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "D4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "D5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "D6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "D7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "D8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "D9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "D10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "D11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "D12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "D13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "D14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "D15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "D16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "D17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "D18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "D19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "D20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "D21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "D22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "D23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "D24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "D25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "D26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "D27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "D28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "D29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "D30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "D31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "D32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "D33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "D34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "D35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "D36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "D37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "D38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "D39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "D40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "E1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "E2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "E3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "E4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "E5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "E6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "E7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "E8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "E9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "E10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "E11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "E12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "E13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "E14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "E15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "E16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "E17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "E18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "E19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "E20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "E21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "E22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "E23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "E24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "E25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "E26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "E27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "E28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "E29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "E30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "E31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "E32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "E33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "E34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "E35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "E36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "E37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "E38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "E39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "E40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "F1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "F2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "F3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "F4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "F5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "F6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "F7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "F8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "F9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "F10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "F11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "F12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "F13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "F14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "F15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "F16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "F17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "F18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "F19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "F20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "F21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "F22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "F23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "F24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "F25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "F26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "F27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "F28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "F29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "F30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "F31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "F32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "F33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "F34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "F35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "F36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "F37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "F38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "F39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "F40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "G1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "G2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "G3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "G4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "G5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "G6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "G7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "G8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "G9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "G10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "G11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "G12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "G13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "G14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "G15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "G16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "G17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "G18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "G19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "G20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "G21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "G22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "G23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "G24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "G25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "G26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "G27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "G28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "G29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "G30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "G31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "G32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "G33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "G34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "G35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "G36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "G37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "G38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "G39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "G40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "H1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "H2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "H3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "H4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "H5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "H6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "H7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "H8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "H9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "H10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "H11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "H12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "H13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "H14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "H15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "H16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "H17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "H18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "H19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "H20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "H21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "H22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "H23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "H24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "H25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "H26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "H27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "H28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "H29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "H30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "H31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "H32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "H33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "H34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "H35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "H36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "H37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "H38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "H39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "H40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "J1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "J2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "J3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "J4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "J5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "J6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "J7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "J8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "J9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "J10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "J11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "J12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "J13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "J14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "J15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "J16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "J17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "J18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "J19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "J20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "J21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "J22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "J23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "J24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "J25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "J26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "J27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "J28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "J29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "J30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "J31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "J32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "J33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "J34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "J35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "J36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "J37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "J38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "J39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "J40"
+              ],
+              "type": "passive"
+            }
+          ]
+        },
+        {
+          "left": [
+            {
+              "name": "Pin_1",
+              "numbers": [
+                "K1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_2",
+              "numbers": [
+                "K2"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_3",
+              "numbers": [
+                "K3"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_4",
+              "numbers": [
+                "K4"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_5",
+              "numbers": [
+                "K5"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_6",
+              "numbers": [
+                "K6"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_7",
+              "numbers": [
+                "K7"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_8",
+              "numbers": [
+                "K8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_9",
+              "numbers": [
+                "K9"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_10",
+              "numbers": [
+                "K10"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_11",
+              "numbers": [
+                "K11"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_12",
+              "numbers": [
+                "K12"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_13",
+              "numbers": [
+                "K13"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_14",
+              "numbers": [
+                "K14"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_15",
+              "numbers": [
+                "K15"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_16",
+              "numbers": [
+                "K16"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_17",
+              "numbers": [
+                "K17"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_18",
+              "numbers": [
+                "K18"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_19",
+              "numbers": [
+                "K19"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_20",
+              "numbers": [
+                "K20"
+              ],
+              "type": "passive"
+            }
+          ],
+          "right": [
+            {
+              "name": "Pin_21",
+              "numbers": [
+                "K21"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_22",
+              "numbers": [
+                "K22"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_23",
+              "numbers": [
+                "K23"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_24",
+              "numbers": [
+                "K24"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_25",
+              "numbers": [
+                "K25"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_26",
+              "numbers": [
+                "K26"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_27",
+              "numbers": [
+                "K27"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_28",
+              "numbers": [
+                "K28"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_29",
+              "numbers": [
+                "K29"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_30",
+              "numbers": [
+                "K30"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_31",
+              "numbers": [
+                "K31"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_32",
+              "numbers": [
+                "K32"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_33",
+              "numbers": [
+                "K33"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_34",
+              "numbers": [
+                "K34"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_35",
+              "numbers": [
+                "K35"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_36",
+              "numbers": [
+                "K36"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_37",
+              "numbers": [
+                "K37"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_38",
+              "numbers": [
+                "K38"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_39",
+              "numbers": [
+                "K39"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "Pin_40",
+              "numbers": [
+                "K40"
+              ],
+              "type": "passive"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

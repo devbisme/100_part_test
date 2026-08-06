@@ -1,0 +1,39 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "RPMH24-1.5",
+      "package": "25-pad LGA 12.19x12.19mm",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf",
+        "Description": "1.5A non-isolated 24V output switching regulator power module"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "VIN", "numbers": ["A1", "A2"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "CTRL", "numbers": ["C1"], "type": "input" }
+          ],
+          "right": [
+            { "name": "VOUT", "numbers": ["A5", "B5"], "type": "power_out" },
+            { "name": "SENSE", "numbers": ["C5"], "type": "input" },
+            { "name": "TRIM", "numbers": ["E5"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "PGOOD", "numbers": ["D1"], "type": "open_collector" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["E1", "E2"], "type": "no_connect" }
+          ],
+          "bottom": [
+            { "name": "GND",
+              "numbers": ["A3", "A4", "B1", "B2", "B3", "B4", "C2", "C3", "C4",
+                          "D2", "D3", "D4", "D5", "E3", "E4"],
+              "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

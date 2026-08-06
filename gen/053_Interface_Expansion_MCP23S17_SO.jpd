@@ -1,0 +1,48 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MCP23S17_SO",
+      "package": "SOIC-28 Wide",
+      "expected_pin_count": 28,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf",
+        "Description": "16-bit I/O expander with SPI interface"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "~{CS}", "numbers": ["11"], "type": "input" },
+            { "name": "SCK", "numbers": ["12"], "type": "input", "style": "clock" },
+            { "name": "SI", "numbers": ["13"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "A0", "numbers": ["15"], "type": "input" },
+            { "name": "A1", "numbers": ["16"], "type": "input" },
+            { "name": "A2", "numbers": ["17"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "~{RESET}", "numbers": ["18"], "type": "input" }
+          ],
+          "right": [
+            { "name": "SO", "numbers": ["14"], "type": "tri_state" },
+            { "spacer": 1 },
+            { "name": "GPA0", "numbers": ["21", "22", "23", "24", "25", "26", "27", "28"],
+              "type": "bidirectional", "increment": true },
+            { "spacer": 1 },
+            { "name": "GPB0", "numbers": ["1", "2", "3", "4", "5", "6", "7", "8"],
+              "type": "bidirectional", "increment": true },
+            { "spacer": 1 },
+            { "name": "INTA", "numbers": ["20"], "type": "output" },
+            { "name": "INTB", "numbers": ["19"], "type": "output" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["9"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["10"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

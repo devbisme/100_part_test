@@ -1,0 +1,954 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "HD44780UxxxFS"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -10.16 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "HD44780UxxxFS"
+      (at -10.16 83.82000000000001 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -10.16 83.185 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "https://cdn.sparkfun.com/assets/9/5/f/7/b/HD44780.pdf"
+      (at -10.16 83.185 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "Hitachi HD44780U dot-matrix LCD controller/driver"
+      (at -10.16 83.185 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -10.16 83.185 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -10.16 83.185 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -10.16 83.185 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "HD44780UxxxFS_1_1"
+      (rectangle
+        (start -10.16 -82.55)
+        (end 10.16 82.55)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input line
+        (at -15.24 30.48 0)
+        (length 5.08)
+        (name "RS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -15.24 27.94 0)
+        (length 5.08)
+        (name "R/~{W}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -15.24 25.400000000000002 0)
+        (length 5.08)
+        (name "E"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 20.320000000000004 0)
+        (length 5.08)
+        (name "DB0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 17.780000000000005 0)
+        (length 5.08)
+        (name "DB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 15.240000000000006 0)
+        (length 5.08)
+        (name "DB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 12.700000000000006 0)
+        (length 5.08)
+        (name "DB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 10.160000000000007 0)
+        (length 5.08)
+        (name "DB4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 7.620000000000007 0)
+        (length 5.08)
+        (name "DB5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 5.080000000000007 0)
+        (length 5.08)
+        (name "DB6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.24 2.540000000000007 0)
+        (length 5.08)
+        (name "DB7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -15.24 -2.539999999999993 0)
+        (length 5.08)
+        (name "OSC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -15.24 -5.079999999999993 0)
+        (length 5.08)
+        (name "OSC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -15.24 -10.159999999999993 0)
+        (length 5.08)
+        (name "CL1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -15.24 -12.699999999999992 0)
+        (length 5.08)
+        (name "CL2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -15.24 -15.239999999999991 0)
+        (length 5.08)
+        (name "M"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -15.24 -17.77999999999999 0)
+        (length 5.08)
+        (name "D"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -15.24 -22.85999999999999 0)
+        (length 5.08)
+        (name "V1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -15.24 -25.399999999999988 0)
+        (length 5.08)
+        (name "V2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -15.24 -27.939999999999987 0)
+        (length 5.08)
+        (name "V3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -15.24 -30.479999999999986 0)
+        (length 5.08)
+        (name "V4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -15.24 -33.01999999999999 0)
+        (length 5.08)
+        (name "V5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 69.85 180)
+        (length 5.08)
+        (name "COM1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 67.30999999999999 180)
+        (length 5.08)
+        (name "COM2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 64.76999999999998 180)
+        (length 5.08)
+        (name "COM3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 62.22999999999998 180)
+        (length 5.08)
+        (name "COM4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "50"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 59.68999999999998 180)
+        (length 5.08)
+        (name "COM5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "51"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 57.149999999999984 180)
+        (length 5.08)
+        (name "COM6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "52"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 54.609999999999985 180)
+        (length 5.08)
+        (name "COM7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "53"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 52.069999999999986 180)
+        (length 5.08)
+        (name "COM8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "54"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 49.52999999999999 180)
+        (length 5.08)
+        (name "COM9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "55"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 46.98999999999999 180)
+        (length 5.08)
+        (name "COM10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "56"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 44.44999999999999 180)
+        (length 5.08)
+        (name "COM11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "57"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 41.90999999999999 180)
+        (length 5.08)
+        (name "COM12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "58"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 39.36999999999999 180)
+        (length 5.08)
+        (name "COM13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "59"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 36.82999999999999 180)
+        (length 5.08)
+        (name "COM14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "60"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 34.28999999999999 180)
+        (length 5.08)
+        (name "COM15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "61"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 31.749999999999993 180)
+        (length 5.08)
+        (name "COM16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "62"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 26.669999999999995 180)
+        (length 5.08)
+        (name "SEG1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 24.129999999999995 180)
+        (length 5.08)
+        (name "SEG2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 21.589999999999996 180)
+        (length 5.08)
+        (name "SEG3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 19.049999999999997 180)
+        (length 5.08)
+        (name "SEG4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 16.509999999999998 180)
+        (length 5.08)
+        (name "SEG5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 13.969999999999999 180)
+        (length 5.08)
+        (name "SEG6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 11.43 180)
+        (length 5.08)
+        (name "SEG7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 8.89 180)
+        (length 5.08)
+        (name "SEG8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 6.3500000000000005 180)
+        (length 5.08)
+        (name "SEG9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 3.8100000000000005 180)
+        (length 5.08)
+        (name "SEG10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 1.2700000000000005 180)
+        (length 5.08)
+        (name "SEG11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -1.2699999999999996 180)
+        (length 5.08)
+        (name "SEG12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -3.8099999999999996 180)
+        (length 5.08)
+        (name "SEG13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -6.35 180)
+        (length 5.08)
+        (name "SEG14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -8.89 180)
+        (length 5.08)
+        (name "SEG15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -11.43 180)
+        (length 5.08)
+        (name "SEG16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -13.969999999999999 180)
+        (length 5.08)
+        (name "SEG17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -16.509999999999998 180)
+        (length 5.08)
+        (name "SEG18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -19.049999999999997 180)
+        (length 5.08)
+        (name "SEG19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -21.589999999999996 180)
+        (length 5.08)
+        (name "SEG20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -24.129999999999995 180)
+        (length 5.08)
+        (name "SEG21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -26.669999999999995 180)
+        (length 5.08)
+        (name "SEG22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -29.209999999999994 180)
+        (length 5.08)
+        (name "SEG23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "80"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -31.749999999999993 180)
+        (length 5.08)
+        (name "SEG24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "79"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -34.28999999999999 180)
+        (length 5.08)
+        (name "SEG25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "78"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -36.82999999999999 180)
+        (length 5.08)
+        (name "SEG26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "77"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -39.36999999999999 180)
+        (length 5.08)
+        (name "SEG27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "76"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -41.90999999999999 180)
+        (length 5.08)
+        (name "SEG28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "75"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -44.44999999999999 180)
+        (length 5.08)
+        (name "SEG29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "74"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -46.98999999999999 180)
+        (length 5.08)
+        (name "SEG30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "73"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -49.52999999999999 180)
+        (length 5.08)
+        (name "SEG31"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "72"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -52.069999999999986 180)
+        (length 5.08)
+        (name "SEG32"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "71"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -54.609999999999985 180)
+        (length 5.08)
+        (name "SEG33"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "70"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -57.149999999999984 180)
+        (length 5.08)
+        (name "SEG34"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "69"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -59.68999999999998 180)
+        (length 5.08)
+        (name "SEG35"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "68"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -62.22999999999998 180)
+        (length 5.08)
+        (name "SEG36"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "67"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -64.76999999999998 180)
+        (length 5.08)
+        (name "SEG37"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "66"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -67.30999999999999 180)
+        (length 5.08)
+        (name "SEG38"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "65"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -69.85 180)
+        (length 5.08)
+        (name "SEG39"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "64"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -72.39 180)
+        (length 5.08)
+        (name "SEG40"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "63"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 87.63 270)
+        (length 5.08)
+        (name "V_{CC}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -87.63 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

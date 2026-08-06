@@ -1,0 +1,82 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "AVR64DA48x-x6LX",
+      "package": "VQFN-48",
+      "expected_pin_count": 49,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/AVR64DA28-32-48-64-DataSheet-DS40002233B.pdf",
+        "Description": "8-bit AVR DA microcontroller, 64KB flash, 8KB SRAM, VQFN-48"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "PA0", "numbers": ["44"], "type": "bidirectional",
+              "alternates": [ { "name": "EXTCLK", "type": "input" } ] },
+            { "name": "PA1", "numbers": ["45"], "type": "bidirectional" },
+            { "name": "PA2", "numbers": ["46"], "type": "bidirectional" },
+            { "name": "PA3", "numbers": ["47"], "type": "bidirectional" },
+            { "name": "PA4", "numbers": ["48"], "type": "bidirectional" },
+            { "name": "PA5", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "PA6", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "PA7", "numbers": ["3"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PB0", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "PB1", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "PB2", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "PB3", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "PB4", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "PB5", "numbers": ["9"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PC0", "numbers": ["10"], "type": "bidirectional" },
+            { "name": "PC1", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "PC2", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "PC3", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "PC4", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "PC5", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "PC6", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "PC7", "numbers": ["19"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "PD0", "numbers": ["20"], "type": "bidirectional" },
+            { "name": "PD1", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "PD2", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "PD3", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "PD4", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "PD5", "numbers": ["25"], "type": "bidirectional" },
+            { "name": "PD6", "numbers": ["26"], "type": "bidirectional" },
+            { "name": "PD7", "numbers": ["27"], "type": "bidirectional",
+              "alternates": [ { "name": "VREFA", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "PE0", "numbers": ["30"], "type": "bidirectional" },
+            { "name": "PE1", "numbers": ["31"], "type": "bidirectional" },
+            { "name": "PE2", "numbers": ["32"], "type": "bidirectional" },
+            { "name": "PE3", "numbers": ["33"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PF0", "numbers": ["34"], "type": "bidirectional",
+              "alternates": [ { "name": "XTAL32K1", "type": "input" } ] },
+            { "name": "PF1", "numbers": ["35"], "type": "bidirectional",
+              "alternates": [ { "name": "XTAL32K2", "type": "output" } ] },
+            { "name": "PF2", "numbers": ["36"], "type": "bidirectional" },
+            { "name": "PF3", "numbers": ["37"], "type": "bidirectional" },
+            { "name": "PF4", "numbers": ["38"], "type": "bidirectional" },
+            { "name": "PF5", "numbers": ["39"], "type": "bidirectional" },
+            { "name": "PF6", "numbers": ["40"], "type": "bidirectional",
+              "alternates": [ { "name": "~{RESET}", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "UPDI", "numbers": ["41"], "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["14", "42"], "type": "power_in" },
+            { "name": "AVDD", "numbers": ["28"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["15", "29", "43", "49"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

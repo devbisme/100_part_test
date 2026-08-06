@@ -1,0 +1,327 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "SLA7078MPRT"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -15.24 26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "SLA7078MPRT"
+      (at -15.24 24.130000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -15.24 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "https://www.sanken-ele.co.jp/en/prod/semicon/dtl/pdf/SLA7070MPRT-AN.pdf"
+      (at -15.24 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "Unipolar 2-phase microstepping motor driver"
+      (at -15.24 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -15.24 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -15.24 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -15.24 23.495 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "SLA7078MPRT_1_1"
+      (rectangle
+        (start -15.24 -22.86)
+        (end 15.24 22.86)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input clock
+        (at -20.32 11.43 0)
+        (length 5.08)
+        (name "Clock"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 8.89 0)
+        (length 5.08)
+        (name "CW/CCW"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 6.3500000000000005 0)
+        (length 5.08)
+        (name "Reset"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 3.8100000000000005 0)
+        (length 5.08)
+        (name "Sync"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 -1.2699999999999996 0)
+        (length 5.08)
+        (name "M1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 -3.8099999999999996 0)
+        (length 5.08)
+        (name "M2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 -6.35 0)
+        (length 5.08)
+        (name "M3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -20.32 -11.43 0)
+        (length 5.08)
+        (name "Ref/Sleep1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 16.51 180)
+        (length 5.08)
+        (name "OutA"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 13.970000000000002 180)
+        (length 5.08)
+        (name "OutA"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 11.430000000000003 180)
+        (length 5.08)
+        (name "~{OutA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 8.890000000000004 180)
+        (length 5.08)
+        (name "~{OutA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 20.32 6.350000000000004 180)
+        (length 5.08)
+        (name "SenseA"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 1.270000000000004 180)
+        (length 5.08)
+        (name "OutB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 -1.269999999999996 180)
+        (length 5.08)
+        (name "OutB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 -3.809999999999996 180)
+        (length 5.08)
+        (name "~{OutB}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 20.32 -6.349999999999996 180)
+        (length 5.08)
+        (name "~{OutB}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 20.32 -8.889999999999997 180)
+        (length 5.08)
+        (name "SenseB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 20.32 -13.969999999999995 180)
+        (length 5.08)
+        (name "MO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 20.32 -16.509999999999994 180)
+        (length 5.08)
+        (name "Flag"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.27 27.94 270)
+        (length 5.08)
+        (name "VBB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.27 27.94 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -27.94 90)
+        (length 5.08)
+        (name "Gnd"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

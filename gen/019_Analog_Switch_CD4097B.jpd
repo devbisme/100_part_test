@@ -1,0 +1,42 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "CD4097B",
+      "package": "DIP-24 / SOIC-24 / TSSOP-24",
+      "expected_pin_count": 24,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/cd4097b.pdf",
+        "Description": "CMOS 8-channel differential analog multiplexer/demultiplexer"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "X0", "numbers": ["9", "8", "7", "6", "5", "4", "3", "2"],
+              "type": "passive", "increment": true },
+            { "spacer": 1 },
+            { "name": "Y0", "numbers": ["23", "22", "21", "20", "19", "18", "16", "15"],
+              "type": "passive", "increment": true }
+          ],
+          "right": [
+            { "name": "X", "numbers": ["1"], "type": "passive" },
+            { "name": "Y", "numbers": ["17"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "A", "numbers": ["10"], "type": "input" },
+            { "name": "B", "numbers": ["11"], "type": "input" },
+            { "name": "C", "numbers": ["14"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "INH", "numbers": ["13"], "type": "input" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["24"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["12"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPS70345",
+      "package": "HTSSOP-24 PowerPAD (PWP)",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/tps703.pdf",
+        "Description": "Dual-output LDO with integrated SVS, 3.3V/1.2V"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "GND/HEATSINK", "numbers": ["1", "12", "13", "24"], "type": "power_in" },
+            { "name": "VIN1", "numbers": ["2", "3"], "type": "power_in" },
+            { "name": "VIN2", "numbers": ["10", "11"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "~{MR1}", "numbers": ["6"], "type": "input" },
+            { "name": "~{MR2}", "numbers": ["5"], "type": "input" },
+            { "name": "~{EN}", "numbers": ["7"], "type": "input" },
+            { "name": "SEQ", "numbers": ["8"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "VSENSE1/FB1", "numbers": ["21"], "type": "input" },
+            { "name": "VSENSE2/FB2", "numbers": ["16"], "type": "input" }
+          ],
+          "right": [
+            { "name": "VOUT1", "numbers": ["22", "23"], "type": "power_out" },
+            { "name": "VOUT2", "numbers": ["14", "15"], "type": "power_out" },
+            { "spacer": 1 },
+            { "name": "PG1", "numbers": ["19"], "type": "open_collector" },
+            { "name": "~{RESET}", "numbers": ["18"], "type": "open_collector" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["4", "17", "20"], "type": "no_connect" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["9"], "type": "power_in" },
+            { "name": "PAD", "numbers": ["25"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

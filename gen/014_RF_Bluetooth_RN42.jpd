@@ -1,0 +1,61 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "RN42",
+      "package": "RN42 module, 32 castellated pads",
+      "expected_pin_count": 32,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/rn-42-ds-v2.32r.pdf",
+        "Description": "Class 2 Bluetooth module with UART, USB, PCM and SPI"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "UART_RX", "numbers": ["13"], "type": "input" },
+            { "name": "UART_TX", "numbers": ["14"], "type": "output" },
+            { "name": "UART_RTS", "numbers": ["15"], "type": "output" },
+            { "name": "UART_CTS", "numbers": ["16"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "USB_D+", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "USB_D-", "numbers": ["18"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PCM_CLK", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "PCM_SYNC", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "PCM_IN", "numbers": ["9"], "type": "input" },
+            { "name": "PCM_OUT", "numbers": ["10"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "SPI_MOSI", "numbers": ["2"], "type": "input" },
+            { "name": "SPI_MISO", "numbers": ["24"], "type": "output" },
+            { "name": "SPI_CLK", "numbers": ["6"], "type": "input", "style": "clock" },
+            { "name": "SPI_CSB", "numbers": ["23"], "type": "input" }
+          ],
+          "right": [
+            { "name": "GPIO2", "numbers": ["19"], "type": "output" },
+            { "name": "GPIO3", "numbers": ["20"], "type": "input" },
+            { "name": "GPIO4", "numbers": ["22"], "type": "input" },
+            { "name": "GPIO5", "numbers": ["21"], "type": "output" },
+            { "name": "GPIO6", "numbers": ["3"], "type": "input" },
+            { "name": "GPIO7", "numbers": ["4"], "type": "input" },
+            { "name": "GPIO8", "numbers": ["31"], "type": "output" },
+            { "name": "GPIO9", "numbers": ["32"], "type": "bidirectional" },
+            { "name": "GPIO10", "numbers": ["33"], "type": "bidirectional" },
+            { "name": "GPIO11", "numbers": ["34"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "AIO0", "numbers": ["30"], "type": "input" },
+            { "name": "AIO1", "numbers": ["35"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "~{RESET}", "numbers": ["5"], "type": "input" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["11"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["1", "12", "28", "29"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

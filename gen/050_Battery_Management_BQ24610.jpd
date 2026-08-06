@@ -1,0 +1,52 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "BQ24610",
+      "package": "VQFN-24 (RGE)",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/bq24610.pdf",
+        "Description": "Standalone synchronous switch-mode battery charge controller"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "ACN", "numbers": ["1"], "type": "input" },
+            { "name": "ACP", "numbers": ["2"], "type": "input" },
+            { "name": "~{ACDRV}", "numbers": ["3"], "type": "output" },
+            { "name": "CE", "numbers": ["4"], "type": "input" },
+            { "name": "STAT1", "numbers": ["5"], "type": "open_collector" },
+            { "name": "TS", "numbers": ["6"], "type": "input" }
+          ],
+          "bottom": [
+            { "name": "TTC", "numbers": ["7"], "type": "input" },
+            { "name": "~{PG}", "numbers": ["8"], "type": "open_collector" },
+            { "name": "STAT2", "numbers": ["9"], "type": "open_collector" },
+            { "name": "VREF", "numbers": ["10"], "type": "power_out" },
+            { "name": "ISET1", "numbers": ["11"], "type": "input" },
+            { "name": "VFB", "numbers": ["12"], "type": "input" },
+            { "name": "PAD", "numbers": ["25"], "type": "power_in" }
+          ],
+          "right": [
+            { "name": "REGN", "numbers": ["18"], "type": "power_out" },
+            { "name": "GND", "numbers": ["17"], "type": "power_in" },
+            { "name": "ACSET", "numbers": ["16"], "type": "input" },
+            { "name": "ISET2", "numbers": ["15"], "type": "input" },
+            { "name": "SRP", "numbers": ["14"], "type": "input" },
+            { "name": "SRN", "numbers": ["13"], "type": "input" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["24"], "type": "power_in" },
+            { "name": "~{BATDRV}", "numbers": ["23"], "type": "output" },
+            { "name": "BTST", "numbers": ["22"], "type": "passive" },
+            { "name": "HIDRV", "numbers": ["21"], "type": "output" },
+            { "name": "PH", "numbers": ["20"], "type": "passive" },
+            { "name": "LODRV", "numbers": ["19"], "type": "output" }
+          ]
+        }
+      ]
+    }
+  ]
+}

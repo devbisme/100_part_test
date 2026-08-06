@@ -1,0 +1,379 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol MAX16051xTI
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at -8.89 31.75 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value MAX16051xTI
+      (at 8.89 31.75 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Package_DFN_QFN:WQFN-28-1EP_4x4mm_P0.4mm_EP2.7x2.7mm
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://datasheets.maximintegrated.com/en/ds/MAX16050-MAX16051.pdf
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description 6 Voltage Monitor/Sequencer with Reverse-Sequencing Capability, WQFN-28
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords power sequencing
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters *QFN*4x4mm*P0.4mm*EP2.7x2.7*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol MAX16051xTI_0_1
+      (rectangle
+        (start -10.16 30.48)
+        (end 10.16 -30.48)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol MAX16051xTI_1_1
+      (pin input line
+        (at -12.7 27.94 0)
+        (length 2.54)
+        (name EN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 25.4 0)
+        (length 2.54)
+        (name ~{EN_HOLD}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 22.86 0)
+        (length 2.54)
+        (name ~{SHDN}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 22
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 15.24 0)
+        (length 2.54)
+        (name SET1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 12.7 0)
+        (length 2.54)
+        (name DISC1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 7.62 0)
+        (length 2.54)
+        (name SET2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 5.08 0)
+        (length 2.54)
+        (name DISC2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 0 0)
+        (length 2.54)
+        (name SET3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -2.54 0)
+        (length 2.54)
+        (name DISC3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -7.62 0)
+        (length 2.54)
+        (name SET4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -10.16 0)
+        (length 2.54)
+        (name DISC4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -15.24 0)
+        (length 2.54)
+        (name SET5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 27
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -17.78 0)
+        (length 2.54)
+        (name DISC5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 25
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -12.7 -22.86 0)
+        (length 2.54)
+        (name TIMEOUT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 24
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -12.7 -25.4 0)
+        (length 2.54)
+        (name DELAY
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 23
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -12.7 -27.94 0)
+        (length 2.54)
+        (name ABP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 33.02 270)
+        (length 2.54)
+        (name VCC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -33.02 90)
+        (length 2.54)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -33.02 90)
+        (length 2.54)
+        (hide yes)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 29
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 27.94 180)
+        (length 2.54)
+        (name REM
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 25.4 180)
+        (length 2.54)
+        (name ~{OV_OUT}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 22.86 180)
+        (length 2.54)
+        (name ~{RESET}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 12.7 20.32 180)
+        (length 2.54)
+        (name ~{FAULT}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 21
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 15.24 180)
+        (length 2.54)
+        (name OUT1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 7.62 180)
+        (length 2.54)
+        (name OUT2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 0 180)
+        (length 2.54)
+        (name OUT3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 -7.62 180)
+        (length 2.54)
+        (name OUT4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 -15.24 180)
+        (length 2.54)
+        (name OUT5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 26
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 12.7 -22.86 180)
+        (length 2.54)
+        (name CP_OUT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 28
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

@@ -1,0 +1,62 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "HEF4093B",
+      "package": "SO14 (SOT108-1)",
+      "expected_pin_count": 14,
+      "properties": {
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/HEF4093B.pdf",
+        "Description": "Quad 2-input NAND Schmitt trigger"
+      },
+      "units": [
+        {
+          "name": "A",
+          "left": [
+            { "name": "1A", "numbers": ["1"], "type": "input" },
+            { "name": "1B", "numbers": ["2"], "type": "input" }
+          ],
+          "right": [
+            { "name": "1Y", "numbers": ["3"], "type": "output", "style": "inverted" }
+          ]
+        },
+        {
+          "name": "B",
+          "left": [
+            { "name": "2A", "numbers": ["5"], "type": "input" },
+            { "name": "2B", "numbers": ["6"], "type": "input" }
+          ],
+          "right": [
+            { "name": "2Y", "numbers": ["4"], "type": "output", "style": "inverted" }
+          ]
+        },
+        {
+          "name": "C",
+          "left": [
+            { "name": "3A", "numbers": ["8"], "type": "input" },
+            { "name": "3B", "numbers": ["9"], "type": "input" }
+          ],
+          "right": [
+            { "name": "3Y", "numbers": ["10"], "type": "output", "style": "inverted" }
+          ]
+        },
+        {
+          "name": "D",
+          "left": [
+            { "name": "4A", "numbers": ["12"], "type": "input" },
+            { "name": "4B", "numbers": ["13"], "type": "input" }
+          ],
+          "right": [
+            { "name": "4Y", "numbers": ["11"], "type": "output", "style": "inverted" }
+          ]
+        },
+        {
+          "name": "PWR",
+          "top": [ { "name": "VDD", "numbers": ["14"], "type": "power_in" } ],
+          "bottom": [ { "name": "VSS", "numbers": ["7"], "type": "power_in" } ]
+        }
+      ]
+    }
+  ]
+}

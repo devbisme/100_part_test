@@ -1,0 +1,385 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "C8051F384-GQ",
+      "package": "TQFP-48",
+      "expected_pin_count": 48,
+      "properties": {
+        "Datasheet": "https://www.silabs.com/documents/public/data-sheets/C8051F38x.pdf",
+        "Description": "8051 full-speed USB flash microcontroller, 64KB flash, TQFP-48"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "P0.0",
+              "numbers": [
+                "6"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.1",
+              "numbers": [
+                "5"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.2",
+              "numbers": [
+                "4"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.3",
+              "numbers": [
+                "3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.4",
+              "numbers": [
+                "2"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.5",
+              "numbers": [
+                "1"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.6",
+              "numbers": [
+                "48"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P0.7",
+              "numbers": [
+                "47"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "P1.0",
+              "numbers": [
+                "46"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.1",
+              "numbers": [
+                "45"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.2",
+              "numbers": [
+                "44"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.3",
+              "numbers": [
+                "43"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.4",
+              "numbers": [
+                "42"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.5",
+              "numbers": [
+                "41"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.6",
+              "numbers": [
+                "40"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P1.7",
+              "numbers": [
+                "39"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "P2.0",
+              "numbers": [
+                "38"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.1",
+              "numbers": [
+                "37"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.2",
+              "numbers": [
+                "36"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.3",
+              "numbers": [
+                "35"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.4",
+              "numbers": [
+                "34"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.5",
+              "numbers": [
+                "33"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.6",
+              "numbers": [
+                "32"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P2.7",
+              "numbers": [
+                "31"
+              ],
+              "type": "bidirectional"
+            }
+          ],
+          "right": [
+            {
+              "name": "P3.0",
+              "numbers": [
+                "30"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.1",
+              "numbers": [
+                "29"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.2",
+              "numbers": [
+                "28"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.3",
+              "numbers": [
+                "27"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.4",
+              "numbers": [
+                "26"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.5",
+              "numbers": [
+                "25"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.6",
+              "numbers": [
+                "24"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P3.7",
+              "numbers": [
+                "23"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "P4.0",
+              "numbers": [
+                "22"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.1",
+              "numbers": [
+                "21"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.2",
+              "numbers": [
+                "20"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.3",
+              "numbers": [
+                "19"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.4",
+              "numbers": [
+                "18"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.5",
+              "numbers": [
+                "17"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.6",
+              "numbers": [
+                "16"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "P4.7",
+              "numbers": [
+                "15"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "D+",
+              "numbers": [
+                "8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "D-",
+              "numbers": [
+                "9"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "~{RST}",
+              "numbers": [
+                "13"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "C2CK",
+                  "type": "input",
+                  "style": "clock"
+                }
+              ]
+            },
+            {
+              "name": "C2D",
+              "numbers": [
+                "14"
+              ],
+              "type": "bidirectional"
+            }
+          ],
+          "top": [
+            {
+              "name": "VDD",
+              "numbers": [
+                "10"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "REGIN",
+              "numbers": [
+                "11"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VBUS",
+              "numbers": [
+                "12"
+              ],
+              "type": "input"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "GND",
+              "numbers": [
+                "7"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

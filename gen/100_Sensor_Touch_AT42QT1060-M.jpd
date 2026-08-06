@@ -1,0 +1,54 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "AT42QT1060-M",
+      "package": "QFN-28",
+      "expected_pin_count": 28,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/doc9505.pdf",
+        "Description": "6-key QTouch capacitive touch sensor with I2C interface"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "SNS0", "numbers": ["10"], "type": "bidirectional" },
+            { "name": "SNS0K", "numbers": ["28"], "type": "bidirectional" },
+            { "name": "SNS1", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "SNS1K", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "SNS2", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "SNS2K", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "SNS3", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "SNS3K", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "SNS4", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "SNS4K", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "SNS5", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "SNS5K", "numbers": ["9"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "IO0", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "IO1", "numbers": ["20"], "type": "bidirectional" },
+            { "name": "IO2", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "IO3", "numbers": ["26"], "type": "bidirectional" },
+            { "name": "IO4", "numbers": ["27"], "type": "bidirectional" },
+            { "name": "IO5", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "IO6", "numbers": ["6"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "SDA", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "SCL", "numbers": ["24"], "type": "bidirectional", "style": "clock" },
+            { "name": "~{CHG}", "numbers": ["22"], "type": "open_collector" },
+            { "spacer": 1 },
+            { "name": "~{RST}", "numbers": ["25"], "type": "input" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["3", "16", "17"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["4", "18"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

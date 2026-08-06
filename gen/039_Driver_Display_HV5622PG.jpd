@@ -1,0 +1,46 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "HV5622PG",
+      "package": "PQFP-44 (PG)",
+      "expected_pin_count": 44,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/HV5622-32-Channel-Serial-to-Parallel-Converter-with-Open-Drain-Outputs-DS20005854A.pdf",
+        "Description": "32-channel serial-to-parallel converter with open-drain high-voltage outputs"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "DATA_IN", "numbers": ["32"], "type": "input" },
+            { "name": "CLK", "numbers": ["28"], "type": "input", "style": "clock" },
+            { "spacer": 1 },
+            { "name": "~{LE}", "numbers": ["31"], "type": "input" },
+            { "name": "~{BL}", "numbers": ["33"], "type": "input" },
+            { "name": "~{POL}", "numbers": ["27"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "DATA_OUT", "numbers": ["23"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["24", "25", "26", "34"], "type": "no_connect" }
+          ],
+          "right": [
+            { "name": "HVOUT1",
+              "numbers": ["22", "21", "20", "19", "18", "17", "16", "15", "14", "13", "12",
+                          "11", "10", "9", "8", "7", "6", "5", "4", "3", "2", "1"],
+              "type": "open_collector", "increment": true },
+            { "name": "HVOUT23",
+              "numbers": ["44", "43", "42", "41", "40", "39", "38", "37", "36", "35"],
+              "type": "open_collector", "increment": true }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["30"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["29"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

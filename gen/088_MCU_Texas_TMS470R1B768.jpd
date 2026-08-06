@@ -1,0 +1,972 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TMS470R1B768",
+      "package": "LQFP-144 (PGE)",
+      "expected_pin_count": 144,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tms470r1b768.pdf",
+        "Description": "16/32-bit ARM7TDMI RISC MCU, 768KB flash, 48KB RAM, 3x CAN, LQFP-144"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "~{PORRST}",
+              "numbers": [
+                "32"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{RST}",
+              "numbers": [
+                "15"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "AWD",
+              "numbers": [
+                "72"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "OSCIN",
+              "numbers": [
+                "13"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "OSCOUT",
+              "numbers": [
+                "12"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "PLLDIS",
+              "numbers": [
+                "73"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "CLKOUT",
+              "numbers": [
+                "83"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "TCK",
+              "numbers": [
+                "76"
+              ],
+              "type": "input",
+              "style": "clock"
+            },
+            {
+              "name": "TDI",
+              "numbers": [
+                "74"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "TDO",
+              "numbers": [
+                "75"
+              ],
+              "type": "output"
+            },
+            {
+              "name": "TMS",
+              "numbers": [
+                "120"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "TMS2",
+              "numbers": [
+                "121"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{TRST}",
+              "numbers": [
+                "37"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "TEST",
+              "numbers": [
+                "38"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "ADIN[0]",
+              "numbers": [
+                "108"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[1]",
+              "numbers": [
+                "107"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[2]",
+              "numbers": [
+                "106"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[3]",
+              "numbers": [
+                "105"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[4]",
+              "numbers": [
+                "104"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[5]",
+              "numbers": [
+                "102"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[6]",
+              "numbers": [
+                "101"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[7]",
+              "numbers": [
+                "100"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[8]",
+              "numbers": [
+                "115"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[9]",
+              "numbers": [
+                "113"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[10]",
+              "numbers": [
+                "111"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[11]",
+              "numbers": [
+                "109"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[12]",
+              "numbers": [
+                "114"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[13]",
+              "numbers": [
+                "112"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[14]",
+              "numbers": [
+                "110"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADIN[15]",
+              "numbers": [
+                "103"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADEVT",
+              "numbers": [
+                "99"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "ADREFHI",
+              "numbers": [
+                "116"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ADREFLO",
+              "numbers": [
+                "117"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "FLTP1",
+              "numbers": [
+                "134"
+              ],
+              "type": "no_connect",
+              "hidden": true
+            },
+            {
+              "name": "FLTP2",
+              "numbers": [
+                "133"
+              ],
+              "type": "no_connect",
+              "hidden": true
+            }
+          ],
+          "right": [
+            {
+              "name": "HET[0]",
+              "numbers": [
+                "129"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[1]",
+              "numbers": [
+                "130"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[2]",
+              "numbers": [
+                "137"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[3]",
+              "numbers": [
+                "138"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[4]",
+              "numbers": [
+                "139"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[5]",
+              "numbers": [
+                "140"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[6]",
+              "numbers": [
+                "141"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[7]",
+              "numbers": [
+                "142"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[8]",
+              "numbers": [
+                "79"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[9]",
+              "numbers": [
+                "80"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[10]",
+              "numbers": [
+                "29"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[11]",
+              "numbers": [
+                "28"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[12]",
+              "numbers": [
+                "27"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[13]",
+              "numbers": [
+                "26"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[14]",
+              "numbers": [
+                "25"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[15]",
+              "numbers": [
+                "24"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[16]",
+              "numbers": [
+                "23"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[17]",
+              "numbers": [
+                "22"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[18]",
+              "numbers": [
+                "71"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[19]",
+              "numbers": [
+                "70"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[20]",
+              "numbers": [
+                "69"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[21]",
+              "numbers": [
+                "68"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[22]",
+              "numbers": [
+                "67"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[23]",
+              "numbers": [
+                "123"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[24]",
+              "numbers": [
+                "51"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[25]",
+              "numbers": [
+                "124"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[26]",
+              "numbers": [
+                "125"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[27]",
+              "numbers": [
+                "126"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[28]",
+              "numbers": [
+                "47"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[29]",
+              "numbers": [
+                "48"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[30]",
+              "numbers": [
+                "49"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "HET[31]",
+              "numbers": [
+                "50"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "CAN1HTX",
+              "numbers": [
+                "88"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "CAN1HRX",
+              "numbers": [
+                "87"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "CAN2HTX",
+              "numbers": [
+                "56"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "CAN2HRX",
+              "numbers": [
+                "57"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "CAN3HTX",
+              "numbers": [
+                "78"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "CAN3HRX",
+              "numbers": [
+                "77"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "GIOA[0]/INT0",
+              "numbers": [
+                "39"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "GIOA[1]/INT1/ECLK",
+              "numbers": [
+                "40"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOA[2]/INT2",
+              "numbers": [
+                "41"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOA[3]/INT3",
+              "numbers": [
+                "42"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOA[4]/INT4",
+              "numbers": [
+                "36"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOA[5]/INT5",
+              "numbers": [
+                "35"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOA[6]/INT6",
+              "numbers": [
+                "34"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOA[7]/INT7",
+              "numbers": [
+                "33"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOB[7]",
+              "numbers": [
+                "84"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOC[0]",
+              "numbers": [
+                "122"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOC[1]",
+              "numbers": [
+                "143"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOC[2]",
+              "numbers": [
+                "144"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOD[0]",
+              "numbers": [
+                "21"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOD[1]",
+              "numbers": [
+                "20"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOD[2]",
+              "numbers": [
+                "19"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "GIOD[3]",
+              "numbers": [
+                "18"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "SPI1CLK",
+              "numbers": [
+                "5"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI1ENA",
+              "numbers": [
+                "1"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI1SCS",
+              "numbers": [
+                "2"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI1SIMO",
+              "numbers": [
+                "3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI1SOMI",
+              "numbers": [
+                "4"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "SPI2CLK",
+              "numbers": [
+                "62"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI2ENA",
+              "numbers": [
+                "65"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI2SCS",
+              "numbers": [
+                "66"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI2SIMO",
+              "numbers": [
+                "63"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI2SOMI",
+              "numbers": [
+                "64"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "SPI3CLK",
+              "numbers": [
+                "94"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI3ENA",
+              "numbers": [
+                "98"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI3SCS",
+              "numbers": [
+                "97"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI3SIMO",
+              "numbers": [
+                "96"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI3SOMI",
+              "numbers": [
+                "95"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "SPI4CLK",
+              "numbers": [
+                "10"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI4ENA",
+              "numbers": [
+                "6"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI4SCS",
+              "numbers": [
+                "7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI4SIMO",
+              "numbers": [
+                "8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI4SOMI",
+              "numbers": [
+                "9"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "SPI5CLK",
+              "numbers": [
+                "60"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI5ENA",
+              "numbers": [
+                "61"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI5SCS",
+              "numbers": [
+                "46"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI5SIMO",
+              "numbers": [
+                "58"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SPI5SOMI",
+              "numbers": [
+                "59"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "SCI1CLK",
+              "numbers": [
+                "89"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SCI1RX",
+              "numbers": [
+                "91"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SCI1TX",
+              "numbers": [
+                "90"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SCI2CLK",
+              "numbers": [
+                "45"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SCI2RX",
+              "numbers": [
+                "43"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "SCI2TX",
+              "numbers": [
+                "44"
+              ],
+              "type": "bidirectional"
+            }
+          ],
+          "top": [
+            {
+              "name": "VCC",
+              "numbers": [
+                "14",
+                "31",
+                "55",
+                "86",
+                "93",
+                "128",
+                "132"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCIO",
+              "numbers": [
+                "17",
+                "53",
+                "82"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCP",
+              "numbers": [
+                "135"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VCCAD",
+              "numbers": [
+                "118"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "VSS",
+              "numbers": [
+                "11",
+                "30",
+                "54",
+                "85",
+                "92",
+                "127",
+                "131",
+                "136"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VSSIO",
+              "numbers": [
+                "16",
+                "52",
+                "81"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VSSAD",
+              "numbers": [
+                "119"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

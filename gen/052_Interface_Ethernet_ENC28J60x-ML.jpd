@@ -1,0 +1,60 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ENC28J60x-ML",
+      "package": "QFN-28 (ML)",
+      "expected_pin_count": 29,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/39662e.pdf",
+        "Description": "Stand-alone Ethernet controller with SPI interface, 10Base-T"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "~{CS}", "numbers": ["5"], "type": "input" },
+            { "name": "SCK", "numbers": ["4"], "type": "input", "style": "clock" },
+            { "name": "SI", "numbers": ["3"], "type": "input" },
+            { "name": "SO", "numbers": ["2"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{RESET}", "numbers": ["6"], "type": "input" },
+            { "name": "~{INT}", "numbers": ["28"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "OSC1", "numbers": ["19"], "type": "input" },
+            { "name": "OSC2", "numbers": ["20"], "type": "output" },
+            { "name": "CLKOUT", "numbers": ["27"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["1"], "type": "no_connect" }
+          ],
+          "right": [
+            { "name": "TPIN+", "numbers": ["9"], "type": "input" },
+            { "name": "TPIN-", "numbers": ["8"], "type": "input" },
+            { "name": "TPOUT+", "numbers": ["13"], "type": "output" },
+            { "name": "TPOUT-", "numbers": ["12"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "RBIAS", "numbers": ["10"], "type": "passive" },
+            { "name": "VCAP", "numbers": ["25"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "LEDA", "numbers": ["23"], "type": "output" },
+            { "name": "LEDB", "numbers": ["22"], "type": "output" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["24"], "type": "power_in" },
+            { "name": "VDDOSC", "numbers": ["21"], "type": "power_in" },
+            { "name": "VDDPLL", "numbers": ["16"], "type": "power_in" },
+            { "name": "VDDRX", "numbers": ["15"], "type": "power_in" },
+            { "name": "VDDTX", "numbers": ["11"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["26", "29"], "type": "power_in" },
+            { "name": "VSSOSC", "numbers": ["18"], "type": "power_in" },
+            { "name": "VSSPLL", "numbers": ["17"], "type": "power_in" },
+            { "name": "VSSRX", "numbers": ["7"], "type": "power_in" },
+            { "name": "VSSTX", "numbers": ["14"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

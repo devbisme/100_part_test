@@ -1,0 +1,62 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "BMF055",
+      "package": "LGA-28 5.2x3.8mm",
+      "expected_pin_count": 28,
+      "properties": {
+        "Datasheet": "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmf055-ds000.pdf",
+        "Description": "9-axis motion sensor with integrated Cortex-M0+ microcontroller"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "PA00", "numbers": ["27"], "type": "bidirectional",
+              "alternates": [ { "name": "XIN32", "type": "input" } ] },
+            { "name": "PA01", "numbers": ["26"], "type": "bidirectional",
+              "alternates": [ { "name": "XOUT32", "type": "output" } ] },
+            { "spacer": 1 },
+            { "name": "PA16", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "PA17", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "PA18", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "PA19", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "PA20", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "PA21", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "PA22", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "PA23", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "PA24", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "PA27", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "PA28", "numbers": ["10"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "PB00", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "PB01", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "PB02", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "PB03", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "PB16", "numbers": ["20"], "type": "bidirectional" },
+            { "name": "PB17", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "PB23", "numbers": ["13"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PA30", "numbers": ["8"], "type": "bidirectional",
+              "alternates": [ { "name": "SWCLK", "type": "input", "style": "clock" } ] },
+            { "name": "PA31", "numbers": ["7"], "type": "bidirectional",
+              "alternates": [ { "name": "SWDIO", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "RESETN", "numbers": ["11"], "type": "input" },
+            { "name": "CAP", "numbers": ["9"], "type": "passive" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["3"], "type": "power_in" },
+            { "name": "VDDIO", "numbers": ["28"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["2"], "type": "power_in" },
+            { "name": "GNDIO", "numbers": ["25"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

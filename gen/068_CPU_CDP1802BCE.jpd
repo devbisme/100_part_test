@@ -1,0 +1,63 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "CDP1802BCE",
+      "package": "PDIP-40 (suffix E)",
+      "expected_pin_count": 40,
+      "properties": {
+        "Datasheet": "http://www.cosmacelf.com/publications/data-sheets/cdp1802.pdf",
+        "Description": "CMOS 8-bit microprocessor"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "CLOCK", "numbers": ["1"], "type": "input", "style": "clock" },
+            { "name": "~{WAIT}", "numbers": ["2"], "type": "input" },
+            { "name": "~{CLEAR}", "numbers": ["3"], "type": "input" },
+            { "name": "Q", "numbers": ["4"], "type": "output" },
+            { "name": "SC1", "numbers": ["5"], "type": "output" },
+            { "name": "SC0", "numbers": ["6"], "type": "output" },
+            { "name": "~{MRD}", "numbers": ["7"], "type": "output" },
+            { "name": "BUS7", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "BUS6", "numbers": ["9"], "type": "bidirectional" },
+            { "name": "BUS5", "numbers": ["10"], "type": "bidirectional" },
+            { "name": "BUS4", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "BUS3", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "BUS2", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "BUS1", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "BUS0", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "VCC", "numbers": ["16"], "type": "power_in" },
+            { "name": "N2", "numbers": ["17"], "type": "output" },
+            { "name": "N1", "numbers": ["18"], "type": "output" },
+            { "name": "N0", "numbers": ["19"], "type": "output" },
+            { "name": "VSS", "numbers": ["20"], "type": "power_in" }
+          ],
+          "right": [
+            { "name": "VDD", "numbers": ["40"], "type": "power_in" },
+            { "name": "XTAL", "numbers": ["39"], "type": "output" },
+            { "name": "~{DMA_IN}", "numbers": ["38"], "type": "input" },
+            { "name": "~{DMA_OUT}", "numbers": ["37"], "type": "input" },
+            { "name": "~{INTERRUPT}", "numbers": ["36"], "type": "input" },
+            { "name": "~{MWR}", "numbers": ["35"], "type": "output" },
+            { "name": "TPA", "numbers": ["34"], "type": "output" },
+            { "name": "TPB", "numbers": ["33"], "type": "output" },
+            { "name": "MA7", "numbers": ["32"], "type": "output" },
+            { "name": "MA6", "numbers": ["31"], "type": "output" },
+            { "name": "MA5", "numbers": ["30"], "type": "output" },
+            { "name": "MA4", "numbers": ["29"], "type": "output" },
+            { "name": "MA3", "numbers": ["28"], "type": "output" },
+            { "name": "MA2", "numbers": ["27"], "type": "output" },
+            { "name": "MA1", "numbers": ["26"], "type": "output" },
+            { "name": "MA0", "numbers": ["25"], "type": "output" },
+            { "name": "~{EF1}", "numbers": ["24"], "type": "input" },
+            { "name": "~{EF2}", "numbers": ["23"], "type": "input" },
+            { "name": "~{EF3}", "numbers": ["22"], "type": "input" },
+            { "name": "~{EF4}", "numbers": ["21"], "type": "input" }
+          ]
+        }
+      ]
+    }
+  ]
+}

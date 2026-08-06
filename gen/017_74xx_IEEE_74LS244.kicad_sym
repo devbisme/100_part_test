@@ -1,0 +1,315 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "74LS244"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -8.89 12.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "74LS244"
+      (at -8.89 10.16 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -8.89 9.525 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+      (at -8.89 9.525 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "Octal buffer/line driver with 3-state outputs"
+      (at -8.89 9.525 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -8.89 9.525 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -8.89 9.525 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -8.89 9.525 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "74LS244_1_1"
+      (unit_name A)
+      (rectangle
+        (start -8.89 -8.89)
+        (end 8.89 8.89)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input line
+        (at -13.97 6.35 0)
+        (length 5.08)
+        (name "~{1G}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 1.2699999999999996 0)
+        (length 5.08)
+        (name "1A1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 -1.2700000000000005 0)
+        (length 5.08)
+        (name "1A2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 -3.8100000000000005 0)
+        (length 5.08)
+        (name "1A3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 -6.3500000000000005 0)
+        (length 5.08)
+        (name "1A4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 1.2699999999999996 180)
+        (length 5.08)
+        (name "1Y1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 -1.2700000000000005 180)
+        (length 5.08)
+        (name "1Y2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 -3.8100000000000005 180)
+        (length 5.08)
+        (name "1Y3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 -6.3500000000000005 180)
+        (length 5.08)
+        (name "1Y4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (symbol "74LS244_2_1"
+      (unit_name B)
+      (rectangle
+        (start -8.89 -8.89)
+        (end 8.89 8.89)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input line
+        (at -13.97 6.35 0)
+        (length 5.08)
+        (name "~{2G}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 1.2699999999999996 0)
+        (length 5.08)
+        (name "2A1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 -1.2700000000000005 0)
+        (length 5.08)
+        (name "2A2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 -3.8100000000000005 0)
+        (length 5.08)
+        (name "2A3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -13.97 -6.3500000000000005 0)
+        (length 5.08)
+        (name "2A4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 1.2699999999999996 180)
+        (length 5.08)
+        (name "2Y1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 -1.2700000000000005 180)
+        (length 5.08)
+        (name "2Y2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 -3.8100000000000005 180)
+        (length 5.08)
+        (name "2Y3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin tri_state line
+        (at 13.97 -6.3500000000000005 180)
+        (length 5.08)
+        (name "2Y4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (symbol "74LS244_3_1"
+      (unit_name PWR)
+      (rectangle
+        (start -2.54 -6.35)
+        (end 2.54 6.35)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at 0.0 11.43 270)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -11.43 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

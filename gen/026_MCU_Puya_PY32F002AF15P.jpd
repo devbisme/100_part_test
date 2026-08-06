@@ -1,0 +1,56 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "PY32F002AF15P",
+      "package": "TSSOP-20",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://www.puyasemi.com/uploadfiles/2023/08/PY32F002A.pdf",
+        "Description": "32-bit Cortex-M0+ MCU, 20 KB flash, 3 KB SRAM, TSSOP-20"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "PA0", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "PA1", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "PA2", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "PA3", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "PA4", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "PA5", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "PA6", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "PA7", "numbers": ["16"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PA13", "numbers": ["2"], "type": "bidirectional",
+              "alternates": [ { "name": "SWD", "type": "bidirectional" } ] },
+            { "name": "PA14", "numbers": ["3"], "type": "bidirectional",
+              "alternates": [ { "name": "SWC", "type": "input" } ] }
+          ],
+          "right": [
+            { "name": "PB0", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "PB1", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "PB2", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "PB3", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "PB6", "numbers": ["5"], "type": "bidirectional",
+              "alternates": [ { "name": "PF4", "type": "bidirectional" },
+                              { "name": "BOOT0", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "PF0", "numbers": ["8"], "type": "bidirectional",
+              "alternates": [ { "name": "OSC_IN", "type": "input" } ] },
+            { "name": "PF1", "numbers": ["9"], "type": "bidirectional",
+              "alternates": [ { "name": "OSC_OUT", "type": "output" } ] },
+            { "name": "PF2", "numbers": ["10"], "type": "bidirectional",
+              "alternates": [ { "name": "NRST", "type": "input", "style": "input_low" } ] }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["20"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["1"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

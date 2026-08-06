@@ -1,0 +1,601 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol Si5344A-D
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at 0 2.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value Si5344A-D
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm
+      (at 0 -2.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+      (at -2.54 25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description Jitter Attenuator/Clock Multiplier, 4 channel, Fractional, 0.001-1028 MHz, QFN-44
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords Clock Jitter Attenuator Multiplier
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters QFN*1EP*7x7mm*P0.5mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol Si5344A-D_0_1
+      (rectangle
+        (start -20.32 38.1)
+        (end 20.32 -38.1)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol Si5344A-D_1_1
+      (pin input line
+        (at -22.86 35.56 0)
+        (length 2.54)
+        (name IN0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 43
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 33.02 0)
+        (length 2.54)
+        (name IN0b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 44
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 27.94 0)
+        (length 2.54)
+        (name IN1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 25.4 0)
+        (length 2.54)
+        (name IN1b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 20.32 0)
+        (length 2.54)
+        (name IN2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 17.78 0)
+        (length 2.54)
+        (name IN2b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 12.7 0)
+        (length 2.54)
+        (name IN3/FB_IN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 41
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 10.16 0)
+        (length 2.54)
+        (name IN3b/FB_INb
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 42
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 5.08 0)
+        (length 2.54)
+        (name X1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 2.54 0)
+        (length 2.54)
+        (name XA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -2.54 0)
+        (length 2.54)
+        (name XB
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -5.08 0)
+        (length 2.54)
+        (name X2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -10.16 0)
+        (length 2.54)
+        (name ~{RST}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -12.7 0)
+        (length 2.54)
+        (name ~{OE}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -17.78 0)
+        (length 2.54)
+        (name IN_SEL0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -20.32 0)
+        (length 2.54)
+        (name IN_SEL1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 37
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -25.4 0)
+        (length 2.54)
+        (name I2C_SEL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 38
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -22.86 -27.94 0)
+        (length 2.54)
+        (name SDA/SDIO
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -22.86 -30.48 0)
+        (length 2.54)
+        (name A1/SDO
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -33.02 0)
+        (length 2.54)
+        (name SCLK
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -22.86 -35.56 0)
+        (length 2.54)
+        (name A0/~{CS}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.16 40.64 270)
+        (length 2.54)
+        (name VDDA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -10.16 40.64 270)
+        (length 2.54)
+        (hide yes)
+        (name VDDA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.62 40.64 270)
+        (length 2.54)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 21
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 40.64 270)
+        (length 2.54)
+        (hide yes)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 32
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 40.64 270)
+        (length 2.54)
+        (hide yes)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 39
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -7.62 40.64 270)
+        (length 2.54)
+        (hide yes)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 40
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 40.64 270)
+        (length 2.54)
+        (name VDDS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 26
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -40.64 90)
+        (length 2.54)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 45
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 40.64 270)
+        (length 2.54)
+        (name VDDO0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 5.08 40.64 270)
+        (length 2.54)
+        (name VDDO1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 23
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 7.62 40.64 270)
+        (length 2.54)
+        (name VDDO2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 29
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 10.16 40.64 270)
+        (length 2.54)
+        (name VDDO3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 34
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 20.32 -35.56 180)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 22
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 35.56 180)
+        (length 2.54)
+        (name OUT0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 33.02 180)
+        (length 2.54)
+        (name OUT0b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 27.94 180)
+        (length 2.54)
+        (name OUT1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 25
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 25.4 180)
+        (length 2.54)
+        (name OUT1b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 24
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 20.32 180)
+        (length 2.54)
+        (name OUT2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 31
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 17.78 180)
+        (length 2.54)
+        (name OUT2b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 30
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 12.7 180)
+        (length 2.54)
+        (name OUT3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 36
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 10.16 180)
+        (length 2.54)
+        (name OUT3b
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 35
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 5.08 180)
+        (length 2.54)
+        (name ~{LOS_XAXB}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 28
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 0 180)
+        (length 2.54)
+        (name ~{INTR}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 33
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 22.86 -2.54 180)
+        (length 2.54)
+        (name ~{LOL}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 27
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol Si5344C-D
+    (extends Si5344A-D)
+    (property Reference U
+      (at 0 2.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value Si5344C-D
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm
+      (at 0 -2.54 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://www.silabs.com/documents/public/data-sheets/Si5345-44-42-D-DataSheet.pdf
+      (at -2.54 25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description Jitter Attenuator/Clock Multiplier, 4 channel, Integer, 0.001-1028 MHz, QFN-44
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords Clock Jitter Attenuator Multiplier
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters QFN*1EP*7x7mm*P0.5mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))))

@@ -1,0 +1,143 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "DL1416",
+      "package": "DIP-20 display module",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://www.mouser.com/datasheet/2/311/DL1416B-1370154.pdf",
+        "Description": "4-digit 16-segment alphanumeric intelligent display with memory/decoder/driver"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "D0",
+              "numbers": [
+                "3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "D1",
+              "numbers": [
+                "4"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "D2",
+              "numbers": [
+                "5"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "D3",
+              "numbers": [
+                "6"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "D4",
+              "numbers": [
+                "2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "D5",
+              "numbers": [
+                "1"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "D6",
+              "numbers": [
+                "20"
+              ],
+              "type": "input"
+            }
+          ],
+          "right": [
+            {
+              "name": "A0",
+              "numbers": [
+                "10"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A1",
+              "numbers": [
+                "11"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "~{CE}",
+              "numbers": [
+                "7"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{WR}",
+              "numbers": [
+                "8"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{CU}",
+              "numbers": [
+                "9"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "NC",
+              "numbers": [
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+              ],
+              "type": "no_connect"
+            }
+          ],
+          "top": [
+            {
+              "name": "V+",
+              "numbers": [
+                "18"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "V-",
+              "numbers": [
+                "19"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

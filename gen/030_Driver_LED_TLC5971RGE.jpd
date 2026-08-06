@@ -1,0 +1,53 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TLC5971RGE",
+      "package": "VQFN-24 (RGE)",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/tlc5971.pdf",
+        "Description": "12-channel, 16-bit PWM RGB LED driver with constant-current sinks"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "SDTI", "numbers": ["1"], "type": "input" },
+            { "name": "SCKI", "numbers": ["2"], "type": "input", "style": "clock" },
+            { "spacer": 1 },
+            { "name": "IREF", "numbers": ["16"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["3", "4", "14", "17"], "type": "no_connect" }
+          ],
+          "right": [
+            { "name": "SDTO", "numbers": ["6"], "type": "output" },
+            { "name": "SCKO", "numbers": ["5"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "OUTR0", "numbers": ["19"], "type": "output" },
+            { "name": "OUTR1", "numbers": ["22"], "type": "output" },
+            { "name": "OUTR2", "numbers": ["7"], "type": "output" },
+            { "name": "OUTR3", "numbers": ["10"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "OUTG0", "numbers": ["20"], "type": "output" },
+            { "name": "OUTG1", "numbers": ["23"], "type": "output" },
+            { "name": "OUTG2", "numbers": ["8"], "type": "output" },
+            { "name": "OUTG3", "numbers": ["11"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "OUTB0", "numbers": ["21"], "type": "output" },
+            { "name": "OUTB1", "numbers": ["24"], "type": "output" },
+            { "name": "OUTB2", "numbers": ["9"], "type": "output" },
+            { "name": "OUTB3", "numbers": ["12"], "type": "output" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["13"], "type": "power_in" },
+            { "name": "VREG", "numbers": ["15"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["18", "25"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

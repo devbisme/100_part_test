@@ -1,0 +1,52 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "UCC1895J",
+      "package": "CDIP-20 (J)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/ucc1895.pdf",
+        "Description": "BiCMOS advanced phase-shift PWM controller"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "EAP", "numbers": ["20"], "type": "input" },
+            { "name": "EAN", "numbers": ["1"], "type": "input" },
+            { "name": "EAOUT", "numbers": ["2"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "RAMP", "numbers": ["3"], "type": "input" },
+            { "name": "CS", "numbers": ["12"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "SS/DISB", "numbers": ["19"], "type": "input" },
+            { "name": "SYNC", "numbers": ["6"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "CT", "numbers": ["7"], "type": "input" },
+            { "name": "RT", "numbers": ["8"], "type": "input" }
+          ],
+          "right": [
+            { "name": "OUTA", "numbers": ["18"], "type": "output" },
+            { "name": "OUTB", "numbers": ["17"], "type": "output" },
+            { "name": "OUTC", "numbers": ["14"], "type": "output" },
+            { "name": "OUTD", "numbers": ["13"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "DELAB", "numbers": ["9"], "type": "input" },
+            { "name": "DELCD", "numbers": ["10"], "type": "input" },
+            { "name": "ADS", "numbers": ["11"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "REF", "numbers": ["4"], "type": "power_out" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["15"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["5"], "type": "power_in" },
+            { "name": "PGND", "numbers": ["16"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "AT89x51xxA",
+      "package": "TQFP-44",
+      "expected_pin_count": 44,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc2487.pdf",
+        "Description": "8-bit 8051 microcontroller with 4KB in-system programmable flash, TQFP-44"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "P1.0", "numbers": ["40"], "type": "bidirectional" },
+            { "name": "P1.1", "numbers": ["41"], "type": "bidirectional" },
+            { "name": "P1.2", "numbers": ["42"], "type": "bidirectional" },
+            { "name": "P1.3", "numbers": ["43"], "type": "bidirectional" },
+            { "name": "P1.4", "numbers": ["44"], "type": "bidirectional" },
+            { "name": "P1.5", "numbers": ["1"], "type": "bidirectional",
+              "alternates": [ { "name": "MOSI", "type": "bidirectional" } ] },
+            { "name": "P1.6", "numbers": ["2"], "type": "bidirectional",
+              "alternates": [ { "name": "MISO", "type": "bidirectional" } ] },
+            { "name": "P1.7", "numbers": ["3"], "type": "bidirectional",
+              "alternates": [ { "name": "SCK", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "P3.0", "numbers": ["5"], "type": "bidirectional",
+              "alternates": [ { "name": "RXD", "type": "input" } ] },
+            { "name": "P3.1", "numbers": ["7"], "type": "bidirectional",
+              "alternates": [ { "name": "TXD", "type": "output" } ] },
+            { "name": "P3.2", "numbers": ["8"], "type": "bidirectional",
+              "alternates": [ { "name": "~{INT0}", "type": "input" } ] },
+            { "name": "P3.3", "numbers": ["9"], "type": "bidirectional",
+              "alternates": [ { "name": "~{INT1}", "type": "input" } ] },
+            { "name": "P3.4", "numbers": ["10"], "type": "bidirectional",
+              "alternates": [ { "name": "T0", "type": "input" } ] },
+            { "name": "P3.5", "numbers": ["11"], "type": "bidirectional",
+              "alternates": [ { "name": "T1", "type": "input" } ] },
+            { "name": "P3.6", "numbers": ["12"], "type": "bidirectional",
+              "alternates": [ { "name": "~{WR}", "type": "output" } ] },
+            { "name": "P3.7", "numbers": ["13"], "type": "bidirectional",
+              "alternates": [ { "name": "~{RD}", "type": "output" } ] }
+          ],
+          "right": [
+            { "name": "P0.0", "numbers": ["37"], "type": "bidirectional",
+              "alternates": [ { "name": "AD0", "type": "bidirectional" } ] },
+            { "name": "P0.1", "numbers": ["36"], "type": "bidirectional",
+              "alternates": [ { "name": "AD1", "type": "bidirectional" } ] },
+            { "name": "P0.2", "numbers": ["35"], "type": "bidirectional",
+              "alternates": [ { "name": "AD2", "type": "bidirectional" } ] },
+            { "name": "P0.3", "numbers": ["34"], "type": "bidirectional",
+              "alternates": [ { "name": "AD3", "type": "bidirectional" } ] },
+            { "name": "P0.4", "numbers": ["33"], "type": "bidirectional",
+              "alternates": [ { "name": "AD4", "type": "bidirectional" } ] },
+            { "name": "P0.5", "numbers": ["32"], "type": "bidirectional",
+              "alternates": [ { "name": "AD5", "type": "bidirectional" } ] },
+            { "name": "P0.6", "numbers": ["31"], "type": "bidirectional",
+              "alternates": [ { "name": "AD6", "type": "bidirectional" } ] },
+            { "name": "P0.7", "numbers": ["30"], "type": "bidirectional",
+              "alternates": [ { "name": "AD7", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "P2.0", "numbers": ["18"], "type": "bidirectional",
+              "alternates": [ { "name": "A8", "type": "output" } ] },
+            { "name": "P2.1", "numbers": ["19"], "type": "bidirectional",
+              "alternates": [ { "name": "A9", "type": "output" } ] },
+            { "name": "P2.2", "numbers": ["20"], "type": "bidirectional",
+              "alternates": [ { "name": "A10", "type": "output" } ] },
+            { "name": "P2.3", "numbers": ["21"], "type": "bidirectional",
+              "alternates": [ { "name": "A11", "type": "output" } ] },
+            { "name": "P2.4", "numbers": ["22"], "type": "bidirectional",
+              "alternates": [ { "name": "A12", "type": "output" } ] },
+            { "name": "P2.5", "numbers": ["23"], "type": "bidirectional",
+              "alternates": [ { "name": "A13", "type": "output" } ] },
+            { "name": "P2.6", "numbers": ["24"], "type": "bidirectional",
+              "alternates": [ { "name": "A14", "type": "output" } ] },
+            { "name": "P2.7", "numbers": ["25"], "type": "bidirectional",
+              "alternates": [ { "name": "A15", "type": "output" } ] },
+            { "spacer": 1 },
+            { "name": "RST", "numbers": ["4"], "type": "input" },
+            { "name": "~{PSEN}", "numbers": ["26"], "type": "output" },
+            { "name": "ALE", "numbers": ["27"], "type": "output",
+              "alternates": [ { "name": "~{PROG}", "type": "input" } ] },
+            { "name": "~{EA}", "numbers": ["29"], "type": "input",
+              "alternates": [ { "name": "VPP", "type": "power_in" } ] },
+            { "spacer": 1 },
+            { "name": "XTAL1", "numbers": ["15"], "type": "input" },
+            { "name": "XTAL2", "numbers": ["14"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["6", "28", "39"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["38"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["16", "17"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

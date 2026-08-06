@@ -1,0 +1,48 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPD6S300A",
+      "package": "WQFN-20 (RUK)",
+      "expected_pin_count": 21,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpd6s300a.pdf",
+        "Description": "USB Type-C port protector, 6-channel OVP, dead-battery resistors"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "NC1", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "NC2", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "GND", "numbers": ["18"], "type": "power_in" },
+            { "name": "D2", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "D1", "numbers": ["20"], "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "SBU1", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "SBU2", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "GND", "numbers": ["13"], "type": "power_in" },
+            { "name": "CC1", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "CC2", "numbers": ["11"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "VPWR", "numbers": ["10"], "type": "power_in" },
+            { "name": "FLT", "numbers": ["9"], "type": "open_collector", "style": "output_low" },
+            { "name": "GND", "numbers": ["8"], "type": "power_in" },
+            { "name": "RPD_G1", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "RPD_G2", "numbers": ["6"], "type": "bidirectional" }
+          ],
+          "bottom": [
+            { "name": "C_SBU1", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "C_SBU2", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "VBIAS", "numbers": ["3"], "type": "power_in" },
+            { "name": "C_CC1", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "C_CC2", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "PAD", "numbers": ["21"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol LPC1111FHN33-101
+    (pin_names
+      (offset 1.016))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at -12.7 25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value LPC1111FHN33-101
+      (at 13.97 25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Package_DFN_QFN:QFN-32-1EP_7x7mm_P0.65mm_EP4.7x4.7mm_ThermalVias
+      (at 27.94 27.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://www.nxp.com/docs/en/data-sheet/LPC111X.pdf
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description 32-bit ARM Cortex-M0 microcontroller, 8KB flash, 2KB SRAM
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters *QFN*7x7mm*P0.65mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol LPC1111FHN33-101_0_1
+      (rectangle
+        (start -13.97 24.13)
+        (end 13.97 -24.13)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol LPC1111FHN33-101_1_1
+      (pin bidirectional line
+        (at -17.78 20.32 0)
+        (length 3.81)
+        (name PIO0_0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 17.78 0)
+        (length 3.81)
+        (name PIO0_1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 15.24 0)
+        (length 3.81)
+        (name PIO0_2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 12.7 0)
+        (length 3.81)
+        (name PIO0_3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 10.16 0)
+        (length 3.81)
+        (name PIO0_4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 7.62 0)
+        (length 3.81)
+        (name PIO0_5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 5.08 0)
+        (length 3.81)
+        (name PIO0_6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 2.54 0)
+        (length 3.81)
+        (name PIO0_7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 0 0)
+        (length 3.81)
+        (name PIO0_8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 -2.54 0)
+        (length 3.81)
+        (name PIO0_9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 -5.08 0)
+        (length 3.81)
+        (name PIO0_10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -17.78 -7.62 0)
+        (length 3.81)
+        (name PIO0_11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 21
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -17.78 -15.24 0)
+        (length 3.81)
+        (name XTALIN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -17.78 -17.78 0)
+        (length 3.81)
+        (name XTALOUT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 27.94 270)
+        (length 3.81)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -27.94 90)
+        (length 3.81)
+        (name VSS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 33
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 27.94 270)
+        (length 3.81)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 29
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 20.32 180)
+        (length 3.81)
+        (name PIO1_0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 22
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 17.78 180)
+        (length 3.81)
+        (name PIO1_1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 23
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 15.24 180)
+        (length 3.81)
+        (name PIO1_2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 24
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 12.7 180)
+        (length 3.81)
+        (name PIO1_3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 25
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 10.16 180)
+        (length 3.81)
+        (name PIO1_4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 26
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 7.62 180)
+        (length 3.81)
+        (name PIO1_5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 30
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 5.08 180)
+        (length 3.81)
+        (name PIO1_6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 31
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 2.54 180)
+        (length 3.81)
+        (name PIO1_7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 32
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 0 180)
+        (length 3.81)
+        (name PIO1_8
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -2.54 180)
+        (length 3.81)
+        (name PIO1_9
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -5.08 180)
+        (length 3.81)
+        (name PIO1_10
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -7.62 180)
+        (length 3.81)
+        (name PIO1_11
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 27
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -10.16 180)
+        (length 3.81)
+        (name PIO2_0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -12.7 180)
+        (length 3.81)
+        (name PIO3_2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 28
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -15.24 180)
+        (length 3.81)
+        (name PIO3_4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 -17.78 180)
+        (length 3.81)
+        (name PIO3_5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no))
+  (symbol LPC1113FHN33-303
+    (extends LPC1111FHN33-101)
+    (property Reference U
+      (at -12.7 25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value LPC1113FHN33-303
+      (at 13.97 25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Package_DFN_QFN:QFN-32-1EP_7x7mm_P0.65mm_EP4.7x4.7mm_ThermalVias
+      (at 27.94 27.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://www.nxp.com/docs/en/data-sheet/LPC111X.pdf
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description 32-bit ARM Cortex-M0 microcontroller, 24KB flash, 8KB SRAM
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords ARM, 32-bit, Cortex-M0, M0, NXP, microcontroller
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters *QFN*7x7mm*P0.65mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))))

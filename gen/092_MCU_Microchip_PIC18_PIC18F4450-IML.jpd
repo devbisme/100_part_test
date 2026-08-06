@@ -1,0 +1,100 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "PIC18F4450-IML",
+      "package": "QFN-44",
+      "expected_pin_count": 44,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/39760d.pdf",
+        "Description": "8-bit PIC microcontroller with full-speed USB 2.0, 16KB flash, QFN-44"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "RA0", "numbers": ["19"], "type": "bidirectional",
+              "alternates": [ { "name": "AN0", "type": "input" } ] },
+            { "name": "RA1", "numbers": ["20"], "type": "bidirectional",
+              "alternates": [ { "name": "AN1", "type": "input" } ] },
+            { "name": "RA2", "numbers": ["21"], "type": "bidirectional",
+              "alternates": [ { "name": "AN2", "type": "input" }, { "name": "VREF-", "type": "input" } ] },
+            { "name": "RA3", "numbers": ["22"], "type": "bidirectional",
+              "alternates": [ { "name": "AN3", "type": "input" }, { "name": "VREF+", "type": "input" } ] },
+            { "name": "RA4", "numbers": ["23"], "type": "bidirectional",
+              "alternates": [ { "name": "T0CKI", "type": "input" }, { "name": "RCV", "type": "input" } ] },
+            { "name": "RA5", "numbers": ["24"], "type": "bidirectional",
+              "alternates": [ { "name": "AN4", "type": "input" }, { "name": "HLVDIN", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "RB0", "numbers": ["9"], "type": "bidirectional",
+              "alternates": [ { "name": "AN12", "type": "input" }, { "name": "INT0", "type": "input" } ] },
+            { "name": "RB1", "numbers": ["10"], "type": "bidirectional",
+              "alternates": [ { "name": "AN10", "type": "input" }, { "name": "INT1", "type": "input" } ] },
+            { "name": "RB2", "numbers": ["11"], "type": "bidirectional",
+              "alternates": [ { "name": "AN8", "type": "input" }, { "name": "INT2", "type": "input" }, { "name": "VMO", "type": "output" } ] },
+            { "name": "RB3", "numbers": ["12"], "type": "bidirectional",
+              "alternates": [ { "name": "AN9", "type": "input" }, { "name": "VPO", "type": "output" } ] },
+            { "name": "RB4", "numbers": ["14"], "type": "bidirectional",
+              "alternates": [ { "name": "AN11", "type": "input" }, { "name": "KBI0", "type": "input" } ] },
+            { "name": "RB5", "numbers": ["15"], "type": "bidirectional",
+              "alternates": [ { "name": "KBI1", "type": "input" }, { "name": "PGM", "type": "bidirectional" } ] },
+            { "name": "RB6", "numbers": ["16"], "type": "bidirectional",
+              "alternates": [ { "name": "KBI2", "type": "input" }, { "name": "PGC", "type": "input" } ] },
+            { "name": "RB7", "numbers": ["17"], "type": "bidirectional",
+              "alternates": [ { "name": "KBI3", "type": "input" }, { "name": "PGD", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "RE0", "numbers": ["25"], "type": "bidirectional",
+              "alternates": [ { "name": "AN5", "type": "input" } ] },
+            { "name": "RE1", "numbers": ["26"], "type": "bidirectional",
+              "alternates": [ { "name": "AN6", "type": "input" } ] },
+            { "name": "RE2", "numbers": ["27"], "type": "bidirectional",
+              "alternates": [ { "name": "AN7", "type": "input" } ] }
+          ],
+          "right": [
+            { "name": "RC0", "numbers": ["34"], "type": "bidirectional",
+              "alternates": [ { "name": "T1OSO", "type": "output" }, { "name": "T1CKI", "type": "input" } ] },
+            { "name": "RC1", "numbers": ["35"], "type": "bidirectional",
+              "alternates": [ { "name": "T1OSI", "type": "input" }, { "name": "~{UOE}", "type": "output" } ] },
+            { "name": "RC2", "numbers": ["36"], "type": "bidirectional",
+              "alternates": [ { "name": "CCP1", "type": "bidirectional" } ] },
+            { "name": "RC4", "numbers": ["42"], "type": "bidirectional",
+              "alternates": [ { "name": "D-", "type": "bidirectional" }, { "name": "VM", "type": "input" } ] },
+            { "name": "RC5", "numbers": ["43"], "type": "bidirectional",
+              "alternates": [ { "name": "D+", "type": "bidirectional" }, { "name": "VP", "type": "input" } ] },
+            { "name": "RC6", "numbers": ["44"], "type": "bidirectional",
+              "alternates": [ { "name": "TX", "type": "output" }, { "name": "CK", "type": "bidirectional" } ] },
+            { "name": "RC7", "numbers": ["1"], "type": "bidirectional",
+              "alternates": [ { "name": "RX", "type": "input" }, { "name": "DT", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "RD0", "numbers": ["38"], "type": "bidirectional" },
+            { "name": "RD1", "numbers": ["39"], "type": "bidirectional" },
+            { "name": "RD2", "numbers": ["40"], "type": "bidirectional" },
+            { "name": "RD3", "numbers": ["41"], "type": "bidirectional" },
+            { "name": "RD4", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "RD5", "numbers": ["3"], "type": "bidirectional" },
+            { "name": "RD6", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "RD7", "numbers": ["5"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "OSC1", "numbers": ["32"], "type": "input",
+              "alternates": [ { "name": "CLKI", "type": "input" } ] },
+            { "name": "OSC2", "numbers": ["33"], "type": "output",
+              "alternates": [ { "name": "CLKO", "type": "output" }, { "name": "RA6", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "~{MCLR}", "numbers": ["18"], "type": "input",
+              "alternates": [ { "name": "VPP", "type": "power_in" }, { "name": "RE3", "type": "input" } ] },
+            { "name": "NC", "numbers": ["13"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["8", "29"], "type": "power_in" },
+            { "name": "AVDD", "numbers": ["7", "28"], "type": "power_in" },
+            { "name": "VUSB", "numbers": ["37"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["6", "31"], "type": "power_in" },
+            { "name": "AVSS", "numbers": ["30"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

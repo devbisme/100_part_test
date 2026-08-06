@@ -1,0 +1,704 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "ZED-F9P"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -27.94 52.06999999999999 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "ZED-F9P"
+      (at -27.94 49.529999999999994 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -27.94 48.894999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "https://content.u-blox.com/sites/default/files/ZED-F9P-04B_DataSheet_UBX-21044850.pdf"
+      (at -27.94 48.894999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "u-blox ZED-F9P high precision multi-band GNSS module with RTK"
+      (at -27.94 48.894999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -27.94 48.894999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -27.94 48.894999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -27.94 48.894999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "ZED-F9P_1_1"
+      (rectangle
+        (start -27.94 -48.26)
+        (end 27.94 48.26)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input line
+        (at -33.02 17.78 0)
+        (length 5.08)
+        (name "RF_IN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -33.02 15.240000000000002 0)
+        (length 5.08)
+        (name "ANT_DETECT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -33.02 12.700000000000003 0)
+        (length 5.08)
+        (name "~{ANT_SHORT}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -33.02 10.160000000000004 0)
+        (length 5.08)
+        (name "ANT_OFF"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -33.02 5.080000000000004 0)
+        (length 5.08)
+        (name "USB_DM"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -33.02 2.5400000000000036 0)
+        (length 5.08)
+        (name "USB_DP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -33.02 -2.5399999999999965 0)
+        (length 5.08)
+        (name "TXD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPI_SDO" tri_state line))
+      (pin input line
+        (at -33.02 -5.0799999999999965 0)
+        (length 5.08)
+        (name "RXD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPI_SDI" input line))
+      (pin bidirectional line
+        (at -33.02 -7.6199999999999966 0)
+        (length 5.08)
+        (name "SDA"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "~{SPI_CS}" input line))
+      (pin bidirectional line
+        (at -33.02 -10.159999999999997 0)
+        (length 5.08)
+        (name "SCL"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPI_CLK" input clock))
+      (pin input line
+        (at -33.02 -12.699999999999996 0)
+        (length 5.08)
+        (name "D_SEL"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -33.02 -17.779999999999994 0)
+        (length 5.08)
+        (name "RXD2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -33.02 -20.319999999999993 0)
+        (length 5.08)
+        (name "TXD2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 33.02 36.83 180)
+        (length 5.08)
+        (name "TIMEPULSE"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "53"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 33.02 34.29 180)
+        (length 5.08)
+        (name "TX_READY"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 33.02 31.75 180)
+        (length 5.08)
+        (name "GEOFENCE_STAT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 33.02 29.21 180)
+        (length 5.08)
+        (name "RTK_STAT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 33.02 24.130000000000003 180)
+        (length 5.08)
+        (name "EXTINT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "51"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 33.02 21.590000000000003 180)
+        (length 5.08)
+        (name "~{RESET}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 33.02 19.050000000000004 180)
+        (length 5.08)
+        (name "~{SAFEBOOT}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "50"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 13.970000000000006 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 11.430000000000007 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 8.890000000000008 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 6.350000000000008 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 3.8100000000000076 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 1.2700000000000076 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -1.2699999999999925 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -3.8099999999999925 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -6.3499999999999925 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -8.889999999999993 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -11.429999999999993 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -13.969999999999992 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -16.50999999999999 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -19.04999999999999 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -21.58999999999999 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -24.12999999999999 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -26.669999999999987 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -29.209999999999987 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -31.749999999999986 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -34.289999999999985 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "52"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 33.02 -36.829999999999984 180)
+        (length 5.08)
+        (hide yes)
+        (name "Reserved"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "54"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.35 53.34 270)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.8099999999999996 53.34 270)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.2699999999999996 53.34 270)
+        (length 5.08)
+        (name "V_BCKP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.2700000000000005 53.34 270)
+        (length 5.08)
+        (name "V_USB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 6.3500000000000005 53.34 270)
+        (length 5.08)
+        (name "VCC_RF"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.16 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.62 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 5.08 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 7.62 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 10.16 -53.34 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "55"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

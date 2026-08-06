@@ -1,0 +1,486 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MT41K256M16TW",
+      "package": "FBGA-96 (8x14mm)",
+      "expected_pin_count": 96,
+      "properties": {
+        "Datasheet": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6128/MT41K1G4_MT41K512M8_MT41K256M16_RevR_Sep2018.pdf",
+        "Description": "4Gb DDR3L SDRAM, 32M x 16 x 8 banks, 1.35V, FBGA-96"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "A0",
+              "numbers": [
+                "N3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A1",
+              "numbers": [
+                "P7"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A2",
+              "numbers": [
+                "P3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A3",
+              "numbers": [
+                "N2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A4",
+              "numbers": [
+                "P8"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A5",
+              "numbers": [
+                "P2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A6",
+              "numbers": [
+                "R8"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A7",
+              "numbers": [
+                "R2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A8",
+              "numbers": [
+                "T8"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A9",
+              "numbers": [
+                "R3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A10/AP",
+              "numbers": [
+                "L7"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A11",
+              "numbers": [
+                "R7"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A12/~{BC}",
+              "numbers": [
+                "N7"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A13",
+              "numbers": [
+                "T3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "A14",
+              "numbers": [
+                "T7"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "BA0",
+              "numbers": [
+                "M2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "BA1",
+              "numbers": [
+                "N8"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "BA2",
+              "numbers": [
+                "M3"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "~{CS}",
+              "numbers": [
+                "L2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{RAS}",
+              "numbers": [
+                "J3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{CAS}",
+              "numbers": [
+                "K3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{WE}",
+              "numbers": [
+                "L3"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "~{RESET}",
+              "numbers": [
+                "T2"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "ODT",
+              "numbers": [
+                "K1"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "CKE",
+              "numbers": [
+                "K9"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "CK",
+              "numbers": [
+                "J7"
+              ],
+              "type": "input",
+              "style": "clock"
+            },
+            {
+              "name": "~{CK}",
+              "numbers": [
+                "K7"
+              ],
+              "type": "input",
+              "style": "inverted_clock"
+            }
+          ],
+          "right": [
+            {
+              "name": "DQ0",
+              "numbers": [
+                "E3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ1",
+              "numbers": [
+                "F7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ2",
+              "numbers": [
+                "F2"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ3",
+              "numbers": [
+                "F8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ4",
+              "numbers": [
+                "H3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ5",
+              "numbers": [
+                "H8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ6",
+              "numbers": [
+                "G2"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ7",
+              "numbers": [
+                "H7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ8",
+              "numbers": [
+                "D7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ9",
+              "numbers": [
+                "C3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ10",
+              "numbers": [
+                "C8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ11",
+              "numbers": [
+                "C2"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ12",
+              "numbers": [
+                "A7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ13",
+              "numbers": [
+                "A2"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ14",
+              "numbers": [
+                "B8"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DQ15",
+              "numbers": [
+                "A3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "LDQS",
+              "numbers": [
+                "F3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "~{LDQS}",
+              "numbers": [
+                "G3"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "UDQS",
+              "numbers": [
+                "C7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "~{UDQS}",
+              "numbers": [
+                "B7"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "LDM",
+              "numbers": [
+                "E7"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "UDM",
+              "numbers": [
+                "D3"
+              ],
+              "type": "input"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "V_{REFCA}",
+              "numbers": [
+                "M8"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "V_{REFDQ}",
+              "numbers": [
+                "H1"
+              ],
+              "type": "passive"
+            },
+            {
+              "name": "ZQ",
+              "numbers": [
+                "L8"
+              ],
+              "type": "passive"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "NC",
+              "numbers": [
+                "J1",
+                "J9",
+                "L1",
+                "L9",
+                "M7"
+              ],
+              "type": "no_connect",
+              "hidden": true
+            }
+          ],
+          "top": [
+            {
+              "name": "V_{DD}",
+              "numbers": [
+                "B2",
+                "D9",
+                "G7",
+                "K2",
+                "K8",
+                "N1",
+                "N9",
+                "R1",
+                "R9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "V_{DDQ}",
+              "numbers": [
+                "A1",
+                "A8",
+                "C1",
+                "C9",
+                "D2",
+                "E9",
+                "F1",
+                "H2",
+                "H9"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "V_{SS}",
+              "numbers": [
+                "A9",
+                "B3",
+                "E1",
+                "G8",
+                "J2",
+                "J8",
+                "M1",
+                "M9",
+                "P1",
+                "P9",
+                "T1",
+                "T9"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "V_{SSQ}",
+              "numbers": [
+                "B1",
+                "B9",
+                "D1",
+                "D8",
+                "E2",
+                "E8",
+                "F9",
+                "G1",
+                "G9"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPS26400RHF",
+      "package": "VQFN-24 PowerPAD (RHF)",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps2640.pdf",
+        "Description": "42V, 2A eFuse with reverse polarity and overvoltage protection"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "IN", "numbers": ["8", "9"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "UVLO", "numbers": ["10"], "type": "input" },
+            { "name": "OVP", "numbers": ["12"], "type": "input" },
+            { "name": "MODE", "numbers": ["13"], "type": "input" },
+            { "name": "~{SHDN}", "numbers": ["14"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "ILIM", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "dVdT", "numbers": ["20"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "OUT", "numbers": ["23", "24"], "type": "power_out" },
+            { "spacer": 1 },
+            { "name": "IMON", "numbers": ["18"], "type": "output" },
+            { "name": "~{FLT}", "numbers": ["22"], "type": "open_collector" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["1", "2", "3", "4", "5", "6", "7", "11", "16", "21"],
+              "type": "no_connect" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["17"], "type": "power_in" },
+            { "name": "RTN", "numbers": ["15"], "type": "power_in" },
+            { "name": "PAD", "numbers": ["25"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

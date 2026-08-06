@@ -1,0 +1,90 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MSP430F123IRHB",
+      "package": "QFN-32 (RHB)",
+      "expected_pin_count": 32,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/msp430f123.pdf",
+        "Description": "16-bit mixed-signal microcontroller, 8KB flash, 256B RAM"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "P1.0", "numbers": ["21"], "type": "bidirectional",
+              "alternates": [ { "name": "TACLK", "type": "input" } ] },
+            { "name": "P1.1", "numbers": ["22"], "type": "bidirectional",
+              "alternates": [ { "name": "TA0", "type": "bidirectional" } ] },
+            { "name": "P1.2", "numbers": ["23"], "type": "bidirectional",
+              "alternates": [ { "name": "TA1", "type": "bidirectional" } ] },
+            { "name": "P1.3", "numbers": ["24"], "type": "bidirectional",
+              "alternates": [ { "name": "TA2", "type": "bidirectional" } ] },
+            { "name": "P1.4", "numbers": ["25"], "type": "bidirectional",
+              "alternates": [ { "name": "SMCLK", "type": "bidirectional" },
+                              { "name": "TCK", "type": "input" } ] },
+            { "name": "P1.5", "numbers": ["26"], "type": "bidirectional",
+              "alternates": [ { "name": "TA0", "type": "bidirectional" },
+                              { "name": "TMS", "type": "input" } ] },
+            { "name": "P1.6", "numbers": ["27"], "type": "bidirectional",
+              "alternates": [ { "name": "TA1", "type": "bidirectional" },
+                              { "name": "TDI", "type": "input" },
+                              { "name": "TCLK", "type": "input" } ] },
+            { "name": "P1.7", "numbers": ["28"], "type": "bidirectional",
+              "alternates": [ { "name": "TA2", "type": "bidirectional" },
+                              { "name": "TDO", "type": "output" },
+                              { "name": "TDI", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "P2.0", "numbers": ["6"], "type": "bidirectional",
+              "alternates": [ { "name": "ACLK", "type": "output" } ] },
+            { "name": "P2.1", "numbers": ["7"], "type": "bidirectional",
+              "alternates": [ { "name": "INCLK", "type": "input" } ] },
+            { "name": "P2.2", "numbers": ["8"], "type": "bidirectional",
+              "alternates": [ { "name": "CAOUT", "type": "output" },
+                              { "name": "TA0", "type": "bidirectional" } ] },
+            { "name": "P2.3", "numbers": ["18"], "type": "bidirectional",
+              "alternates": [ { "name": "CA0", "type": "input" },
+                              { "name": "TA1", "type": "bidirectional" } ] },
+            { "name": "P2.4", "numbers": ["19"], "type": "bidirectional",
+              "alternates": [ { "name": "CA1", "type": "input" },
+                              { "name": "TA2", "type": "bidirectional" } ] },
+            { "name": "P2.5", "numbers": ["32"], "type": "bidirectional",
+              "alternates": [ { "name": "ROSC", "type": "unspecified" } ] }
+          ],
+          "right": [
+            { "name": "P3.0", "numbers": ["9"], "type": "bidirectional",
+              "alternates": [ { "name": "STE0", "type": "bidirectional" } ] },
+            { "name": "P3.1", "numbers": ["10"], "type": "bidirectional",
+              "alternates": [ { "name": "SIMO0", "type": "bidirectional" } ] },
+            { "name": "P3.2", "numbers": ["11"], "type": "bidirectional",
+              "alternates": [ { "name": "SOMI0", "type": "bidirectional" } ] },
+            { "name": "P3.3", "numbers": ["12"], "type": "bidirectional",
+              "alternates": [ { "name": "UCLK0", "type": "bidirectional" } ] },
+            { "name": "P3.4", "numbers": ["13"], "type": "bidirectional",
+              "alternates": [ { "name": "UTXD0", "type": "output" } ] },
+            { "name": "P3.5", "numbers": ["14"], "type": "bidirectional",
+              "alternates": [ { "name": "URXD0", "type": "input" } ] },
+            { "name": "P3.6", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "P3.7", "numbers": ["16"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "XIN", "numbers": ["3"], "type": "input" },
+            { "name": "XOUT", "numbers": ["2"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{RST}", "numbers": ["5"], "type": "input",
+              "alternates": [ { "name": "NMI", "type": "input" } ] },
+            { "name": "TEST", "numbers": ["29"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["4", "17", "20", "31"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["30"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["1"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

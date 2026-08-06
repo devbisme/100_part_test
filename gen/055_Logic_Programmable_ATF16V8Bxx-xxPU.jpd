@@ -1,0 +1,37 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ATF16V8Bxx-xxPU",
+      "package": "PDIP-20",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-0364-PLD-ATF16V8B-8BQ-8BQL-Datasheet.pdf",
+        "Description": "High-performance EE PLD, 16V8 architecture"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "I/CLK", "numbers": ["1"], "type": "input", "style": "clock" },
+            { "spacer": 1 },
+            { "name": "I1", "numbers": ["2", "3", "4", "5", "6", "7", "8", "9"],
+              "type": "input", "increment": true },
+            { "spacer": 1 },
+            { "name": "I9/~{OE}", "numbers": ["11"], "type": "input" }
+          ],
+          "right": [
+            { "name": "I/O", "numbers": ["19", "18", "17", "16", "15", "14", "13", "12"],
+              "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["20"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["10"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

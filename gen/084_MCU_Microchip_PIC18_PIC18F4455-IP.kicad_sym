@@ -1,0 +1,590 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "PIC18F4455-IP"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -12.7 36.83 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "PIC18F4455-IP"
+      (at -12.7 34.29 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -12.7 33.655 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/39632e.pdf"
+      (at -12.7 33.655 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "8-bit PIC microcontroller with full-speed USB 2.0"
+      (at -12.7 33.655 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -12.7 33.655 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -12.7 33.655 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -12.7 33.655 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "PIC18F4455-IP_1_1"
+      (rectangle
+        (start -12.7 -33.02)
+        (end 12.7 33.02)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -17.78 22.86 0)
+        (length 5.08)
+        (name "RA0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN0" input line))
+      (pin bidirectional line
+        (at -17.78 20.32 0)
+        (length 5.08)
+        (name "RA1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN1" input line))
+      (pin bidirectional line
+        (at -17.78 17.78 0)
+        (length 5.08)
+        (name "RA2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN2" input line)
+        (alternate "VREF-" input line)
+        (alternate "CVREF" output line))
+      (pin bidirectional line
+        (at -17.78 15.240000000000002 0)
+        (length 5.08)
+        (name "RA3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN3" input line)
+        (alternate "VREF+" input line))
+      (pin bidirectional line
+        (at -17.78 12.700000000000003 0)
+        (length 5.08)
+        (name "RA4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "T0CKI" input line)
+        (alternate "C1OUT" output line)
+        (alternate "RCV" input line))
+      (pin bidirectional line
+        (at -17.78 10.160000000000004 0)
+        (length 5.08)
+        (name "RA5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN4" input line)
+        (alternate "~{SS}" input line)
+        (alternate "HLVDIN" input line)
+        (alternate "C2OUT" output line))
+      (pin bidirectional line
+        (at -17.78 5.080000000000004 0)
+        (length 5.08)
+        (name "RB0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN12" input line)
+        (alternate "INT0" input line)
+        (alternate "FLT0" input line)
+        (alternate "SDI" input line)
+        (alternate "SDA" bidirectional line))
+      (pin bidirectional line
+        (at -17.78 2.5400000000000036 0)
+        (length 5.08)
+        (name "RB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN10" input line)
+        (alternate "INT1" input line)
+        (alternate "SCK" bidirectional line)
+        (alternate "SCL" bidirectional line))
+      (pin bidirectional line
+        (at -17.78 3.552713678800501e-15 0)
+        (length 5.08)
+        (name "RB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN8" input line)
+        (alternate "INT2" input line)
+        (alternate "VMO" output line))
+      (pin bidirectional line
+        (at -17.78 -2.5399999999999965 0)
+        (length 5.08)
+        (name "RB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN9" input line)
+        (alternate "CCP2" bidirectional line)
+        (alternate "VPO" output line))
+      (pin bidirectional line
+        (at -17.78 -5.0799999999999965 0)
+        (length 5.08)
+        (name "RB4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN11" input line)
+        (alternate "KBI0" input line)
+        (alternate "CSSPP" output line))
+      (pin bidirectional line
+        (at -17.78 -7.6199999999999966 0)
+        (length 5.08)
+        (name "RB5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "KBI1" input line)
+        (alternate "PGM" bidirectional line))
+      (pin bidirectional line
+        (at -17.78 -10.159999999999997 0)
+        (length 5.08)
+        (name "RB6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "KBI2" input line)
+        (alternate "PGC" input line))
+      (pin bidirectional line
+        (at -17.78 -12.699999999999996 0)
+        (length 5.08)
+        (name "RB7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "KBI3" input line)
+        (alternate "PGD" bidirectional line))
+      (pin bidirectional line
+        (at -17.78 -17.779999999999994 0)
+        (length 5.08)
+        (name "RE0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN5" input line)
+        (alternate "CK1SPP" output line))
+      (pin bidirectional line
+        (at -17.78 -20.319999999999993 0)
+        (length 5.08)
+        (name "RE1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN6" input line)
+        (alternate "CK2SPP" output line))
+      (pin bidirectional line
+        (at -17.78 -22.859999999999992 0)
+        (length 5.08)
+        (name "RE2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AN7" input line)
+        (alternate "OESPP" output line))
+      (pin bidirectional line
+        (at 17.78 25.4 180)
+        (length 5.08)
+        (name "RC0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "T1OSO" output line)
+        (alternate "T13CKI" input line))
+      (pin bidirectional line
+        (at 17.78 22.86 180)
+        (length 5.08)
+        (name "RC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "T1OSI" input line)
+        (alternate "CCP2" bidirectional line)
+        (alternate "~{UOE}" output line))
+      (pin bidirectional line
+        (at 17.78 20.32 180)
+        (length 5.08)
+        (name "RC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CCP1" bidirectional line)
+        (alternate "P1A" output line))
+      (pin bidirectional line
+        (at 17.78 17.78 180)
+        (length 5.08)
+        (name "RC4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "D-" bidirectional line)
+        (alternate "VM" input line))
+      (pin bidirectional line
+        (at 17.78 15.240000000000002 180)
+        (length 5.08)
+        (name "RC5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "D+" bidirectional line)
+        (alternate "VP" input line))
+      (pin bidirectional line
+        (at 17.78 12.700000000000003 180)
+        (length 5.08)
+        (name "RC6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TX" output line)
+        (alternate "CK" bidirectional line))
+      (pin bidirectional line
+        (at 17.78 10.160000000000004 180)
+        (length 5.08)
+        (name "RC7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RX" input line)
+        (alternate "DT" bidirectional line)
+        (alternate "SDO" output line))
+      (pin bidirectional line
+        (at 17.78 5.080000000000004 180)
+        (length 5.08)
+        (name "RD0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP0" bidirectional line))
+      (pin bidirectional line
+        (at 17.78 2.5400000000000036 180)
+        (length 5.08)
+        (name "RD1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP1" bidirectional line))
+      (pin bidirectional line
+        (at 17.78 3.552713678800501e-15 180)
+        (length 5.08)
+        (name "RD2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP2" bidirectional line))
+      (pin bidirectional line
+        (at 17.78 -2.5399999999999965 180)
+        (length 5.08)
+        (name "RD3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP3" bidirectional line))
+      (pin bidirectional line
+        (at 17.78 -5.0799999999999965 180)
+        (length 5.08)
+        (name "RD4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP4" bidirectional line))
+      (pin bidirectional line
+        (at 17.78 -7.6199999999999966 180)
+        (length 5.08)
+        (name "RD5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP5" bidirectional line)
+        (alternate "P1B" output line))
+      (pin bidirectional line
+        (at 17.78 -10.159999999999997 180)
+        (length 5.08)
+        (name "RD6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP6" bidirectional line)
+        (alternate "P1C" output line))
+      (pin bidirectional line
+        (at 17.78 -12.699999999999996 180)
+        (length 5.08)
+        (name "RD7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SPP7" bidirectional line)
+        (alternate "P1D" output line))
+      (pin input line
+        (at 17.78 -17.779999999999994 180)
+        (length 5.08)
+        (name "OSC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CLKI" input line))
+      (pin output line
+        (at 17.78 -20.319999999999993 180)
+        (length 5.08)
+        (name "OSC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CLKO" output line)
+        (alternate "RA6" bidirectional line))
+      (pin input line
+        (at 17.78 -25.39999999999999 180)
+        (length 5.08)
+        (name "~{MCLR}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "VPP" power_in line)
+        (alternate "RE3" input line))
+      (pin power_in line
+        (at -2.54 38.1 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 38.1 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 2.54 38.1 270)
+        (length 5.08)
+        (name "VUSB"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.27 -38.1 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.27 -38.1 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

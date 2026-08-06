@@ -1,0 +1,99 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "USB2504",
+      "package": "LQFP-64",
+      "expected_pin_count": 64,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/00002250A.pdf",
+        "Description": "USB 2.0 Hi-Speed 4-port hub controller, LQFP-64"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "~{RESET}", "numbers": ["49"], "type": "input" },
+            { "name": "VBUS_DET", "numbers": ["52"], "type": "bidirectional" },
+            { "name": "SELF_PWR", "numbers": ["51"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "USBDP0", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "USBDN0", "numbers": ["3"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "SDA", "numbers": ["34"], "type": "bidirectional",
+              "alternates": [ { "name": "SMBDATA", "type": "bidirectional" } ] },
+            { "name": "SCL", "numbers": ["35"], "type": "bidirectional",
+              "alternates": [ { "name": "SMBCLK", "type": "bidirectional", "style": "clock" } ] },
+            { "name": "CFG_SEL0", "numbers": ["36"], "type": "bidirectional" },
+            { "name": "CFG_SEL1", "numbers": ["50"], "type": "input" },
+            { "name": "CFG_SEL2", "numbers": ["59"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "XTAL1", "numbers": ["58"], "type": "input",
+              "alternates": [ { "name": "CLKIN", "type": "input", "style": "clock" } ] },
+            { "name": "XTAL2", "numbers": ["57"], "type": "output" },
+            { "name": "CLKIN_EN", "numbers": ["47"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "TEST0", "numbers": ["31"], "type": "input" },
+            { "name": "TEST1", "numbers": ["48"], "type": "input" },
+            { "name": "ATEST", "numbers": ["62"], "type": "bidirectional",
+              "alternates": [ { "name": "REG_EN", "type": "input" } ] },
+            { "name": "RBIAS", "numbers": ["63"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["17", "18", "32", "33", "56"],
+              "type": "no_connect", "hidden": true }
+          ],
+          "right": [
+            { "name": "USBDP1", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "USBDN1", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "PRTPWR1", "numbers": ["45"], "type": "output" },
+            { "name": "~{OCS1}", "numbers": ["46"], "type": "input" },
+            { "name": "AM1", "numbers": ["26"], "type": "bidirectional",
+              "alternates": [ { "name": "GANG_EN", "type": "input" } ] },
+            { "name": "GR1", "numbers": ["27"], "type": "bidirectional",
+              "alternates": [ { "name": "NON_REM0", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "USBDP2", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "USBDN2", "numbers": ["9"], "type": "bidirectional" },
+            { "name": "PRTPWR2", "numbers": ["43"], "type": "output" },
+            { "name": "~{OCS2}", "numbers": ["44"], "type": "input" },
+            { "name": "AM2", "numbers": ["24"], "type": "bidirectional",
+              "alternates": [ { "name": "MTT_EN", "type": "input" } ] },
+            { "name": "GR2", "numbers": ["25"], "type": "bidirectional",
+              "alternates": [ { "name": "NON_REM1", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "USBDP3", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "USBDN3", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "PRTPWR3", "numbers": ["39"], "type": "output" },
+            { "name": "~{OCS3}", "numbers": ["40"], "type": "input" },
+            { "name": "AM3", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "GR3", "numbers": ["22"], "type": "bidirectional",
+              "alternates": [ { "name": "PRT_DIS0", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "USBDP4", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "USBDN4", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "PRTPWR4", "numbers": ["37"], "type": "output" },
+            { "name": "~{OCS4}", "numbers": ["38"], "type": "input" },
+            { "name": "AM4", "numbers": ["19"], "type": "bidirectional",
+              "alternates": [ { "name": "LED_EN", "type": "input" } ] },
+            { "name": "GR4", "numbers": ["20"], "type": "bidirectional",
+              "alternates": [ { "name": "PRT_DIS1", "type": "input" } ] },
+            { "spacer": 1 },
+            { "name": "PRTPWR_POL", "numbers": ["23"], "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "VDDA33", "numbers": ["1", "7", "13"], "type": "power_in" },
+            { "name": "VDD33", "numbers": ["28"], "type": "power_in" },
+            { "name": "VDDA33PLL", "numbers": ["61"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "VDD18", "numbers": ["30", "42", "54"], "type": "power_in" },
+            { "name": "VDDA18PLL", "numbers": ["60"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["4", "10", "16", "29", "41", "53", "55", "64"],
+              "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

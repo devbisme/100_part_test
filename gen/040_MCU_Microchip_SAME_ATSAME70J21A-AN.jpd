@@ -1,0 +1,1246 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ATSAME70J21A-AN",
+      "package": "LQFP-64",
+      "expected_pin_count": 64,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM-E70-S70-V70-V71-Family-Data-Sheet-DS60001527D.pdf",
+        "Description": "SAM E70 Cortex-M7 MCU, 2MB flash, 384KB SRAM, LQFP-64"
+      },
+      "units": [
+        {
+          "left": [
+            {
+              "name": "PA3",
+              "numbers": [
+                "40"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PIODC0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TWD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "LONCOL1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK2",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA4",
+              "numbers": [
+                "34"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "WKUP3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PIODC1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TWCK0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCLK0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA5",
+              "numbers": [
+                "32"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "WKUP4",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PIODC2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D4",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "URXD1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA7",
+              "numbers": [
+                "15"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "XIN32",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH3",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA8",
+              "numbers": [
+                "16"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "XOUT32",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "AFE0_ADTRG",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA9",
+              "numbers": [
+                "33"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "WKUP6",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PIODC3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "URXD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMFI0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA10",
+              "numbers": [
+                "28"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PIODC4",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMEXTRG0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RD",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA11",
+              "numbers": [
+                "27"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "WKUP7",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PIODC5",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QCS",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA12",
+              "numbers": [
+                "29"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PIODC6",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QIO1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA13",
+              "numbers": [
+                "18"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PIODC7",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QIO0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA14",
+              "numbers": [
+                "19"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "WKUP8",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PIODCEN1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "QSCK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA21",
+              "numbers": [
+                "12"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "AFE0_AD1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PIODCEN2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RXD1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMFI0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA22",
+              "numbers": [
+                "17"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PIODCCLK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMEXTRG1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "NCS2",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA24",
+              "numbers": [
+                "23"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "RTS1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "A20",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_PCK",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PA27",
+              "numbers": [
+                "30"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "DTR1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOB2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "MCDA3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D7",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "PB0",
+              "numbers": [
+                "8"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "AFE0_AD10",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RTCOUT0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RXD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TF",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB1",
+              "numbers": [
+                "7"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "AFE1_AD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RTCOUT1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GTSUCOMP",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TXD0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TK",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB2",
+              "numbers": [
+                "9"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "AFE0_AD5",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "CANTX0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "CTS0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_NPCS0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB3",
+              "numbers": [
+                "11"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "AFE0_AD2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "WKUP12",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "CANRX0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RTS0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D2",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB4",
+              "numbers": [
+                "46"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TDI",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TWD1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "MLBCLK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TXD1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB5",
+              "numbers": [
+                "47"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "TDO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TRACESWO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "WKUP13",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TWCK1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWML0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "MLBDAT",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TD",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB6",
+              "numbers": [
+                "35"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "SWDIO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TMS",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB7",
+              "numbers": [
+                "39"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "SWCLK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCK",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB8",
+              "numbers": [
+                "62"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "XOUT",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB9",
+              "numbers": [
+                "63"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "XIN",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PB12",
+              "numbers": [
+                "38"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "ERASE",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWML1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GTSUCOMP",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "DP",
+              "numbers": [
+                "60"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "DM",
+              "numbers": [
+                "59"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "spacer": 1
+            },
+            {
+              "name": "NRST",
+              "numbers": [
+                "36"
+              ],
+              "type": "bidirectional"
+            },
+            {
+              "name": "TST",
+              "numbers": [
+                "37"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "JTAGSEL",
+              "numbers": [
+                "45"
+              ],
+              "type": "input"
+            },
+            {
+              "name": "VREFP",
+              "numbers": [
+                "5"
+              ],
+              "type": "input"
+            }
+          ],
+          "right": [
+            {
+              "name": "PD0",
+              "numbers": [
+                "1"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "DAC1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GTXCK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_NPCS1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "DCD0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD1",
+              "numbers": [
+                "57"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GTXEN",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_NPCS2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "DTR0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD2",
+              "numbers": [
+                "56"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GTX0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI1_NPCS3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "DSR0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD3",
+              "numbers": [
+                "55"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GTX1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD4",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RI0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD4",
+              "numbers": [
+                "54"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GRXDV",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TRACED0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD5",
+              "numbers": [
+                "53"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GRX0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TRACED1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD6",
+              "numbers": [
+                "51"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GRX1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWML3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TRACED2",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD7",
+              "numbers": [
+                "50"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GRXER",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC1_PWMH3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TRACED3",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD8",
+              "numbers": [
+                "49"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GMDC",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMFI1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TRACECLK",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD9",
+              "numbers": [
+                "48"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GMDIO",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMFI2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "AFE1_ADTRG",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD10",
+              "numbers": [
+                "44"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GCRS",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWML0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TD",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "MLBSIG",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD11",
+              "numbers": [
+                "43"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GRX2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PWMC0_PWMH0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "GTSUCOMP",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D5",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD12",
+              "numbers": [
+                "41"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "GRX3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "CANTX1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_NPCS2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D6",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD21",
+              "numbers": [
+                "26"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PWMC0_PWMH1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_MOSI",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOA11",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD22",
+              "numbers": [
+                "25"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PWMC0_PWMH2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_SPCK",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TIOB11",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D0",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD24",
+              "numbers": [
+                "22"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PWMC0_PWML0",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "RF",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TCLK11",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_HSYNC",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD25",
+              "numbers": [
+                "20"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PWMC0_PWML1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "SPI0_NPCS1",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "URXD2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_VSYNC",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD26",
+              "numbers": [
+                "21"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "PWMC0_PWML2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "TD",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD1",
+                  "type": "bidirectional"
+                }
+              ]
+            },
+            {
+              "name": "PD31",
+              "numbers": [
+                "2"
+              ],
+              "type": "bidirectional",
+              "alternates": [
+                {
+                  "name": "QIO3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "UTXD3",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "PCK2",
+                  "type": "bidirectional"
+                },
+                {
+                  "name": "ISI_D11",
+                  "type": "bidirectional"
+                }
+              ]
+            }
+          ],
+          "top": [
+            {
+              "name": "VDDIN",
+              "numbers": [
+                "4"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDOUT",
+              "numbers": [
+                "3"
+              ],
+              "type": "power_out"
+            },
+            {
+              "name": "VDDIO",
+              "numbers": [
+                "10",
+                "42",
+                "58"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDCORE",
+              "numbers": [
+                "13",
+                "24",
+                "61"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDPLL",
+              "numbers": [
+                "52"
+              ],
+              "type": "power_in"
+            },
+            {
+              "name": "VDDPLLUSB",
+              "numbers": [
+                "64"
+              ],
+              "type": "power_in"
+            }
+          ],
+          "bottom": [
+            {
+              "name": "GND",
+              "numbers": [
+                "6",
+                "14",
+                "31"
+              ],
+              "type": "power_in"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

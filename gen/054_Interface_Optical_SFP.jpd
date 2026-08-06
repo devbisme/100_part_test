@@ -1,0 +1,45 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "SFP",
+      "package": "SFP MSA 20-pad edge connector",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "http://www.10gtek.com/templates/wzten/pdf/INF-8074.pdf",
+        "Description": "Small Form-factor Pluggable transceiver, INF-8074 MSA"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "TD+", "numbers": ["18"], "type": "input" },
+            { "name": "TD-", "numbers": ["19"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "TX_DISABLE", "numbers": ["3"], "type": "input" },
+            { "name": "RATE_SELECT", "numbers": ["7"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "MOD-DEF0", "numbers": ["6"], "type": "output" },
+            { "name": "MOD-DEF1", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "MOD-DEF2", "numbers": ["4"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "RD+", "numbers": ["13"], "type": "output" },
+            { "name": "RD-", "numbers": ["12"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "TX_FAULT", "numbers": ["2"], "type": "open_collector" },
+            { "name": "LOS", "numbers": ["8"], "type": "open_collector" }
+          ],
+          "top": [
+            { "name": "VccT", "numbers": ["16"], "type": "power_in" },
+            { "name": "VccR", "numbers": ["15"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VeeT", "numbers": ["1", "17", "20"], "type": "power_in" },
+            { "name": "VeeR", "numbers": ["9", "10", "11", "14"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

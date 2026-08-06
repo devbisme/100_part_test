@@ -1,0 +1,113 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ATtiny841-M",
+      "package": "VQFN/WQFN-20",
+      "expected_pin_count": 21,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8495-8-bit-AVR-Microcontrollers-tinyAVR-ATtiny441-ATtiny841_Datasheet.pdf",
+        "Description": "8-bit AVR microcontroller, 8KB flash, 512B SRAM, VQFN-20"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "PA0", "numbers": ["5"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT0", "type": "input" },
+                              { "name": "ADC0", "type": "input" },
+                              { "name": "AREF", "type": "input" },
+                              { "name": "MISO", "type": "bidirectional" } ] },
+            { "name": "PA1", "numbers": ["4"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT1", "type": "input" },
+                              { "name": "ADC1", "type": "input" },
+                              { "name": "AIN00", "type": "input" },
+                              { "name": "TOCC0", "type": "output" },
+                              { "name": "TXD0", "type": "output" },
+                              { "name": "MOSI", "type": "bidirectional" } ] },
+            { "name": "PA2", "numbers": ["3"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT2", "type": "input" },
+                              { "name": "ADC2", "type": "input" },
+                              { "name": "AIN01", "type": "input" },
+                              { "name": "TOCC1", "type": "output" },
+                              { "name": "RXD0", "type": "input" },
+                              { "name": "~{SS}", "type": "input" } ] },
+            { "name": "PA3", "numbers": ["2"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT3", "type": "input" },
+                              { "name": "ADC3", "type": "input" },
+                              { "name": "AIN10", "type": "input" },
+                              { "name": "TOCC2", "type": "output" },
+                              { "name": "T0", "type": "input" },
+                              { "name": "XCK0", "type": "bidirectional" },
+                              { "name": "SCK", "type": "bidirectional" } ] },
+            { "name": "PA4", "numbers": ["1"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT4", "type": "input" },
+                              { "name": "ADC4", "type": "input" },
+                              { "name": "AIN11", "type": "input" },
+                              { "name": "TOCC3", "type": "output" },
+                              { "name": "T1", "type": "input" },
+                              { "name": "RXD1", "type": "input" },
+                              { "name": "SCL", "type": "bidirectional" },
+                              { "name": "SCK", "type": "bidirectional" } ] },
+            { "name": "PA5", "numbers": ["20"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT5", "type": "input" },
+                              { "name": "ADC5", "type": "input" },
+                              { "name": "ACO0", "type": "output" },
+                              { "name": "TOCC4", "type": "output" },
+                              { "name": "T2", "type": "input" },
+                              { "name": "TXD1", "type": "output" },
+                              { "name": "MISO", "type": "bidirectional" } ] },
+            { "name": "PA6", "numbers": ["16"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT6", "type": "input" },
+                              { "name": "ADC6", "type": "input" },
+                              { "name": "ACO1", "type": "output" },
+                              { "name": "TOCC5", "type": "output" },
+                              { "name": "XCK1", "type": "bidirectional" },
+                              { "name": "SDA", "type": "bidirectional" },
+                              { "name": "MOSI", "type": "bidirectional" } ] },
+            { "name": "PA7", "numbers": ["15"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT7", "type": "input" },
+                              { "name": "ADC7", "type": "input" },
+                              { "name": "TOCC6", "type": "output" },
+                              { "name": "ICP1", "type": "input" },
+                              { "name": "TXD0", "type": "output" },
+                              { "name": "~{SS}", "type": "input" } ] }
+          ],
+          "right": [
+            { "name": "PB0", "numbers": ["11"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT8", "type": "input" },
+                              { "name": "ADC11", "type": "input" },
+                              { "name": "XTAL1", "type": "input" },
+                              { "name": "CLKI", "type": "input" } ] },
+            { "name": "PB1", "numbers": ["12"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT9", "type": "input" },
+                              { "name": "ADC10", "type": "input" },
+                              { "name": "XTAL2", "type": "output" },
+                              { "name": "INT0", "type": "input" } ] },
+            { "name": "PB2", "numbers": ["14"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT10", "type": "input" },
+                              { "name": "ADC8", "type": "input" },
+                              { "name": "CLKO", "type": "output" },
+                              { "name": "TOCC7", "type": "output" },
+                              { "name": "ICP2", "type": "input" },
+                              { "name": "RXD0", "type": "input" } ] },
+            { "name": "PB3", "numbers": ["13"], "type": "bidirectional",
+              "alternates": [ { "name": "PCINT11", "type": "input" },
+                              { "name": "ADC9", "type": "input" },
+                              { "name": "~{RESET}", "type": "input" },
+                              { "name": "dW", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "DNC", "numbers": ["6", "7", "10", "17", "18", "19"],
+              "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["9"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["8", "21"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

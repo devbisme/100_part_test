@@ -1,0 +1,456 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "MSP430F123IRHB"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -10.16 33.02 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "MSP430F123IRHB"
+      (at -10.16 30.480000000000004 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -10.16 29.845000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/msp430f123.pdf"
+      (at -10.16 29.845000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "16-bit mixed-signal microcontroller"
+      (at -10.16 29.845000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -10.16 29.845000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -10.16 29.845000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -10.16 29.845000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "MSP430F123IRHB_1_1"
+      (rectangle
+        (start -10.16 -29.21)
+        (end 10.16 29.21)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -15.24 17.78 0)
+        (length 5.08)
+        (name "P1.0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TACLK" input line))
+      (pin bidirectional line
+        (at -15.24 15.240000000000002 0)
+        (length 5.08)
+        (name "P1.1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TA0" bidirectional line))
+      (pin bidirectional line
+        (at -15.24 12.700000000000003 0)
+        (length 5.08)
+        (name "P1.2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TA1" bidirectional line))
+      (pin bidirectional line
+        (at -15.24 10.160000000000004 0)
+        (length 5.08)
+        (name "P1.3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TA2" bidirectional line))
+      (pin bidirectional line
+        (at -15.24 7.620000000000004 0)
+        (length 5.08)
+        (name "P1.4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SMCLK" bidirectional line)
+        (alternate "TCK" input line))
+      (pin bidirectional line
+        (at -15.24 5.080000000000004 0)
+        (length 5.08)
+        (name "P1.5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TA0" bidirectional line)
+        (alternate "TMS" input line))
+      (pin bidirectional line
+        (at -15.24 2.5400000000000036 0)
+        (length 5.08)
+        (name "P1.6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TA1" bidirectional line)
+        (alternate "TDI" input line)
+        (alternate "TCLK" input line))
+      (pin bidirectional line
+        (at -15.24 3.552713678800501e-15 0)
+        (length 5.08)
+        (name "P1.7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TA2" bidirectional line)
+        (alternate "TDO" output line)
+        (alternate "TDI" input line))
+      (pin bidirectional line
+        (at -15.24 -5.0799999999999965 0)
+        (length 5.08)
+        (name "P2.0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "ACLK" output line))
+      (pin bidirectional line
+        (at -15.24 -7.6199999999999966 0)
+        (length 5.08)
+        (name "P2.1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INCLK" input line))
+      (pin bidirectional line
+        (at -15.24 -10.159999999999997 0)
+        (length 5.08)
+        (name "P2.2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CAOUT" output line)
+        (alternate "TA0" bidirectional line))
+      (pin bidirectional line
+        (at -15.24 -12.699999999999996 0)
+        (length 5.08)
+        (name "P2.3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CA0" input line)
+        (alternate "TA1" bidirectional line))
+      (pin bidirectional line
+        (at -15.24 -15.239999999999995 0)
+        (length 5.08)
+        (name "P2.4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CA1" input line)
+        (alternate "TA2" bidirectional line))
+      (pin bidirectional line
+        (at -15.24 -17.779999999999994 0)
+        (length 5.08)
+        (name "P2.5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "ROSC" unspecified line))
+      (pin bidirectional line
+        (at 15.24 22.86 180)
+        (length 5.08)
+        (name "P3.0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "STE0" bidirectional line))
+      (pin bidirectional line
+        (at 15.24 20.32 180)
+        (length 5.08)
+        (name "P3.1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SIMO0" bidirectional line))
+      (pin bidirectional line
+        (at 15.24 17.78 180)
+        (length 5.08)
+        (name "P3.2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SOMI0" bidirectional line))
+      (pin bidirectional line
+        (at 15.24 15.240000000000002 180)
+        (length 5.08)
+        (name "P3.3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "UCLK0" bidirectional line))
+      (pin bidirectional line
+        (at 15.24 12.700000000000003 180)
+        (length 5.08)
+        (name "P3.4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "UTXD0" output line))
+      (pin bidirectional line
+        (at 15.24 10.160000000000004 180)
+        (length 5.08)
+        (name "P3.5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "URXD0" input line))
+      (pin bidirectional line
+        (at 15.24 7.620000000000004 180)
+        (length 5.08)
+        (name "P3.6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 15.24 5.080000000000004 180)
+        (length 5.08)
+        (name "P3.7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 15.24 3.552713678800501e-15 180)
+        (length 5.08)
+        (name "XIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 15.24 -2.5399999999999965 180)
+        (length 5.08)
+        (name "XOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 15.24 -7.6199999999999966 180)
+        (length 5.08)
+        (name "~{RST}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "NMI" input line))
+      (pin input line
+        (at 15.24 -10.159999999999997 180)
+        (length 5.08)
+        (name "TEST"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 15.24 -15.239999999999995 180)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 15.24 -17.779999999999994 180)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 15.24 -20.319999999999993 180)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 15.24 -22.859999999999992 180)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 34.29 270)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -34.29 90)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

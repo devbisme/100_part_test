@@ -1,0 +1,63 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ESP32-C3",
+      "package": "QFN-32 5x5mm",
+      "expected_pin_count": 33,
+      "properties": {
+        "Datasheet": "https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf",
+        "Description": "RISC-V Wi-Fi and Bluetooth LE SoC, QFN-32"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "GPIO2", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "GPIO3", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "GPIO8", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "GPIO9", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "GPIO10", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "GPIO18", "numbers": ["25"], "type": "bidirectional" },
+            { "name": "GPIO19", "numbers": ["26"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "MTMS", "numbers": ["9"], "type": "bidirectional" },
+            { "name": "MTDI", "numbers": ["10"], "type": "bidirectional" },
+            { "name": "MTCK", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "MTDO", "numbers": ["13"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "U0RXD", "numbers": ["27"], "type": "bidirectional" },
+            { "name": "U0TXD", "numbers": ["28"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "CHIP_EN", "numbers": ["7"], "type": "input" }
+          ],
+          "right": [
+            { "name": "SPIHD", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "SPIWP", "numbers": ["20"], "type": "bidirectional" },
+            { "name": "SPICS0", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "SPICLK", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "SPID", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "SPIQ", "numbers": ["24"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "XTAL_P", "numbers": ["30"], "type": "unspecified" },
+            { "name": "XTAL_N", "numbers": ["29"], "type": "unspecified" },
+            { "name": "XTAL_32K_P", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "XTAL_32K_N", "numbers": ["5"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "LNA_IN", "numbers": ["1"], "type": "unspecified" }
+          ],
+          "top": [
+            { "name": "VDD3P3", "numbers": ["2", "3"], "type": "power_in" },
+            { "name": "VDD3P3_RTC", "numbers": ["11"], "type": "power_in" },
+            { "name": "VDD3P3_CPU", "numbers": ["17"], "type": "power_in" },
+            { "name": "VDDA", "numbers": ["31", "32"], "type": "power_in" },
+            { "name": "VDD_SPI", "numbers": ["18"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["33"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "LSF0108PW",
+      "package": "TSSOP-20 (PW, SOT360-1)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://assets.nexperia.com/documents/data-sheet/LSF0108.pdf",
+        "Description": "8-bit bidirectional multi-voltage level translator, open-drain, push-pull"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "A1", "numbers": ["3", "4", "5", "6", "7", "8", "9", "10"],
+              "type": "bidirectional", "increment": true },
+            { "spacer": 1 },
+            { "name": "EN", "numbers": ["20"], "type": "input" }
+          ],
+          "right": [
+            { "name": "B1", "numbers": ["18", "17", "16", "15", "14", "13", "12", "11"],
+              "type": "bidirectional", "increment": true }
+          ],
+          "top": [
+            { "name": "refA", "numbers": ["2"], "type": "power_in" },
+            { "name": "refB", "numbers": ["19"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["1"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

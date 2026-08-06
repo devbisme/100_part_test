@@ -1,0 +1,56 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MCP39F521",
+      "package": "QFN-28 5x5mm",
+      "expected_pin_count": 29,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/20005442A.pdf",
+        "Description": "I2C power monitor with calculation and energy accumulation"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "I1+", "numbers": ["16"], "type": "input" },
+            { "name": "I1-", "numbers": ["17"], "type": "input" },
+            { "name": "V1+", "numbers": ["19"], "type": "input" },
+            { "name": "V1-", "numbers": ["18"], "type": "input" },
+            { "name": "AN_IN", "numbers": ["20"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "COMMONA", "numbers": ["5"], "type": "passive" },
+            { "name": "COMMONB", "numbers": ["4"], "type": "passive" },
+            { "name": "REFIN+/OUT", "numbers": ["23"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "OSCI", "numbers": ["6"], "type": "input" },
+            { "name": "OSCO", "numbers": ["7"], "type": "output" }
+          ],
+          "right": [
+            { "name": "SCL", "numbers": ["13"], "type": "input", "style": "clock" },
+            { "name": "SDA", "numbers": ["14"], "type": "bidirectional" },
+            { "name": "A0", "numbers": ["12"], "type": "input" },
+            { "name": "A1", "numbers": ["15"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "EVENT", "numbers": ["1"], "type": "output" },
+            { "name": "ZCD", "numbers": ["22"], "type": "output" },
+            { "name": "~{DR}", "numbers": ["28"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{RESET}", "numbers": ["10"], "type": "input" },
+            { "name": "~{MCLR}", "numbers": ["26"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["2", "3", "8", "9"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "AVDD", "numbers": ["11"], "type": "power_in" },
+            { "name": "DVDD", "numbers": ["25"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "AGND", "numbers": ["21"], "type": "power_in" },
+            { "name": "DGND", "numbers": ["24", "27", "29"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

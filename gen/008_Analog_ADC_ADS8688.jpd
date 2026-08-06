@@ -1,0 +1,64 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ADS8688",
+      "package": "TSSOP-38 (DBT)",
+      "expected_pin_count": 38,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/ads8688.pdf",
+        "Description": "8-channel 16-bit 500kSPS SAR ADC with integrated analog front end"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "AIN_0P", "numbers": ["16"], "type": "input" },
+            { "name": "AIN_0GND", "numbers": ["17"], "type": "input" },
+            { "name": "AIN_1P", "numbers": ["18"], "type": "input" },
+            { "name": "AIN_1GND", "numbers": ["19"], "type": "input" },
+            { "name": "AIN_2P", "numbers": ["21"], "type": "input" },
+            { "name": "AIN2_GND", "numbers": ["20"], "type": "input" },
+            { "name": "AIN_3P", "numbers": ["23"], "type": "input" },
+            { "name": "AIN_3GND", "numbers": ["22"], "type": "input" },
+            { "name": "AIN_4P", "numbers": ["25"], "type": "input" },
+            { "name": "AIN_4GND", "numbers": ["24"], "type": "input" },
+            { "name": "AIN_5P", "numbers": ["27"], "type": "input" },
+            { "name": "AIN_5GND", "numbers": ["26"], "type": "input" },
+            { "name": "AIN_6P", "numbers": ["12"], "type": "input" },
+            { "name": "AIN_6GND", "numbers": ["13"], "type": "input" },
+            { "name": "AIN_7P", "numbers": ["14"], "type": "input" },
+            { "name": "AIN_7GND", "numbers": ["15"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "AUX_IN", "numbers": ["10"], "type": "input" },
+            { "name": "AUX_GND", "numbers": ["11"], "type": "input" }
+          ],
+          "right": [
+            { "name": "SDI", "numbers": ["1"], "type": "input" },
+            { "name": "SDO", "numbers": ["36"], "type": "output" },
+            { "name": "SCLK", "numbers": ["37"], "type": "input", "style": "clock" },
+            { "name": "~{CS}", "numbers": ["38"], "type": "input" },
+            { "name": "DAISY", "numbers": ["3"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "~{RST}/PD", "numbers": ["2"], "type": "input" },
+            { "name": "~{REFSEL}", "numbers": ["4"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "REFIO", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "REFCAP", "numbers": ["7"], "type": "output" },
+            { "name": "REFGND", "numbers": ["6"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "DNC", "numbers": ["35"], "type": "no_connect" }
+          ],
+          "top": [
+            { "name": "AVDD", "numbers": ["9", "30"], "type": "power_in" },
+            { "name": "DVDD", "numbers": ["34"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "AGND", "numbers": ["8", "28", "29", "31", "32"], "type": "power_in" },
+            { "name": "DGND", "numbers": ["33"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

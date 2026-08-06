@@ -1,0 +1,49 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPS26630RGE",
+      "package": "VQFN-24 PowerPAD (RGE)",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tps2663.pdf",
+        "Description": "60V, 6A eFuse with overvoltage protection and reverse polarity protection"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "IN", "numbers": ["1", "2"], "type": "power_in" },
+            { "name": "IN_SYS", "numbers": ["5"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "UVLO", "numbers": ["6"], "type": "input" },
+            { "name": "OVP", "numbers": ["7"], "type": "input" },
+            { "name": "MODE", "numbers": ["11"], "type": "input" },
+            { "name": "~{SHDN}", "numbers": ["12"], "type": "input" },
+            { "name": "PGTH", "numbers": ["15"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "ILIM", "numbers": ["10"], "type": "bidirectional" },
+            { "name": "dVdT", "numbers": ["9"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "OUT", "numbers": ["17", "18"], "type": "power_out" },
+            { "spacer": 1 },
+            { "name": "B_GATE", "numbers": ["3"], "type": "output" },
+            { "name": "DRV", "numbers": ["4"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "IMON", "numbers": ["13"], "type": "output" },
+            { "name": "PGOOD", "numbers": ["16"], "type": "output" },
+            { "name": "~{FLT}", "numbers": ["14"], "type": "open_collector" },
+            { "spacer": 1 },
+            { "name": "NC", "numbers": ["19", "20", "21", "22", "23", "24"],
+              "type": "no_connect" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["8"], "type": "power_in" },
+            { "name": "PAD", "numbers": ["25"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

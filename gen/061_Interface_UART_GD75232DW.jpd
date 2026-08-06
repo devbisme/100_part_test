@@ -1,0 +1,53 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "GD75232DW",
+      "package": "SOIC-20 (DW)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/gd75232.pdf",
+        "Description": "Multiple RS-232 drivers (3) and receivers (5)"
+      },
+      "units": [
+        {
+          "name": "A",
+          "left": [
+            { "name": "RA1", "numbers": ["2"], "type": "input" },
+            { "name": "RA2", "numbers": ["3"], "type": "input" },
+            { "name": "RA3", "numbers": ["4"], "type": "input" },
+            { "name": "RA4", "numbers": ["7"], "type": "input" },
+            { "name": "RA5", "numbers": ["9"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "DA1", "numbers": ["16"], "type": "input" },
+            { "name": "DA2", "numbers": ["15"], "type": "input" },
+            { "name": "DA3", "numbers": ["13"], "type": "input" }
+          ],
+          "right": [
+            { "name": "RY1", "numbers": ["19"], "type": "output" },
+            { "name": "RY2", "numbers": ["18"], "type": "output" },
+            { "name": "RY3", "numbers": ["17"], "type": "output" },
+            { "name": "RY4", "numbers": ["14"], "type": "output" },
+            { "name": "RY5", "numbers": ["12"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "DY1", "numbers": ["5"], "type": "output" },
+            { "name": "DY2", "numbers": ["6"], "type": "output" },
+            { "name": "DY3", "numbers": ["8"], "type": "output" }
+          ]
+        },
+        {
+          "name": "PWR",
+          "top": [
+            { "name": "VCC", "numbers": ["20"], "type": "power_in" },
+            { "name": "VDD", "numbers": ["1"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["11"], "type": "power_in" },
+            { "name": "VSS", "numbers": ["10"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

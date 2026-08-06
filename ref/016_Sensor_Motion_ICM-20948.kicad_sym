@@ -1,0 +1,335 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol ICM-20948
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at -11.43 16.51 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value ICM-20948
+      (at 7.62 -16.51 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm
+      (at 0 -25.4 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf
+      (at 0 -3.81 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords mems magnetometer
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters InvenSense?QFN*3x3mm*P0.4mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol ICM-20948_0_1
+      (rectangle
+        (start -10.16 15.24)
+        (end 10.16 -15.24)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol ICM-20948_1_1
+      (pin bidirectional line
+        (at -12.7 7.62 0)
+        (length 2.54)
+        (name SDO/AD0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -12.7 5.08 0)
+        (length 2.54)
+        (name SDA/SDI
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 24
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 2.54 0)
+        (length 2.54)
+        (name SCL/SCLK
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 23
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 0 0)
+        (length 2.54)
+        (name ~{CS}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 22
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 -5.08 0)
+        (length 2.54)
+        (name FSYNC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -12.7 -7.62 0)
+        (length 2.54)
+        (name INT1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -10.16 12.7 0)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -10.16 10.16 0)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -10.16 -2.54 0)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -10.16 -10.16 0)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -10.16 -12.7 0)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 17.78 270)
+        (length 2.54)
+        (name VDDIO
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -17.78 90)
+        (length 2.54)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 0 -17.78 90)
+        (length 2.54)
+        (hide yes)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 17.78 270)
+        (length 2.54)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 10.16 10.16 180)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 10.16 7.62 180)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 10.16 5.08 180)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 10.16 -7.62 180)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 10.16 -10.16 180)
+        (length 2.54)
+        (hide yes)
+        (name NC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 10.16 -12.7 180)
+        (length 2.54)
+        (hide yes)
+        (name RESV
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 12.7 2.54 180)
+        (length 2.54)
+        (name AUX_DA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 21
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 12.7 0 180)
+        (length 2.54)
+        (name AUX_CL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 12.7 -5.08 180)
+        (length 2.54)
+        (name REGOUT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

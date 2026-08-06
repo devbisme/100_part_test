@@ -1,0 +1,61 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPD12S520DBT",
+      "package": "TSSOP-38 (DBT)",
+      "expected_pin_count": 38,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/tpd12s520.pdf",
+        "Description": "HDMI companion chip with level shifting and ESD protection"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "5V_SUPPLY", "numbers": ["1"], "type": "power_in" },
+            { "name": "LV_SUPPLY", "numbers": ["2"], "type": "power_in" },
+            { "name": "GND", "numbers": ["3"], "type": "power_in" },
+            { "name": "TMDS_D2+", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["5"], "type": "power_in" },
+            { "name": "TMDS_D2-", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "TMDS_D1+", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["8"], "type": "power_in" },
+            { "name": "TMDS_D1-", "numbers": ["9"], "type": "bidirectional" },
+            { "name": "TMDS_D0+", "numbers": ["10"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["11"], "type": "power_in" },
+            { "name": "TMDS_D0-", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "TMDS_CK+", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["14"], "type": "power_in" },
+            { "name": "TMDS_CK-", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "CE_REMOTE_IN", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "DDC_CLK_IN", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "DDC_DAT_IN", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "HOTPLUG_DET_IN", "numbers": ["19"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "NC", "numbers": ["38"], "type": "no_connect" },
+            { "name": "ESD_BYP", "numbers": ["37"], "type": "bidirectional" },
+            { "name": "GND", "numbers": ["36"], "type": "power_in" },
+            { "name": "TMDS_D2+", "numbers": ["35"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["34"], "type": "power_in" },
+            { "name": "TMDS_D2-", "numbers": ["33"], "type": "bidirectional" },
+            { "name": "TMDS_D1+", "numbers": ["32"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["31"], "type": "power_in" },
+            { "name": "TMDS_D1-", "numbers": ["30"], "type": "bidirectional" },
+            { "name": "TMDS_D0+", "numbers": ["29"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["28"], "type": "power_in" },
+            { "name": "TMDS_D0-", "numbers": ["27"], "type": "bidirectional" },
+            { "name": "TMDS_CK+", "numbers": ["26"], "type": "bidirectional" },
+            { "name": "TMDS_GND", "numbers": ["25"], "type": "power_in" },
+            { "name": "TMDS_CK-", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "CE_REMOTE_OUT", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "DDC_CLK_OUT", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "DDC_DAT_OUT", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "HOTPLUG_DET_OUT", "numbers": ["20"], "type": "bidirectional" }
+          ]
+        }
+      ]
+    }
+  ]
+}

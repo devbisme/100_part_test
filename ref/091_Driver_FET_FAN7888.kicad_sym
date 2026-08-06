@@ -1,0 +1,282 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol FAN7888
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at -2.54 24.13 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property Value FAN7888
+      (at -2.54 21.59 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)))
+    (property Footprint Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm
+      (at 1.27 -19.05 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property Datasheet http://www.onsemi.com/pub/Collateral/FAN7888-D.pdf
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description 3 Half-Bridge Gate-Drive IC, 200V operation, Output Current 350/650mA, SOIC-20
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords 3 Phase Gate Driver
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters SOIC*7.5x12.8*P1.27mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol FAN7888_0_1
+      (rectangle
+        (start -7.62 20.32)
+        (end 7.62 -17.78)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol FAN7888_1_1
+      (pin input line
+        (at -10.16 15.24 0)
+        (length 2.54)
+        (name HIN1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 12.7 0)
+        (length 2.54)
+        (name LIN1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 2.54 0)
+        (length 2.54)
+        (name HIN2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 0 0)
+        (length 2.54)
+        (name LIN2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 -10.16 0)
+        (length 2.54)
+        (name HIN3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -10.16 -12.7 0)
+        (length 2.54)
+        (name LIN3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 22.86 270)
+        (length 2.54)
+        (name VDD
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -20.32 90)
+        (length 2.54)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 10.16 17.78 180)
+        (length 2.54)
+        (name VB1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 15.24 180)
+        (length 2.54)
+        (name HO1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 10.16 12.7 180)
+        (length 2.54)
+        (name VS1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 10.16 180)
+        (length 2.54)
+        (name LO1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 10.16 5.08 180)
+        (length 2.54)
+        (name VB2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 2.54 180)
+        (length 2.54)
+        (name HO2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 10.16 0 180)
+        (length 2.54)
+        (name VS2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 -2.54 180)
+        (length 2.54)
+        (name LO2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 10.16 -7.62 180)
+        (length 2.54)
+        (name VB3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 -10.16 180)
+        (length 2.54)
+        (name HO3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 10.16 -12.7 180)
+        (length 2.54)
+        (name VS3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.16 -15.24 180)
+        (length 2.54)
+        (name LO3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

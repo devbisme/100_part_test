@@ -1,0 +1,57 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "CC1312R1F3RGZ",
+      "package": "VQFN-48 (RGZ)",
+      "expected_pin_count": 49,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/cc1312r.pdf",
+        "Description": "SimpleLink high-performance Sub-1GHz wireless MCU, 352KB flash"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "DIO_1", "numbers": ["6", "7", "8", "9", "10", "11", "12"],
+              "type": "bidirectional", "increment": true },
+            { "name": "DIO_8", "numbers": ["14", "15", "16", "17", "18", "19", "20", "21"],
+              "type": "bidirectional", "increment": true },
+            { "name": "DIO_16", "numbers": ["26", "27", "28", "29", "30", "31", "32"],
+              "type": "bidirectional", "increment": true },
+            { "name": "DIO_23", "numbers": ["36", "37", "38", "39", "40", "41", "42", "43"],
+              "type": "bidirectional", "increment": true }
+          ],
+          "right": [
+            { "name": "RF_P", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "RF_N", "numbers": ["2"], "type": "bidirectional" },
+            { "name": "RX_TX", "numbers": ["3"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "X32K_Q1", "numbers": ["4"], "type": "unspecified" },
+            { "name": "X32K_Q2", "numbers": ["5"], "type": "unspecified" },
+            { "name": "X48M_P", "numbers": ["47"], "type": "unspecified" },
+            { "name": "X48M_N", "numbers": ["46"], "type": "unspecified" },
+            { "spacer": 1 },
+            { "name": "JTAG_TMSC", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "JTAG_TCKC", "numbers": ["25"], "type": "input", "style": "clock" },
+            { "name": "RESET_N", "numbers": ["35"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "DCDC_SW", "numbers": ["33"], "type": "output" },
+            { "name": "DCOUPL", "numbers": ["23"], "type": "power_out" }
+          ],
+          "top": [
+            { "name": "VDDS", "numbers": ["44"], "type": "power_in" },
+            { "name": "VDDS2", "numbers": ["13"], "type": "power_in" },
+            { "name": "VDDS3", "numbers": ["22"], "type": "power_in" },
+            { "name": "VDDS_DCDC", "numbers": ["34"], "type": "power_in" },
+            { "name": "VDDR", "numbers": ["45"], "type": "power_in" },
+            { "name": "VDDR_RF", "numbers": ["48"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["49"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

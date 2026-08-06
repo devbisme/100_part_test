@@ -1,0 +1,51 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "28C256",
+      "package": "PDIP-28 / SOIC-28",
+      "expected_pin_count": 28,
+      "properties": {
+        "Datasheet": "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf",
+        "Description": "256K (32K x 8) paged parallel EEPROM"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "A14", "numbers": ["1"], "type": "input" },
+            { "name": "A12", "numbers": ["2"], "type": "input" },
+            { "name": "A7", "numbers": ["3"], "type": "input" },
+            { "name": "A6", "numbers": ["4"], "type": "input" },
+            { "name": "A5", "numbers": ["5"], "type": "input" },
+            { "name": "A4", "numbers": ["6"], "type": "input" },
+            { "name": "A3", "numbers": ["7"], "type": "input" },
+            { "name": "A2", "numbers": ["8"], "type": "input" },
+            { "name": "A1", "numbers": ["9"], "type": "input" },
+            { "name": "A0", "numbers": ["10"], "type": "input" },
+            { "name": "IO0", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "IO1", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "IO2", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "GND", "numbers": ["14"], "type": "power_in" }
+          ],
+          "right": [
+            { "name": "VCC", "numbers": ["28"], "type": "power_in" },
+            { "name": "~{WE}", "numbers": ["27"], "type": "input" },
+            { "name": "A13", "numbers": ["26"], "type": "input" },
+            { "name": "A8", "numbers": ["25"], "type": "input" },
+            { "name": "A9", "numbers": ["24"], "type": "input" },
+            { "name": "A11", "numbers": ["23"], "type": "input" },
+            { "name": "~{OE}", "numbers": ["22"], "type": "input" },
+            { "name": "A10", "numbers": ["21"], "type": "input" },
+            { "name": "~{CE}", "numbers": ["20"], "type": "input" },
+            { "name": "IO7", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "IO6", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "IO5", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "IO4", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "IO3", "numbers": ["15"], "type": "bidirectional" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol MCF5212CAE66
+    (pin_names
+      (offset 1.016))
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at 19.05 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property Value MCF5212CAE66
+      (at 16.51 -48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property Footprint Package_QFP:LQFP-64_10x10mm_P0.5mm
+      (at 1.27 1.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://www.nxp.com/docs/en/data-sheet/MCF5213EC.pdf
+      (at 1.27 1.27 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description ColdFire Microcontroller, LQFP64
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords MCU
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters LQFP*10x10mm*P0.5mm*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol MCF5212CAE66_0_1
+      (rectangle
+        (start -33.02 49.53)
+        (end 35.56 -46.99)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol MCF5212CAE66_1_1
+      (pin passive line
+        (at -40.64 45.72 0)
+        (length 7.62)
+        (name VCCPLL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 48
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -40.64 43.18 0)
+        (length 7.62)
+        (name GNDPLL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 45
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 38.1 0)
+        (length 7.62)
+        (name CLKIN/EXTAL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 47
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -40.64 35.56 0)
+        (length 7.62)
+        (name XTAL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 46
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input input_low
+        (at -40.64 30.48 0)
+        (length 7.62)
+        (name RSTI
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 59
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output output_low
+        (at -40.64 27.94 0)
+        (length 7.62)
+        (name RSTO
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 60
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 25.4 0)
+        (length 7.62)
+        (name CLKMOD0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 24
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 22.86 0)
+        (length 7.62)
+        (name RCON/EZPCS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 20.32 0)
+        (length 7.62)
+        (name TEST
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 17.78 0)
+        (length 7.62)
+        (name JTAG_EN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 15.24 0)
+        (length 7.62)
+        (name DSCLK/~{TRST}
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 54
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 12.7 0)
+        (length 7.62)
+        (name DSI/TDI
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 50
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -40.64 10.16 0)
+        (length 7.62)
+        (name DSO/TDO
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 51
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 7.62 0)
+        (length 7.62)
+        (name TCLK/PSTCLK/CLKOUT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 44
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 5.08 0)
+        (length 7.62)
+        (name ~{BKPT}/TMS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 49
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -40.64 2.54 0)
+        (length 7.62)
+        (name ALLPST
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 55
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -2.54 0)
+        (length 7.62)
+        (name ~{IRQ1}/PNQ1/SYNCA/PWM1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 56
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -5.08 0)
+        (length 7.62)
+        (name IRQ4*/PNQ4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 57
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -7.62 0)
+        (length 7.62)
+        (name IRQ7*/PNQ7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 58
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -12.7 0)
+        (length 7.62)
+        (name AN0/PAN0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 25
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -15.24 0)
+        (length 7.62)
+        (name AN1/PAN1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 26
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -17.78 0)
+        (length 7.62)
+        (name AN2/PAN2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 27
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -20.32 0)
+        (length 7.62)
+        (name AN3/PAN3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 28
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -22.86 0)
+        (length 7.62)
+        (name AN4/PAN4
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 36
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -25.4 0)
+        (length 7.62)
+        (name AN5/PAN5
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 35
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -27.94 0)
+        (length 7.62)
+        (name AN6/PAN6
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 34
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -40.64 -30.48 0)
+        (length 7.62)
+        (name AN7/PAN7
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 33
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 -35.56 0)
+        (length 7.62)
+        (name VRH
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 31
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 -38.1 0)
+        (length 7.62)
+        (name VRL
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 30
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 -43.18 0)
+        (length 7.62)
+        (name VCCA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 32
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -40.64 -45.72 0)
+        (length 7.62)
+        (name VSSA
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 29
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 55.88 270)
+        (length 6.35)
+        (name VCC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 -53.34 90)
+        (length 6.35)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 55.88 270)
+        (length 6.35)
+        (name VCC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 -53.34 90)
+        (length 6.35)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 21
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 55.88 270)
+        (length 6.35)
+        (name VCC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -53.34 90)
+        (length 6.35)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 38
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 55.88 270)
+        (length 6.35)
+        (name VCC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 39
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -53.34 90)
+        (length 6.35)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 53
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 5.08 55.88 270)
+        (length 6.35)
+        (name VCC
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 52
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 5.08 -53.34 90)
+        (length 6.35)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 64
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 10.16 55.88 270)
+        (length 6.35)
+        (name VSTBY
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 37
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 40.64 180)
+        (length 7.62)
+        (name GPT0/PWM1/PTA0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 40
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 38.1 180)
+        (length 7.62)
+        (name GPT1/PWM3/PTA1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 41
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 35.56 180)
+        (length 7.62)
+        (name GPT2PWM5//PTA2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 42
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 33.02 180)
+        (length 7.62)
+        (name GPT3/PWM7/PTA3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 43
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 27.94 180)
+        (length 7.62)
+        (name DTIN0/DTOUT0/PWM0/PTC0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 22
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 25.4 180)
+        (length 7.62)
+        (name DTIN1/DTOUT1/PWM2/PTC1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 23
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 22.86 180)
+        (length 7.62)
+        (name DTIN2/DTOUT2/PWM4/PTC2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 20.32 180)
+        (length 7.62)
+        (name DTIN3/DTOUT3/PWM6/PTC3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 15.24 180)
+        (length 7.62)
+        (name SCL/PAS0/UTxD2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 12.7 180)
+        (length 7.62)
+        (name SDA/PAS1/URxD2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 7.62 180)
+        (length 7.62)
+        (name UTXD0/PUA0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 5.08 180)
+        (length 7.62)
+        (name URXD0/PUA1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 2.54 180)
+        (length 7.62)
+        (name UTXD1/PUB0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 62
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 0 180)
+        (length 7.62)
+        (name URXD1/PUB1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 63
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -5.08 180)
+        (length 7.62)
+        (name ~{URTS0}/CANTX/PUA2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -7.62 180)
+        (length 7.62)
+        (name ~{UCTS0}/CANRTX/PUA3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -10.16 180)
+        (length 7.62)
+        (name ~{URTS1}/SYNCB/UTXD2/PUB2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -12.7 180)
+        (length 7.62)
+        (name ~{UCTS1}/SYNCA/URXD2/PUB3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 61
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -17.78 180)
+        (length 7.62)
+        (name QSPI_DOUT/EZPQ/CANTX/RXD0/PQS0
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -20.32 180)
+        (length 7.62)
+        (name QSPI_DIN/EZPD/CANRX/RXD1/PQS1
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -22.86 180)
+        (length 7.62)
+        (name QSPI_CLK/EZPCK/SCL/RTS1/PQS2
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 -25.4 180)
+        (length 7.62)
+        (name QSPI_CS0/SDA/CTS1/PQS3
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

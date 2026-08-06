@@ -1,0 +1,53 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "AT86RF233-Z",
+      "package": "QFN-32 5x5mm",
+      "expected_pin_count": 33,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8351-MCU_Wireless-AT86RF233_Datasheet.pdf",
+        "Description": "2.4 GHz IEEE 802.15.4 / ZigBee RF transceiver"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "SCLK", "numbers": ["19"], "type": "input", "style": "clock" },
+            { "name": "MOSI", "numbers": ["22"], "type": "input" },
+            { "name": "MISO", "numbers": ["20"], "type": "output" },
+            { "name": "~{SEL}", "numbers": ["23"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "~{RST}", "numbers": ["8"], "type": "input" },
+            { "name": "SLP_TR", "numbers": ["11"], "type": "input" },
+            { "name": "IRQ", "numbers": ["24"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "XTAL1", "numbers": ["26"], "type": "input" },
+            { "name": "XTAL2", "numbers": ["25"], "type": "input" },
+            { "name": "CLKM", "numbers": ["17"], "type": "output" }
+          ],
+          "right": [
+            { "name": "RFP", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "RFN", "numbers": ["5"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "DIG1", "numbers": ["9"], "type": "output" },
+            { "name": "DIG2", "numbers": ["10"], "type": "output" },
+            { "name": "DIG3", "numbers": ["1"], "type": "output" },
+            { "name": "DIG4", "numbers": ["2"], "type": "output" }
+          ],
+          "top": [
+            { "name": "EVDD", "numbers": ["28"], "type": "power_in" },
+            { "name": "DEVDD", "numbers": ["15"], "type": "power_in" },
+            { "name": "AVDD", "numbers": ["29"], "type": "power_out" },
+            { "name": "DVDD", "numbers": ["13", "14"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "AVSS", "numbers": ["3", "6", "27", "30", "31", "32", "33"],
+              "type": "power_in" },
+            { "name": "DVSS", "numbers": ["7", "12", "16", "18", "21"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

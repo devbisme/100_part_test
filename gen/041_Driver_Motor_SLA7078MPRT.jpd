@@ -1,0 +1,50 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "SLA7078MPRT",
+      "package": "ZIP-23 (SLA)",
+      "expected_pin_count": 23,
+      "properties": {
+        "Datasheet": "https://www.sanken-ele.co.jp/en/prod/semicon/dtl/pdf/SLA7070MPRT-AN.pdf",
+        "Description": "Unipolar 2-phase microstepping motor driver, 3A"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "Clock", "numbers": ["10"], "type": "input", "style": "clock" },
+            { "name": "CW/CCW", "numbers": ["16"], "type": "input" },
+            { "name": "Reset", "numbers": ["15"], "type": "input" },
+            { "name": "Sync", "numbers": ["17"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "M1", "numbers": ["7"], "type": "input" },
+            { "name": "M2", "numbers": ["8"], "type": "input" },
+            { "name": "M3", "numbers": ["9"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "Ref/Sleep1", "numbers": ["13"], "type": "input" }
+          ],
+          "right": [
+            { "name": "OutA", "numbers": ["1", "2"], "type": "open_collector" },
+            { "name": "~{OutA}", "numbers": ["3", "4"], "type": "open_collector" },
+            { "name": "SenseA", "numbers": ["5"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "OutB", "numbers": ["22", "23"], "type": "open_collector" },
+            { "name": "~{OutB}", "numbers": ["20", "21"], "type": "open_collector" },
+            { "name": "SenseB", "numbers": ["19"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "MO", "numbers": ["6"], "type": "output" },
+            { "name": "Flag", "numbers": ["18"], "type": "output" }
+          ],
+          "top": [
+            { "name": "VBB", "numbers": ["11"], "type": "power_in" },
+            { "name": "VDD", "numbers": ["14"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "Gnd", "numbers": ["12"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

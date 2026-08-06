@@ -1,0 +1,349 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "RPMH24-1.5"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -26.67 20.320000000000004 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "RPMH24-1.5"
+      (at -26.67 17.780000000000005 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -26.67 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "https://recom-power.com/pdf/Innoline/RPMH-1.5.pdf"
+      (at -26.67 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" "1.5A non-isolated 24V output switching regulator power module"
+      (at -26.67 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -26.67 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -26.67 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -26.67 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "RPMH24-1.5_1_1"
+      (rectangle
+        (start -26.67 -16.51)
+        (end 26.67 16.51)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at -31.75 3.81 0)
+        (length 5.08)
+        (name "VIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -31.75 1.27 0)
+        (length 5.08)
+        (name "VIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -31.75 -3.81 0)
+        (length 5.08)
+        (name "CTRL"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 31.75 10.16 180)
+        (length 5.08)
+        (name "VOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 31.75 7.62 180)
+        (length 5.08)
+        (name "VOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 31.75 5.08 180)
+        (length 5.08)
+        (name "SENSE"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 31.75 2.54 180)
+        (length 5.08)
+        (name "TRIM"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 31.75 -2.54 180)
+        (length 5.08)
+        (name "PGOOD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 31.75 -7.62 180)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 31.75 -10.16 180)
+        (length 5.08)
+        (name "NC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -17.78 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -15.240000000000002 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "A4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -12.700000000000003 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -10.160000000000004 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.620000000000004 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.080000000000004 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "B4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.5400000000000036 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.552713678800501e-15 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.5399999999999965 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "C4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 5.0799999999999965 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 7.6199999999999966 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 10.159999999999997 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 12.699999999999996 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "D5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 15.239999999999995 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 17.779999999999994 -21.59 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "E4"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

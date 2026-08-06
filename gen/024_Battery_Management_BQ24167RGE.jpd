@@ -1,0 +1,53 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "BQ24167RGE",
+      "package": "QFN-24 (RGE)",
+      "expected_pin_count": 25,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/bq24167.pdf",
+        "Description": "2.5A switch-mode Li-Ion battery charger with power path management and NTC monitoring"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "IN", "numbers": ["21"], "type": "power_in" },
+            { "name": "USB", "numbers": ["22"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "PMIDI", "numbers": ["20"], "type": "passive" },
+            { "name": "PMIDU", "numbers": ["23"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "~{CE}", "numbers": ["24"], "type": "input" },
+            { "name": "VDPM", "numbers": ["1"], "type": "input" },
+            { "name": "USB1", "numbers": ["4"], "type": "input" },
+            { "name": "USB2", "numbers": ["3"], "type": "input" },
+            { "name": "USB3", "numbers": ["2"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "ISET", "numbers": ["5"], "type": "input" },
+            { "name": "ILIM", "numbers": ["15"], "type": "input" },
+            { "name": "TS", "numbers": ["9"], "type": "input" }
+          ],
+          "right": [
+            { "name": "SW", "numbers": ["18"], "type": "output" },
+            { "name": "BOOT", "numbers": ["19"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "SYS", "numbers": ["13", "14"], "type": "power_out" },
+            { "name": "BAT", "numbers": ["11", "12"], "type": "power_out" },
+            { "spacer": 1 },
+            { "name": "BGATE", "numbers": ["10"], "type": "output" },
+            { "name": "DRV", "numbers": ["6"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{PG}", "numbers": ["7"], "type": "open_collector" },
+            { "name": "~{CHG}", "numbers": ["8"], "type": "open_collector" }
+          ],
+          "bottom": [
+            { "name": "PGND", "numbers": ["16", "17"], "type": "power_in" },
+            { "name": "PAD", "numbers": ["25"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

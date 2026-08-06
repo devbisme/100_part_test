@@ -1,0 +1,47 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "SpinWarrior24R6",
+      "package": "DIL24 / SOIC24",
+      "expected_pin_count": 24,
+      "properties": {
+        "Datasheet": "http://www.codemercs.com/downloads/spinwarrior/SW_Datasheet.pdf",
+        "Description": "USB HID quadrature encoder interface, 6 encoders, 3 switches"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "A0", "numbers": ["1"], "type": "input" },
+            { "name": "B0", "numbers": ["2"], "type": "input" },
+            { "name": "A1", "numbers": ["3"], "type": "input" },
+            { "name": "B1", "numbers": ["4"], "type": "input" },
+            { "name": "Sw0", "numbers": ["5"], "type": "input" },
+            { "name": "Sw2", "numbers": ["6"], "type": "input" },
+            { "name": "B4", "numbers": ["7"], "type": "input" },
+            { "name": "B5", "numbers": ["8"], "type": "input" },
+            { "name": "GND", "numbers": ["9"], "type": "power_in" },
+            { "name": "PullToGND", "numbers": ["10"], "type": "input" },
+            { "name": "Vreg", "numbers": ["11"], "type": "power_out" },
+            { "name": "Power", "numbers": ["12"], "type": "input" }
+          ],
+          "right": [
+            { "name": "A2", "numbers": ["24"], "type": "input" },
+            { "name": "B2", "numbers": ["23"], "type": "input" },
+            { "name": "A3", "numbers": ["22"], "type": "input" },
+            { "name": "B3", "numbers": ["21"], "type": "input" },
+            { "name": "Sw1", "numbers": ["20"], "type": "input" },
+            { "name": "A4", "numbers": ["19"], "type": "input" },
+            { "name": "A5", "numbers": ["18"], "type": "input" },
+            { "name": "~{En}", "numbers": ["17"], "type": "open_collector" },
+            { "name": "D+", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "D-", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "Vcc", "numbers": ["14"], "type": "power_in" },
+            { "name": "NC", "numbers": ["13"], "type": "no_connect" }
+          ]
+        }
+      ]
+    }
+  ]
+}

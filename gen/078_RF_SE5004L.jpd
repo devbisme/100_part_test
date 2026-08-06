@@ -1,0 +1,44 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "SE5004L",
+      "package": "QFN-20 4x4mm",
+      "expected_pin_count": 21,
+      "properties": {
+        "Datasheet": "https://www.skyworksinc.com/-/media/SkyWorks/Documents/Products/201-300/SE5004L_202393B.pdf",
+        "Description": "5 GHz 26 dBm WLAN power amplifier with power detector"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "RFIN", "numbers": ["3"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "VREF", "numbers": ["5"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "SP1", "numbers": ["6"], "type": "passive" },
+            { "name": "SP2", "numbers": ["7"], "type": "passive" },
+            { "spacer": 1 },
+            { "name": "NU", "numbers": ["1"], "type": "no_connect" }
+          ],
+          "right": [
+            { "name": "RFOUT", "numbers": ["13"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "DET", "numbers": ["10"], "type": "output" }
+          ],
+          "top": [
+            { "name": "VCC1", "numbers": ["20"], "type": "power_in" },
+            { "name": "VCC2", "numbers": ["8", "19"], "type": "power_in" },
+            { "name": "VCC3", "numbers": ["9", "18"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND",
+              "numbers": ["2", "4", "11", "12", "14", "15", "16", "17", "21"],
+              "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

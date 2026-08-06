@@ -1,0 +1,47 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ATF1504ASVL-xAx44",
+      "package": "TQFP-44",
+      "expected_pin_count": 44,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/ATF1504ASV-ATF1504ASVL-Data-Sheet-DS20006185A.pdf",
+        "Description": "64-macrocell 3.3V CPLD, TQFP-44"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "GCLK1/I", "numbers": ["37"], "type": "input", "style": "clock" },
+            { "name": "GCLK2/OE2/I", "numbers": ["40"], "type": "input", "style": "clock" },
+            { "name": "GCLK3/I/O", "numbers": ["35"], "type": "bidirectional", "style": "clock" },
+            { "name": "GCLR/I", "numbers": ["39"], "type": "input" },
+            { "name": "I/OE1", "numbers": ["38"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "I/O/TDI", "numbers": ["1"], "type": "bidirectional" },
+            { "name": "I/O/TCK", "numbers": ["26"], "type": "bidirectional" },
+            { "name": "TMS/I/O", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "I/O/TDO", "numbers": ["32"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "PD1/I/O", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "PD2/I/O", "numbers": ["19"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "I/O",
+              "numbers": ["2", "3", "6", "8", "10", "11", "12", "13", "14", "15",
+                          "18", "20", "21", "22", "23", "25", "27", "28", "30", "31",
+                          "33", "34", "42", "43", "44"],
+              "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["9", "17", "29", "41"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["4", "16", "24", "36"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

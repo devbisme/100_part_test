@@ -1,0 +1,65 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ATSAMD21E17A-A",
+      "package": "TQFP-32",
+      "expected_pin_count": 32,
+      "properties": {
+        "Datasheet": "https://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D21-DA1-Family-Data-Sheet-DS40001882E.pdf",
+        "Description": "32-bit Cortex-M0+ MCU, 128KB flash, 16KB SRAM, TQFP-32"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "PA00", "numbers": ["1"], "type": "bidirectional",
+              "alternates": [ { "name": "XIN32", "type": "input" } ] },
+            { "name": "PA01", "numbers": ["2"], "type": "bidirectional",
+              "alternates": [ { "name": "XOUT32", "type": "output" } ] },
+            { "name": "PA02", "numbers": ["3"], "type": "bidirectional" },
+            { "name": "PA03", "numbers": ["4"], "type": "bidirectional" },
+            { "name": "PA04", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "PA05", "numbers": ["6"], "type": "bidirectional" },
+            { "name": "PA06", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "PA07", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "PA08", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "PA09", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "PA10", "numbers": ["13"], "type": "bidirectional" },
+            { "name": "PA11", "numbers": ["14"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "PA14", "numbers": ["15"], "type": "bidirectional",
+              "alternates": [ { "name": "XIN", "type": "input" } ] },
+            { "name": "PA15", "numbers": ["16"], "type": "bidirectional",
+              "alternates": [ { "name": "XOUT", "type": "output" } ] },
+            { "name": "PA16", "numbers": ["17"], "type": "bidirectional" },
+            { "name": "PA17", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "PA18", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "PA19", "numbers": ["20"], "type": "bidirectional" },
+            { "name": "PA22", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "PA23", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "PA24", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "PA25", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "PA27", "numbers": ["25"], "type": "bidirectional" },
+            { "name": "PA28", "numbers": ["27"], "type": "bidirectional" },
+            { "name": "PA30", "numbers": ["31"], "type": "bidirectional",
+              "alternates": [ { "name": "SWCLK", "type": "input", "style": "clock" } ] },
+            { "name": "PA31", "numbers": ["32"], "type": "bidirectional",
+              "alternates": [ { "name": "SWDIO", "type": "bidirectional" } ] },
+            { "spacer": 1 },
+            { "name": "~{RESET}", "numbers": ["26"], "type": "input" }
+          ],
+          "top": [
+            { "name": "VDDIN", "numbers": ["30"], "type": "power_in" },
+            { "name": "VDDANA", "numbers": ["9"], "type": "power_in" },
+            { "name": "VDDCORE", "numbers": ["29"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["10", "28"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

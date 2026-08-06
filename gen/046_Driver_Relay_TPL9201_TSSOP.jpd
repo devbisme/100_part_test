@@ -1,0 +1,43 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPL9201_TSSOP",
+      "package": "TSSOP-20 PowerPAD (PW)",
+      "expected_pin_count": 21,
+      "properties": {
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/tpl9201.pdf",
+        "Description": "8-channel relay driver with integrated 5V LDO and zero-volt detection"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "MOSI", "numbers": ["15"], "type": "input" },
+            { "name": "SCLK", "numbers": ["17"], "type": "input", "style": "clock" },
+            { "name": "NCS", "numbers": ["16"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "EN1", "numbers": ["12"], "type": "input" },
+            { "name": "SYN", "numbers": ["20"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "R_{DELAY}", "numbers": ["13"], "type": "passive" }
+          ],
+          "right": [
+            { "name": "OUT1", "numbers": ["2", "3", "4", "5", "6", "7", "8", "9"],
+              "type": "open_collector", "increment": true },
+            { "spacer": 1 },
+            { "name": "ZVS", "numbers": ["1"], "type": "output" },
+            { "name": "~{RST}", "numbers": ["14"], "type": "open_collector" }
+          ],
+          "top": [
+            { "name": "VIN", "numbers": ["19"], "type": "power_in" },
+            { "name": "5VOUT", "numbers": ["18"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["10", "11", "21"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

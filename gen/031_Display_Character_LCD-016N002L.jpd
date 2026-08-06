@@ -1,0 +1,38 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "LCD-016N002L",
+      "package": "16-pin 2.54mm header module",
+      "expected_pin_count": 16,
+      "properties": {
+        "Datasheet": "http://www.vishay.com/docs/37299/37299.pdf",
+        "Description": "16x2 character LCD, ST7066 controller"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "RS", "numbers": ["4"], "type": "input" },
+            { "name": "R/~{W}", "numbers": ["5"], "type": "input" },
+            { "name": "E", "numbers": ["6"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "V0", "numbers": ["3"], "type": "input" }
+          ],
+          "right": [
+            { "name": "DB0", "numbers": ["7", "8", "9", "10", "11", "12", "13", "14"],
+              "type": "bidirectional", "increment": true }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["2"], "type": "power_in" },
+            { "name": "A", "numbers": ["15"], "type": "power_in" }
+          ],
+          "bottom": [
+            { "name": "VSS", "numbers": ["1"], "type": "power_in" },
+            { "name": "K", "numbers": ["16"], "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "Raspberry_Pi_4",
+      "package": "40-pin 2.54mm GPIO header (J8)",
+      "expected_pin_count": 40,
+      "properties": {
+        "Datasheet": "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf",
+        "Description": "Raspberry Pi 4 Model B 40-pin GPIO header"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "GPIO2", "numbers": ["3"], "type": "bidirectional" },
+            { "name": "GPIO3", "numbers": ["5"], "type": "bidirectional" },
+            { "name": "GPIO4", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "GPIO5", "numbers": ["29"], "type": "bidirectional" },
+            { "name": "GPIO6", "numbers": ["31"], "type": "bidirectional" },
+            { "name": "GPIO7", "numbers": ["26"], "type": "bidirectional" },
+            { "name": "GPIO8", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "GPIO9", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "GPIO10", "numbers": ["19"], "type": "bidirectional" },
+            { "name": "GPIO11", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "GPIO12", "numbers": ["32"], "type": "bidirectional" },
+            { "name": "GPIO13", "numbers": ["33"], "type": "bidirectional" },
+            { "name": "GPIO14", "numbers": ["8"], "type": "bidirectional" },
+            { "name": "GPIO15", "numbers": ["10"], "type": "bidirectional" }
+          ],
+          "right": [
+            { "name": "GPIO16", "numbers": ["36"], "type": "bidirectional" },
+            { "name": "GPIO17", "numbers": ["11"], "type": "bidirectional" },
+            { "name": "GPIO18", "numbers": ["12"], "type": "bidirectional" },
+            { "name": "GPIO19", "numbers": ["35"], "type": "bidirectional" },
+            { "name": "GPIO20", "numbers": ["38"], "type": "bidirectional" },
+            { "name": "GPIO21", "numbers": ["40"], "type": "bidirectional" },
+            { "name": "GPIO22", "numbers": ["15"], "type": "bidirectional" },
+            { "name": "GPIO23", "numbers": ["16"], "type": "bidirectional" },
+            { "name": "GPIO24", "numbers": ["18"], "type": "bidirectional" },
+            { "name": "GPIO25", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "GPIO26", "numbers": ["37"], "type": "bidirectional" },
+            { "name": "GPIO27", "numbers": ["13"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "ID_SD", "numbers": ["27"], "type": "bidirectional" },
+            { "name": "ID_SC", "numbers": ["28"], "type": "bidirectional" }
+          ],
+          "top": [
+            { "name": "3V3", "numbers": ["1", "17"], "type": "power_out" },
+            { "name": "5V", "numbers": ["2", "4"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["6", "9", "14", "20", "25", "30", "34", "39"],
+              "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

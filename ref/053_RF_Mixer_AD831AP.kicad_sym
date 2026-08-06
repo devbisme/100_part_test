@@ -1,0 +1,280 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator kicad_symbol_editor)
+  (generator_version 9.0)
+  (symbol AD831AP
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property Reference U
+      (at -10.16 13.97 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Value AD831AP
+      (at 10.16 13.97 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property Footprint Package_LCC:PLCC-20
+      (at 0 -26.67 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Datasheet https://www.analog.com/media/en/technical-documentation/data-sheets/AD831.pdf
+      (at -10.16 13.97 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property Description Doubly Balanced monolithic Mixer, 500 MHz BW, +24 dBm, IP3, LNA and LO driver, PLCC-20
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_keywords mixer rf
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property ki_fp_filters PLCC*
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (symbol AD831AP_0_1
+      (rectangle
+        (start 10.16 12.7)
+        (end -10.16 -12.7)
+        (stroke
+          (width 0.254)
+          (type default))
+        (fill
+          (type background))))
+    (symbol AD831AP_1_1
+      (pin input line
+        (at -12.7 10.16 0)
+        (length 2.54)
+        (name RFP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 6
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 7.62 0)
+        (length 2.54)
+        (name RFN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 7
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 2.54 0)
+        (length 2.54)
+        (name LOP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 11
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -12.7 0 0)
+        (length 2.54)
+        (name LON
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 10
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -12.7 -5.08 0)
+        (length 2.54)
+        (name BIAS
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 14
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -5.08 -15.24 90)
+        (length 2.54)
+        (hide yes)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 13
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 -15.24 90)
+        (length 2.54)
+        (name GND
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 4
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 15.24 270)
+        (length 2.54)
+        (name VP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 1
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -2.54 -15.24 90)
+        (length 2.54)
+        (name VN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 5
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 15.24 270)
+        (length 2.54)
+        (name VP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 9
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0 -15.24 90)
+        (length 2.54)
+        (name VN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 8
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 15.24 270)
+        (length 2.54)
+        (name VP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 12
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -15.24 90)
+        (length 2.54)
+        (name VN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 15
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 12.7 10.16 180)
+        (length 2.54)
+        (name AP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 19
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 7.62 180)
+        (length 2.54)
+        (name IFP
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 20
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin open_collector line
+        (at 12.7 5.08 180)
+        (length 2.54)
+        (name IFN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 2
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 12.7 2.54 180)
+        (length 2.54)
+        (name AN
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 3
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 12.7 -5.08 180)
+        (length 2.54)
+        (name OUT
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 16
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 12.7 -7.62 180)
+        (length 2.54)
+        (name VFB
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 17
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 12.7 -10.16 180)
+        (length 2.54)
+        (name COM
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number 18
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

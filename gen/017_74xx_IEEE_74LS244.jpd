@@ -1,0 +1,58 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "74LS244",
+      "package": "DIP-20 / SOIC-20 (DB, DW, J, N, NS, W)",
+      "expected_pin_count": 20,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf",
+        "Description": "Octal buffer/line driver with 3-state outputs, non-inverting"
+      },
+      "units": [
+        {
+          "name": "A",
+          "left": [
+            { "name": "~{1G}", "numbers": ["1"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "1A1", "numbers": ["2"], "type": "input" },
+            { "name": "1A2", "numbers": ["4"], "type": "input" },
+            { "name": "1A3", "numbers": ["6"], "type": "input" },
+            { "name": "1A4", "numbers": ["8"], "type": "input" }
+          ],
+          "right": [
+            { "spacer": 2 },
+            { "name": "1Y1", "numbers": ["18"], "type": "tri_state" },
+            { "name": "1Y2", "numbers": ["16"], "type": "tri_state" },
+            { "name": "1Y3", "numbers": ["14"], "type": "tri_state" },
+            { "name": "1Y4", "numbers": ["12"], "type": "tri_state" }
+          ]
+        },
+        {
+          "name": "B",
+          "left": [
+            { "name": "~{2G}", "numbers": ["19"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "2A1", "numbers": ["11"], "type": "input" },
+            { "name": "2A2", "numbers": ["13"], "type": "input" },
+            { "name": "2A3", "numbers": ["15"], "type": "input" },
+            { "name": "2A4", "numbers": ["17"], "type": "input" }
+          ],
+          "right": [
+            { "spacer": 2 },
+            { "name": "2Y1", "numbers": ["9"], "type": "tri_state" },
+            { "name": "2Y2", "numbers": ["7"], "type": "tri_state" },
+            { "name": "2Y3", "numbers": ["5"], "type": "tri_state" },
+            { "name": "2Y4", "numbers": ["3"], "type": "tri_state" }
+          ]
+        },
+        {
+          "name": "PWR",
+          "top": [ { "name": "VCC", "numbers": ["20"], "type": "power_in" } ],
+          "bottom": [ { "name": "GND", "numbers": ["10"], "type": "power_in" } ]
+        }
+      ]
+    }
+  ]
+}

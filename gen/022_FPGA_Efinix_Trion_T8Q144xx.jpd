@@ -1,0 +1,886 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "T8Q144xx",
+   "package": "LQFP-144",
+   "expected_pin_count": 144,
+   "properties": {
+    "Datasheet": "https://www.efinixinc.com/docs/trion8-ds-v4.4.pdf",
+    "Description": "Efinix Trion T8 FPGA, 7384 LEs, LVDS, LQFP-144"
+   },
+   "units": [
+    {
+     "left": [
+      {
+       "name": "GPIOL_53_CDI10",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_54_CDI11",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_46",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_41_CDI9",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_40_CDI8",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_32_CTRL4_CDI7",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_31_CLK7_CDI6",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_25_CLK1",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_24_CLK0",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_22_CTRL2",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_21_CTRL1_CDI5",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_20_CTRL0_CDI4",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_13_CDI3",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_12_CDI2",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "TDO",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "TMS",
+       "numbers": [
+        "25"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TCK",
+       "numbers": [
+        "26"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "TDI",
+       "numbers": [
+        "27"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GPIOL_09_CDI1",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_08_CDI0",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_01_CCK",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_00_SS_N",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_04_CSI",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_05_CSO",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CDONE",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CRESET_N",
+       "numbers": [
+        "35"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "REF_RES",
+       "numbers": [
+        "36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "GPIOL_75_PLLIN1",
+       "numbers": [
+        "131"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_74_PLLIN0",
+       "numbers": [
+        "132"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_73_EXTFB1_CDI15",
+       "numbers": [
+        "134"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_72_EXTFB0_CDI14",
+       "numbers": [
+        "135"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_71_NSTATUS",
+       "numbers": [
+        "136"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_70_CBSEL0",
+       "numbers": [
+        "137"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_69_CBSEL1",
+       "numbers": [
+        "138"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_68",
+       "numbers": [
+        "139"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_67_CDI13",
+       "numbers": [
+        "140"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_65",
+       "numbers": [
+        "141"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_66_CDI12",
+       "numbers": [
+        "142"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOL_64",
+       "numbers": [
+        "144"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "GPIOB_TXP00",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXN00",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXP02",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXN02",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXP04",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXN04",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXP06",
+       "numbers": [
+        "45"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXN06",
+       "numbers": [
+        "46"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXP09",
+       "numbers": [
+        "47"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXN09",
+       "numbers": [
+        "48"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXP11",
+       "numbers": [
+        "53"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_TXN11",
+       "numbers": [
+        "54"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXP00",
+       "numbers": [
+        "55"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXN00",
+       "numbers": [
+        "56"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXP02",
+       "numbers": [
+        "58"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXN02",
+       "numbers": [
+        "59"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXN03",
+       "numbers": [
+        "60"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXP03",
+       "numbers": [
+        "61"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXN07",
+       "numbers": [
+        "65"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXP07",
+       "numbers": [
+        "66"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXP10",
+       "numbers": [
+        "67"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXN10",
+       "numbers": [
+        "68"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXN12_EXTFB0",
+       "numbers": [
+        "69"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_RXP12_EXTFB0",
+       "numbers": [
+        "70"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_CLKP0",
+       "numbers": [
+        "71"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOB_CLKN0",
+       "numbers": [
+        "72"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_158_TEST_N",
+       "numbers": [
+        "74"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_157_PLLIN",
+       "numbers": [
+        "75"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_155",
+       "numbers": [
+        "76"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_154",
+       "numbers": [
+        "77"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_151_CBUS0",
+       "numbers": [
+        "78"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_150_CBUS1",
+       "numbers": [
+        "79"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_149_CBUS2",
+       "numbers": [
+        "80"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_139",
+       "numbers": [
+        "81"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_138",
+       "numbers": [
+        "82"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_136_CDI16",
+       "numbers": [
+        "83"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_135_CDI17",
+       "numbers": [
+        "84"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_133_CDI18",
+       "numbers": [
+        "86"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_132_CDI19",
+       "numbers": [
+        "87"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_129_CTRL10",
+       "numbers": [
+        "89"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_128_CTRL11",
+       "numbers": [
+        "90"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_125_CLK10",
+       "numbers": [
+        "92"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_123_CLK12_CDI20",
+       "numbers": [
+        "93"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_122_CLK13_CDI21",
+       "numbers": [
+        "97"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_117_CTRL14",
+       "numbers": [
+        "98"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_116_CTRL15",
+       "numbers": [
+        "99"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_113_CDI22",
+       "numbers": [
+        "100"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_112_CDI23",
+       "numbers": [
+        "101"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_105_CDI24",
+       "numbers": [
+        "102"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_104_CDI25",
+       "numbers": [
+        "103"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_95_CDI26",
+       "numbers": [
+        "105"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_94_CDI27",
+       "numbers": [
+        "106"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_88_CDI28",
+       "numbers": [
+        "109"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_87_CDI29",
+       "numbers": [
+        "110"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_85",
+       "numbers": [
+        "111"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_86",
+       "numbers": [
+        "112"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_84",
+       "numbers": [
+        "113"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_83",
+       "numbers": [
+        "114"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_82",
+       "numbers": [
+        "115"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_81_MREFCLK",
+       "numbers": [
+        "116"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_80",
+       "numbers": [
+        "117"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_79_EXTFB1_CDI30",
+       "numbers": [
+        "118"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_78_EXTFB0_CDI31",
+       "numbers": [
+        "119"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_77_PLLIN1",
+       "numbers": [
+        "123"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIOR_76_PLLIN0",
+       "numbers": [
+        "124"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "top": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "13",
+        "22",
+        "49",
+        "57",
+        "85",
+        "96",
+        "125",
+        "128",
+        "130"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCA_BR",
+       "numbers": [
+        "73"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCA_TL",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCA_TR",
+       "numbers": [
+        "107"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO1A",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO1B",
+       "numbers": [
+        "21"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO1C_1D",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO1E",
+       "numbers": [
+        "143"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO3A",
+       "numbers": [
+        "122"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO3B_3C",
+       "numbers": [
+        "95"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO3D",
+       "numbers": [
+        "91"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO3E",
+       "numbers": [
+        "88"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO4A",
+       "numbers": [
+        "62",
+        "63"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCCIO4B",
+       "numbers": [
+        "51",
+        "52"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "1",
+        "5",
+        "9",
+        "37",
+        "44",
+        "50",
+        "64",
+        "94",
+        "104",
+        "108",
+        "120",
+        "121",
+        "126",
+        "127",
+        "129",
+        "133"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

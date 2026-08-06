@@ -1,0 +1,58 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "MC3487DX",
+      "package": "SOIC-16 (DW)",
+      "expected_pin_count": 16,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/mc3487.pdf",
+        "Description": "Quadruple differential line driver, 3-state, TIA/EIA-422-B"
+      },
+      "units": [
+        {
+          "name": "A",
+          "left": [ { "name": "1A", "numbers": ["1"], "type": "input" } ],
+          "right": [
+            { "name": "1Y", "numbers": ["2"], "type": "tri_state" },
+            { "name": "1Z", "numbers": ["3"], "type": "tri_state" }
+          ]
+        },
+        {
+          "name": "B",
+          "left": [ { "name": "2A", "numbers": ["7"], "type": "input" } ],
+          "right": [
+            { "name": "2Y", "numbers": ["6"], "type": "tri_state" },
+            { "name": "2Z", "numbers": ["5"], "type": "tri_state" }
+          ]
+        },
+        {
+          "name": "C",
+          "left": [ { "name": "3A", "numbers": ["9"], "type": "input" } ],
+          "right": [
+            { "name": "3Y", "numbers": ["10"], "type": "tri_state" },
+            { "name": "3Z", "numbers": ["11"], "type": "tri_state" }
+          ]
+        },
+        {
+          "name": "D",
+          "left": [ { "name": "4A", "numbers": ["15"], "type": "input" } ],
+          "right": [
+            { "name": "4Y", "numbers": ["14"], "type": "tri_state" },
+            { "name": "4Z", "numbers": ["13"], "type": "tri_state" }
+          ]
+        },
+        {
+          "name": "PWR",
+          "left": [
+            { "name": "1_2EN", "numbers": ["4"], "type": "input" },
+            { "name": "3_4EN", "numbers": ["12"], "type": "input" }
+          ],
+          "top": [ { "name": "VCC", "numbers": ["16"], "type": "power_in" } ],
+          "bottom": [ { "name": "GND", "numbers": ["8"], "type": "power_in" } ]
+        }
+      ]
+    }
+  ]
+}

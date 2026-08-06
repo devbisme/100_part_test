@@ -1,0 +1,68 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "ZED-F9P",
+      "package": "LGA-54",
+      "expected_pin_count": 55,
+      "properties": {
+        "Datasheet": "https://content.u-blox.com/sites/default/files/ZED-F9P-04B_DataSheet_UBX-21044850.pdf",
+        "Description": "u-blox ZED-F9P high precision multi-band GNSS module with RTK, LGA-54"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "RF_IN", "numbers": ["2"], "type": "input" },
+            { "name": "ANT_DETECT", "numbers": ["4"], "type": "input" },
+            { "name": "~{ANT_SHORT}", "numbers": ["6"], "type": "input" },
+            { "name": "ANT_OFF", "numbers": ["5"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "USB_DM", "numbers": ["39"], "type": "bidirectional" },
+            { "name": "USB_DP", "numbers": ["40"], "type": "bidirectional" },
+            { "spacer": 1 },
+            { "name": "TXD", "numbers": ["42"], "type": "output",
+              "alternates": [ { "name": "SPI_SDO", "type": "tri_state" } ] },
+            { "name": "RXD", "numbers": ["43"], "type": "input",
+              "alternates": [ { "name": "SPI_SDI", "type": "input" } ] },
+            { "name": "SDA", "numbers": ["44"], "type": "bidirectional",
+              "alternates": [ { "name": "~{SPI_CS}", "type": "input" } ] },
+            { "name": "SCL", "numbers": ["45"], "type": "bidirectional",
+              "alternates": [ { "name": "SPI_CLK", "type": "input", "style": "clock" } ] },
+            { "name": "D_SEL", "numbers": ["47"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "RXD2", "numbers": ["26"], "type": "input" },
+            { "name": "TXD2", "numbers": ["27"], "type": "output" }
+          ],
+          "right": [
+            { "name": "TIMEPULSE", "numbers": ["53"], "type": "output" },
+            { "name": "TX_READY", "numbers": ["46"], "type": "output" },
+            { "name": "GEOFENCE_STAT", "numbers": ["19"], "type": "output" },
+            { "name": "RTK_STAT", "numbers": ["20"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "EXTINT", "numbers": ["51"], "type": "input" },
+            { "name": "~{RESET}", "numbers": ["49"], "type": "input" },
+            { "name": "~{SAFEBOOT}", "numbers": ["50"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "Reserved",
+              "numbers": ["8", "9", "10", "11", "13", "15", "16", "17", "18", "21",
+                          "22", "23", "24", "25", "28", "29", "30", "31", "35", "52", "54"],
+              "type": "no_connect", "hidden": true }
+          ],
+          "top": [
+            { "name": "VCC", "numbers": ["33", "34"], "type": "power_in" },
+            { "name": "V_BCKP", "numbers": ["36"], "type": "power_in" },
+            { "name": "V_USB", "numbers": ["38"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "VCC_RF", "numbers": ["7"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND",
+              "numbers": ["1", "3", "12", "14", "32", "37", "41", "48", "55"],
+              "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

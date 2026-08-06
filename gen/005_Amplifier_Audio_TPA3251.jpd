@@ -1,0 +1,64 @@
+{
+  "format": "jpd",
+  "version": 1,
+  "parts": [
+    {
+      "name": "TPA3251",
+      "package": "HTSSOP-44 (DDV)",
+      "expected_pin_count": 44,
+      "properties": {
+        "Datasheet": "http://www.ti.com/lit/ds/symlink/tpa3251.pdf",
+        "Description": "175W stereo / 350W mono PurePath Ultra-HD analog-input class-D amplifier"
+      },
+      "units": [
+        {
+          "left": [
+            { "name": "INPUT_A", "numbers": ["5"], "type": "input" },
+            { "name": "INPUT_B", "numbers": ["6"], "type": "input" },
+            { "name": "INPUT_C", "numbers": ["16"], "type": "input" },
+            { "name": "INPUT_D", "numbers": ["17"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "M1", "numbers": ["3"], "type": "input" },
+            { "name": "M2", "numbers": ["4"], "type": "input" },
+            { "name": "~{RESET}", "numbers": ["18"], "type": "input" },
+            { "spacer": 1 },
+            { "name": "OSC_IOM", "numbers": ["9"], "type": "bidirectional" },
+            { "name": "OSC_IOP", "numbers": ["10"], "type": "output" },
+            { "name": "FREQ_ADJ", "numbers": ["8"], "type": "output" },
+            { "name": "OC_ADJ", "numbers": ["7"], "type": "bidirectional" },
+            { "name": "C_START", "numbers": ["15"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "~{FAULT}", "numbers": ["19"], "type": "open_collector" },
+            { "name": "~{CLIP_OTW}", "numbers": ["21"], "type": "open_collector" }
+          ],
+          "right": [
+            { "name": "OUT_A", "numbers": ["39", "40"], "type": "output" },
+            { "name": "OUT_B", "numbers": ["35"], "type": "output" },
+            { "name": "OUT_C", "numbers": ["32"], "type": "output" },
+            { "name": "OUT_D", "numbers": ["27", "28"], "type": "output" },
+            { "spacer": 1 },
+            { "name": "BST_A", "numbers": ["44"], "type": "passive" },
+            { "name": "BST_B", "numbers": ["43"], "type": "passive" },
+            { "name": "BST_C", "numbers": ["24"], "type": "passive" },
+            { "name": "BST_D", "numbers": ["23"], "type": "passive" }
+          ],
+          "top": [
+            { "name": "VDD", "numbers": ["2"], "type": "power_in" },
+            { "name": "PVDD_AB", "numbers": ["36", "37", "38"], "type": "power_in" },
+            { "name": "PVDD_CD", "numbers": ["29", "30", "31"], "type": "power_in" },
+            { "spacer": 1 },
+            { "name": "GVDD_AB", "numbers": ["1"], "type": "power_out" },
+            { "name": "GVDD_CD", "numbers": ["22"], "type": "power_out" },
+            { "name": "AVDD", "numbers": ["14"], "type": "power_out" },
+            { "name": "DVDD", "numbers": ["11"], "type": "power_out" },
+            { "name": "VBG", "numbers": ["20"], "type": "power_out" }
+          ],
+          "bottom": [
+            { "name": "GND", "numbers": ["12", "13", "25", "26", "33", "34", "41", "42"],
+              "type": "power_in" }
+          ]
+        }
+      ]
+    }
+  ]
+}

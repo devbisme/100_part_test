@@ -1,0 +1,163 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "sfp",
+   "package": "SFP 20-pin edge connector (cage shield not numbered)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "INF-8074i"
+   },
+   "units": [
+    {
+     "name": "SFP",
+     "left": [
+      {
+       "name": "VeeT",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "TX_FAULT",
+       "numbers": [
+        "2"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "TX_DISABLE",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "MOD_DEF2",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "MOD_DEF1",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "MOD_DEF0",
+       "numbers": [
+        "6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "RATE_SELECT",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "LOS",
+       "numbers": [
+        "8"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "VeeR",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VeeR",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "VeeT",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "TD-",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TD+",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VeeT",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VccT",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VccR",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VeeR",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RD+",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RD-",
+       "numbers": [
+        "12"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VeeR",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

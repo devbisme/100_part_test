@@ -1,0 +1,1274 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "atsame70j21a-an",
+   "package": "LQFP-64",
+   "expected_pin_count": 64,
+   "properties": {
+    "Datasheet": "DS60001527D"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "PD0",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "DAC1",
+         "type": "input"
+        },
+        {
+         "name": "GTXCK",
+         "type": "input"
+        },
+        {
+         "name": "PWMC1_PWML0",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_NPCS1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DCD0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD31",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "QIO3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UTXD3",
+         "type": "output"
+        },
+        {
+         "name": "PCK2",
+         "type": "output"
+        },
+        {
+         "name": "ISI_D11",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VDDOUT",
+       "numbers": [
+        "3"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "VDDIN",
+       "numbers": [
+        "4"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VREFP",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PB1",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AFE1_AD0",
+         "type": "input"
+        },
+        {
+         "name": "RTCOUT1",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWMH1",
+         "type": "output"
+        },
+        {
+         "name": "GTSUCOMP",
+         "type": "output"
+        },
+        {
+         "name": "TXD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TK",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PB0",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AFE0_AD10",
+         "type": "input"
+        },
+        {
+         "name": "RTCOUT0",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWMH0",
+         "type": "output"
+        },
+        {
+         "name": "RXD0",
+         "type": "input"
+        },
+        {
+         "name": "TF",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PB2",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AFE0_AD5",
+         "type": "input"
+        },
+        {
+         "name": "CANTX0",
+         "type": "output"
+        },
+        {
+         "name": "CTS0",
+         "type": "input"
+        },
+        {
+         "name": "SPI0_NPCS0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "VDDIO",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PB3",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AFE0_AD2",
+         "type": "input"
+        },
+        {
+         "name": "WKUP12",
+         "type": "input"
+        },
+        {
+         "name": "CANRX0",
+         "type": "input"
+        },
+        {
+         "name": "PCK2",
+         "type": "output"
+        },
+        {
+         "name": "RTS0",
+         "type": "output"
+        },
+        {
+         "name": "ISI_D2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA21",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AFE0_AD1",
+         "type": "input"
+        },
+        {
+         "name": "PIODCEN2",
+         "type": "input"
+        },
+        {
+         "name": "RXD1",
+         "type": "input"
+        },
+        {
+         "name": "PCK1",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWMFI0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VDDCORE",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA7",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XIN32",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWMH3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA8",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XOUT32",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWMH3",
+         "type": "output"
+        },
+        {
+         "name": "AFE0_ADTRG",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "PD9",
+       "numbers": [
+        "48"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GMDIO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWMC0_PWMFI2",
+         "type": "input"
+        },
+        {
+         "name": "AFE1_ADTRG",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB5",
+       "numbers": [
+        "47"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDO",
+         "type": "output"
+        },
+        {
+         "name": "TRACESWO",
+         "type": "output"
+        },
+        {
+         "name": "WKUP13",
+         "type": "output"
+        },
+        {
+         "name": "TWCK1",
+         "type": "output"
+        },
+        {
+         "name": "PWMC0_PWML0",
+         "type": "output"
+        },
+        {
+         "name": "MLBDAT-",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TD",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PB4",
+       "numbers": [
+        "46"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDI",
+         "type": "input"
+        },
+        {
+         "name": "TWD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWMC0_PWMH2",
+         "type": "output"
+        },
+        {
+         "name": "MLBCLK-",
+         "type": "input"
+        },
+        {
+         "name": "TXD1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "JTAGSEL",
+       "numbers": [
+        "45"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PD10",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GCRS",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWML0",
+         "type": "output"
+        },
+        {
+         "name": "TD",
+         "type": "output"
+        },
+        {
+         "name": "MLBSIG-",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PD11",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GRX2",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWMH0",
+         "type": "output"
+        },
+        {
+         "name": "GTSUCOMP",
+         "type": "output"
+        },
+        {
+         "name": "ISI_D5",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VDDIO",
+       "numbers": [
+        "42"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PD12",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GRX3",
+         "type": "input"
+        },
+        {
+         "name": "CANTX1",
+         "type": "output"
+        },
+        {
+         "name": "SPI0_NPCS2",
+         "type": "output"
+        },
+        {
+         "name": "ISI_D6",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA3",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PIODC0",
+         "type": "input"
+        },
+        {
+         "name": "TWD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "LONCOL1",
+         "type": "input"
+        },
+        {
+         "name": "PCK2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PB7",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SWCLK",
+         "type": "input"
+        },
+        {
+         "name": "TCK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB12",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ERASE",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWML1",
+         "type": "output"
+        },
+        {
+         "name": "GTSUCOMP",
+         "type": "output"
+        },
+        {
+         "name": "PCK0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "TST",
+       "numbers": [
+        "37"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "NRST",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional",
+       "style": "input_low"
+      },
+      {
+       "name": "PB6",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SWDIO",
+         "type": "input"
+        },
+        {
+         "name": "TMS",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA4",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "WKUP3",
+         "type": "input"
+        },
+        {
+         "name": "PIODC1",
+         "type": "input"
+        },
+        {
+         "name": "TWCK0",
+         "type": "output"
+        },
+        {
+         "name": "TCLK0",
+         "type": "input"
+        },
+        {
+         "name": "UTXD1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA9",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "WKUP6",
+         "type": "input"
+        },
+        {
+         "name": "PIODC3",
+         "type": "input"
+        },
+        {
+         "name": "URXD0",
+         "type": "input"
+        },
+        {
+         "name": "ISI_D3",
+         "type": "input"
+        },
+        {
+         "name": "PWMC0_PWMFI0",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "top": [
+      {
+       "name": "VDDPLLUSB",
+       "numbers": [
+        "64"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PB9",
+       "numbers": [
+        "63"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XIN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB8",
+       "numbers": [
+        "62"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XOUT",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "VDDCORE",
+       "numbers": [
+        "61"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DP",
+       "numbers": [
+        "60"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DM",
+       "numbers": [
+        "59"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VDDIO",
+       "numbers": [
+        "58"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PD1",
+       "numbers": [
+        "57"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GTXEN",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWMH0",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_NPCS2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DTR0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD2",
+       "numbers": [
+        "56"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GTX0",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWML1",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_NPCS3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DSR0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD3",
+       "numbers": [
+        "55"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GTX1",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWMH1",
+         "type": "output"
+        },
+        {
+         "name": "UTXD4",
+         "type": "output"
+        },
+        {
+         "name": "RI0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD4",
+       "numbers": [
+        "54"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GRXDV",
+         "type": "input"
+        },
+        {
+         "name": "PWMC1_PWML2",
+         "type": "output"
+        },
+        {
+         "name": "TRACED0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD5",
+       "numbers": [
+        "53"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GRX0",
+         "type": "input"
+        },
+        {
+         "name": "PWMC1_PWMH2",
+         "type": "output"
+        },
+        {
+         "name": "TRACED1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "VDDPLL",
+       "numbers": [
+        "52"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PD6",
+       "numbers": [
+        "51"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GRX1",
+         "type": "input"
+        },
+        {
+         "name": "PWMC1_PWML3",
+         "type": "output"
+        },
+        {
+         "name": "TRACED2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD7",
+       "numbers": [
+        "50"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GRXER",
+         "type": "input"
+        },
+        {
+         "name": "PWMC1_PWMH3",
+         "type": "output"
+        },
+        {
+         "name": "TRACED3",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD8",
+       "numbers": [
+        "49"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GMDC",
+         "type": "output"
+        },
+        {
+         "name": "PWMC0_PWMFI1",
+         "type": "input"
+        },
+        {
+         "name": "TRACECLK",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "bottom": [
+      {
+       "name": "PA22",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PIODCCLK",
+         "type": "input"
+        },
+        {
+         "name": "RK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWMC0_PWMEXTRG1",
+         "type": "input"
+        },
+        {
+         "name": "NCS2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA13",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PIODC7",
+         "type": "input"
+        },
+        {
+         "name": "QIO0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWMC0_PWMH2",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWML1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA14",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "WKUP8",
+         "type": "input"
+        },
+        {
+         "name": "PIODCEN1",
+         "type": "input"
+        },
+        {
+         "name": "QSCK",
+         "type": "output"
+        },
+        {
+         "name": "PWMC0_PWMH3",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWMH1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD25",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWMC0_PWML1",
+         "type": "output"
+        },
+        {
+         "name": "SPI0_NPCS1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "URXD2",
+         "type": "input"
+        },
+        {
+         "name": "ISI_VSYNC",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD26",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWMC0_PWML2",
+         "type": "output"
+        },
+        {
+         "name": "TD",
+         "type": "output"
+        },
+        {
+         "name": "UTXD2",
+         "type": "output"
+        },
+        {
+         "name": "UTXD1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD24",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWMC0_PWML0",
+         "type": "output"
+        },
+        {
+         "name": "RF",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCLK11",
+         "type": "input"
+        },
+        {
+         "name": "ISI_HSYNC",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA24",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RTS1",
+         "type": "output"
+        },
+        {
+         "name": "PWMC0_PWMH1",
+         "type": "output"
+        },
+        {
+         "name": "A20",
+         "type": "output"
+        },
+        {
+         "name": "ISI_PCK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VDDCORE",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PD22",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWMC0_PWMH2",
+         "type": "output"
+        },
+        {
+         "name": "SPI0_SPCK",
+         "type": "output"
+        },
+        {
+         "name": "TIOB11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ISI_D0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD21",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWMC0_PWMH1",
+         "type": "output"
+        },
+        {
+         "name": "SPI0_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TIOA11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ISI_D1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA11",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "WKUP7",
+         "type": "input"
+        },
+        {
+         "name": "PIODC5",
+         "type": "input"
+        },
+        {
+         "name": "QCS",
+         "type": "output"
+        },
+        {
+         "name": "PWMC0_PWMH0",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWML0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA10",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PIODC4",
+         "type": "input"
+        },
+        {
+         "name": "UTXD0",
+         "type": "output"
+        },
+        {
+         "name": "PWMC0_PWMEXTRG0",
+         "type": "input"
+        },
+        {
+         "name": "RD",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA12",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PIODC6",
+         "type": "input"
+        },
+        {
+         "name": "QIO1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWMC0_PWMH1",
+         "type": "output"
+        },
+        {
+         "name": "PWMC1_PWMH0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA27",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "DTR1",
+         "type": "output"
+        },
+        {
+         "name": "TIOB2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "MCDA3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ISI_D7",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "31"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA5",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "WKUP4",
+         "type": "input"
+        },
+        {
+         "name": "PIODC2",
+         "type": "input"
+        },
+        {
+         "name": "PWMC1_PWML3",
+         "type": "output"
+        },
+        {
+         "name": "ISI_D4",
+         "type": "input"
+        },
+        {
+         "name": "URXD1",
+         "type": "input"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

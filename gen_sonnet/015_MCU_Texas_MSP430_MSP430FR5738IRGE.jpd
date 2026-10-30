@@ -1,0 +1,509 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "msp430fr5738irge",
+   "package": "VQFN-24 (RGE); QFN pad unnumbered, omitted",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SLAS639L"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "P1.0",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TA0.1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DMAE0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTCCLK",
+         "type": "output"
+        },
+        {
+         "name": "A0",
+         "type": "input"
+        },
+        {
+         "name": "CD0",
+         "type": "input"
+        },
+        {
+         "name": "VeREF-",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "P1.1",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TA0.2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TA1CLK",
+         "type": "input"
+        },
+        {
+         "name": "CDOUT",
+         "type": "output"
+        },
+        {
+         "name": "A1",
+         "type": "input"
+        },
+        {
+         "name": "CD1",
+         "type": "input"
+        },
+        {
+         "name": "VeREF+",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "P1.2",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TA1.1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TA0CLK",
+         "type": "input"
+        },
+        {
+         "name": "CDOUT",
+         "type": "output"
+        },
+        {
+         "name": "A2",
+         "type": "input"
+        },
+        {
+         "name": "CD2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "P1.3",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TA1.2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCB0STE",
+         "type": "bidirectional"
+        },
+        {
+         "name": "A3",
+         "type": "input"
+        },
+        {
+         "name": "CD3",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "P1.4",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB0.1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCA0STE",
+         "type": "bidirectional"
+        },
+        {
+         "name": "A4",
+         "type": "input"
+        },
+        {
+         "name": "CD4",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "P1.5",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB0.2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCA0CLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "A5",
+         "type": "input"
+        },
+        {
+         "name": "CD5",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "VCORE",
+       "numbers": [
+        "18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "P1.7",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB1.2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCB0SOMI",
+         "type": "input"
+        },
+        {
+         "name": "UCB0SCL",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TA1.0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "P1.6",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB1.1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCB0SIMO",
+         "type": "output"
+        },
+        {
+         "name": "UCB0SDA",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TA0.0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "P2.2",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB2.2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCB0CLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TB1.0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "P2.1",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB2.1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCA0RXD",
+         "type": "input"
+        },
+        {
+         "name": "UCA0SOMI",
+         "type": "input"
+        },
+        {
+         "name": "TB0.0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "P2.0",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TB2.0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "UCA0TXD",
+         "type": "output"
+        },
+        {
+         "name": "UCA0SIMO",
+         "type": "output"
+        },
+        {
+         "name": "TB0CLK",
+         "type": "input"
+        },
+        {
+         "name": "ACLK",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "top": [
+      {
+       "name": "AVCC",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PJ.5",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XOUT",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PJ.4",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XIN",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "DVCC",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DVSS",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "PJ.0",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDO",
+         "type": "output"
+        },
+        {
+         "name": "TB0OUTH",
+         "type": "output"
+        },
+        {
+         "name": "SMCLK",
+         "type": "output"
+        },
+        {
+         "name": "CD6",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PJ.1",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDI",
+         "type": "input"
+        },
+        {
+         "name": "TCLK",
+         "type": "input"
+        },
+        {
+         "name": "TB1OUTH",
+         "type": "output"
+        },
+        {
+         "name": "MCLK",
+         "type": "output"
+        },
+        {
+         "name": "CD7",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PJ.2",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TMS",
+         "type": "input"
+        },
+        {
+         "name": "TB2OUTH",
+         "type": "output"
+        },
+        {
+         "name": "ACLK",
+         "type": "output"
+        },
+        {
+         "name": "CD8",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PJ.3",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TCK",
+         "type": "input"
+        },
+        {
+         "name": "CD9",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "TEST",
+       "numbers": [
+        "11"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "SBWTCK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "~{RST}",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "NMI",
+         "type": "input"
+        },
+        {
+         "name": "SBWTDIO",
+         "type": "bidirectional"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "rn42",
+   "package": "Module, 32 pins (RN42N adds pins 25-27, not included)",
+   "expected_pin_count": 32,
+   "properties": {
+    "Datasheet": "RN-42-DS v2.32r"
+   },
+   "units": [
+    {
+     "name": "BT",
+     "left": [
+      {
+       "name": "GND",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SPI_MOSI",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GPIO6",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO7",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SPI_CLK",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PCM_CLK",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "PCM_SYNC",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "PCM_IN",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PCM_OUT",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "SPI_MISO",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SPI_CSB",
+       "numbers": [
+        "23"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GPIO4",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO5",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO3",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO2",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USB_D-",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USB_D+",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "UART_CTS",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "UART_RTS",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "UART_TX",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "UART_RX",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "AIO1",
+       "numbers": [
+        "35"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO11",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO10",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO9",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO8",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AIO0",
+       "numbers": [
+        "30"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "tps26400rhf",
+   "package": "VQFN-24 (RHF); thermal pad unnumbered, omitted",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SLVSFQ6A"
+   },
+   "units": [
+    {
+     "name": "EFUSE",
+     "left": [
+      {
+       "name": "N.C.",
+       "numbers": [
+        "1"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "2"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "3"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "4"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "5"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "6"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "7"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "right": [
+      {
+       "name": "ILIM",
+       "numbers": [
+        "19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "IMON",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "16"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "RTN",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "~{SHDN}",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "MODE",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      }
+     ],
+     "top": [
+      {
+       "name": "dVdT",
+       "numbers": [
+        "20"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "21"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "~{FLT}",
+       "numbers": [
+        "22"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "OUT",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_out"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "IN",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IN",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "UVLO",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "11"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "OVP",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

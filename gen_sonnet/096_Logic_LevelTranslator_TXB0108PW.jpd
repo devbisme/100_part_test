@@ -1,0 +1,163 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "txb0108pw",
+   "package": "TSSOP-20 (PW)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "TXB0108"
+   },
+   "units": [
+    {
+     "name": "XLATE",
+     "left": [
+      {
+       "name": "A1",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VCCA",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "A2",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A3",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A4",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A5",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A6",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A7",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A8",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "OE",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "B1",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VCCB",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "B2",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B3",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B4",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B5",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B6",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B7",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B8",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2886 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "asp-134486-01",
+   "package": "SEARAY 40x10 (400 pos)",
+   "expected_pin_count": 400,
+   "properties": {
+    "Datasheet": "ASP-134486-01 rev S"
+   },
+   "units": [
+    {
+     "name": "ROW_A",
+     "left": [
+      {
+       "name": "A1",
+       "numbers": [
+        "A1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A2",
+       "numbers": [
+        "A2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A3",
+       "numbers": [
+        "A3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A4",
+       "numbers": [
+        "A4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A5",
+       "numbers": [
+        "A5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A6",
+       "numbers": [
+        "A6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A7",
+       "numbers": [
+        "A7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A8",
+       "numbers": [
+        "A8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A9",
+       "numbers": [
+        "A9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A10",
+       "numbers": [
+        "A10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A11",
+       "numbers": [
+        "A11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A12",
+       "numbers": [
+        "A12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A13",
+       "numbers": [
+        "A13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A14",
+       "numbers": [
+        "A14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A15",
+       "numbers": [
+        "A15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A16",
+       "numbers": [
+        "A16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A17",
+       "numbers": [
+        "A17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A18",
+       "numbers": [
+        "A18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A19",
+       "numbers": [
+        "A19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A20",
+       "numbers": [
+        "A20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "A21",
+       "numbers": [
+        "A21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A22",
+       "numbers": [
+        "A22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A23",
+       "numbers": [
+        "A23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A24",
+       "numbers": [
+        "A24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A25",
+       "numbers": [
+        "A25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A26",
+       "numbers": [
+        "A26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A27",
+       "numbers": [
+        "A27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A28",
+       "numbers": [
+        "A28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A29",
+       "numbers": [
+        "A29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A30",
+       "numbers": [
+        "A30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A31",
+       "numbers": [
+        "A31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A32",
+       "numbers": [
+        "A32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A33",
+       "numbers": [
+        "A33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A34",
+       "numbers": [
+        "A34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A35",
+       "numbers": [
+        "A35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A36",
+       "numbers": [
+        "A36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A37",
+       "numbers": [
+        "A37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A38",
+       "numbers": [
+        "A38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A39",
+       "numbers": [
+        "A39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A40",
+       "numbers": [
+        "A40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_B",
+     "left": [
+      {
+       "name": "B1",
+       "numbers": [
+        "B1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B2",
+       "numbers": [
+        "B2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B3",
+       "numbers": [
+        "B3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B4",
+       "numbers": [
+        "B4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B5",
+       "numbers": [
+        "B5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B6",
+       "numbers": [
+        "B6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B7",
+       "numbers": [
+        "B7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B8",
+       "numbers": [
+        "B8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B9",
+       "numbers": [
+        "B9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B10",
+       "numbers": [
+        "B10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B11",
+       "numbers": [
+        "B11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B12",
+       "numbers": [
+        "B12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B13",
+       "numbers": [
+        "B13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B14",
+       "numbers": [
+        "B14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B15",
+       "numbers": [
+        "B15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B16",
+       "numbers": [
+        "B16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B17",
+       "numbers": [
+        "B17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B18",
+       "numbers": [
+        "B18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B19",
+       "numbers": [
+        "B19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B20",
+       "numbers": [
+        "B20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "B21",
+       "numbers": [
+        "B21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B22",
+       "numbers": [
+        "B22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B23",
+       "numbers": [
+        "B23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B24",
+       "numbers": [
+        "B24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B25",
+       "numbers": [
+        "B25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B26",
+       "numbers": [
+        "B26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B27",
+       "numbers": [
+        "B27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B28",
+       "numbers": [
+        "B28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B29",
+       "numbers": [
+        "B29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B30",
+       "numbers": [
+        "B30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B31",
+       "numbers": [
+        "B31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B32",
+       "numbers": [
+        "B32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B33",
+       "numbers": [
+        "B33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B34",
+       "numbers": [
+        "B34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B35",
+       "numbers": [
+        "B35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B36",
+       "numbers": [
+        "B36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B37",
+       "numbers": [
+        "B37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B38",
+       "numbers": [
+        "B38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B39",
+       "numbers": [
+        "B39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "B40",
+       "numbers": [
+        "B40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_C",
+     "left": [
+      {
+       "name": "C1",
+       "numbers": [
+        "C1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C2",
+       "numbers": [
+        "C2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C3",
+       "numbers": [
+        "C3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C4",
+       "numbers": [
+        "C4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C5",
+       "numbers": [
+        "C5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C6",
+       "numbers": [
+        "C6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C7",
+       "numbers": [
+        "C7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C8",
+       "numbers": [
+        "C8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C9",
+       "numbers": [
+        "C9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C10",
+       "numbers": [
+        "C10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C11",
+       "numbers": [
+        "C11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C12",
+       "numbers": [
+        "C12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C13",
+       "numbers": [
+        "C13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C14",
+       "numbers": [
+        "C14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C15",
+       "numbers": [
+        "C15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C16",
+       "numbers": [
+        "C16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C17",
+       "numbers": [
+        "C17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C18",
+       "numbers": [
+        "C18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C19",
+       "numbers": [
+        "C19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C20",
+       "numbers": [
+        "C20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "C21",
+       "numbers": [
+        "C21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C22",
+       "numbers": [
+        "C22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C23",
+       "numbers": [
+        "C23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C24",
+       "numbers": [
+        "C24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C25",
+       "numbers": [
+        "C25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C26",
+       "numbers": [
+        "C26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C27",
+       "numbers": [
+        "C27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C28",
+       "numbers": [
+        "C28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C29",
+       "numbers": [
+        "C29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C30",
+       "numbers": [
+        "C30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C31",
+       "numbers": [
+        "C31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C32",
+       "numbers": [
+        "C32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C33",
+       "numbers": [
+        "C33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C34",
+       "numbers": [
+        "C34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C35",
+       "numbers": [
+        "C35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C36",
+       "numbers": [
+        "C36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C37",
+       "numbers": [
+        "C37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C38",
+       "numbers": [
+        "C38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C39",
+       "numbers": [
+        "C39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C40",
+       "numbers": [
+        "C40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_D",
+     "left": [
+      {
+       "name": "D1",
+       "numbers": [
+        "D1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D2",
+       "numbers": [
+        "D2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D3",
+       "numbers": [
+        "D3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D4",
+       "numbers": [
+        "D4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D5",
+       "numbers": [
+        "D5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D6",
+       "numbers": [
+        "D6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D7",
+       "numbers": [
+        "D7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D8",
+       "numbers": [
+        "D8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D9",
+       "numbers": [
+        "D9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D10",
+       "numbers": [
+        "D10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D11",
+       "numbers": [
+        "D11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D12",
+       "numbers": [
+        "D12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D13",
+       "numbers": [
+        "D13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D14",
+       "numbers": [
+        "D14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D15",
+       "numbers": [
+        "D15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D16",
+       "numbers": [
+        "D16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D17",
+       "numbers": [
+        "D17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D18",
+       "numbers": [
+        "D18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D19",
+       "numbers": [
+        "D19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D20",
+       "numbers": [
+        "D20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "D21",
+       "numbers": [
+        "D21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D22",
+       "numbers": [
+        "D22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D23",
+       "numbers": [
+        "D23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D24",
+       "numbers": [
+        "D24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D25",
+       "numbers": [
+        "D25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D26",
+       "numbers": [
+        "D26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D27",
+       "numbers": [
+        "D27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D28",
+       "numbers": [
+        "D28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D29",
+       "numbers": [
+        "D29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D30",
+       "numbers": [
+        "D30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D31",
+       "numbers": [
+        "D31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D32",
+       "numbers": [
+        "D32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D33",
+       "numbers": [
+        "D33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D34",
+       "numbers": [
+        "D34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D35",
+       "numbers": [
+        "D35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D36",
+       "numbers": [
+        "D36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D37",
+       "numbers": [
+        "D37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D38",
+       "numbers": [
+        "D38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D39",
+       "numbers": [
+        "D39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "D40",
+       "numbers": [
+        "D40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_E",
+     "left": [
+      {
+       "name": "E1",
+       "numbers": [
+        "E1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E2",
+       "numbers": [
+        "E2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E3",
+       "numbers": [
+        "E3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E4",
+       "numbers": [
+        "E4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E5",
+       "numbers": [
+        "E5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E6",
+       "numbers": [
+        "E6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E7",
+       "numbers": [
+        "E7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E8",
+       "numbers": [
+        "E8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E9",
+       "numbers": [
+        "E9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E10",
+       "numbers": [
+        "E10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E11",
+       "numbers": [
+        "E11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E12",
+       "numbers": [
+        "E12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E13",
+       "numbers": [
+        "E13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E14",
+       "numbers": [
+        "E14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E15",
+       "numbers": [
+        "E15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E16",
+       "numbers": [
+        "E16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E17",
+       "numbers": [
+        "E17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E18",
+       "numbers": [
+        "E18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E19",
+       "numbers": [
+        "E19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E20",
+       "numbers": [
+        "E20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "E21",
+       "numbers": [
+        "E21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E22",
+       "numbers": [
+        "E22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E23",
+       "numbers": [
+        "E23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E24",
+       "numbers": [
+        "E24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E25",
+       "numbers": [
+        "E25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E26",
+       "numbers": [
+        "E26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E27",
+       "numbers": [
+        "E27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E28",
+       "numbers": [
+        "E28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E29",
+       "numbers": [
+        "E29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E30",
+       "numbers": [
+        "E30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E31",
+       "numbers": [
+        "E31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E32",
+       "numbers": [
+        "E32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E33",
+       "numbers": [
+        "E33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E34",
+       "numbers": [
+        "E34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E35",
+       "numbers": [
+        "E35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E36",
+       "numbers": [
+        "E36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E37",
+       "numbers": [
+        "E37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E38",
+       "numbers": [
+        "E38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E39",
+       "numbers": [
+        "E39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "E40",
+       "numbers": [
+        "E40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_F",
+     "left": [
+      {
+       "name": "F1",
+       "numbers": [
+        "F1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F2",
+       "numbers": [
+        "F2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F3",
+       "numbers": [
+        "F3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F4",
+       "numbers": [
+        "F4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F5",
+       "numbers": [
+        "F5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F6",
+       "numbers": [
+        "F6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F7",
+       "numbers": [
+        "F7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F8",
+       "numbers": [
+        "F8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F9",
+       "numbers": [
+        "F9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F10",
+       "numbers": [
+        "F10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F11",
+       "numbers": [
+        "F11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F12",
+       "numbers": [
+        "F12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F13",
+       "numbers": [
+        "F13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F14",
+       "numbers": [
+        "F14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F15",
+       "numbers": [
+        "F15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F16",
+       "numbers": [
+        "F16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F17",
+       "numbers": [
+        "F17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F18",
+       "numbers": [
+        "F18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F19",
+       "numbers": [
+        "F19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F20",
+       "numbers": [
+        "F20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "F21",
+       "numbers": [
+        "F21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F22",
+       "numbers": [
+        "F22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F23",
+       "numbers": [
+        "F23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F24",
+       "numbers": [
+        "F24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F25",
+       "numbers": [
+        "F25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F26",
+       "numbers": [
+        "F26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F27",
+       "numbers": [
+        "F27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F28",
+       "numbers": [
+        "F28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F29",
+       "numbers": [
+        "F29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F30",
+       "numbers": [
+        "F30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F31",
+       "numbers": [
+        "F31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F32",
+       "numbers": [
+        "F32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F33",
+       "numbers": [
+        "F33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F34",
+       "numbers": [
+        "F34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F35",
+       "numbers": [
+        "F35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F36",
+       "numbers": [
+        "F36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F37",
+       "numbers": [
+        "F37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F38",
+       "numbers": [
+        "F38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F39",
+       "numbers": [
+        "F39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "F40",
+       "numbers": [
+        "F40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_G",
+     "left": [
+      {
+       "name": "G1",
+       "numbers": [
+        "G1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G2",
+       "numbers": [
+        "G2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G3",
+       "numbers": [
+        "G3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G4",
+       "numbers": [
+        "G4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G5",
+       "numbers": [
+        "G5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G6",
+       "numbers": [
+        "G6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G7",
+       "numbers": [
+        "G7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G8",
+       "numbers": [
+        "G8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G9",
+       "numbers": [
+        "G9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G10",
+       "numbers": [
+        "G10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G11",
+       "numbers": [
+        "G11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G12",
+       "numbers": [
+        "G12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G13",
+       "numbers": [
+        "G13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G14",
+       "numbers": [
+        "G14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G15",
+       "numbers": [
+        "G15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G16",
+       "numbers": [
+        "G16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G17",
+       "numbers": [
+        "G17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G18",
+       "numbers": [
+        "G18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G19",
+       "numbers": [
+        "G19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G20",
+       "numbers": [
+        "G20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "G21",
+       "numbers": [
+        "G21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G22",
+       "numbers": [
+        "G22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G23",
+       "numbers": [
+        "G23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G24",
+       "numbers": [
+        "G24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G25",
+       "numbers": [
+        "G25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G26",
+       "numbers": [
+        "G26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G27",
+       "numbers": [
+        "G27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G28",
+       "numbers": [
+        "G28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G29",
+       "numbers": [
+        "G29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G30",
+       "numbers": [
+        "G30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G31",
+       "numbers": [
+        "G31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G32",
+       "numbers": [
+        "G32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G33",
+       "numbers": [
+        "G33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G34",
+       "numbers": [
+        "G34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G35",
+       "numbers": [
+        "G35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G36",
+       "numbers": [
+        "G36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G37",
+       "numbers": [
+        "G37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G38",
+       "numbers": [
+        "G38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G39",
+       "numbers": [
+        "G39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "G40",
+       "numbers": [
+        "G40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_H",
+     "left": [
+      {
+       "name": "H1",
+       "numbers": [
+        "H1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H2",
+       "numbers": [
+        "H2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H3",
+       "numbers": [
+        "H3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H4",
+       "numbers": [
+        "H4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H5",
+       "numbers": [
+        "H5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H6",
+       "numbers": [
+        "H6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H7",
+       "numbers": [
+        "H7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H8",
+       "numbers": [
+        "H8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H9",
+       "numbers": [
+        "H9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H10",
+       "numbers": [
+        "H10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H11",
+       "numbers": [
+        "H11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H12",
+       "numbers": [
+        "H12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H13",
+       "numbers": [
+        "H13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H14",
+       "numbers": [
+        "H14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H15",
+       "numbers": [
+        "H15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H16",
+       "numbers": [
+        "H16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H17",
+       "numbers": [
+        "H17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H18",
+       "numbers": [
+        "H18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H19",
+       "numbers": [
+        "H19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H20",
+       "numbers": [
+        "H20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "H21",
+       "numbers": [
+        "H21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H22",
+       "numbers": [
+        "H22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H23",
+       "numbers": [
+        "H23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H24",
+       "numbers": [
+        "H24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H25",
+       "numbers": [
+        "H25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H26",
+       "numbers": [
+        "H26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H27",
+       "numbers": [
+        "H27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H28",
+       "numbers": [
+        "H28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H29",
+       "numbers": [
+        "H29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H30",
+       "numbers": [
+        "H30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H31",
+       "numbers": [
+        "H31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H32",
+       "numbers": [
+        "H32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H33",
+       "numbers": [
+        "H33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H34",
+       "numbers": [
+        "H34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H35",
+       "numbers": [
+        "H35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H36",
+       "numbers": [
+        "H36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H37",
+       "numbers": [
+        "H37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H38",
+       "numbers": [
+        "H38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H39",
+       "numbers": [
+        "H39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "H40",
+       "numbers": [
+        "H40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_J",
+     "left": [
+      {
+       "name": "J1",
+       "numbers": [
+        "J1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J2",
+       "numbers": [
+        "J2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J3",
+       "numbers": [
+        "J3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J4",
+       "numbers": [
+        "J4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J5",
+       "numbers": [
+        "J5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J6",
+       "numbers": [
+        "J6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J7",
+       "numbers": [
+        "J7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J8",
+       "numbers": [
+        "J8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J9",
+       "numbers": [
+        "J9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J10",
+       "numbers": [
+        "J10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J11",
+       "numbers": [
+        "J11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J12",
+       "numbers": [
+        "J12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J13",
+       "numbers": [
+        "J13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J14",
+       "numbers": [
+        "J14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J15",
+       "numbers": [
+        "J15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J16",
+       "numbers": [
+        "J16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J17",
+       "numbers": [
+        "J17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J18",
+       "numbers": [
+        "J18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J19",
+       "numbers": [
+        "J19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J20",
+       "numbers": [
+        "J20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "J21",
+       "numbers": [
+        "J21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J22",
+       "numbers": [
+        "J22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J23",
+       "numbers": [
+        "J23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J24",
+       "numbers": [
+        "J24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J25",
+       "numbers": [
+        "J25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J26",
+       "numbers": [
+        "J26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J27",
+       "numbers": [
+        "J27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J28",
+       "numbers": [
+        "J28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J29",
+       "numbers": [
+        "J29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J30",
+       "numbers": [
+        "J30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J31",
+       "numbers": [
+        "J31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J32",
+       "numbers": [
+        "J32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J33",
+       "numbers": [
+        "J33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J34",
+       "numbers": [
+        "J34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J35",
+       "numbers": [
+        "J35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J36",
+       "numbers": [
+        "J36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J37",
+       "numbers": [
+        "J37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J38",
+       "numbers": [
+        "J38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J39",
+       "numbers": [
+        "J39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "J40",
+       "numbers": [
+        "J40"
+       ],
+       "type": "passive"
+      }
+     ]
+    },
+    {
+     "name": "ROW_K",
+     "left": [
+      {
+       "name": "K1",
+       "numbers": [
+        "K1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K2",
+       "numbers": [
+        "K2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K3",
+       "numbers": [
+        "K3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K4",
+       "numbers": [
+        "K4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K5",
+       "numbers": [
+        "K5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K6",
+       "numbers": [
+        "K6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K7",
+       "numbers": [
+        "K7"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K8",
+       "numbers": [
+        "K8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K9",
+       "numbers": [
+        "K9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K10",
+       "numbers": [
+        "K10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K11",
+       "numbers": [
+        "K11"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K12",
+       "numbers": [
+        "K12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K13",
+       "numbers": [
+        "K13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K14",
+       "numbers": [
+        "K14"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K15",
+       "numbers": [
+        "K15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K16",
+       "numbers": [
+        "K16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K17",
+       "numbers": [
+        "K17"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K18",
+       "numbers": [
+        "K18"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K19",
+       "numbers": [
+        "K19"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K20",
+       "numbers": [
+        "K20"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "K21",
+       "numbers": [
+        "K21"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K22",
+       "numbers": [
+        "K22"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K23",
+       "numbers": [
+        "K23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K24",
+       "numbers": [
+        "K24"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K25",
+       "numbers": [
+        "K25"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K26",
+       "numbers": [
+        "K26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K27",
+       "numbers": [
+        "K27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K28",
+       "numbers": [
+        "K28"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K29",
+       "numbers": [
+        "K29"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K30",
+       "numbers": [
+        "K30"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K31",
+       "numbers": [
+        "K31"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K32",
+       "numbers": [
+        "K32"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K33",
+       "numbers": [
+        "K33"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K34",
+       "numbers": [
+        "K34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K35",
+       "numbers": [
+        "K35"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K36",
+       "numbers": [
+        "K36"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K37",
+       "numbers": [
+        "K37"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K38",
+       "numbers": [
+        "K38"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K39",
+       "numbers": [
+        "K39"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K40",
+       "numbers": [
+        "K40"
+       ],
+       "type": "passive"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

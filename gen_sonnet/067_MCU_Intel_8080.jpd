@@ -1,0 +1,305 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "8080a",
+   "package": "DIP-40",
+   "expected_pin_count": 40,
+   "properties": {
+    "Datasheet": "Intel 8080A"
+   },
+   "units": [
+    {
+     "name": "CPU",
+     "left": [
+      {
+       "name": "A10",
+       "numbers": [
+        "1"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "D4",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D5",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D6",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D7",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D3",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D2",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D1",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D0",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VBB",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RESET",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "HOLD",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INT",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PHI2",
+       "numbers": [
+        "15"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "INTE",
+       "numbers": [
+        "16"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DBIN",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "~{WR}",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SYNC",
+       "numbers": [
+        "19"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "A11",
+       "numbers": [
+        "40"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A14",
+       "numbers": [
+        "39"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A13",
+       "numbers": [
+        "38"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A12",
+       "numbers": [
+        "37"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A15",
+       "numbers": [
+        "36"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A9",
+       "numbers": [
+        "35"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A8",
+       "numbers": [
+        "34"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A7",
+       "numbers": [
+        "33"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A6",
+       "numbers": [
+        "32"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A5",
+       "numbers": [
+        "31"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A4",
+       "numbers": [
+        "30"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A3",
+       "numbers": [
+        "29"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "A2",
+       "numbers": [
+        "27"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A1",
+       "numbers": [
+        "26"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "A0",
+       "numbers": [
+        "25"
+       ],
+       "type": "tri_state"
+      },
+      {
+       "name": "WAIT",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "READY",
+       "numbers": [
+        "23"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PHI1",
+       "numbers": [
+        "22"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "HLDA",
+       "numbers": [
+        "21"
+       ],
+       "type": "output"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

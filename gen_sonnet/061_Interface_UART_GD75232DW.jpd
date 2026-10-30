@@ -1,0 +1,163 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "gd75232dw",
+   "package": "SOIC-20 (DW)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLLS206L"
+   },
+   "units": [
+    {
+     "name": "RS232",
+     "left": [
+      {
+       "name": "VDD",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RA1",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RA2",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RA3",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DY1",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DY2",
+       "numbers": [
+        "6"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RA4",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DY3",
+       "numbers": [
+        "8"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RA5",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RY1",
+       "numbers": [
+        "19"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RY2",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RY3",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DA1",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DA2",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RY4",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DA3",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RY5",
+       "numbers": [
+        "12"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

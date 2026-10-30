@@ -1,0 +1,318 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "hv5622pg",
+   "package": "PQFP-44 (PG)",
+   "expected_pin_count": 44,
+   "properties": {
+    "Datasheet": "DS20005854A"
+   },
+   "units": [
+    {
+     "name": "DRV",
+     "left": [
+      {
+       "name": "~{POL}",
+       "numbers": [
+        "27"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "CLK",
+       "numbers": [
+        "28"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "~{LE}",
+       "numbers": [
+        "31"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DATA_IN",
+       "numbers": [
+        "32"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{BL}",
+       "numbers": [
+        "33"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "HVOUT1",
+       "numbers": [
+        "22"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT2",
+       "numbers": [
+        "21"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT3",
+       "numbers": [
+        "20"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT4",
+       "numbers": [
+        "19"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT5",
+       "numbers": [
+        "18"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT6",
+       "numbers": [
+        "17"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT7",
+       "numbers": [
+        "16"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT8",
+       "numbers": [
+        "15"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT9",
+       "numbers": [
+        "14"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT10",
+       "numbers": [
+        "13"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT11",
+       "numbers": [
+        "12"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT12",
+       "numbers": [
+        "11"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT13",
+       "numbers": [
+        "10"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT14",
+       "numbers": [
+        "9"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT15",
+       "numbers": [
+        "8"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT16",
+       "numbers": [
+        "7"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT17",
+       "numbers": [
+        "6"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT18",
+       "numbers": [
+        "5"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT19",
+       "numbers": [
+        "4"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT20",
+       "numbers": [
+        "3"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT21",
+       "numbers": [
+        "2"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT22",
+       "numbers": [
+        "1"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT23",
+       "numbers": [
+        "44"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT24",
+       "numbers": [
+        "43"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT25",
+       "numbers": [
+        "42"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT26",
+       "numbers": [
+        "41"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT27",
+       "numbers": [
+        "40"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT28",
+       "numbers": [
+        "39"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT29",
+       "numbers": [
+        "38"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT30",
+       "numbers": [
+        "37"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT31",
+       "numbers": [
+        "36"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "HVOUT32",
+       "numbers": [
+        "35"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "DATA_OUT",
+       "numbers": [
+        "23"
+       ],
+       "type": "output"
+      }
+     ],
+     "top": [
+      {
+       "name": "VDD",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "VSS",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "24",
+        "25",
+        "26",
+        "34"
+       ],
+       "type": "no_connect"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

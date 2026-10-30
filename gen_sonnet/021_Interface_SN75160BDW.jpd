@@ -1,0 +1,167 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "sn75160bdw",
+   "package": "SOIC-20 (DW)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLLS004B"
+   },
+   "units": [
+    {
+     "name": "XCVR",
+     "left": [
+      {
+       "name": "TE",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "B1",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B2",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B3",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B4",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B5",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B6",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B7",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B8",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "D1",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D2",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D3",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D4",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D5",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D6",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D7",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D8",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "PE",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      }
+     ],
+     "top": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "lsf0108pw",
+   "package": "TSSOP-20 (PW)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "Nexperia LSF0108 Rev 2.1"
+   },
+   "units": [
+    {
+     "name": "XLATE",
+     "left": [
+      {
+       "name": "GND",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "refA",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "A1",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A2",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A3",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A4",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A5",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A6",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A7",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A8",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "EN",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "refB",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "B1",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B2",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B3",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B4",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B5",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B6",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B7",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "B8",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

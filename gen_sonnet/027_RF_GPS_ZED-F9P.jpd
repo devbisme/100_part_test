@@ -1,0 +1,432 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "zed-f9p-04b",
+   "package": "LGA-54 (central ground pads unnumbered, omitted)",
+   "expected_pin_count": 54,
+   "properties": {
+    "Datasheet": "UBX-21044850 R05"
+   },
+   "units": [
+    {
+     "name": "GNSS",
+     "left": [
+      {
+       "name": "GND",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RF_IN",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "3"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "ANT_DETECT",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "ANT_OFF",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "ANT_SHORT_N",
+       "numbers": [
+        "6"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "VCC_RF",
+       "numbers": [
+        "7"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "8"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "9"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "10"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "11"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "13"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "right": [
+      {
+       "name": "GND",
+       "numbers": [
+        "41"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USB_DP",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USB_DM",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "V_USB",
+       "numbers": [
+        "38"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "37"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V_BCKP",
+       "numbers": [
+        "36"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "35"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "34"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "33"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "32"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "31"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "30"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "29"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "28"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "top": [
+      {
+       "name": "Reserved",
+       "numbers": [
+        "54"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "TIMEPULSE",
+       "numbers": [
+        "53"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "52"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "EXTINT",
+       "numbers": [
+        "51"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SAFEBOOT_N",
+       "numbers": [
+        "50"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "RESET_N",
+       "numbers": [
+        "49"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "48"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "D_SEL",
+       "numbers": [
+        "47"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TX_READY",
+       "numbers": [
+        "46"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SCL",
+       "numbers": [
+        "45"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI_CLK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "SDA",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI_CS_N",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RXD",
+       "numbers": [
+        "43"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "SPI_SDI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "TXD",
+       "numbers": [
+        "42"
+       ],
+       "type": "output",
+       "alternates": [
+        {
+         "name": "SPI_SDO",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "15"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "16"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "17"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "18"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "GEOFENCE_STAT",
+       "numbers": [
+        "19"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RTK_STAT",
+       "numbers": [
+        "20"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "21"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "22"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "23"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "24"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "Reserved",
+       "numbers": [
+        "25"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "RXD2",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TXD2",
+       "numbers": [
+        "27"
+       ],
+       "type": "output"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

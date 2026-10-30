@@ -1,0 +1,726 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "omega2s+",
+   "package": "Module (datasheet lists pins 1-63)",
+   "expected_pin_count": 63,
+   "properties": {
+    "Datasheet": "OM-O2S/OM-O2SP datasheet"
+   },
+   "units": [
+    {
+     "name": "MOD",
+     "left": [
+      {
+       "name": "GND",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO_36",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "~{PERST_N}",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_37",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "REFCLK",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_38",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SW_RST",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "HW_RST_N",
+       "numbers": [
+        "5"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "GPIO_39",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "LINK4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_40",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "LINK3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "3.3V",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "3.3V",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PCIE_TXN0",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PCIE_TXP0",
+       "numbers": [
+        "11"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PCIE_RXP0",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PCIE_RXN0",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PCIE_CKN0",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PCIE_CKP0",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GPIO_41",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GPIO_42",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GPIO_43",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "WLED_N",
+       "numbers": [
+        "19"
+       ],
+       "type": "output",
+       "style": "output_low",
+       "alternates": [
+        {
+         "name": "GPIO_44",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_45",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "UART_TXD1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_46",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "UART_RXD1",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "GND",
+       "numbers": [
+        "63"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USB_DM",
+       "numbers": [
+        "62"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USB_DP",
+       "numbers": [
+        "61"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO_29",
+       "numbers": [
+        "60"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_D2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PHY4_TXN",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_28",
+       "numbers": [
+        "59"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_D3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PHY4_TXP",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_27",
+       "numbers": [
+        "58"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_CMD",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PHY4_RXN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_26",
+       "numbers": [
+        "57"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_CLK",
+         "type": "output"
+        },
+        {
+         "name": "PHY4_RXP",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_25",
+       "numbers": [
+        "56"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_D0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PHY3_RXN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_24",
+       "numbers": [
+        "55"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_D1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PHY3_RXP",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_23",
+       "numbers": [
+        "54"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_CD",
+         "type": "input"
+        },
+        {
+         "name": "PHY3_TXN",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_22",
+       "numbers": [
+        "53"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD_WP",
+         "type": "input"
+        },
+        {
+         "name": "PHY3_TXP",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_21",
+       "numbers": [
+        "52"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM_CH3",
+         "type": "output"
+        },
+        {
+         "name": "UART_RXD2",
+         "type": "input"
+        },
+        {
+         "name": "PHY2_TXN",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_20",
+       "numbers": [
+        "51"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM_CH2",
+         "type": "output"
+        },
+        {
+         "name": "UART_TXD2",
+         "type": "output"
+        },
+        {
+         "name": "PHY2_TXP",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_19",
+       "numbers": [
+        "50"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM_CH1",
+         "type": "output"
+        },
+        {
+         "name": "PHY2_RXN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_18",
+       "numbers": [
+        "49"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM_CH0",
+         "type": "output"
+        },
+        {
+         "name": "PHY2_RXP",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_17",
+       "numbers": [
+        "48"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PHY1_RXN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_16",
+       "numbers": [
+        "47"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PHY1_RXP",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_15",
+       "numbers": [
+        "46"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PHY1_TXN",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_14",
+       "numbers": [
+        "45"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PHY1_TXP",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "TXO_N0",
+       "numbers": [
+        "44"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "TXO_P0",
+       "numbers": [
+        "43"
+       ],
+       "type": "output"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "22"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "WIFI_RF",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "25"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO_0",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "I2S_SDI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_1",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "I2S_SDO",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_2",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "I2S_WS",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_3",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "I2S_CLK",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_4",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "I2C_SCLK",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_5",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "I2C_SDA",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "VDD_FLASH",
+       "numbers": [
+        "32"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SPI_CS1",
+       "numbers": [
+        "33"
+       ],
+       "type": "output",
+       "alternates": [
+        {
+         "name": "GPIO6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_CLK",
+       "numbers": [
+        "34"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SPI_MISO",
+       "numbers": [
+        "35"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SPI_MOSI",
+       "numbers": [
+        "36"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SPI_CS0",
+       "numbers": [
+        "37"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GPIO_11",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GPIO_12",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "UART_TXD0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_13",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "UART_RXD0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RXI_P0",
+       "numbers": [
+        "41"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RXI_N0",
+       "numbers": [
+        "42"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

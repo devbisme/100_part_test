@@ -1,0 +1,1673 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "ccgm1a1",
+   "package": "FBGA-324",
+   "expected_pin_count": 324,
+   "properties": {
+    "Datasheet": "DS1001"
+   },
+   "units": [
+    {
+     "name": "NA",
+     "left": [
+      {
+       "name": "IO_NA_A0",
+       "numbers": [
+        "A3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B0",
+       "numbers": [
+        "B3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A1",
+       "numbers": [
+        "A4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B1",
+       "numbers": [
+        "B4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A2",
+       "numbers": [
+        "B5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B2",
+       "numbers": [
+        "C5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A3",
+       "numbers": [
+        "C6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B3",
+       "numbers": [
+        "D6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A4",
+       "numbers": [
+        "A6"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_NA_B4",
+       "numbers": [
+        "B6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A5",
+       "numbers": [
+        "C7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B5",
+       "numbers": [
+        "D7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A6",
+       "numbers": [
+        "C8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B6",
+       "numbers": [
+        "D8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A7",
+       "numbers": [
+        "A8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B7",
+       "numbers": [
+        "B8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_A8",
+       "numbers": [
+        "C9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NA_B8",
+       "numbers": [
+        "D9"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "NB",
+     "left": [
+      {
+       "name": "IO_NB_A0",
+       "numbers": [
+        "B9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B0",
+       "numbers": [
+        "A9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A1",
+       "numbers": [
+        "D10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B1",
+       "numbers": [
+        "C10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A2",
+       "numbers": [
+        "B11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B2",
+       "numbers": [
+        "A11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A3",
+       "numbers": [
+        "D11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B3",
+       "numbers": [
+        "C11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A4",
+       "numbers": [
+        "B12"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_NB_B4",
+       "numbers": [
+        "A12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A5",
+       "numbers": [
+        "D12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B5",
+       "numbers": [
+        "C12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A6",
+       "numbers": [
+        "D13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B6",
+       "numbers": [
+        "C13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A7",
+       "numbers": [
+        "B14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B7",
+       "numbers": [
+        "A14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_A8",
+       "numbers": [
+        "D14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_NB_B8",
+       "numbers": [
+        "C14"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "EA",
+     "left": [
+      {
+       "name": "IO_EA_A0",
+       "numbers": [
+        "M15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B0",
+       "numbers": [
+        "M14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A1",
+       "numbers": [
+        "L16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B1",
+       "numbers": [
+        "L15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A2",
+       "numbers": [
+        "K18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B2",
+       "numbers": [
+        "K17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A3",
+       "numbers": [
+        "K16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B3",
+       "numbers": [
+        "K15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A4",
+       "numbers": [
+        "J18"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_EA_B4",
+       "numbers": [
+        "J17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A5",
+       "numbers": [
+        "J16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B5",
+       "numbers": [
+        "J15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A6",
+       "numbers": [
+        "H16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B6",
+       "numbers": [
+        "H15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A7",
+       "numbers": [
+        "G18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B7",
+       "numbers": [
+        "G17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_A8",
+       "numbers": [
+        "G16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EA_B8",
+       "numbers": [
+        "G15"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "EB",
+     "left": [
+      {
+       "name": "IO_EB_A0",
+       "numbers": [
+        "F18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B0",
+       "numbers": [
+        "F17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A1",
+       "numbers": [
+        "F16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B1",
+       "numbers": [
+        "F15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A2",
+       "numbers": [
+        "D18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B2",
+       "numbers": [
+        "D17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A3",
+       "numbers": [
+        "E16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B3",
+       "numbers": [
+        "E15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A4",
+       "numbers": [
+        "C18"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_EB_B4",
+       "numbers": [
+        "C17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A5",
+       "numbers": [
+        "B17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B5",
+       "numbers": [
+        "A17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A6",
+       "numbers": [
+        "D16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B6",
+       "numbers": [
+        "C16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A7",
+       "numbers": [
+        "D15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B7",
+       "numbers": [
+        "C15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_A8",
+       "numbers": [
+        "B15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_EB_B8",
+       "numbers": [
+        "A15"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "SA",
+     "left": [
+      {
+       "name": "IO_SA_A0",
+       "numbers": [
+        "U5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B0",
+       "numbers": [
+        "V5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A1",
+       "numbers": [
+        "R6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B1",
+       "numbers": [
+        "T6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A2",
+       "numbers": [
+        "R7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B2",
+       "numbers": [
+        "T7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A3",
+       "numbers": [
+        "U7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B3",
+       "numbers": [
+        "V7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A4",
+       "numbers": [
+        "R8"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_SA_B4",
+       "numbers": [
+        "T8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A5",
+       "numbers": [
+        "U8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B5",
+       "numbers": [
+        "V8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A6",
+       "numbers": [
+        "R9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B6",
+       "numbers": [
+        "T9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A7",
+       "numbers": [
+        "R10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B7",
+       "numbers": [
+        "T10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_A8",
+       "numbers": [
+        "U10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SA_B8",
+       "numbers": [
+        "V10"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "SB",
+     "left": [
+      {
+       "name": "IO_SB_A0",
+       "numbers": [
+        "U17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_B0",
+       "numbers": [
+        "U18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A1",
+       "numbers": [
+        "R17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_B1",
+       "numbers": [
+        "R18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A2",
+       "numbers": [
+        "P17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_B2",
+       "numbers": [
+        "P18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A3",
+       "numbers": [
+        "M17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_B3",
+       "numbers": [
+        "M18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A4",
+       "numbers": [
+        "P11"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_SB_B4",
+       "numbers": [
+        "R11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A5",
+       "numbers": [
+        "R13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "CLK3",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_SB_B5",
+       "numbers": [
+        "R14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A6",
+       "numbers": [
+        "P14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "CLK2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_SB_B6",
+       "numbers": [
+        "P15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A7",
+       "numbers": [
+        "P12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "CLK1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_SB_B7",
+       "numbers": [
+        "P13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_SB_A8",
+       "numbers": [
+        "N14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "CLK0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_SB_B8",
+       "numbers": [
+        "N15"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "WB",
+     "left": [
+      {
+       "name": "IO_WB_A0",
+       "numbers": [
+        "N1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B0",
+       "numbers": [
+        "N2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A1",
+       "numbers": [
+        "M3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B1",
+       "numbers": [
+        "M4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A2",
+       "numbers": [
+        "L3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B2",
+       "numbers": [
+        "L4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A3",
+       "numbers": [
+        "L1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B3",
+       "numbers": [
+        "L2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A4",
+       "numbers": [
+        "K3"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_WB_B4",
+       "numbers": [
+        "K4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A5",
+       "numbers": [
+        "K1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B5",
+       "numbers": [
+        "K2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A6",
+       "numbers": [
+        "J3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B6",
+       "numbers": [
+        "J4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A7",
+       "numbers": [
+        "H1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B7",
+       "numbers": [
+        "H2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_A8",
+       "numbers": [
+        "H3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WB_B8",
+       "numbers": [
+        "H4"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "WC",
+     "left": [
+      {
+       "name": "IO_WC_A0",
+       "numbers": [
+        "G1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B0",
+       "numbers": [
+        "G2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A1",
+       "numbers": [
+        "G3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B1",
+       "numbers": [
+        "G4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A2",
+       "numbers": [
+        "F3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B2",
+       "numbers": [
+        "F4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A3",
+       "numbers": [
+        "E1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B3",
+       "numbers": [
+        "E2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A4",
+       "numbers": [
+        "E3"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_WC_B4",
+       "numbers": [
+        "E4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A5",
+       "numbers": [
+        "D1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B5",
+       "numbers": [
+        "D2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A6",
+       "numbers": [
+        "D3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B6",
+       "numbers": [
+        "D4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A7",
+       "numbers": [
+        "C3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B7",
+       "numbers": [
+        "C4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_A8",
+       "numbers": [
+        "B1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO_WC_B8",
+       "numbers": [
+        "B2"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    },
+    {
+     "name": "CFG",
+     "left": [
+      {
+       "name": "SPI_CS_N",
+       "numbers": [
+        "N3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_A8",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_CLK",
+       "numbers": [
+        "N4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_B8",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_D1",
+       "numbers": [
+        "P1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_A7",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_D0",
+       "numbers": [
+        "P2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_B7",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_D3",
+       "numbers": [
+        "R1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_A6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_D2",
+       "numbers": [
+        "R2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_B6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "JTAG_TCK",
+       "numbers": [
+        "R3"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_A5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SPI_FWD",
+       "numbers": [
+        "R4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "IO_WA_B5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "CFG_MD0",
+       "numbers": [
+        "R5"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_A0",
+         "type": "bidirectional"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "JTAG_TDI",
+       "numbers": [
+        "T2"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_A4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "JTAG_TMS",
+       "numbers": [
+        "T3"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_B4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "CFG_MD1",
+       "numbers": [
+        "T5"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_B0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "POR_EN",
+       "numbers": [
+        "U1"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_A3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "JTAG_TDO",
+       "numbers": [
+        "U2"
+       ],
+       "type": "output",
+       "alternates": [
+        {
+         "name": "IO_WA_B3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "CFG_MD2",
+       "numbers": [
+        "U4"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_A1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "CFG_FAILED_N",
+       "numbers": [
+        "V2"
+       ],
+       "type": "output",
+       "style": "output_low",
+       "alternates": [
+        {
+         "name": "IO_WA_A2",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "CFG_DONE",
+       "numbers": [
+        "V3"
+       ],
+       "type": "output",
+       "alternates": [
+        {
+         "name": "IO_WA_B2",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "CFG_MD3",
+       "numbers": [
+        "V4"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "IO_WA_B1",
+         "type": "bidirectional"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "MISC",
+     "left": [
+      {
+       "name": "N.C.",
+       "numbers": [
+        "N16"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "SER_CLK",
+       "numbers": [
+        "T12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SER_CLK_N",
+       "numbers": [
+        "T13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RST_N",
+       "numbers": [
+        "T15"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "SER_RX_P",
+       "numbers": [
+        "U11"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "SER_TX_P",
+       "numbers": [
+        "U13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SER_RX_N",
+       "numbers": [
+        "V11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SER_RTERM",
+       "numbers": [
+        "V12"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "SER_TX_N",
+       "numbers": [
+        "V13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "POR_ADJ",
+       "numbers": [
+        "V15"
+       ],
+       "type": "input"
+      }
+     ]
+    },
+    {
+     "name": "PWR",
+     "top": [
+      {
+       "name": "VDD_WC",
+       "numbers": [
+        "A2",
+        "C2",
+        "D5",
+        "F2",
+        "F5"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_NA",
+       "numbers": [
+        "A5",
+        "B7",
+        "E6",
+        "E8",
+        "F7"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_EB",
+       "numbers": [
+        "A16",
+        "B18",
+        "E14",
+        "E17",
+        "F13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_NB",
+       "numbers": [
+        "B10",
+        "B13",
+        "E10",
+        "E12",
+        "F11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "F9",
+        "G6",
+        "G8",
+        "G10",
+        "G12",
+        "H7",
+        "H9",
+        "H11",
+        "H13",
+        "J6",
+        "J8",
+        "J10",
+        "J12",
+        "K7",
+        "K9",
+        "K11",
+        "K13",
+        "L6",
+        "L8",
+        "L10",
+        "L12",
+        "M7",
+        "M9",
+        "M11",
+        "M13",
+        "N6",
+        "N8",
+        "N10"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_EA",
+       "numbers": [
+        "G14",
+        "H17",
+        "J14",
+        "L14",
+        "L17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_WB",
+       "numbers": [
+        "H5",
+        "J2",
+        "K5",
+        "M2",
+        "M5"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_WA",
+       "numbers": [
+        "N5",
+        "P3",
+        "P5",
+        "T1",
+        "U3"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_SB",
+       "numbers": [
+        "N11",
+        "N13",
+        "N18",
+        "R15",
+        "T18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_SA",
+       "numbers": [
+        "P6",
+        "P8",
+        "P10",
+        "U6",
+        "U9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_PLL",
+       "numbers": [
+        "P16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_CLK",
+       "numbers": [
+        "T14"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_SER_PLL",
+       "numbers": [
+        "T16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_SER",
+       "numbers": [
+        "U12",
+        "V17"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "A1",
+        "A7",
+        "A10",
+        "A13",
+        "A18",
+        "B16",
+        "C1",
+        "E5",
+        "E7",
+        "E9",
+        "E11",
+        "E13",
+        "E18",
+        "F1",
+        "F6",
+        "F8",
+        "F10",
+        "F12",
+        "F14",
+        "G5",
+        "G7",
+        "G9",
+        "G11",
+        "G13",
+        "H6",
+        "H8",
+        "H10",
+        "H12",
+        "H14",
+        "H18",
+        "J1",
+        "J5",
+        "J7",
+        "J9",
+        "J11",
+        "J13",
+        "K6",
+        "K8",
+        "K10",
+        "K12",
+        "K14",
+        "L5",
+        "L7",
+        "L9",
+        "L11",
+        "L13",
+        "L18",
+        "M1",
+        "M6",
+        "M8",
+        "M10",
+        "M12",
+        "M16",
+        "N7",
+        "N9",
+        "N12",
+        "N17",
+        "P4",
+        "P7",
+        "P9",
+        "R12",
+        "R16",
+        "T4",
+        "T11",
+        "T17",
+        "U14",
+        "U15",
+        "U16",
+        "V1",
+        "V6",
+        "V9",
+        "V14",
+        "V16",
+        "V18"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

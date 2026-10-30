@@ -1,0 +1,983 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "atsamd21e17a-a",
+   "package": "TQFP/QFN-32",
+   "expected_pin_count": 32,
+   "properties": {
+    "Datasheet": "DS40001882E"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "PA00",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT0",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM1_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC2_WO0",
+         "type": "output"
+        },
+        {
+         "name": "XIN32",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA01",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT1",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM1_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC2_WO1",
+         "type": "output"
+        },
+        {
+         "name": "XOUT32",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA02",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT2",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN0",
+         "type": "input"
+        },
+        {
+         "name": "PTC_Y0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DAC_VOUT",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA03",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT3",
+         "type": "input"
+        },
+        {
+         "name": "ADC_VREFA",
+         "type": "input"
+        },
+        {
+         "name": "DAC_VREFA",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN1",
+         "type": "input"
+        },
+        {
+         "name": "PTC_Y1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC3_WO1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA04",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT4",
+         "type": "input"
+        },
+        {
+         "name": "ADC_VREFB",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN4",
+         "type": "input"
+        },
+        {
+         "name": "AC_AIN0",
+         "type": "input"
+        },
+        {
+         "name": "PTC_Y2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC0_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA05",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT5",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN5",
+         "type": "input"
+        },
+        {
+         "name": "AC_AIN1",
+         "type": "input"
+        },
+        {
+         "name": "PTC_Y3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC0_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO3",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA06",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT6",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN6",
+         "type": "input"
+        },
+        {
+         "name": "AC_AIN2",
+         "type": "input"
+        },
+        {
+         "name": "PTC_Y4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC1_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO4",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA07",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT7",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN7",
+         "type": "input"
+        },
+        {
+         "name": "AC_AIN3",
+         "type": "input"
+        },
+        {
+         "name": "PTC_Y5",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC1_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO5",
+         "type": "output"
+        },
+        {
+         "name": "I2S_SD0",
+         "type": "bidirectional"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "PA25",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT13",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM3_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM5_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC5_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC1_WO3",
+         "type": "output"
+        },
+        {
+         "name": "USB_DP",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA24",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT12",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM3_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM5_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC5_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC1_WO2",
+         "type": "output"
+        },
+        {
+         "name": "USB_DM",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA23",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT7",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM3_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM5_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC4_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO5",
+         "type": "output"
+        },
+        {
+         "name": "USB_SOF",
+         "type": "bidirectional"
+        },
+        {
+         "name": "GCLK_IO7",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA22",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT6",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X10",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM3_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM5_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC4_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO4",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA19",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT3",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X7",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM1_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM3_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC3_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO3",
+         "type": "output"
+        },
+        {
+         "name": "I2S_SD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "AC_CMP1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA18",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT2",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X6",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM1_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM3_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC3_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO2",
+         "type": "output"
+        },
+        {
+         "name": "AC_CMP0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA17",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT1",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X5",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM1_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM3_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC2_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO7",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA16",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT0",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM1_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM3_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC2_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO6",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO2",
+         "type": "bidirectional"
+        }
+       ]
+      }
+     ],
+     "top": [
+      {
+       "name": "PA31",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT11",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM1_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC1_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO5",
+         "type": "output"
+        },
+        {
+         "name": "SWDIO",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA30",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT10",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM1_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC1_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC3_WO4",
+         "type": "output"
+        },
+        {
+         "name": "SWCLK",
+         "type": "input"
+        },
+        {
+         "name": "GCLK_IO0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "VDDIN",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDDCORE",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA28",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT8",
+         "type": "input"
+        },
+        {
+         "name": "TCC3_WO7",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PA27",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT15",
+         "type": "input"
+        },
+        {
+         "name": "TCC3_WO6",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO0",
+         "type": "bidirectional"
+        }
+       ]
+      }
+     ],
+     "bottom": [
+      {
+       "name": "VDDANA",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA08",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "NMI",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN16",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM2_PAD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC0_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC1_WO2",
+         "type": "output"
+        },
+        {
+         "name": "I2S_SD1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA09",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT9",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN17",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM2_PAD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC0_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC1_WO3",
+         "type": "output"
+        },
+        {
+         "name": "I2S_MCK0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA10",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT10",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN18",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM2_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC1_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO2",
+         "type": "output"
+        },
+        {
+         "name": "I2S_SCK0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "GCLK_IO4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA11",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT11",
+         "type": "input"
+        },
+        {
+         "name": "ADC_AIN19",
+         "type": "input"
+        },
+        {
+         "name": "PTC_X3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM0_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM2_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TCC1_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO3",
+         "type": "output"
+        },
+        {
+         "name": "I2S_FS0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "GCLK_IO5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PA14",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT14",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM2_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM4_PAD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC3_WO0",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO4",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "XIN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA15",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "EXTINT15",
+         "type": "input"
+        },
+        {
+         "name": "SERCOM2_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SERCOM4_PAD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TC3_WO1",
+         "type": "output"
+        },
+        {
+         "name": "TCC0_WO5",
+         "type": "output"
+        },
+        {
+         "name": "GCLK_IO1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "XOUT",
+         "type": "output"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,285 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "edip240j-7la",
+   "package": "40-pin interface",
+   "expected_pin_count": 40,
+   "properties": {
+    "Datasheet": "EA eDIP240-7"
+   },
+   "units": [
+    {
+     "name": "HMI",
+     "left": [
+      {
+       "name": "GND",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VADJ",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VOUT",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "BAUD0",
+       "numbers": [
+        "6"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "~{SS}",
+         "type": "input"
+        },
+        {
+         "name": "BA0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "BAUD1",
+       "numbers": [
+        "7"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "MOSI",
+         "type": "input"
+        },
+        {
+         "name": "BA1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "BAUD2",
+       "numbers": [
+        "8"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "MISO",
+         "type": "output"
+        },
+        {
+         "name": "SA0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "ADR0",
+       "numbers": [
+        "9"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "CLK",
+         "type": "input"
+        },
+        {
+         "name": "SA1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RxD",
+       "numbers": [
+        "10"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "DORD",
+         "type": "input"
+        },
+        {
+         "name": "SA2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "TxD",
+       "numbers": [
+        "11"
+       ],
+       "type": "output",
+       "alternates": [
+        {
+         "name": "SPIMODE",
+         "type": "input"
+        },
+        {
+         "name": "BA2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "EN485",
+       "numbers": [
+        "12"
+       ],
+       "type": "output",
+       "alternates": [
+        {
+         "name": "OUT2",
+         "type": "output"
+        },
+        {
+         "name": "I2CMODE",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "DPOM",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "ADR1",
+       "numbers": [
+        "14"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "CPOL",
+         "type": "input"
+        },
+        {
+         "name": "SDA",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "ADR2",
+       "numbers": [
+        "15"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "CPHA",
+         "type": "input"
+        },
+        {
+         "name": "SCL",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "BUZZ",
+       "numbers": [
+        "16"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "EEP_SDA",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "EEP_SCL",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "EEP_WP",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TEST",
+       "numbers": [
+        "20"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "SBUF",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "NC",
+       "numbers": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+       ],
+       "type": "no_connect"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

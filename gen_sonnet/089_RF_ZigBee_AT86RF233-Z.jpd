@@ -1,0 +1,252 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "at86rf233",
+   "package": "QFN-32; exposed paddle (AVSS) unnumbered, omitted",
+   "expected_pin_count": 32,
+   "properties": {
+    "Datasheet": "Atmel-8351E"
+   },
+   "units": [
+    {
+     "name": "RF",
+     "left": [
+      {
+       "name": "DIG3",
+       "numbers": [
+        "1"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DIG4",
+       "numbers": [
+        "2"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "3"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RFP",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RFN",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DVSS",
+       "numbers": [
+        "7"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "~{RST}",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "IRQ",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "~{SEL}",
+       "numbers": [
+        "23"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "MOSI",
+       "numbers": [
+        "22"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DVSS",
+       "numbers": [
+        "21"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "MISO",
+       "numbers": [
+        "20"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SCLK",
+       "numbers": [
+        "19"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "DVSS",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "CLKM",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      }
+     ],
+     "top": [
+      {
+       "name": "AVSS",
+       "numbers": [
+        "32"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "31"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "EVDD",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "27"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "XTAL1",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "XTAL2",
+       "numbers": [
+        "25"
+       ],
+       "type": "input"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "DIG1",
+       "numbers": [
+        "9"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DIG2",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SLP_TR",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DVSS",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DVDD",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "DVDD",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "DEVDD",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DVSS",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,393 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "bmf055"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -15.24 21.590000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "bmf055"
+      (at -15.24 19.050000000000004 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -15.24 18.415000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "BST-BMF055-DS000-04"
+      (at -15.24 18.415000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -15.24 18.415000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -15.24 18.415000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -15.24 18.415000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -15.24 18.415000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "bmf055_1_1"
+      (rectangle
+        (start -15.24 -17.78)
+        (end 15.24 17.78)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -20.32 7.62 0)
+        (length 5.08)
+        (name "PB03"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "ACC_GYR_INT2" input line))
+      (pin power_in line
+        (at -20.32 5.08 0)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -20.32 2.54 0)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -20.32 0.0 0)
+        (length 5.08)
+        (name "PB02"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -20.32 -2.54 0)
+        (length 5.08)
+        (name "PB01"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -20.32 -5.08 0)
+        (length 5.08)
+        (name "PB00"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -20.32 -7.62 0)
+        (length 5.08)
+        (name "PA31"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SWDIO" bidirectional line))
+      (pin bidirectional line
+        (at 20.32 7.62 180)
+        (length 5.08)
+        (name "PA19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "MISO" input line))
+      (pin bidirectional line
+        (at 20.32 5.08 180)
+        (length 5.08)
+        (name "PB16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 20.32 2.54 180)
+        (length 5.08)
+        (name "PB17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 20.32 0.0 180)
+        (length 5.08)
+        (name "PA20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 20.32 -2.54 180)
+        (length 5.08)
+        (name "PA21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 20.32 -5.08 180)
+        (length 5.08)
+        (name "PA22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 20.32 -7.62 180)
+        (length 5.08)
+        (name "PA23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -7.62 22.86 270)
+        (length 5.08)
+        (name "VDDIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -5.08 22.86 270)
+        (length 5.08)
+        (name "PA00"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "XIN32" input line))
+      (pin bidirectional line
+        (at -2.54 22.86 270)
+        (length 5.08)
+        (name "PA01"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "XOUT32" output line))
+      (pin power_in line
+        (at 0.0 22.86 270)
+        (length 5.08)
+        (name "GNDIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 2.54 22.86 270)
+        (length 5.08)
+        (name "PA16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "MOSI" output line))
+      (pin bidirectional line
+        (at 5.08 22.86 270)
+        (length 5.08)
+        (name "PA17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SCLK" output line))
+      (pin bidirectional line
+        (at 7.62 22.86 270)
+        (length 5.08)
+        (name "PA18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "ACC_MAG_CSB" output line))
+      (pin bidirectional line
+        (at -7.62 -22.86 90)
+        (length 5.08)
+        (name "PA30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SWCLK" input line))
+      (pin passive line
+        (at -5.08 -22.86 90)
+        (length 5.08)
+        (name "CAP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -2.54 -22.86 90)
+        (length 5.08)
+        (name "PA28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 0.0 -22.86 90)
+        (length 5.08)
+        (name "RESETN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 2.54 -22.86 90)
+        (length 5.08)
+        (name "PA27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "GYR_CSB" output line))
+      (pin bidirectional line
+        (at 5.08 -22.86 90)
+        (length 5.08)
+        (name "PB23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "ACC_GYR_INT1" input line))
+      (pin bidirectional line
+        (at 7.62 -22.86 90)
+        (length 5.08)
+        (name "PA24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

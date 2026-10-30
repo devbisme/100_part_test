@@ -1,0 +1,169 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "ucc1895j",
+   "package": "CDIP-20 (J)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLUS157Q"
+   },
+   "units": [
+    {
+     "name": "PWM",
+     "left": [
+      {
+       "name": "EAN",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "EAOUT",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RAMP",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "REF",
+       "numbers": [
+        "4"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "5"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SYNC",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CT",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RT",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DELAB",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DELCD",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "EAP",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SS",
+       "numbers": [
+        "19"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "DISB",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "OUTA",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTB",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PGND",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OUTC",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTD",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "CS",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "ADS",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

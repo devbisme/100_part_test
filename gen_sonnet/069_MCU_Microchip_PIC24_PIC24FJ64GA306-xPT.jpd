@@ -1,0 +1,1495 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "pic24fj64ga306-pt",
+   "package": "TQFP/QFN-64",
+   "expected_pin_count": 64,
+   "properties": {
+    "Datasheet": "DS30009996G"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "RE5",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PMD5",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTED4",
+         "type": "input"
+        },
+        {
+         "name": "LCDBIAS2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN63",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RE6",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PMD6",
+         "type": "bidirectional"
+        },
+        {
+         "name": "LCDBIAS1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN64",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RE7",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PMD7",
+         "type": "bidirectional"
+        },
+        {
+         "name": "LCDBIAS0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN65",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RG6",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "C1IND",
+         "type": "input"
+        },
+        {
+         "name": "RP21",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG0",
+         "type": "output"
+        },
+        {
+         "name": "PMA5",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN8",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RG7",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "VLCAP1",
+         "type": "passive"
+        },
+        {
+         "name": "C1INC",
+         "type": "input"
+        },
+        {
+         "name": "RP26",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PMA4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN9",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RG8",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "VLCAP2",
+         "type": "passive"
+        },
+        {
+         "name": "C2IND",
+         "type": "input"
+        },
+        {
+         "name": "RP19",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PMA3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN10",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "~{MCLR}",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RG9",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "C2INC",
+         "type": "input"
+        },
+        {
+         "name": "RP27",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG1",
+         "type": "output"
+        },
+        {
+         "name": "PMA2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN11",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RB5",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PGEC3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "AN5",
+         "type": "input"
+        },
+        {
+         "name": "C1INA",
+         "type": "input"
+        },
+        {
+         "name": "RP18",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG2",
+         "type": "output"
+        },
+        {
+         "name": "CN7",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB4",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PGED3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "AN4",
+         "type": "input"
+        },
+        {
+         "name": "C1INB",
+         "type": "input"
+        },
+        {
+         "name": "RP28",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG3",
+         "type": "output"
+        },
+        {
+         "name": "CN6",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB3",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AN3",
+         "type": "input"
+        },
+        {
+         "name": "C2INA",
+         "type": "input"
+        },
+        {
+         "name": "SEG4",
+         "type": "output"
+        },
+        {
+         "name": "CN5",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB2",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AN2",
+         "type": "input"
+        },
+        {
+         "name": "C2INB",
+         "type": "input"
+        },
+        {
+         "name": "CTCMP",
+         "type": "input"
+        },
+        {
+         "name": "CTED13",
+         "type": "input"
+        },
+        {
+         "name": "RP13",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG5",
+         "type": "output"
+        },
+        {
+         "name": "CN4",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB1",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PGEC1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CVREF-",
+         "type": "input"
+        },
+        {
+         "name": "AN1",
+         "type": "input"
+        },
+        {
+         "name": "RP1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG6",
+         "type": "output"
+        },
+        {
+         "name": "CTED12",
+         "type": "input"
+        },
+        {
+         "name": "CN3",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB0",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PGED1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CVREF+",
+         "type": "input"
+        },
+        {
+         "name": "AN0",
+         "type": "input"
+        },
+        {
+         "name": "RP0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG7",
+         "type": "output"
+        },
+        {
+         "name": "PMA6",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN2",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "RC14",
+       "numbers": [
+        "48"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SOSCO",
+         "type": "output"
+        },
+        {
+         "name": "RPI37",
+         "type": "input"
+        },
+        {
+         "name": "SCKLI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RC13",
+       "numbers": [
+        "47"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SOSCI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD0",
+       "numbers": [
+        "46"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG17",
+         "type": "output"
+        },
+        {
+         "name": "CN49",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD11",
+       "numbers": [
+        "45"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP12",
+         "type": "bidirectional"
+        },
+        {
+         "name": "C3INC",
+         "type": "input"
+        },
+        {
+         "name": "SEG16",
+         "type": "output"
+        },
+        {
+         "name": "PMA14",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CS1",
+         "type": "output"
+        },
+        {
+         "name": "CN56",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD10",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG15",
+         "type": "output"
+        },
+        {
+         "name": "PMA15",
+         "type": "bidirectional"
+        },
+        {
+         "name": "C3IND",
+         "type": "input"
+        },
+        {
+         "name": "CS2",
+         "type": "output"
+        },
+        {
+         "name": "CN55",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD9",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG14",
+         "type": "output"
+        },
+        {
+         "name": "PMACK2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN54",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD8",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG13",
+         "type": "output"
+        },
+        {
+         "name": "RTCC",
+         "type": "output"
+        },
+        {
+         "name": "CN53",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "41"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RC15",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "OSCO",
+         "type": "output"
+        },
+        {
+         "name": "CLKO",
+         "type": "output"
+        },
+        {
+         "name": "CN22",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RC12",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "OSCI",
+         "type": "input"
+        },
+        {
+         "name": "CLKI",
+         "type": "input"
+        },
+        {
+         "name": "CN23",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "38"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RG2",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SEG28",
+         "type": "output"
+        },
+        {
+         "name": "CN72",
+         "type": "input"
+        },
+        {
+         "name": "SCL1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "RG3",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SEG47",
+         "type": "output"
+        },
+        {
+         "name": "CN73",
+         "type": "input"
+        },
+        {
+         "name": "SDA1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "RF6",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "INT0",
+         "type": "input"
+        },
+        {
+         "name": "CN84",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RF2",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP30",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN70",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RF3",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP16",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG12",
+         "type": "output"
+        },
+        {
+         "name": "CN71",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "top": [
+      {
+       "name": "RE4",
+       "numbers": [
+        "64"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "HLVDIN",
+         "type": "input"
+        },
+        {
+         "name": "CTED8",
+         "type": "input"
+        },
+        {
+         "name": "PMD4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN62",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RE3",
+       "numbers": [
+        "63"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "COM0",
+         "type": "output"
+        },
+        {
+         "name": "PMD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTED9",
+         "type": "input"
+        },
+        {
+         "name": "CN61",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RE2",
+       "numbers": [
+        "62"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "COM1",
+         "type": "output"
+        },
+        {
+         "name": "PMD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN60",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RE1",
+       "numbers": [
+        "61"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "COM2",
+         "type": "output"
+        },
+        {
+         "name": "PMD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN59",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RE0",
+       "numbers": [
+        "60"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "COM3",
+         "type": "output"
+        },
+        {
+         "name": "PMD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN58",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RF1",
+       "numbers": [
+        "59"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "COM4",
+         "type": "output"
+        },
+        {
+         "name": "SEG48",
+         "type": "output"
+        },
+        {
+         "name": "CN69",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RF0",
+       "numbers": [
+        "58"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SEG27",
+         "type": "output"
+        },
+        {
+         "name": "CN68",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VBAT",
+       "numbers": [
+        "57"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCAP",
+       "numbers": [
+        "56"
+       ],
+       "type": "power_out",
+       "alternates": [
+        {
+         "name": "VDDCORE",
+         "type": "power_out"
+        }
+       ]
+      },
+      {
+       "name": "RD7",
+       "numbers": [
+        "55"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "C3INA",
+         "type": "input"
+        },
+        {
+         "name": "SEG26",
+         "type": "output"
+        },
+        {
+         "name": "CN16",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD6",
+       "numbers": [
+        "54"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "C3INB",
+         "type": "input"
+        },
+        {
+         "name": "SEG25",
+         "type": "output"
+        },
+        {
+         "name": "CN15",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD5",
+       "numbers": [
+        "53"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP20",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG24",
+         "type": "output"
+        },
+        {
+         "name": "PMRD",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN14",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD4",
+       "numbers": [
+        "52"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP25",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG23",
+         "type": "output"
+        },
+        {
+         "name": "PMWR",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN13",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD3",
+       "numbers": [
+        "51"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP22",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG22",
+         "type": "output"
+        },
+        {
+         "name": "PMBE0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN52",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD2",
+       "numbers": [
+        "50"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP23",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG21",
+         "type": "output"
+        },
+        {
+         "name": "PMACK1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN51",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RD1",
+       "numbers": [
+        "49"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP24",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG20",
+         "type": "output"
+        },
+        {
+         "name": "CN50",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "bottom": [
+      {
+       "name": "RB6",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PGEC2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "AN6",
+         "type": "input"
+        },
+        {
+         "name": "RP6",
+         "type": "bidirectional"
+        },
+        {
+         "name": "LCDBIAS3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN24",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB7",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PGED2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "AN7",
+         "type": "input"
+        },
+        {
+         "name": "RP7",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN25",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVSS",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RB8",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AN8",
+         "type": "input"
+        },
+        {
+         "name": "RP8",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG31",
+         "type": "output"
+        },
+        {
+         "name": "COM7",
+         "type": "output"
+        },
+        {
+         "name": "CN26",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB9",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AN9",
+         "type": "input"
+        },
+        {
+         "name": "RP9",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG30",
+         "type": "output"
+        },
+        {
+         "name": "COM6",
+         "type": "output"
+        },
+        {
+         "name": "PMA7",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN27",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB10",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TMS",
+         "type": "input"
+        },
+        {
+         "name": "CVREF",
+         "type": "input"
+        },
+        {
+         "name": "AN10",
+         "type": "input"
+        },
+        {
+         "name": "SEG29",
+         "type": "output"
+        },
+        {
+         "name": "COM5",
+         "type": "output"
+        },
+        {
+         "name": "PMA13",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN28",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB11",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDO",
+         "type": "output"
+        },
+        {
+         "name": "AN11",
+         "type": "input"
+        },
+        {
+         "name": "PMA12",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN29",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "25"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "26"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RB12",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TCK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "AN12",
+         "type": "input"
+        },
+        {
+         "name": "CTED2",
+         "type": "input"
+        },
+        {
+         "name": "PMA11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG18",
+         "type": "output"
+        },
+        {
+         "name": "CN30",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB13",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDI",
+         "type": "input"
+        },
+        {
+         "name": "AN13",
+         "type": "input"
+        },
+        {
+         "name": "SEG19",
+         "type": "output"
+        },
+        {
+         "name": "CTED1",
+         "type": "input"
+        },
+        {
+         "name": "PMA10",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN31",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB14",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AN14",
+         "type": "input"
+        },
+        {
+         "name": "RP14",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG8",
+         "type": "output"
+        },
+        {
+         "name": "CTED5",
+         "type": "input"
+        },
+        {
+         "name": "CTPLS",
+         "type": "output"
+        },
+        {
+         "name": "PMA1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN32",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RB15",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AN15",
+         "type": "input"
+        },
+        {
+         "name": "RP29",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG9",
+         "type": "output"
+        },
+        {
+         "name": "CTED6",
+         "type": "input"
+        },
+        {
+         "name": "REFO",
+         "type": "output"
+        },
+        {
+         "name": "PMA0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN12",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RF4",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RP10",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SDA2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG10",
+         "type": "output"
+        },
+        {
+         "name": "PMA9",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CN17",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "RF5",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PMA8",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RP17",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SCL2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SEG11",
+         "type": "output"
+        },
+        {
+         "name": "CN18",
+         "type": "input"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

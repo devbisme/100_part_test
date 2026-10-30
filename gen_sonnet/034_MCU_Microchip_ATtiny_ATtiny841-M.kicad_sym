@@ -1,0 +1,363 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "attiny841-m"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -11.43 15.239999999999998 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "attiny841-m"
+      (at -11.43 12.7 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -11.43 12.065 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "8495H-AVR-05/2014"
+      (at -11.43 12.065 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -11.43 12.065 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -11.43 12.065 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -11.43 12.065 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -11.43 12.065 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "attiny841-m_1_1"
+      (rectangle
+        (start -11.43 -11.43)
+        (end 11.43 11.43)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -16.51 5.08 0)
+        (length 5.08)
+        (name "PA4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT4" input line)
+        (alternate "ADC4" input line)
+        (alternate "AIN11" input line)
+        (alternate "TOCC3" output line)
+        (alternate "T1" input line)
+        (alternate "RXD1" input line)
+        (alternate "SCL" bidirectional line)
+        (alternate "SCK" bidirectional line))
+      (pin bidirectional line
+        (at -16.51 2.54 0)
+        (length 5.08)
+        (name "PA3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT3" input line)
+        (alternate "ADC3" input line)
+        (alternate "AIN10" input line)
+        (alternate "TOCC2" output line)
+        (alternate "T0" input line)
+        (alternate "XCK0" bidirectional line)
+        (alternate "SCK" bidirectional line))
+      (pin bidirectional line
+        (at -16.51 0.0 0)
+        (length 5.08)
+        (name "PA2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT2" input line)
+        (alternate "ADC2" input line)
+        (alternate "AIN01" input line)
+        (alternate "TOCC1" output line)
+        (alternate "RXD0" input line)
+        (alternate "~{SS}" bidirectional line))
+      (pin bidirectional line
+        (at -16.51 -2.54 0)
+        (length 5.08)
+        (name "PA1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT1" input line)
+        (alternate "ADC1" input line)
+        (alternate "AIN00" input line)
+        (alternate "TOCC0" output line)
+        (alternate "TXD0" output line)
+        (alternate "MOSI" bidirectional line))
+      (pin bidirectional line
+        (at -16.51 -5.08 0)
+        (length 5.08)
+        (name "PA0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT0" input line)
+        (alternate "ADC0" input line)
+        (alternate "AREF" input line)
+        (alternate "MISO" bidirectional line))
+      (pin bidirectional line
+        (at 16.51 5.08 180)
+        (length 5.08)
+        (name "PA7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT7" input line)
+        (alternate "ADC7" input line)
+        (alternate "TOCC6" output line)
+        (alternate "ICP1" input line)
+        (alternate "TXD0" output line)
+        (alternate "~{SS}" bidirectional line))
+      (pin bidirectional line
+        (at 16.51 2.54 180)
+        (length 5.08)
+        (name "PB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT10" input line)
+        (alternate "ADC8" input line)
+        (alternate "CLKO" output line)
+        (alternate "TOCC7" output line)
+        (alternate "ICP2" input line)
+        (alternate "RXD0" input line))
+      (pin bidirectional line
+        (at 16.51 0.0 180)
+        (length 5.08)
+        (name "PB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT11" input line)
+        (alternate "ADC9" input line)
+        (alternate "~{RESET}" input line)
+        (alternate "dW" bidirectional line))
+      (pin bidirectional line
+        (at 16.51 -2.54 180)
+        (length 5.08)
+        (name "PB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT9" input line)
+        (alternate "ADC10" input line)
+        (alternate "XTAL2" input line)
+        (alternate "INT0" input line))
+      (pin bidirectional line
+        (at 16.51 -5.08 180)
+        (length 5.08)
+        (name "PB0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT8" input line)
+        (alternate "ADC11" input line)
+        (alternate "XTAL1" input line)
+        (alternate "CLKI" input line))
+      (pin bidirectional line
+        (at -5.08 16.51 270)
+        (length 5.08)
+        (name "PA5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT5" input line)
+        (alternate "ADC5" input line)
+        (alternate "ACO0" output line)
+        (alternate "TOCC4" output line)
+        (alternate "T2" input line)
+        (alternate "TXD1" output line)
+        (alternate "MISO" bidirectional line))
+      (pin no_connect line
+        (at -2.54 16.51 270)
+        (length 5.08)
+        (name "DNC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 0.0 16.51 270)
+        (length 5.08)
+        (name "DNC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 2.54 16.51 270)
+        (length 5.08)
+        (name "DNC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 5.08 16.51 270)
+        (length 5.08)
+        (name "PA6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT6" input line)
+        (alternate "ADC6" input line)
+        (alternate "ACO1" output line)
+        (alternate "TOCC5" output line)
+        (alternate "XCK1" bidirectional line)
+        (alternate "SDA" bidirectional line)
+        (alternate "MOSI" bidirectional line))
+      (pin no_connect line
+        (at -5.08 -16.51 90)
+        (length 5.08)
+        (name "DNC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -2.54 -16.51 90)
+        (length 5.08)
+        (name "DNC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 0.0 -16.51 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 2.54 -16.51 90)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at 5.08 -16.51 90)
+        (length 5.08)
+        (name "DNC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

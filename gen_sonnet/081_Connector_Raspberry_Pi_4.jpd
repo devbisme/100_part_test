@@ -1,0 +1,1023 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "raspberry_pi_4",
+   "package": "40-pin GPIO header (J8)",
+   "expected_pin_count": 40,
+   "properties": {
+    "Datasheet": "Raspberry Pi 4 Model B Datasheet r1.1"
+   },
+   "units": [
+    {
+     "name": "J8",
+     "left": [
+      {
+       "name": "3V3",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "GPIO2",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SDA1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SA3",
+         "type": "input"
+        },
+        {
+         "name": "LCD_VSYNC",
+         "type": "output"
+        },
+        {
+         "name": "SPI3_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTS2",
+         "type": "input"
+        },
+        {
+         "name": "SDA3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO3",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SCL1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SA2",
+         "type": "input"
+        },
+        {
+         "name": "LCD_HSYNC",
+         "type": "output"
+        },
+        {
+         "name": "SPI3_SCLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTS2",
+         "type": "output"
+        },
+        {
+         "name": "SCL3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO4",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GPCLK0",
+         "type": "output"
+        },
+        {
+         "name": "SA1",
+         "type": "input"
+        },
+        {
+         "name": "DPI_D0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI4_CE0}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TXD3",
+         "type": "output"
+        },
+        {
+         "name": "SDA3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO17",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "FL1",
+         "type": "output"
+        },
+        {
+         "name": "SD9",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D13",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTS0",
+         "type": "output"
+        },
+        {
+         "name": "~{SPI1_CE1}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTS1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO27",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD0_DAT3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TE1",
+         "type": "output"
+        },
+        {
+         "name": "DPI_D23",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1_DAT3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ARM_TMS",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI6_CE1}",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO22",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD0_CLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD14",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D18",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1_CLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ARM_TRST",
+         "type": "output"
+        },
+        {
+         "name": "SDA6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "3V3",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "GPIO10",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI0_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D6",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTS4",
+         "type": "input"
+        },
+        {
+         "name": "SDA5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO9",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI0_MISO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D5",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RXD4",
+         "type": "input"
+        },
+        {
+         "name": "SCL4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO11",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI0_SCLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D7",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTS4",
+         "type": "output"
+        },
+        {
+         "name": "SCL5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "25"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "ID_SD",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GPIO0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SDA0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SA5",
+         "type": "input"
+        },
+        {
+         "name": "PCLK",
+         "type": "output"
+        },
+        {
+         "name": "~{SPI3_CE0}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TXD2",
+         "type": "output"
+        },
+        {
+         "name": "SDA6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO5",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GPCLK1",
+         "type": "output"
+        },
+        {
+         "name": "SA0",
+         "type": "input"
+        },
+        {
+         "name": "DPI_D1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI4_MISO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RXD3",
+         "type": "input"
+        },
+        {
+         "name": "SCL3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO6",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GPCLK2",
+         "type": "output"
+        },
+        {
+         "name": "~{SOE}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI4_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTS3",
+         "type": "input"
+        },
+        {
+         "name": "SDA4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO13",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM1",
+         "type": "output"
+        },
+        {
+         "name": "SD5",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D9",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI5_MISO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RXD5",
+         "type": "input"
+        },
+        {
+         "name": "SCL5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO19",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCM_FS",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D15",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI6_MISO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI1_MISO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWM1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO26",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD0_DAT2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TE0",
+         "type": "output"
+        },
+        {
+         "name": "DPI_D22",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1_DAT2",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ARM_TDI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI5_CE1}",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "39"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "5V",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "5V",
+       "numbers": [
+        "4"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO14",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TXD0",
+         "type": "output"
+        },
+        {
+         "name": "SD6",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D10",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI5_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTS5",
+         "type": "input"
+        },
+        {
+         "name": "TXD1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO15",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "RXD0",
+         "type": "input"
+        },
+        {
+         "name": "SD7",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D11",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI5_SCLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTS5",
+         "type": "output"
+        },
+        {
+         "name": "RXD1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO18",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCM_CLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD10",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D14",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI6_CE0}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI1_CE0}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "PWM0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO23",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD0_CMD",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD15",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D19",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1_CMD",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ARM_RTCK",
+         "type": "output"
+        },
+        {
+         "name": "SCL6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO24",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD0_DAT0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD16",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D20",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1_DAT0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ARM_TDO",
+         "type": "output"
+        },
+        {
+         "name": "~{SPI3_CE1}",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO25",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SD0_DAT1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD17",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D21",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD1_DAT1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ARM_TCK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI4_CE1}",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO8",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "~{SPI0_CE0}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SD0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TXD4",
+         "type": "output"
+        },
+        {
+         "name": "SDA4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO7",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "~{SPI0_CE1}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SWE}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D3",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI4_SCLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RTS3",
+         "type": "output"
+        },
+        {
+         "name": "SCL4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "ID_SC",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GPIO1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SCL0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SA4",
+         "type": "input"
+        },
+        {
+         "name": "DE",
+         "type": "output"
+        },
+        {
+         "name": "SPI3_MISO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "RXD2",
+         "type": "input"
+        },
+        {
+         "name": "SCL6",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO12",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM0",
+         "type": "output"
+        },
+        {
+         "name": "SD4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D8",
+         "type": "bidirectional"
+        },
+        {
+         "name": "~{SPI5_CE0}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TXD5",
+         "type": "output"
+        },
+        {
+         "name": "SDA5",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "34"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO16",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "FL0",
+         "type": "output"
+        },
+        {
+         "name": "SD8",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D12",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTS0",
+         "type": "input"
+        },
+        {
+         "name": "~{SPI1_CE2}",
+         "type": "bidirectional"
+        },
+        {
+         "name": "CTS1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO20",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCM_DIN",
+         "type": "input"
+        },
+        {
+         "name": "SD12",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D16",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI6_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI1_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "GPCLK0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO21",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCM_DOUT",
+         "type": "output"
+        },
+        {
+         "name": "SD13",
+         "type": "bidirectional"
+        },
+        {
+         "name": "DPI_D17",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI6_SCLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "SPI1_SCLK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "GPCLK1",
+         "type": "output"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,331 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "tpa3251",
+   "package": "HTSSOP-44 (DDV)",
+   "expected_pin_count": 44,
+   "properties": {
+    "Datasheet": "SLASE40D"
+   },
+   "units": [
+    {
+     "name": "AMP",
+     "left": [
+      {
+       "name": "GVDD_AB",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "M1",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "M2",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INPUT_A",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INPUT_B",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "OC_ADJ",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "FREQ_ADJ",
+       "numbers": [
+        "8"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OSC_IOM",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "OSC_IOP",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DVDD",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "C_START",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "INPUT_C",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INPUT_D",
+       "numbers": [
+        "17"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{FAULT}",
+       "numbers": [
+        "19"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "VBG",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "~{CLIP_OTW}",
+       "numbers": [
+        "21"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "GVDD_CD",
+       "numbers": [
+        "22"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "BST_A",
+       "numbers": [
+        "44"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "BST_B",
+       "numbers": [
+        "43"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "42"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "41"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OUT_A",
+       "numbers": [
+        "40"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUT_A",
+       "numbers": [
+        "39"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PVDD_AB",
+       "numbers": [
+        "38"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PVDD_AB",
+       "numbers": [
+        "37"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PVDD_AB",
+       "numbers": [
+        "36"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OUT_B",
+       "numbers": [
+        "35"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "34"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "33"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OUT_C",
+       "numbers": [
+        "32"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PVDD_CD",
+       "numbers": [
+        "31"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PVDD_CD",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PVDD_CD",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OUT_D",
+       "numbers": [
+        "28"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUT_D",
+       "numbers": [
+        "27"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "26"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "25"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "BST_C",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "BST_D",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

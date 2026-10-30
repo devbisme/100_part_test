@@ -1,0 +1,195 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "tps26630rge",
+   "package": "VQFN-24 (RGE); thermal pad unnumbered, omitted",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SLVSE94G"
+   },
+   "units": [
+    {
+     "name": "EFUSE",
+     "left": [
+      {
+       "name": "IN",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IN",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "B_GATE",
+       "numbers": [
+        "3"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DRV",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "IN_SYS",
+       "numbers": [
+        "5"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "UVLO",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "OUT",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "OUT",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "PGOOD",
+       "numbers": [
+        "16"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PGTH",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{FLT}",
+       "numbers": [
+        "14"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "IMON",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      }
+     ],
+     "top": [
+      {
+       "name": "N.C.",
+       "numbers": [
+        "24"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "23"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "22"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "21"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "20"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "N.C.",
+       "numbers": [
+        "19"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "OVP",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "dVdT",
+       "numbers": [
+        "9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "ILIM",
+       "numbers": [
+        "10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "MODE",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{SHDN}",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

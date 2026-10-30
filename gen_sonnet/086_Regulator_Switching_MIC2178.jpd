@@ -1,0 +1,109 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "mic2178",
+   "package": "SOIC-20 wide",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "Micrel M9999-031805"
+   },
+   "units": [
+    {
+     "name": "REG",
+     "left": [
+      {
+       "name": "VIN",
+       "numbers": [
+        "1",
+        "2",
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SW",
+       "numbers": [
+        "3",
+        "8"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PGND",
+       "numbers": [
+        "4",
+        "5",
+        "6",
+        "7"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PWM",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "EN",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "BIAS",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "SYNC",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SGND",
+       "numbers": [
+        "14",
+        "15",
+        "16",
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "COMP",
+       "numbers": [
+        "13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "FB",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PWRGD",
+       "numbers": [
+        "11"
+       ],
+       "type": "open_collector"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

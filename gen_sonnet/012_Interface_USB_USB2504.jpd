@@ -1,0 +1,546 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "usb2504",
+   "package": "LQFP-64",
+   "expected_pin_count": 64,
+   "properties": {
+    "Datasheet": "DS000002250A"
+   },
+   "units": [
+    {
+     "name": "HUB",
+     "left": [
+      {
+       "name": "RESET_N",
+       "numbers": [
+        "49"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "CFG_SEL1",
+       "numbers": [
+        "50"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SELF_PWR",
+       "numbers": [
+        "51"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VBUS_DET",
+       "numbers": [
+        "52"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "53"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD18",
+       "numbers": [
+        "54"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "55"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "56"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "XTAL2",
+       "numbers": [
+        "57"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "XTAL1",
+       "numbers": [
+        "58"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "CLKIN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "CFG_SEL2",
+       "numbers": [
+        "59"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VDDA18PLL",
+       "numbers": [
+        "60"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDDA33PLL",
+       "numbers": [
+        "61"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "ATEST",
+       "numbers": [
+        "62"
+       ],
+       "type": "unspecified",
+       "alternates": [
+        {
+         "name": "REG_EN",
+         "type": "unspecified"
+        }
+       ]
+      },
+      {
+       "name": "RBIAS",
+       "numbers": [
+        "63"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "64"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "NC",
+       "numbers": [
+        "32"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "TEST0",
+       "numbers": [
+        "31"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VDD18",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD33",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GR1",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "NON_REM0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "AM1",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GANG_EN",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GR2",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "NON_REM1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "AM2",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "MTT_EN",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PRTPWR_POL",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GR3",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PRT_DIS0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "AM3",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GR4",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PRT_DIS1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "AM4",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "LED_EN",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "18"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "17"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "top": [
+      {
+       "name": "TEST1",
+       "numbers": [
+        "48"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "CLKIN_EN",
+       "numbers": [
+        "47"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "OCS1_N",
+       "numbers": [
+        "46"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "PRTPWR1",
+       "numbers": [
+        "45"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OCS2_N",
+       "numbers": [
+        "44"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "PRTPWR2",
+       "numbers": [
+        "43"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VDD18",
+       "numbers": [
+        "42"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "41"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OCS3_N",
+       "numbers": [
+        "40"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "PRTPWR3",
+       "numbers": [
+        "39"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OCS4_N",
+       "numbers": [
+        "38"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "PRTPWR4",
+       "numbers": [
+        "37"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "CFG_SEL0",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SCL",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SMBCLK",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "SDA",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SMBDATA",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "33"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "VDDA33",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USBDP0",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDN0",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "4"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USBDN1",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP1",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VDDA33",
+       "numbers": [
+        "7"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USBDP2",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDN2",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USBDN3",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP3",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VDDA33",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "USBDP4",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDN4",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

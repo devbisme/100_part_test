@@ -1,0 +1,289 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "ads8688",
+   "package": "TSSOP-38 (DBT)",
+   "expected_pin_count": 38,
+   "properties": {
+    "Datasheet": "SBAS582C"
+   },
+   "units": [
+    {
+     "name": "ADC",
+     "left": [
+      {
+       "name": "SDI",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{RST}/PD",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DAISY",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{REFSEL}",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "REFIO",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "REFGND",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "REFCAP",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "AGND",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AUX_IN",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AUX_GND",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_6P",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_6GND",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_7P",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_7GND",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_0P",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_0GND",
+       "numbers": [
+        "17"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_1P",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_1GND",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "~{CS}",
+       "numbers": [
+        "38"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SCLK",
+       "numbers": [
+        "37"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SDO",
+       "numbers": [
+        "36"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DNC",
+       "numbers": [
+        "35"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "DVDD",
+       "numbers": [
+        "34"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DGND",
+       "numbers": [
+        "33"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AGND",
+       "numbers": [
+        "32"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AGND",
+       "numbers": [
+        "31"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AGND",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AGND",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AIN_5P",
+       "numbers": [
+        "27"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_5GND",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_4P",
+       "numbers": [
+        "25"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_4GND",
+       "numbers": [
+        "24"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_3P",
+       "numbers": [
+        "23"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_3GND",
+       "numbers": [
+        "22"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_2P",
+       "numbers": [
+        "21"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AIN_2GND",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

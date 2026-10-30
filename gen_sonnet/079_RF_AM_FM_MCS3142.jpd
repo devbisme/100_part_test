@@ -1,0 +1,164 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "mcs3142",
+   "package": "TSSOP-20",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "DS40001747A"
+   },
+   "units": [
+    {
+     "name": "RF",
+     "left": [
+      {
+       "name": "VDD",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SOSCI",
+       "numbers": [
+        "2"
+       ],
+       "type": "unspecified"
+      },
+      {
+       "name": "SOSCO",
+       "numbers": [
+        "3"
+       ],
+       "type": "unspecified"
+      },
+      {
+       "name": "SW3",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PGC",
+       "numbers": [
+        "5"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "PGD",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "7"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "CTRL_IN",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RFOUT",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      }
+     ],
+     "right": [
+      {
+       "name": "VSS",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SW0",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SW1",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SW2",
+       "numbers": [
+        "17"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{LED}",
+       "numbers": [
+        "16"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DATA_OUT",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "CTRL_OUT",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "XTAL",
+       "numbers": [
+        "13"
+       ],
+       "type": "unspecified"
+      },
+      {
+       "name": "DATA_IN",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

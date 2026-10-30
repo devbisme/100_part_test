@@ -1,0 +1,814 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "omega2s+"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -38.1 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "omega2s+"
+      (at -38.1 39.37 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -38.1 38.735 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "OM-O2S/OM-O2SP datasheet"
+      (at -38.1 38.735 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -38.1 38.735 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -38.1 38.735 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -38.1 38.735 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -38.1 38.735 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "omega2s+_1_1"
+      (rectangle
+        (start -38.1 -38.1)
+        (end 38.1 38.1)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin power_in line
+        (at -43.18 25.4 0)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -43.18 22.86 0)
+        (length 5.08)
+        (name "GPIO_36"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "~{PERST_N}" bidirectional line))
+      (pin bidirectional line
+        (at -43.18 20.32 0)
+        (length 5.08)
+        (name "GPIO_37"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "REFCLK" output line))
+      (pin bidirectional line
+        (at -43.18 17.78 0)
+        (length 5.08)
+        (name "GPIO_38"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SW_RST" input line))
+      (pin input input_low
+        (at -43.18 15.240000000000002 0)
+        (length 5.08)
+        (name "HW_RST_N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -43.18 12.700000000000003 0)
+        (length 5.08)
+        (name "GPIO_39"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "LINK4" bidirectional line))
+      (pin bidirectional line
+        (at -43.18 10.160000000000004 0)
+        (length 5.08)
+        (name "GPIO_40"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "LINK3" bidirectional line))
+      (pin power_in line
+        (at -43.18 7.620000000000004 0)
+        (length 5.08)
+        (name "3.3V"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -43.18 5.080000000000004 0)
+        (length 5.08)
+        (name "3.3V"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -43.18 2.5400000000000036 0)
+        (length 5.08)
+        (name "PCIE_TXN0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -43.18 3.552713678800501e-15 0)
+        (length 5.08)
+        (name "PCIE_TXP0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -43.18 -2.5399999999999965 0)
+        (length 5.08)
+        (name "PCIE_RXP0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -43.18 -5.0799999999999965 0)
+        (length 5.08)
+        (name "PCIE_RXN0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -43.18 -7.6199999999999966 0)
+        (length 5.08)
+        (name "PCIE_CKN0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -43.18 -10.159999999999997 0)
+        (length 5.08)
+        (name "PCIE_CKP0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -43.18 -12.699999999999996 0)
+        (length 5.08)
+        (name "GPIO_41"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -43.18 -15.239999999999995 0)
+        (length 5.08)
+        (name "GPIO_42"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -43.18 -17.779999999999994 0)
+        (length 5.08)
+        (name "GPIO_43"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output output_low
+        (at -43.18 -20.319999999999993 0)
+        (length 5.08)
+        (name "WLED_N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "GPIO_44" bidirectional line))
+      (pin bidirectional line
+        (at -43.18 -22.859999999999992 0)
+        (length 5.08)
+        (name "GPIO_45"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "UART_TXD1" output line))
+      (pin bidirectional line
+        (at -43.18 -25.39999999999999 0)
+        (length 5.08)
+        (name "GPIO_46"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "UART_RXD1" input line))
+      (pin power_in line
+        (at 43.18 25.4 180)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "63"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 22.86 180)
+        (length 5.08)
+        (name "USB_DM"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "62"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 20.32 180)
+        (length 5.08)
+        (name "USB_DP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "61"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 43.18 17.78 180)
+        (length 5.08)
+        (name "GPIO_29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "60"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_D2" bidirectional line)
+        (alternate "PHY4_TXN" output line))
+      (pin bidirectional line
+        (at 43.18 15.240000000000002 180)
+        (length 5.08)
+        (name "GPIO_28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "59"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_D3" bidirectional line)
+        (alternate "PHY4_TXP" output line))
+      (pin bidirectional line
+        (at 43.18 12.700000000000003 180)
+        (length 5.08)
+        (name "GPIO_27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "58"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_CMD" bidirectional line)
+        (alternate "PHY4_RXN" input line))
+      (pin bidirectional line
+        (at 43.18 10.160000000000004 180)
+        (length 5.08)
+        (name "GPIO_26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "57"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_CLK" output line)
+        (alternate "PHY4_RXP" input line))
+      (pin bidirectional line
+        (at 43.18 7.620000000000004 180)
+        (length 5.08)
+        (name "GPIO_25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "56"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_D0" bidirectional line)
+        (alternate "PHY3_RXN" input line))
+      (pin bidirectional line
+        (at 43.18 5.080000000000004 180)
+        (length 5.08)
+        (name "GPIO_24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "55"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_D1" bidirectional line)
+        (alternate "PHY3_RXP" input line))
+      (pin bidirectional line
+        (at 43.18 2.5400000000000036 180)
+        (length 5.08)
+        (name "GPIO_23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "54"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_CD" input line)
+        (alternate "PHY3_TXN" output line))
+      (pin bidirectional line
+        (at 43.18 3.552713678800501e-15 180)
+        (length 5.08)
+        (name "GPIO_22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "53"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SD_WP" input line)
+        (alternate "PHY3_TXP" output line))
+      (pin bidirectional line
+        (at 43.18 -2.5399999999999965 180)
+        (length 5.08)
+        (name "GPIO_21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "52"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PWM_CH3" output line)
+        (alternate "UART_RXD2" input line)
+        (alternate "PHY2_TXN" output line))
+      (pin bidirectional line
+        (at 43.18 -5.0799999999999965 180)
+        (length 5.08)
+        (name "GPIO_20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "51"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PWM_CH2" output line)
+        (alternate "UART_TXD2" output line)
+        (alternate "PHY2_TXP" output line))
+      (pin bidirectional line
+        (at 43.18 -7.6199999999999966 180)
+        (length 5.08)
+        (name "GPIO_19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "50"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PWM_CH1" output line)
+        (alternate "PHY2_RXN" input line))
+      (pin bidirectional line
+        (at 43.18 -10.159999999999997 180)
+        (length 5.08)
+        (name "GPIO_18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PWM_CH0" output line)
+        (alternate "PHY2_RXP" input line))
+      (pin bidirectional line
+        (at 43.18 -12.699999999999996 180)
+        (length 5.08)
+        (name "GPIO_17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PHY1_RXN" input line))
+      (pin bidirectional line
+        (at 43.18 -15.239999999999995 180)
+        (length 5.08)
+        (name "GPIO_16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PHY1_RXP" input line))
+      (pin bidirectional line
+        (at 43.18 -17.779999999999994 180)
+        (length 5.08)
+        (name "GPIO_15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PHY1_TXN" output line))
+      (pin bidirectional line
+        (at 43.18 -20.319999999999993 180)
+        (length 5.08)
+        (name "GPIO_14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PHY1_TXP" output line))
+      (pin output line
+        (at 43.18 -22.859999999999992 180)
+        (length 5.08)
+        (name "TXO_N0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 43.18 -25.39999999999999 180)
+        (length 5.08)
+        (name "TXO_P0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -25.4 -43.18 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -22.86 -43.18 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -20.32 -43.18 90)
+        (length 5.08)
+        (name "WIFI_RF"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -17.78 -43.18 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -15.240000000000002 -43.18 90)
+        (length 5.08)
+        (name "GPIO_0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "I2S_SDI" input line))
+      (pin bidirectional line
+        (at -12.700000000000003 -43.18 90)
+        (length 5.08)
+        (name "GPIO_1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "I2S_SDO" output line))
+      (pin bidirectional line
+        (at -10.160000000000004 -43.18 90)
+        (length 5.08)
+        (name "GPIO_2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "I2S_WS" bidirectional line))
+      (pin bidirectional line
+        (at -7.620000000000004 -43.18 90)
+        (length 5.08)
+        (name "GPIO_3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "I2S_CLK" bidirectional line))
+      (pin bidirectional line
+        (at -5.080000000000004 -43.18 90)
+        (length 5.08)
+        (name "GPIO_4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "I2C_SCLK" bidirectional line))
+      (pin bidirectional line
+        (at -2.5400000000000036 -43.18 90)
+        (length 5.08)
+        (name "GPIO_5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "I2C_SDA" bidirectional line))
+      (pin power_in line
+        (at -3.552713678800501e-15 -43.18 90)
+        (length 5.08)
+        (name "VDD_FLASH"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 2.5399999999999965 -43.18 90)
+        (length 5.08)
+        (name "SPI_CS1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "GPIO6" bidirectional line))
+      (pin output line
+        (at 5.0799999999999965 -43.18 90)
+        (length 5.08)
+        (name "SPI_CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 7.6199999999999966 -43.18 90)
+        (length 5.08)
+        (name "SPI_MISO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 10.159999999999997 -43.18 90)
+        (length 5.08)
+        (name "SPI_MOSI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 12.699999999999996 -43.18 90)
+        (length 5.08)
+        (name "SPI_CS0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 15.239999999999995 -43.18 90)
+        (length 5.08)
+        (name "GPIO_11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.779999999999994 -43.18 90)
+        (length 5.08)
+        (name "GPIO_12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "UART_TXD0" output line))
+      (pin bidirectional line
+        (at 20.319999999999993 -43.18 90)
+        (length 5.08)
+        (name "GPIO_13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "UART_RXD0" input line))
+      (pin input line
+        (at 22.859999999999992 -43.18 90)
+        (length 5.08)
+        (name "RXI_P0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 25.39999999999999 -43.18 90)
+        (length 5.08)
+        (name "RXI_N0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

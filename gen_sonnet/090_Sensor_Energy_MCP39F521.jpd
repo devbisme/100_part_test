@@ -1,0 +1,237 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "mcp39f521",
+   "package": "QFN-28 5x5 + EP",
+   "expected_pin_count": 29,
+   "properties": {
+    "Datasheet": "DS20005442A"
+   },
+   "units": [
+    {
+     "name": "METER",
+     "left": [
+      {
+       "name": "EVENT",
+       "numbers": [
+        "1"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "2"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "3"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "COMMONB",
+       "numbers": [
+        "4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "COMMONA",
+       "numbers": [
+        "5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "OSCI",
+       "numbers": [
+        "6"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "OSCO",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      }
+     ],
+     "right": [
+      {
+       "name": "A1",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I1+",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I1-",
+       "numbers": [
+        "17"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "V1-",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "V1+",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AN_IN",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AGND",
+       "numbers": [
+        "21"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "top": [
+      {
+       "name": "ZCD",
+       "numbers": [
+        "22"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "REFIN+",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "OUT",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "DGND",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DVDD",
+       "numbers": [
+        "25"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "~{MCLR}",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DGND",
+       "numbers": [
+        "27"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DR",
+       "numbers": [
+        "28"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "EP",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "NC",
+       "numbers": [
+        "8"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "9"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "A0",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SCL",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SDA",
+       "numbers": [
+        "14"
+       ],
+       "type": "open_collector"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

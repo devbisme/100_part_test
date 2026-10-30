@@ -1,0 +1,223 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "at42qt1060-m",
+   "package": "QFN-28 (M)",
+   "expected_pin_count": 28,
+   "properties": {
+    "Datasheet": "9505H-AT42-04/2015"
+   },
+   "units": [
+    {
+     "name": "TOUCH",
+     "left": [
+      {
+       "name": "SNS1K",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS2K",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "3"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "4"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO5",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO6",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS3K",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "IO2",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO1",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO0",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "SNS5",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "top": [
+      {
+       "name": "SNS0K",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO4",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IO3",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "~{RST}",
+       "numbers": [
+        "25"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SCL",
+       "numbers": [
+        "24"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "SDA",
+       "numbers": [
+        "23"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "~{CHG}",
+       "numbers": [
+        "22"
+       ],
+       "type": "open_collector"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "SNS4K",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS5K",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS0",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS1",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS2",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS3",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SNS4",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

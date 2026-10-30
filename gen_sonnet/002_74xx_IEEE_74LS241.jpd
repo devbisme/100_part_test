@@ -1,0 +1,32 @@
+{ "format": "jpd", "version": 1,
+  "parts": [
+    { "name": "74ls241", "package": "DIP/SOIC-20", "expected_pin_count": 20,
+      "properties": { "Datasheet": "SDLS144D" },
+      "units": [
+        { "name": "BUF",
+          "left": [
+            { "name": "1G",  "numbers": ["1"],  "type": "input", "style": "input_low" },
+            { "name": "1A1", "numbers": ["2"],  "type": "input" },
+            { "name": "2Y4", "numbers": ["3"],  "type": "tri_state" },
+            { "name": "1A2", "numbers": ["4"],  "type": "input" },
+            { "name": "2Y3", "numbers": ["5"],  "type": "tri_state" },
+            { "name": "1A3", "numbers": ["6"],  "type": "input" },
+            { "name": "2Y2", "numbers": ["7"],  "type": "tri_state" },
+            { "name": "1A4", "numbers": ["8"],  "type": "input" },
+            { "name": "2Y1", "numbers": ["9"],  "type": "tri_state" }
+          ],
+          "right": [
+            { "name": "2G",  "numbers": ["19"], "type": "input" },
+            { "name": "1Y1", "numbers": ["18"], "type": "tri_state" },
+            { "name": "2A4", "numbers": ["17"], "type": "input" },
+            { "name": "1Y2", "numbers": ["16"], "type": "tri_state" },
+            { "name": "2A3", "numbers": ["15"], "type": "input" },
+            { "name": "1Y3", "numbers": ["14"], "type": "tri_state" },
+            { "name": "2A2", "numbers": ["13"], "type": "input" },
+            { "name": "1Y4", "numbers": ["12"], "type": "tri_state" },
+            { "name": "2A1", "numbers": ["11"], "type": "input" }
+          ],
+          "top":    [ { "name": "vcc", "numbers": ["20"], "type": "power_in" } ],
+          "bottom": [ { "name": "gnd", "numbers": ["10"], "type": "power_in" } ]
+        }
+      ] } ] }

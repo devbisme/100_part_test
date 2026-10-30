@@ -1,0 +1,177 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "atf16v8b",
+   "package": "DIP/SOIC/TSSOP-20",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "Atmel-0364K"
+   },
+   "units": [
+    {
+     "name": "PLD",
+     "left": [
+      {
+       "name": "I",
+       "numbers": [
+        "1"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "CLK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "I1",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I2",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I3",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I4",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I5",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I6",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I7",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "I8",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "I/O19",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O18",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O17",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O16",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O15",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O14",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O13",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I/O12",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "I9",
+       "numbers": [
+        "11"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "~{OE}",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

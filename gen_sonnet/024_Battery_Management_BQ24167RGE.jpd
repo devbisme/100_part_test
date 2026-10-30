@@ -1,0 +1,195 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "bq24167rge",
+   "package": "QFN-24 (RGE); thermal pad unnumbered, omitted",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SLUSAP4B"
+   },
+   "units": [
+    {
+     "name": "CHG",
+     "left": [
+      {
+       "name": "VDPM",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IUSB3",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IUSB2",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IUSB1",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "ISET",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DRV",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_out"
+      }
+     ],
+     "right": [
+      {
+       "name": "SW",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PGND",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PGND",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "ILIM",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SYS",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SYS",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      }
+     ],
+     "top": [
+      {
+       "name": "~{CE}",
+       "numbers": [
+        "24"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PMIDU",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "USB",
+       "numbers": [
+        "22"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IN",
+       "numbers": [
+        "21"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PMIDI",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "BOOT",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "~{PG}",
+       "numbers": [
+        "7"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "~{CHG}",
+       "numbers": [
+        "8"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "TS",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "BGATE",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "BAT",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "BAT",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{ "format": "jpd", "version": 1,
+  "parts": [
+    { "name": "dl1416b", "package": "DIP-20", "expected_pin_count": 20,
+      "properties": { "Datasheet": "Siemens DL1416B" },
+      "units": [
+        { "name": "DISPLAY",
+          "left": [
+            { "name": "D5", "numbers": ["1"],  "type": "input" },
+            { "name": "D4", "numbers": ["2"],  "type": "input" },
+            { "name": "D0", "numbers": ["3"],  "type": "input" },
+            { "name": "D1", "numbers": ["4"],  "type": "input" },
+            { "name": "D2", "numbers": ["5"],  "type": "input" },
+            { "name": "D3", "numbers": ["6"],  "type": "input" },
+            { "name": "CE", "numbers": ["7"],  "type": "input", "style": "input_low" },
+            { "name": "WR", "numbers": ["8"],  "type": "input", "style": "input_low" },
+            { "name": "CU", "numbers": ["9"],  "type": "input", "style": "input_low" },
+            { "name": "A0", "numbers": ["10"], "type": "input" }
+          ],
+          "right": [
+            { "name": "D6", "numbers": ["20"], "type": "input" },
+            { "name": "V-", "numbers": ["19"], "type": "power_in" },
+            { "name": "V+", "numbers": ["18"], "type": "power_in" },
+            { "name": "NC", "numbers": ["17","16","15","14","13","12"], "type": "no_connect" },
+            { "name": "A1", "numbers": ["11"], "type": "input" }
+          ]
+        }
+      ] } ] }

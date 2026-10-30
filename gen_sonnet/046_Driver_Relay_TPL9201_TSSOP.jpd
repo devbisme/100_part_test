@@ -1,0 +1,165 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "tpl9201",
+   "package": "TSSOP-20; thermal pad (if any) unnumbered, omitted",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLIS123D"
+   },
+   "units": [
+    {
+     "name": "DRV",
+     "left": [
+      {
+       "name": "ZVS",
+       "numbers": [
+        "1"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUT1",
+       "numbers": [
+        "2"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT2",
+       "numbers": [
+        "3"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT3",
+       "numbers": [
+        "4"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT4",
+       "numbers": [
+        "5"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT5",
+       "numbers": [
+        "6"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT6",
+       "numbers": [
+        "7"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT7",
+       "numbers": [
+        "8"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "OUT8",
+       "numbers": [
+        "9"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "SYN",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VIN",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "5VOUT",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "SCLK",
+       "numbers": [
+        "17"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "NCS",
+       "numbers": [
+        "16"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "MOSI",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{RST}",
+       "numbers": [
+        "14"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "RDELAY",
+       "numbers": [
+        "13"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "EN1",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

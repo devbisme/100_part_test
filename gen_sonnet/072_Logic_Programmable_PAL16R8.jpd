@@ -1,0 +1,32 @@
+{ "format": "jpd", "version": 1,
+  "parts": [
+    { "name": "pal16r8", "package": "DIP-20", "expected_pin_count": 20,
+      "properties": { "Datasheet": "AMD PAL16R8 Family" },
+      "units": [
+        { "name": "PAL",
+          "left": [
+            { "name": "CLK", "numbers": ["1"],  "type": "input", "style": "clock" },
+            { "name": "I1",  "numbers": ["2"],  "type": "input" },
+            { "name": "I2",  "numbers": ["3"],  "type": "input" },
+            { "name": "I3",  "numbers": ["4"],  "type": "input" },
+            { "name": "I4",  "numbers": ["5"],  "type": "input" },
+            { "name": "I5",  "numbers": ["6"],  "type": "input" },
+            { "name": "I6",  "numbers": ["7"],  "type": "input" },
+            { "name": "I7",  "numbers": ["8"],  "type": "input" },
+            { "name": "I8",  "numbers": ["9"],  "type": "input" },
+            { "name": "OE",  "numbers": ["11"], "type": "input", "style": "input_low" }
+          ],
+          "right": [
+            { "name": "O8", "numbers": ["19"], "type": "tri_state", "style": "inverted" },
+            { "name": "O7", "numbers": ["18"], "type": "tri_state", "style": "inverted" },
+            { "name": "O6", "numbers": ["17"], "type": "tri_state", "style": "inverted" },
+            { "name": "O5", "numbers": ["16"], "type": "tri_state", "style": "inverted" },
+            { "name": "O4", "numbers": ["15"], "type": "tri_state", "style": "inverted" },
+            { "name": "O3", "numbers": ["14"], "type": "tri_state", "style": "inverted" },
+            { "name": "O2", "numbers": ["13"], "type": "tri_state", "style": "inverted" },
+            { "name": "O1", "numbers": ["12"], "type": "tri_state", "style": "inverted" }
+          ],
+          "top":    [ { "name": "vcc", "numbers": ["20"], "type": "power_in" } ],
+          "bottom": [ { "name": "gnd", "numbers": ["10"], "type": "power_in" } ]
+        }
+      ] } ] }

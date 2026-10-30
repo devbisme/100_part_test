@@ -1,0 +1,167 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "tpd6s300a",
+   "package": "WQFN-20 (RUK); thermal pad unnumbered, omitted",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLVSEL8"
+   },
+   "units": [
+    {
+     "name": "PROT",
+     "left": [
+      {
+       "name": "NC",
+       "numbers": [
+        "16"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "17"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "D2",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D1",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "VPWR",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "~{FLT}",
+       "numbers": [
+        "9"
+       ],
+       "type": "open_collector"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RPD_G1",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RPD_G2",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "top": [
+      {
+       "name": "SBU1",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SBU2",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "CC1",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CC2",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "C_SBU1",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "C_SBU2",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VBIAS",
+       "numbers": [
+        "3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C_CC1",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "C_CC2",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

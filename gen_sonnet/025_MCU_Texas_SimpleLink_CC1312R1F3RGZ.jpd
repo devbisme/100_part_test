@@ -1,0 +1,377 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "cc1312r1f3rgz",
+   "package": "VQFN-48 (RGZ); EGP ground pad unnumbered, omitted",
+   "expected_pin_count": 48,
+   "properties": {
+    "Datasheet": "SWRS210H"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "RF_P",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RF_N",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RX_TX",
+       "numbers": [
+        "3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "X32K_Q1",
+       "numbers": [
+        "4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "X32K_Q2",
+       "numbers": [
+        "5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "DIO_1",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_2",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_3",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_4",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_5",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_6",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_7",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "DIO_23",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RESET_N",
+       "numbers": [
+        "35"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "VDDS_DCDC",
+       "numbers": [
+        "34"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DCDC_SW",
+       "numbers": [
+        "33"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "DIO_22",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_21",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_20",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_19",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_18",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_17",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "JTAG_TDI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "DIO_16",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "JTAG_TDO",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "JTAG_TCKC",
+       "numbers": [
+        "25"
+       ],
+       "type": "input",
+       "style": "clock"
+      }
+     ],
+     "top": [
+      {
+       "name": "VDDR_RF",
+       "numbers": [
+        "48"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "X48M_P",
+       "numbers": [
+        "47"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "X48M_N",
+       "numbers": [
+        "46"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "VDDR",
+       "numbers": [
+        "45"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDDS",
+       "numbers": [
+        "44"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DIO_30",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_29",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_28",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_27",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_26",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_25",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_24",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "VDDS2",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DIO_8",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_9",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_10",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_11",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_12",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_13",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_14",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DIO_15",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VDDS3",
+       "numbers": [
+        "22"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DCOUPL",
+       "numbers": [
+        "23"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "JTAG_TMSC",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

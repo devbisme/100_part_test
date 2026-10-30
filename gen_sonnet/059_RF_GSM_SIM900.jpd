@@ -1,0 +1,444 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "sim900",
+   "package": "68-pin module",
+   "expected_pin_count": 68,
+   "properties": {
+    "Datasheet": "SIM900 Hardware Design V2.05"
+   },
+   "units": [
+    {
+     "name": "GSM",
+     "left": [
+      {
+       "name": "PWRKEY",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "NRESET",
+       "numbers": [
+        "16"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "ADC",
+       "numbers": [
+        "25"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DTR",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RI",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DCD",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "CTS",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RTS",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TXD",
+       "numbers": [
+        "9"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RXD",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DBG_TXD",
+       "numbers": [
+        "27"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DBG_RXD",
+       "numbers": [
+        "28"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "STATUS",
+       "numbers": [
+        "66"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "NETLIGHT",
+       "numbers": [
+        "52"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PWM1",
+       "numbers": [
+        "35"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "PWM2",
+       "numbers": [
+        "36"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SDA",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SCL",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DISP_CLK",
+       "numbers": [
+        "11"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DISP_DATA",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DISP_D/C",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "DISP_CS",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      }
+     ],
+     "right": [
+      {
+       "name": "MIC_P",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "MIC_N",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SPK_P",
+       "numbers": [
+        "21"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SPK_N",
+       "numbers": [
+        "22"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SIM_VDD",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "SIM_DATA",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "SIM_CLK",
+       "numbers": [
+        "32"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SIM_RST",
+       "numbers": [
+        "33"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SIM_PRESENCE",
+       "numbers": [
+        "34"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GPIO1",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBR4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO2",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBR3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO3",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBR2",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO4",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBR1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO5",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBR0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO6",
+       "numbers": [
+        "47"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBC4",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO7",
+       "numbers": [
+        "48"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBC3",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO8",
+       "numbers": [
+        "49"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBC2",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO9",
+       "numbers": [
+        "50"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "KBC1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "GPIO10",
+       "numbers": [
+        "51"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO11",
+       "numbers": [
+        "67"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO12",
+       "numbers": [
+        "68"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RF_ANT",
+       "numbers": [
+        "60"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "top": [
+      {
+       "name": "VBAT",
+       "numbers": [
+        "55",
+        "56",
+        "57"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VRTC",
+       "numbers": [
+        "26"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD_EXT",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_out"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "17",
+        "18",
+        "29",
+        "39",
+        "45",
+        "46",
+        "53",
+        "54",
+        "58",
+        "59",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "2",
+        "6",
+        "23",
+        "24"
+       ],
+       "type": "no_connect"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "oled-128o064d",
+   "package": "30-pin FPC",
+   "expected_pin_count": 30,
+   "properties": {
+    "Datasheet": "Vishay 37902"
+   },
+   "units": [
+    {
+     "name": "OLED",
+     "left": [
+      {
+       "name": "NC(GND)",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "C2N",
+       "numbers": [
+        "2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C2P",
+       "numbers": [
+        "3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C1P",
+       "numbers": [
+        "4"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "C1N",
+       "numbers": [
+        "5"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "VBAT",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "7"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "8"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "BS0",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "BS1",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "BS2",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{CS}",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{RES}",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "D/~{C}",
+       "numbers": [
+        "15"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "SA0",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "R/~{W}",
+       "numbers": [
+        "16"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "~{WR}",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "E",
+       "numbers": [
+        "17"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "~{RD}",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "D0",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SCLK",
+         "type": "input"
+        },
+        {
+         "name": "SCL",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "D1",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SDIN",
+         "type": "input"
+        },
+        {
+         "name": "SDA_IN",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "D2",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SDA_OUT",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "D3",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D4",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D5",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D6",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D7",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "IREF",
+       "numbers": [
+        "26"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "VCOMH",
+       "numbers": [
+        "27"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VLSS",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC(GND)",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

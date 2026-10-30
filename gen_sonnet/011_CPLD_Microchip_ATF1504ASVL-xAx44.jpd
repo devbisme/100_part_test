@@ -1,0 +1,430 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "atf1504asvl-44",
+   "package": "TQFP-44 (A)",
+   "expected_pin_count": 44,
+   "properties": {
+    "Datasheet": "DS20006185A"
+   },
+   "units": [
+    {
+     "name": "CPLD",
+     "left": [
+      {
+       "name": "IO_MC8",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC5",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC4",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "4"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO_MC3",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PD1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC1",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC32",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TMS",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC30",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO_MC25",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC24",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      }
+     ],
+     "right": [
+      {
+       "name": "IO_MC57",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC56",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TDO",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC53",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC52",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO_MC51",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC49",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC48",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TCK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC46",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO_MC41",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      }
+     ],
+     "top": [
+      {
+       "name": "IO_MC11",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC14",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC16",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "41"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OE2",
+       "numbers": [
+        "40"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "GCLK2",
+         "type": "input"
+        },
+        {
+         "name": "INPUT",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "~{GCLR}",
+       "numbers": [
+        "39"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "INPUT",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "OE1",
+       "numbers": [
+        "38"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "INPUT",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GCLK1",
+       "numbers": [
+        "37"
+       ],
+       "type": "input",
+       "alternates": [
+        {
+         "name": "INPUT",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "36"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO_MC64",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "GCLK3",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC62",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      }
+     ],
+     "bottom": [
+      {
+       "name": "IO_MC21",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC20",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC19",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC17",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "IO_MC33",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC35",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PD2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "IO_MC36",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC37",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "IO_MC40",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "at90usb162-16a"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -20.32 20.320000000000004 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "at90usb162-16a"
+      (at -20.32 17.780000000000005 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -20.32 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "7707F-AVR-11/10"
+      (at -20.32 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -20.32 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -20.32 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -20.32 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -20.32 17.145000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "at90usb162-16a_1_1"
+      (rectangle
+        (start -20.32 -16.51)
+        (end 20.32 16.51)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin input line
+        (at -25.4 8.89 0)
+        (length 5.08)
+        (name "XTAL1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -25.4 6.3500000000000005 0)
+        (length 5.08)
+        (name "XTAL2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PC0" bidirectional line))
+      (pin power_in line
+        (at -25.4 3.8100000000000005 0)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -25.4 1.2700000000000005 0)
+        (length 5.08)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -25.4 -1.2699999999999996 0)
+        (length 5.08)
+        (name "PC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT11" input line))
+      (pin bidirectional line
+        (at -25.4 -3.8099999999999996 0)
+        (length 5.08)
+        (name "PD0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "OC.0B" output line)
+        (alternate "INT0" input line))
+      (pin bidirectional line
+        (at -25.4 -6.35 0)
+        (length 5.08)
+        (name "PD1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN0" input line)
+        (alternate "INT1" input line))
+      (pin bidirectional line
+        (at -25.4 -8.89 0)
+        (length 5.08)
+        (name "PD2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "RXD1" input line)
+        (alternate "AIN1" input line)
+        (alternate "INT2" input line))
+      (pin input line
+        (at 25.4 8.89 180)
+        (length 5.08)
+        (name "~{RESET}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PC1" bidirectional line)
+        (alternate "dW" bidirectional line))
+      (pin bidirectional line
+        (at 25.4 6.3500000000000005 180)
+        (length 5.08)
+        (name "PC6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "OC.1A" output line)
+        (alternate "PCINT8" input line))
+      (pin bidirectional line
+        (at 25.4 3.8100000000000005 180)
+        (length 5.08)
+        (name "PC7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT4" input line)
+        (alternate "ICP1" input line)
+        (alternate "CLKO" output line))
+      (pin bidirectional line
+        (at 25.4 1.2700000000000005 180)
+        (length 5.08)
+        (name "PB7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT7" input line)
+        (alternate "OC.0A" output line)
+        (alternate "OC.1C" output line))
+      (pin bidirectional line
+        (at 25.4 -1.2699999999999996 180)
+        (length 5.08)
+        (name "PB6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT6" input line))
+      (pin bidirectional line
+        (at 25.4 -3.8099999999999996 180)
+        (length 5.08)
+        (name "PB5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT5" input line))
+      (pin bidirectional line
+        (at 25.4 -6.35 180)
+        (length 5.08)
+        (name "PB4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "T1" input line)
+        (alternate "PCINT4" input line))
+      (pin bidirectional line
+        (at 25.4 -8.89 180)
+        (length 5.08)
+        (name "PB3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PDO" bidirectional line)
+        (alternate "MISO" bidirectional line)
+        (alternate "PCINT3" input line))
+      (pin power_in line
+        (at -8.89 21.59 270)
+        (length 5.08)
+        (name "AVCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.3500000000000005 21.59 270)
+        (length 5.08)
+        (name "UVCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -3.8100000000000005 21.59 270)
+        (length 5.08)
+        (name "D-"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SDATA" bidirectional line))
+      (pin bidirectional line
+        (at -1.2700000000000005 21.59 270)
+        (length 5.08)
+        (name "D+"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SCK" bidirectional line))
+      (pin power_in line
+        (at 1.2699999999999996 21.59 270)
+        (length 5.08)
+        (name "UGND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 3.8099999999999996 21.59 270)
+        (length 5.08)
+        (name "UCAP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 6.35 21.59 270)
+        (length 5.08)
+        (name "PC4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT10" input line))
+      (pin bidirectional line
+        (at 8.89 21.59 270)
+        (length 5.08)
+        (name "PC5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PCINT9" input line)
+        (alternate "OC.1B" output line))
+      (pin bidirectional line
+        (at -8.89 -21.59 90)
+        (length 5.08)
+        (name "PD3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "TXD1" output line)
+        (alternate "INT3" input line))
+      (pin bidirectional line
+        (at -6.3500000000000005 -21.59 90)
+        (length 5.08)
+        (name "PD4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT5" input line))
+      (pin bidirectional line
+        (at -3.8100000000000005 -21.59 90)
+        (length 5.08)
+        (name "PD5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "XCK" bidirectional line)
+        (alternate "PCINT12" input line))
+      (pin bidirectional line
+        (at -1.2700000000000005 -21.59 90)
+        (length 5.08)
+        (name "PD6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "~{RTS}" output line)
+        (alternate "INT6" input line))
+      (pin bidirectional line
+        (at 1.2699999999999996 -21.59 90)
+        (length 5.08)
+        (name "PD7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "~{CTS}" input line)
+        (alternate "~{HWB}" input line)
+        (alternate "T0" input line)
+        (alternate "INT7" input line))
+      (pin bidirectional line
+        (at 3.8099999999999996 -21.59 90)
+        (length 5.08)
+        (name "PB0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "~{SS}" input line)
+        (alternate "PCINT0" input line))
+      (pin bidirectional line
+        (at 6.35 -21.59 90)
+        (length 5.08)
+        (name "PB1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "SCLK" bidirectional line)
+        (alternate "PCINT1" input line))
+      (pin bidirectional line
+        (at 8.89 -21.59 90)
+        (length 5.08)
+        (name "PB2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "PDI" bidirectional line)
+        (alternate "MOSI" bidirectional line)
+        (alternate "PCINT2" input line)))
+    (embedded_fonts no)))

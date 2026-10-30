@@ -1,0 +1,691 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "atmega324pv-10m",
+   "package": "VQFN-44 (M); centre pad unnumbered, omitted",
+   "expected_pin_count": 44,
+   "properties": {
+    "Datasheet": "42743B"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "PB5",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT13",
+         "type": "input"
+        },
+        {
+         "name": "MOSI",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PB6",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT14",
+         "type": "input"
+        },
+        {
+         "name": "MISO",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PB7",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT15",
+         "type": "input"
+        },
+        {
+         "name": "SCK",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "5"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "XTAL2",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "XTAL1",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PD0",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT24",
+         "type": "input"
+        },
+        {
+         "name": "RXD0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD1",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT25",
+         "type": "input"
+        },
+        {
+         "name": "TXD0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD2",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT26",
+         "type": "input"
+        },
+        {
+         "name": "RXD1",
+         "type": "input"
+        },
+        {
+         "name": "INT0",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "PA4",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC4",
+         "type": "input"
+        },
+        {
+         "name": "PCINT4",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA5",
+       "numbers": [
+        "32"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC5",
+         "type": "input"
+        },
+        {
+         "name": "PCINT5",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA6",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC6",
+         "type": "input"
+        },
+        {
+         "name": "PCINT6",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA7",
+       "numbers": [
+        "30"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC7",
+         "type": "input"
+        },
+        {
+         "name": "PCINT7",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "AREF",
+       "numbers": [
+        "29"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AVCC",
+       "numbers": [
+        "27"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PC7",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT23",
+         "type": "input"
+        },
+        {
+         "name": "TOSC2",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PC6",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT22",
+         "type": "input"
+        },
+        {
+         "name": "TOSC1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PC5",
+       "numbers": [
+        "24"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT21",
+         "type": "input"
+        },
+        {
+         "name": "TDI",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PC4",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT20",
+         "type": "input"
+        },
+        {
+         "name": "TDO",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "top": [
+      {
+       "name": "PB4",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "~{SS}",
+         "type": "input"
+        },
+        {
+         "name": "OC0B",
+         "type": "output"
+        },
+        {
+         "name": "PCINT12",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB3",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AIN1",
+         "type": "input"
+        },
+        {
+         "name": "OC0A",
+         "type": "output"
+        },
+        {
+         "name": "PCINT11",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB2",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "AIN0",
+         "type": "input"
+        },
+        {
+         "name": "INT2",
+         "type": "input"
+        },
+        {
+         "name": "PCINT10",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB1",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "T1",
+         "type": "input"
+        },
+        {
+         "name": "CLKO",
+         "type": "output"
+        },
+        {
+         "name": "PCINT9",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB0",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "XCK0",
+         "type": "bidirectional"
+        },
+        {
+         "name": "T0",
+         "type": "input"
+        },
+        {
+         "name": "PCINT8",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "39"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "38"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA0",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC0",
+         "type": "input"
+        },
+        {
+         "name": "PCINT0",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA1",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC1",
+         "type": "input"
+        },
+        {
+         "name": "PCINT1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA2",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC2",
+         "type": "input"
+        },
+        {
+         "name": "PCINT2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA3",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "ADC3",
+         "type": "input"
+        },
+        {
+         "name": "PCINT3",
+         "type": "input"
+        }
+       ]
+      }
+     ],
+     "bottom": [
+      {
+       "name": "PD3",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT27",
+         "type": "input"
+        },
+        {
+         "name": "TXD1",
+         "type": "output"
+        },
+        {
+         "name": "INT1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD4",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT28",
+         "type": "input"
+        },
+        {
+         "name": "XCK1",
+         "type": "bidirectional"
+        },
+        {
+         "name": "OC1B",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD5",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT29",
+         "type": "input"
+        },
+        {
+         "name": "OC1A",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PD6",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT30",
+         "type": "input"
+        },
+        {
+         "name": "OC2B",
+         "type": "output"
+        },
+        {
+         "name": "ICP1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PD7",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT31",
+         "type": "input"
+        },
+        {
+         "name": "OC2A",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "VCC",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PC0",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT16",
+         "type": "input"
+        },
+        {
+         "name": "SCL",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PC1",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT17",
+         "type": "input"
+        },
+        {
+         "name": "SDA",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PC2",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT18",
+         "type": "input"
+        },
+        {
+         "name": "TCK",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PC3",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PCINT19",
+         "type": "input"
+        },
+        {
+         "name": "TMS",
+         "type": "input"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

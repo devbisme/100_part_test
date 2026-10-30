@@ -1,0 +1,604 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "cc1312r1f3rgz"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -26.67 30.480000000000004 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "cc1312r1f3rgz"
+      (at -26.67 27.940000000000005 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -26.67 27.305000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "SWRS210H"
+      (at -26.67 27.305000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -26.67 27.305000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -26.67 27.305000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -26.67 27.305000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -26.67 27.305000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "cc1312r1f3rgz_1_1"
+      (rectangle
+        (start -26.67 -26.67)
+        (end 26.67 26.67)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -31.75 13.97 0)
+        (length 5.08)
+        (name "RF_P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 11.43 0)
+        (length 5.08)
+        (name "RF_N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -31.75 8.89 0)
+        (length 5.08)
+        (name "RX_TX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -31.75 6.3500000000000005 0)
+        (length 5.08)
+        (name "X32K_Q1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -31.75 3.8100000000000005 0)
+        (length 5.08)
+        (name "X32K_Q2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 1.2700000000000005 0)
+        (length 5.08)
+        (name "DIO_1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 -1.2699999999999996 0)
+        (length 5.08)
+        (name "DIO_2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 -3.8099999999999996 0)
+        (length 5.08)
+        (name "DIO_3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 -6.35 0)
+        (length 5.08)
+        (name "DIO_4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 -8.89 0)
+        (length 5.08)
+        (name "DIO_5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 -11.43 0)
+        (length 5.08)
+        (name "DIO_6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.75 -13.969999999999999 0)
+        (length 5.08)
+        (name "DIO_7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 13.97 180)
+        (length 5.08)
+        (name "DIO_23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input input_low
+        (at 31.75 11.43 180)
+        (length 5.08)
+        (name "RESET_N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 31.75 8.89 180)
+        (length 5.08)
+        (name "VDDS_DCDC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at 31.75 6.3500000000000005 180)
+        (length 5.08)
+        (name "DCDC_SW"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 3.8100000000000005 180)
+        (length 5.08)
+        (name "DIO_22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 1.2700000000000005 180)
+        (length 5.08)
+        (name "DIO_21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 -1.2699999999999996 180)
+        (length 5.08)
+        (name "DIO_20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 -3.8099999999999996 180)
+        (length 5.08)
+        (name "DIO_19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 -6.35 180)
+        (length 5.08)
+        (name "DIO_18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.75 -8.89 180)
+        (length 5.08)
+        (name "DIO_17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "JTAG_TDI" input line))
+      (pin bidirectional line
+        (at 31.75 -11.43 180)
+        (length 5.08)
+        (name "DIO_16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "JTAG_TDO" output line))
+      (pin input clock
+        (at 31.75 -13.969999999999999 180)
+        (length 5.08)
+        (name "JTAG_TCKC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -13.97 31.75 270)
+        (length 5.08)
+        (name "VDDR_RF"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -11.43 31.75 270)
+        (length 5.08)
+        (name "X48M_P"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at -8.89 31.75 270)
+        (length 5.08)
+        (name "X48M_N"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.3500000000000005 31.75 270)
+        (length 5.08)
+        (name "VDDR"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.8100000000000005 31.75 270)
+        (length 5.08)
+        (name "VDDS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -1.2700000000000005 31.75 270)
+        (length 5.08)
+        (name "DIO_30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 1.2699999999999996 31.75 270)
+        (length 5.08)
+        (name "DIO_29"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 3.8099999999999996 31.75 270)
+        (length 5.08)
+        (name "DIO_28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 6.35 31.75 270)
+        (length 5.08)
+        (name "DIO_27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 8.89 31.75 270)
+        (length 5.08)
+        (name "DIO_26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 11.43 31.75 270)
+        (length 5.08)
+        (name "DIO_25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 13.969999999999999 31.75 270)
+        (length 5.08)
+        (name "DIO_24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -13.97 -31.75 90)
+        (length 5.08)
+        (name "VDDS2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -11.43 -31.75 90)
+        (length 5.08)
+        (name "DIO_8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -8.89 -31.75 90)
+        (length 5.08)
+        (name "DIO_9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -6.3500000000000005 -31.75 90)
+        (length 5.08)
+        (name "DIO_10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -3.8100000000000005 -31.75 90)
+        (length 5.08)
+        (name "DIO_11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -1.2700000000000005 -31.75 90)
+        (length 5.08)
+        (name "DIO_12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 1.2699999999999996 -31.75 90)
+        (length 5.08)
+        (name "DIO_13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 3.8099999999999996 -31.75 90)
+        (length 5.08)
+        (name "DIO_14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 6.35 -31.75 90)
+        (length 5.08)
+        (name "DIO_15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 8.89 -31.75 90)
+        (length 5.08)
+        (name "VDDS3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin passive line
+        (at 11.43 -31.75 90)
+        (length 5.08)
+        (name "DCOUPL"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 13.969999999999999 -31.75 90)
+        (length 5.08)
+        (name "JTAG_TMSC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

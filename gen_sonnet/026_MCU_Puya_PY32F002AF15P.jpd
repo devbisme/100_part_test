@@ -1,0 +1,579 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "py32f002af15p",
+   "package": "TSSOP-20",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "PY32F002A"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "VSS",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA13",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SWDIO",
+         "type": "bidirectional"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "USART1_RX",
+         "type": "input"
+        },
+        {
+         "name": "SPI1_MISO",
+         "type": "output"
+        },
+        {
+         "name": "TIM1_CH2",
+         "type": "output"
+        },
+        {
+         "name": "MCO",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA14",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SWCLK",
+         "type": "input"
+        },
+        {
+         "name": "USART1_TX",
+         "type": "output"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "MCO",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PB3",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SCK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TIM1_CH2",
+         "type": "output"
+        },
+        {
+         "name": "USART1_RTS",
+         "type": "output"
+        },
+        {
+         "name": "COMP2_INM",
+         "type": "input"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PB6",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PF4",
+         "type": "bidirectional"
+        },
+        {
+         "name": "BOOT0",
+         "type": "input"
+        },
+        {
+         "name": "USART1_TX",
+         "type": "output"
+        },
+        {
+         "name": "TIM1_CH3",
+         "type": "output"
+        },
+        {
+         "name": "LPTIM_ETR",
+         "type": "input"
+        },
+        {
+         "name": "I2C_SCL",
+         "type": "bidirectional"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "COMP2_INP",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA6",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_MISO",
+         "type": "output"
+        },
+        {
+         "name": "TIM1_BKIN",
+         "type": "input"
+        },
+        {
+         "name": "COMP1_OUT",
+         "type": "output"
+        },
+        {
+         "name": "USART1_CK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ADC_IN6",
+         "type": "input"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PA5",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SCK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "LPTIM1_ETR",
+         "type": "input"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "MCO",
+         "type": "output"
+        },
+        {
+         "name": "ADC_IN5",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PF0",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "OSC_IN",
+         "type": "input"
+        },
+        {
+         "name": "USART1_RX",
+         "type": "input"
+        },
+        {
+         "name": "I2C_SDA",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PF1",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "OSC_OUT",
+         "type": "output"
+        },
+        {
+         "name": "USART1_TX",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_NSS",
+         "type": "bidirectional"
+        },
+        {
+         "name": "I2C_SCL",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "PF2",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "~{NRST}",
+         "type": "input"
+        },
+        {
+         "name": "MCO",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "right": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PA7",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TIM1_CH1N",
+         "type": "output"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "COMP2_OUT",
+         "type": "output"
+        },
+        {
+         "name": "USART1_TX",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_MISO",
+         "type": "output"
+        },
+        {
+         "name": "I2C_SDA",
+         "type": "bidirectional"
+        },
+        {
+         "name": "ADC_IN7",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB0",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_NSS",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TIM1_CH2N",
+         "type": "output"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "COMP1_OUT",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "PB2",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "USART1_RX",
+         "type": "input"
+        },
+        {
+         "name": "COMP1_INP",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PB1",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "TIM1_CH3N",
+         "type": "output"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "COMP1_INM",
+         "type": "input"
+        },
+        {
+         "name": "ADC_IN9",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA4",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_NSS",
+         "type": "bidirectional"
+        },
+        {
+         "name": "USART1_CK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "ADC_IN4",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA3",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "USART1_RX",
+         "type": "input"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "I2C_SCL",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TIM1_CH1",
+         "type": "output"
+        },
+        {
+         "name": "COMP2_INP",
+         "type": "input"
+        },
+        {
+         "name": "ADC_IN3",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA2",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "USART1_TX",
+         "type": "output"
+        },
+        {
+         "name": "COMP2_OUT",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_SCK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "I2C_SDA",
+         "type": "bidirectional"
+        },
+        {
+         "name": "COMP2_INM",
+         "type": "input"
+        },
+        {
+         "name": "ADC_IN2",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA1",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SCK",
+         "type": "bidirectional"
+        },
+        {
+         "name": "USART1_RTS",
+         "type": "output"
+        },
+        {
+         "name": "EVENTOUT",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_MOSI",
+         "type": "bidirectional"
+        },
+        {
+         "name": "TIM1_CH4",
+         "type": "output"
+        },
+        {
+         "name": "TIM1_CH2N",
+         "type": "output"
+        },
+        {
+         "name": "MCO",
+         "type": "output"
+        },
+        {
+         "name": "COMP1_INP",
+         "type": "input"
+        },
+        {
+         "name": "ADC_IN1",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "PA0",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "USART1_CTS",
+         "type": "input"
+        },
+        {
+         "name": "COMP1_OUT",
+         "type": "output"
+        },
+        {
+         "name": "SPI1_MISO",
+         "type": "output"
+        },
+        {
+         "name": "TIM1_CH3",
+         "type": "output"
+        },
+        {
+         "name": "TIM1_CH1N",
+         "type": "output"
+        },
+        {
+         "name": "COMP1_INM",
+         "type": "input"
+        },
+        {
+         "name": "ADC_IN0",
+         "type": "input"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

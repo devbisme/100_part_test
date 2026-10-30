@@ -1,0 +1,198 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "cd4097b",
+   "package": "DIP/SOIC/TSSOP-24",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SCHS052D"
+   },
+   "units": [
+    {
+     "name": "MUX",
+     "left": [
+      {
+       "name": "COMMON_X",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "A",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "B",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "C",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INH",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "COMMON_Y",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "X0",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X1",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X2",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X3",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X4",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X5",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X6",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "X7",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "spacer": 1
+      },
+      {
+       "name": "Y0",
+       "numbers": [
+        "23"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y1",
+       "numbers": [
+        "22"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y2",
+       "numbers": [
+        "21"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y3",
+       "numbers": [
+        "20"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y4",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y5",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y6",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "Y7",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "top": [
+      {
+       "name": "VDD",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "VSS",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

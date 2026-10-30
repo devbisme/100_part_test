@@ -1,0 +1,196 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "tlc5971rge",
+   "package": "VQFN-24 (RGE)",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SBVS146D"
+   },
+   "units": [
+    {
+     "name": "LED",
+     "left": [
+      {
+       "name": "SDTI",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SCKI",
+       "numbers": [
+        "2"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "3"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "4"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "SCKO",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SDTO",
+       "numbers": [
+        "6"
+       ],
+       "type": "output"
+      }
+     ],
+     "right": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "14"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VREG",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "IREF",
+       "numbers": [
+        "16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "17"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "top": [
+      {
+       "name": "OUTR0",
+       "numbers": [
+        "19"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTG0",
+       "numbers": [
+        "20"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTB0",
+       "numbers": [
+        "21"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTR1",
+       "numbers": [
+        "22"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTG1",
+       "numbers": [
+        "23"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTB1",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "OUTR2",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTG2",
+       "numbers": [
+        "8"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTB2",
+       "numbers": [
+        "9"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTR3",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTG3",
+       "numbers": [
+        "11"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTB3",
+       "numbers": [
+        "12"
+       ],
+       "type": "output"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

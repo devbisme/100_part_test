@@ -1,0 +1,195 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "dac5578",
+   "package": "QFN-24 (RGE)",
+   "expected_pin_count": 24,
+   "properties": {
+    "Datasheet": "SBAS496B"
+   },
+   "units": [
+    {
+     "name": "DAC",
+     "left": [
+      {
+       "name": "NC",
+       "numbers": [
+        "1"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "AVDD",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VOUTA",
+       "numbers": [
+        "3"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VOUTC",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VOUTE",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VOUTG",
+       "numbers": [
+        "6"
+       ],
+       "type": "output"
+      }
+     ],
+     "right": [
+      {
+       "name": "NC",
+       "numbers": [
+        "18"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VOUTB",
+       "numbers": [
+        "16"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VOUTD",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VOUTF",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VOUTH",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      }
+     ],
+     "top": [
+      {
+       "name": "NC",
+       "numbers": [
+        "24"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "23"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "~{LDAC}",
+       "numbers": [
+        "22"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TWOC",
+       "numbers": [
+        "21"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SCL",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SDA",
+       "numbers": [
+        "19"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "NC",
+       "numbers": [
+        "7"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VREFIN",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RSTSEL",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "ADDR1",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "ADDR0",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{CLR}",
+       "numbers": [
+        "12"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

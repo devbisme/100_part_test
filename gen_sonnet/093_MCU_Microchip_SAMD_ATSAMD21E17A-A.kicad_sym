@@ -1,0 +1,596 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "atsamd21e17a-a"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -16.51 24.130000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "atsamd21e17a-a"
+      (at -16.51 21.590000000000003 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -16.51 20.955000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "DS40001882E"
+      (at -16.51 20.955000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -16.51 20.955000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -16.51 20.955000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -16.51 20.955000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -16.51 20.955000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "atsamd21e17a-a_1_1"
+      (rectangle
+        (start -16.51 -20.32)
+        (end 16.51 20.32)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -21.59 8.89 0)
+        (length 5.08)
+        (name "PA00"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT0" input line)
+        (alternate "SERCOM1_PAD0" bidirectional line)
+        (alternate "TCC2_WO0" output line)
+        (alternate "XIN32" input line))
+      (pin bidirectional line
+        (at -21.59 6.3500000000000005 0)
+        (length 5.08)
+        (name "PA01"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT1" input line)
+        (alternate "SERCOM1_PAD1" bidirectional line)
+        (alternate "TCC2_WO1" output line)
+        (alternate "XOUT32" output line))
+      (pin bidirectional line
+        (at -21.59 3.8100000000000005 0)
+        (length 5.08)
+        (name "PA02"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT2" input line)
+        (alternate "ADC_AIN0" input line)
+        (alternate "PTC_Y0" bidirectional line)
+        (alternate "DAC_VOUT" output line)
+        (alternate "TCC3_WO0" output line))
+      (pin bidirectional line
+        (at -21.59 1.2700000000000005 0)
+        (length 5.08)
+        (name "PA03"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT3" input line)
+        (alternate "ADC_VREFA" input line)
+        (alternate "DAC_VREFA" input line)
+        (alternate "ADC_AIN1" input line)
+        (alternate "PTC_Y1" bidirectional line)
+        (alternate "TCC3_WO1" output line))
+      (pin bidirectional line
+        (at -21.59 -1.2699999999999996 0)
+        (length 5.08)
+        (name "PA04"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT4" input line)
+        (alternate "ADC_VREFB" input line)
+        (alternate "ADC_AIN4" input line)
+        (alternate "AC_AIN0" input line)
+        (alternate "PTC_Y2" bidirectional line)
+        (alternate "SERCOM0_PAD0" bidirectional line)
+        (alternate "TCC0_WO0" output line)
+        (alternate "TCC3_WO2" output line))
+      (pin bidirectional line
+        (at -21.59 -3.8099999999999996 0)
+        (length 5.08)
+        (name "PA05"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT5" input line)
+        (alternate "ADC_AIN5" input line)
+        (alternate "AC_AIN1" input line)
+        (alternate "PTC_Y3" bidirectional line)
+        (alternate "SERCOM0_PAD1" bidirectional line)
+        (alternate "TCC0_WO1" output line)
+        (alternate "TCC3_WO3" output line))
+      (pin bidirectional line
+        (at -21.59 -6.35 0)
+        (length 5.08)
+        (name "PA06"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT6" input line)
+        (alternate "ADC_AIN6" input line)
+        (alternate "AC_AIN2" input line)
+        (alternate "PTC_Y4" bidirectional line)
+        (alternate "SERCOM0_PAD2" bidirectional line)
+        (alternate "TCC1_WO0" output line)
+        (alternate "TCC3_WO4" output line))
+      (pin bidirectional line
+        (at -21.59 -8.89 0)
+        (length 5.08)
+        (name "PA07"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT7" input line)
+        (alternate "ADC_AIN7" input line)
+        (alternate "AC_AIN3" input line)
+        (alternate "PTC_Y5" bidirectional line)
+        (alternate "SERCOM0_PAD3" bidirectional line)
+        (alternate "TCC1_WO1" output line)
+        (alternate "TCC3_WO5" output line)
+        (alternate "I2S_SD0" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 8.89 180)
+        (length 5.08)
+        (name "PA25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT13" input line)
+        (alternate "SERCOM3_PAD3" bidirectional line)
+        (alternate "SERCOM5_PAD3" bidirectional line)
+        (alternate "TC5_WO1" output line)
+        (alternate "TCC1_WO3" output line)
+        (alternate "USB_DP" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 6.3500000000000005 180)
+        (length 5.08)
+        (name "PA24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT12" input line)
+        (alternate "SERCOM3_PAD2" bidirectional line)
+        (alternate "SERCOM5_PAD2" bidirectional line)
+        (alternate "TC5_WO0" output line)
+        (alternate "TCC1_WO2" output line)
+        (alternate "USB_DM" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 3.8100000000000005 180)
+        (length 5.08)
+        (name "PA23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT7" input line)
+        (alternate "PTC_X11" bidirectional line)
+        (alternate "SERCOM3_PAD1" bidirectional line)
+        (alternate "SERCOM5_PAD1" bidirectional line)
+        (alternate "TC4_WO1" output line)
+        (alternate "TCC0_WO5" output line)
+        (alternate "USB_SOF" bidirectional line)
+        (alternate "GCLK_IO7" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 1.2700000000000005 180)
+        (length 5.08)
+        (name "PA22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT6" input line)
+        (alternate "PTC_X10" bidirectional line)
+        (alternate "SERCOM3_PAD0" bidirectional line)
+        (alternate "SERCOM5_PAD0" bidirectional line)
+        (alternate "TC4_WO0" output line)
+        (alternate "TCC0_WO4" output line)
+        (alternate "GCLK_IO6" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -1.2699999999999996 180)
+        (length 5.08)
+        (name "PA19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT3" input line)
+        (alternate "PTC_X7" bidirectional line)
+        (alternate "SERCOM1_PAD3" bidirectional line)
+        (alternate "SERCOM3_PAD3" bidirectional line)
+        (alternate "TC3_WO1" output line)
+        (alternate "TCC0_WO3" output line)
+        (alternate "I2S_SD0" bidirectional line)
+        (alternate "AC_CMP1" output line))
+      (pin bidirectional line
+        (at 21.59 -3.8099999999999996 180)
+        (length 5.08)
+        (name "PA18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT2" input line)
+        (alternate "PTC_X6" bidirectional line)
+        (alternate "SERCOM1_PAD2" bidirectional line)
+        (alternate "SERCOM3_PAD2" bidirectional line)
+        (alternate "TC3_WO0" output line)
+        (alternate "TCC0_WO2" output line)
+        (alternate "AC_CMP0" output line))
+      (pin bidirectional line
+        (at 21.59 -6.35 180)
+        (length 5.08)
+        (name "PA17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT1" input line)
+        (alternate "PTC_X5" bidirectional line)
+        (alternate "SERCOM1_PAD1" bidirectional line)
+        (alternate "SERCOM3_PAD1" bidirectional line)
+        (alternate "TCC2_WO1" output line)
+        (alternate "TCC0_WO7" output line)
+        (alternate "GCLK_IO3" bidirectional line))
+      (pin bidirectional line
+        (at 21.59 -8.89 180)
+        (length 5.08)
+        (name "PA16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT0" input line)
+        (alternate "PTC_X4" bidirectional line)
+        (alternate "SERCOM1_PAD0" bidirectional line)
+        (alternate "SERCOM3_PAD0" bidirectional line)
+        (alternate "TCC2_WO0" output line)
+        (alternate "TCC0_WO6" output line)
+        (alternate "GCLK_IO2" bidirectional line))
+      (pin bidirectional line
+        (at -8.89 25.4 270)
+        (length 5.08)
+        (name "PA31"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT11" input line)
+        (alternate "SERCOM1_PAD3" bidirectional line)
+        (alternate "TCC1_WO1" output line)
+        (alternate "TCC3_WO5" output line)
+        (alternate "SWDIO" bidirectional line))
+      (pin bidirectional line
+        (at -6.3500000000000005 25.4 270)
+        (length 5.08)
+        (name "PA30"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT10" input line)
+        (alternate "SERCOM1_PAD2" bidirectional line)
+        (alternate "TCC1_WO0" output line)
+        (alternate "TCC3_WO4" output line)
+        (alternate "SWCLK" input line)
+        (alternate "GCLK_IO0" bidirectional line))
+      (pin power_in line
+        (at -3.8100000000000005 25.4 270)
+        (length 5.08)
+        (name "VDDIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_out line
+        (at -1.2700000000000005 25.4 270)
+        (length 5.08)
+        (name "VDDCORE"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.2699999999999996 25.4 270)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 3.8099999999999996 25.4 270)
+        (length 5.08)
+        (name "PA28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT8" input line)
+        (alternate "TCC3_WO7" output line)
+        (alternate "GCLK_IO0" bidirectional line))
+      (pin input line
+        (at 6.35 25.4 270)
+        (length 5.08)
+        (name "~{RESET}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 8.89 25.4 270)
+        (length 5.08)
+        (name "PA27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT15" input line)
+        (alternate "TCC3_WO6" output line)
+        (alternate "GCLK_IO0" bidirectional line))
+      (pin power_in line
+        (at -8.89 -25.4 90)
+        (length 5.08)
+        (name "VDDANA"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.3500000000000005 -25.4 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -3.8100000000000005 -25.4 90)
+        (length 5.08)
+        (name "PA08"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "NMI" input line)
+        (alternate "ADC_AIN16" input line)
+        (alternate "PTC_X0" bidirectional line)
+        (alternate "SERCOM0_PAD0" bidirectional line)
+        (alternate "SERCOM2_PAD0" bidirectional line)
+        (alternate "TCC0_WO0" output line)
+        (alternate "TCC1_WO2" output line)
+        (alternate "I2S_SD1" bidirectional line))
+      (pin bidirectional line
+        (at -1.2700000000000005 -25.4 90)
+        (length 5.08)
+        (name "PA09"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT9" input line)
+        (alternate "ADC_AIN17" input line)
+        (alternate "PTC_X1" bidirectional line)
+        (alternate "SERCOM0_PAD1" bidirectional line)
+        (alternate "SERCOM2_PAD1" bidirectional line)
+        (alternate "TCC0_WO1" output line)
+        (alternate "TCC1_WO3" output line)
+        (alternate "I2S_MCK0" bidirectional line))
+      (pin bidirectional line
+        (at 1.2699999999999996 -25.4 90)
+        (length 5.08)
+        (name "PA10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT10" input line)
+        (alternate "ADC_AIN18" input line)
+        (alternate "PTC_X2" bidirectional line)
+        (alternate "SERCOM0_PAD2" bidirectional line)
+        (alternate "SERCOM2_PAD2" bidirectional line)
+        (alternate "TCC1_WO0" output line)
+        (alternate "TCC0_WO2" output line)
+        (alternate "I2S_SCK0" bidirectional line)
+        (alternate "GCLK_IO4" bidirectional line))
+      (pin bidirectional line
+        (at 3.8099999999999996 -25.4 90)
+        (length 5.08)
+        (name "PA11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT11" input line)
+        (alternate "ADC_AIN19" input line)
+        (alternate "PTC_X3" bidirectional line)
+        (alternate "SERCOM0_PAD3" bidirectional line)
+        (alternate "SERCOM2_PAD3" bidirectional line)
+        (alternate "TCC1_WO1" output line)
+        (alternate "TCC0_WO3" output line)
+        (alternate "I2S_FS0" bidirectional line)
+        (alternate "GCLK_IO5" bidirectional line))
+      (pin bidirectional line
+        (at 6.35 -25.4 90)
+        (length 5.08)
+        (name "PA14"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT14" input line)
+        (alternate "SERCOM2_PAD2" bidirectional line)
+        (alternate "SERCOM4_PAD2" bidirectional line)
+        (alternate "TC3_WO0" output line)
+        (alternate "TCC0_WO4" output line)
+        (alternate "GCLK_IO0" bidirectional line)
+        (alternate "XIN" input line))
+      (pin bidirectional line
+        (at 8.89 -25.4 90)
+        (length 5.08)
+        (name "PA15"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTINT15" input line)
+        (alternate "SERCOM2_PAD3" bidirectional line)
+        (alternate "SERCOM4_PAD3" bidirectional line)
+        (alternate "TC3_WO1" output line)
+        (alternate "TCC0_WO5" output line)
+        (alternate "GCLK_IO1" bidirectional line)
+        (alternate "XOUT" output line)))
+    (embedded_fonts no)))

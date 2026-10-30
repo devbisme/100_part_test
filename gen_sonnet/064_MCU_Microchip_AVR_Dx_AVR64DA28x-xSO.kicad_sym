@@ -1,0 +1,535 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "avr64da28"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -12.7 27.94 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "avr64da28"
+      (at -12.7 25.400000000000002 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -12.7 24.765 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "DS40002233B"
+      (at -12.7 24.765 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -12.7 24.765 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -12.7 24.765 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -12.7 24.765 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -12.7 24.765 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "avr64da28_1_1"
+      (rectangle
+        (start -12.7 -24.13)
+        (end 12.7 24.13)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -17.78 16.51 0)
+        (length 5.08)
+        (name "PA7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "CLKOUT" output line)
+        (alternate "X7" bidirectional line)
+        (alternate "Y7" bidirectional line)
+        (alternate "AC0_OUT" output line)
+        (alternate "AC1_OUT" output line)
+        (alternate "AC2_OUT" output line)
+        (alternate "ZCD0_OUT" output line)
+        (alternate "ZCD1_OUT" output line)
+        (alternate "ZCD2_OUT" output line)
+        (alternate "USART0_XDIR" output line)
+        (alternate "SPI0_SS" bidirectional line)
+        (alternate "TCD0_WOD" output line)
+        (alternate "EVOUTA" output line))
+      (pin bidirectional line
+        (at -17.78 13.970000000000002 0)
+        (length 5.08)
+        (name "PC0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "USART1_TxD" output line)
+        (alternate "SPI1_MOSI" bidirectional line)
+        (alternate "TCA0_WO0" output line)
+        (alternate "TCB2_WO" output line)
+        (alternate "LUT1_IN0" input line))
+      (pin bidirectional line
+        (at -17.78 11.430000000000003 0)
+        (length 5.08)
+        (name "PC1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "USART1_RxD" input line)
+        (alternate "SPI1_MISO" bidirectional line)
+        (alternate "TCA0_WO1" output line)
+        (alternate "TCB3_WO" output line)
+        (alternate "LUT1_IN1" input line))
+      (pin bidirectional line
+        (at -17.78 8.890000000000004 0)
+        (length 5.08)
+        (name "PC2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "USART1_XCK" bidirectional line)
+        (alternate "SPI1_SCK" bidirectional line)
+        (alternate "TWI0_SDA" bidirectional line)
+        (alternate "TCA0_WO2" output line)
+        (alternate "EVOUTC" output line)
+        (alternate "LUT1_IN2" input line))
+      (pin bidirectional line
+        (at -17.78 6.350000000000004 0)
+        (length 5.08)
+        (name "PC3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "USART1_XDIR" output line)
+        (alternate "SPI1_SS" bidirectional line)
+        (alternate "TWI0_SCL" bidirectional line)
+        (alternate "TCA0_WO3" output line)
+        (alternate "LUT1_OUT" output line))
+      (pin bidirectional line
+        (at -17.78 3.810000000000004 0)
+        (length 5.08)
+        (name "PD0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN0" input line)
+        (alternate "X16" bidirectional line)
+        (alternate "Y16" bidirectional line)
+        (alternate "AC0_AINN1" input line)
+        (alternate "AC1_AINN1" input line)
+        (alternate "AC2_AINN1" input line)
+        (alternate "TCA0_WO0" output line)
+        (alternate "LUT2_IN0" input line))
+      (pin bidirectional line
+        (at -17.78 1.270000000000004 0)
+        (length 5.08)
+        (name "PD1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN1" input line)
+        (alternate "X17" bidirectional line)
+        (alternate "Y17" bidirectional line)
+        (alternate "ZCD0_ZCIN" input line)
+        (alternate "TCA0_WO1" output line)
+        (alternate "LUT2_IN1" input line))
+      (pin bidirectional line
+        (at -17.78 -1.269999999999996 0)
+        (length 5.08)
+        (name "PD2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN2" input line)
+        (alternate "X18" bidirectional line)
+        (alternate "Y18" bidirectional line)
+        (alternate "AC0_AINP0" input line)
+        (alternate "AC1_AINP0" input line)
+        (alternate "AC2_AINP0" input line)
+        (alternate "TCA0_WO2" output line)
+        (alternate "EVOUTD" output line)
+        (alternate "LUT2_IN2" input line))
+      (pin bidirectional line
+        (at -17.78 -3.809999999999996 0)
+        (length 5.08)
+        (name "PD3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN3" input line)
+        (alternate "X19" bidirectional line)
+        (alternate "Y19" bidirectional line)
+        (alternate "AC0_AINN0" input line)
+        (alternate "AC1_AINP1" input line)
+        (alternate "TCA0_WO3" output line)
+        (alternate "LUT2_OUT" output line))
+      (pin bidirectional line
+        (at -17.78 -6.349999999999996 0)
+        (length 5.08)
+        (name "PD4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN4" input line)
+        (alternate "X20" bidirectional line)
+        (alternate "Y20" bidirectional line)
+        (alternate "AC1_AINP2" input line)
+        (alternate "AC2_AINP1" input line)
+        (alternate "TCA0_WO4" output line))
+      (pin bidirectional line
+        (at -17.78 -8.889999999999997 0)
+        (length 5.08)
+        (name "PD5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN5" input line)
+        (alternate "X21" bidirectional line)
+        (alternate "Y21" bidirectional line)
+        (alternate "AC1_AINN0" input line)
+        (alternate "TCA0_WO5" output line))
+      (pin bidirectional line
+        (at -17.78 -11.429999999999996 0)
+        (length 5.08)
+        (name "PD6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "AIN6" input line)
+        (alternate "X22" bidirectional line)
+        (alternate "Y22" bidirectional line)
+        (alternate "AC0_AINP3" input line)
+        (alternate "AC1_AINP3" input line)
+        (alternate "AC2_AINP3" input line)
+        (alternate "DAC0_VOUT" output line)
+        (alternate "LUT2_OUT" output line))
+      (pin bidirectional line
+        (at -17.78 -13.969999999999995 0)
+        (length 5.08)
+        (name "PD7"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "VREFA" input line)
+        (alternate "AIN7" input line)
+        (alternate "X23" bidirectional line)
+        (alternate "Y23" bidirectional line)
+        (alternate "AC0_AINN2" input line)
+        (alternate "AC1_AINN2" input line)
+        (alternate "AC2_AINN0" input line)
+        (alternate "AC2_AINN2" input line)
+        (alternate "EVOUTD" output line))
+      (pin power_in line
+        (at -17.78 -16.509999999999994 0)
+        (length 5.08)
+        (name "AVDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 17.78 7.62 180)
+        (length 5.08)
+        (name "PA6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "X6" bidirectional line)
+        (alternate "Y6" bidirectional line)
+        (alternate "USART0_XCK" bidirectional line)
+        (alternate "SPI0_SCK" bidirectional line)
+        (alternate "TCD0_WOC" output line)
+        (alternate "LUT0_OUT" output line))
+      (pin bidirectional line
+        (at 17.78 5.08 180)
+        (length 5.08)
+        (name "PA5"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "X5" bidirectional line)
+        (alternate "Y5" bidirectional line)
+        (alternate "USART0_RxD" input line)
+        (alternate "SPI0_MISO" bidirectional line)
+        (alternate "TCA0_WO5" output line)
+        (alternate "TCD0_WOB" output line))
+      (pin bidirectional line
+        (at 17.78 2.54 180)
+        (length 5.08)
+        (name "PA4"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "X4" bidirectional line)
+        (alternate "Y4" bidirectional line)
+        (alternate "USART0_TxD" output line)
+        (alternate "SPI0_MOSI" bidirectional line)
+        (alternate "TCA0_WO4" output line)
+        (alternate "TCD0_WOA" output line))
+      (pin bidirectional line
+        (at 17.78 0.0 180)
+        (length 5.08)
+        (name "PA3"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "X3" bidirectional line)
+        (alternate "Y3" bidirectional line)
+        (alternate "USART0_XDIR" output line)
+        (alternate "TWI0_SCL" bidirectional line)
+        (alternate "TCA0_WO3" output line)
+        (alternate "TCB1_WO" output line)
+        (alternate "LUT0_OUT" output line))
+      (pin bidirectional line
+        (at 17.78 -2.54 180)
+        (length 5.08)
+        (name "PA2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "X2" bidirectional line)
+        (alternate "Y2" bidirectional line)
+        (alternate "USART0_XCK" bidirectional line)
+        (alternate "TWI0_SDA" bidirectional line)
+        (alternate "TCA0_WO2" output line)
+        (alternate "TCB0_WO" output line)
+        (alternate "EVOUTA" output line)
+        (alternate "LUT0_IN2" input line))
+      (pin bidirectional line
+        (at 17.78 -5.08 180)
+        (length 5.08)
+        (name "PA1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "X1" bidirectional line)
+        (alternate "Y1" bidirectional line)
+        (alternate "USART0_RxD" input line)
+        (alternate "TCA0_WO1" output line)
+        (alternate "LUT0_IN1" input line))
+      (pin bidirectional line
+        (at 17.78 -7.62 180)
+        (length 5.08)
+        (name "PA0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "EXTCLK" input line)
+        (alternate "X0" bidirectional line)
+        (alternate "Y0" bidirectional line)
+        (alternate "USART0_TxD" output line)
+        (alternate "TCA0_WO0" output line)
+        (alternate "LUT0_IN0" input line))
+      (pin power_in line
+        (at -1.27 29.21 270)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.27 29.21 270)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -5.08 -29.21 90)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -2.54 -29.21 90)
+        (length 5.08)
+        (name "PF0"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "XTAL32K1" input line)
+        (alternate "AIN16" input line)
+        (alternate "X32" bidirectional line)
+        (alternate "Y32" bidirectional line)
+        (alternate "USART2_TxD" output line)
+        (alternate "TCA0_WO0" output line)
+        (alternate "TCD0_WOA" output line)
+        (alternate "LUT3_IN0" input line))
+      (pin bidirectional line
+        (at 0.0 -29.21 90)
+        (length 5.08)
+        (name "PF1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "XTAL32K2" output line)
+        (alternate "AIN17" input line)
+        (alternate "X33" bidirectional line)
+        (alternate "Y33" bidirectional line)
+        (alternate "USART2_RxD" input line)
+        (alternate "TCA0_WO1" output line)
+        (alternate "TCD0_WOB" output line)
+        (alternate "LUT3_IN1" input line))
+      (pin input line
+        (at 2.54 -29.21 90)
+        (length 5.08)
+        (name "PF6"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "~{RESET}" input line))
+      (pin bidirectional line
+        (at 5.08 -29.21 90)
+        (length 5.08)
+        (name "UPDI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))

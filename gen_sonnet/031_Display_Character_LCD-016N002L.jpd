@@ -1,0 +1,167 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "lcd-016n002l1",
+   "package": "16-pin header + 4 unnumbered LED pads (A1/K1/A2/K2 names assumed)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "Vishay 37299"
+   },
+   "units": [
+    {
+     "name": "LCD",
+     "left": [
+      {
+       "name": "RS",
+       "numbers": [
+        "4"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "R/~{W}",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "E",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DB0",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB1",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB2",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB3",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB4",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB5",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB6",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB7",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "V0",
+       "numbers": [
+        "3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A/VEE",
+       "numbers": [
+        "15"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K",
+       "numbers": [
+        "16"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A1",
+       "numbers": [
+        "A1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K1",
+       "numbers": [
+        "K1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "A2",
+       "numbers": [
+        "A2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "K2",
+       "numbers": [
+        "K2"
+       ],
+       "type": "passive"
+      }
+     ],
+     "top": [
+      {
+       "name": "VDD",
+       "numbers": [
+        "2"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "VSS",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

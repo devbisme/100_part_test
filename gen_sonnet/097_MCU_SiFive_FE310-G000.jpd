@@ -1,0 +1,488 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "fe310-g000",
+   "package": "QFN-48 + exposed paddle (49); pins 3,4 printed DQ_2,DQ_1 (typo); DQ_1,DQ_0 inferred",
+   "expected_pin_count": 49,
+   "properties": {
+    "Datasheet": "SiFive FE310-G000 v1p5"
+   },
+   "units": [
+    {
+     "name": "MCU",
+     "left": [
+      {
+       "name": "QSPI_DQ_3",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "QSPI_DQ_2",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "QSPI_DQ_1",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "QSPI_DQ_0",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "QSPI_CS",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PLL_AVDD",
+       "numbers": [
+        "7"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PLL_AVSS",
+       "numbers": [
+        "8"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "XTAL_XI",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "XTAL_XO",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "IVDD",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OTP_AIVDD",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "GPIO_12",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM2_2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_11",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM2_1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_10",
+       "numbers": [
+        "34"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SS3",
+         "type": "output"
+        },
+        {
+         "name": "PWM2_0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_9",
+       "numbers": [
+        "33"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SS2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "IVDD",
+       "numbers": [
+        "32"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO_5",
+       "numbers": [
+        "31"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SCK",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO_4",
+       "numbers": [
+        "29"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_MISO",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_3",
+       "numbers": [
+        "28"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_MOSI",
+         "type": "output"
+        },
+        {
+         "name": "PWM0_3",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_2",
+       "numbers": [
+        "27"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "SPI1_SS0",
+         "type": "output"
+        },
+        {
+         "name": "PWM0_2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_1",
+       "numbers": [
+        "26"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM0_1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_0",
+       "numbers": [
+        "25"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM0_0",
+         "type": "output"
+        }
+       ]
+      }
+     ],
+     "top": [
+      {
+       "name": "QSPI_SCK",
+       "numbers": [
+        "48"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "IVDD",
+       "numbers": [
+        "47"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "46"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GPIO_23",
+       "numbers": [
+        "45"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GPIO_22",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM1_3",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_21",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM1_2",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_20",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM1_0",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_19",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM1_1",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_18",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional",
+       "alternates": []
+      },
+      {
+       "name": "GPIO_17",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "UART0_TX",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_16",
+       "numbers": [
+        "38"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "UART0_RX",
+         "type": "input"
+        }
+       ]
+      },
+      {
+       "name": "GPIO_13",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "PWM2_3",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "49"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "JTAG_TCK",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "JTAG_TDO",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "JTAG_TMS",
+       "numbers": [
+        "15"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "JTAG_TDI",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AON_PMU_OUT_1",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "AON_PMU_DWAKEUP_N",
+       "numbers": [
+        "18"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "AON_IVDD",
+       "numbers": [
+        "19"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AON_PSD_LFALTCLK",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AON_PSD_LFCLKSEL",
+       "numbers": [
+        "21"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "AON_PMU_OUT_0",
+       "numbers": [
+        "22"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "AON_VDD",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "AON_ERST_N",
+       "numbers": [
+        "24"
+       ],
+       "type": "input",
+       "style": "input_low"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

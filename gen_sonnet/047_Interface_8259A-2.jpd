@@ -1,0 +1,223 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "8259a-2",
+   "package": "DIP-28",
+   "expected_pin_count": 28,
+   "properties": {
+    "Datasheet": "Intel 8259A 231468-003"
+   },
+   "units": [
+    {
+     "name": "PIC",
+     "left": [
+      {
+       "name": "~{CS}",
+       "numbers": [
+        "1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{WR}",
+       "numbers": [
+        "2"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{RD}",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "D7",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D6",
+       "numbers": [
+        "5"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D5",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D4",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D3",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D2",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D1",
+       "numbers": [
+        "10"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "D0",
+       "numbers": [
+        "11"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CAS0",
+       "numbers": [
+        "12"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CAS1",
+       "numbers": [
+        "13"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CAS2",
+       "numbers": [
+        "15"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "right": [
+      {
+       "name": "A0",
+       "numbers": [
+        "27"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{INTA}",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR7",
+       "numbers": [
+        "25"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR6",
+       "numbers": [
+        "24"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR5",
+       "numbers": [
+        "23"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR4",
+       "numbers": [
+        "22"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR3",
+       "numbers": [
+        "21"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR2",
+       "numbers": [
+        "20"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR1",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IR0",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INT",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "~{SP}/~{EN}",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      }
+     ],
+     "top": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

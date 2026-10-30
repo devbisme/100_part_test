@@ -1,0 +1,98 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "rpmh24-1.5",
+   "package": "25-pad module (5x5)",
+   "expected_pin_count": 25,
+   "properties": {
+    "Datasheet": "RECOM RPMH"
+   },
+   "units": [
+    {
+     "name": "DCDC",
+     "left": [
+      {
+       "name": "+VIN",
+       "numbers": [
+        "A1",
+        "A2"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "CTRL",
+       "numbers": [
+        "C1"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "E1",
+        "E2"
+       ],
+       "type": "no_connect"
+      }
+     ],
+     "right": [
+      {
+       "name": "+VOUT",
+       "numbers": [
+        "A5",
+        "B5"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "Sense",
+       "numbers": [
+        "C5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "Trim",
+       "numbers": [
+        "E5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "PGood",
+       "numbers": [
+        "D1"
+       ],
+       "type": "output"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "A3",
+        "A4",
+        "B1",
+        "B2",
+        "B3",
+        "B4",
+        "C2",
+        "C3",
+        "C4",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "E3",
+        "E4"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

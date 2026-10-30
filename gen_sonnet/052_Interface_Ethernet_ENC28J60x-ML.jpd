@@ -1,0 +1,224 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "enc28j60-ml",
+   "package": "QFN-28 (ML); exposed pad (if any) unnumbered, omitted",
+   "expected_pin_count": 28,
+   "properties": {
+    "Datasheet": "DS39662E"
+   },
+   "units": [
+    {
+     "name": "ETH",
+     "left": [
+      {
+       "name": "NC",
+       "numbers": [
+        "1"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "SO",
+       "numbers": [
+        "2"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SI",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SCK",
+       "numbers": [
+        "4"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "~{CS}",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{RESET}",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VSSRX",
+       "numbers": [
+        "7"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "VDDOSC",
+       "numbers": [
+        "21"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OSC2",
+       "numbers": [
+        "20"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OSC1",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VSSOSC",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VSSPLL",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDDPLL",
+       "numbers": [
+        "16"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDDRX",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "top": [
+      {
+       "name": "~{INT}",
+       "numbers": [
+        "28"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "CLKOUT",
+       "numbers": [
+        "27"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VSS",
+       "numbers": [
+        "26"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCAP",
+       "numbers": [
+        "25"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "24"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "LEDA",
+       "numbers": [
+        "23"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "LEDB",
+       "numbers": [
+        "22"
+       ],
+       "type": "output"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "TPIN-",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TPIN+",
+       "numbers": [
+        "9"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "RBIAS",
+       "numbers": [
+        "10"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "VDDTX",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "TPOUT-",
+       "numbers": [
+        "12"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "TPOUT+",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VSSTX",
+       "numbers": [
+        "14"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

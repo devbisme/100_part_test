@@ -1,0 +1,169 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "isow7744",
+   "package": "SOIC-20 WB (DFM)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLLSFK1C"
+   },
+   "units": [
+    {
+     "name": "ISO",
+     "left": [
+      {
+       "name": "VIO",
+       "numbers": [
+        "1"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "OUTA",
+       "numbers": [
+        "2"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTB",
+       "numbers": [
+        "3"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTC",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OUTD",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "GNDIO",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "EN_IO1",
+       "numbers": [
+        "7"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "EN",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional",
+       "alternates": [
+        {
+         "name": "~{FLT}",
+         "type": "output"
+        }
+       ]
+      },
+      {
+       "name": "VDD",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "GND1",
+       "numbers": [
+        "10"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "right": [
+      {
+       "name": "VISOIN",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "INA",
+       "numbers": [
+        "19"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INB",
+       "numbers": [
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "INC",
+       "numbers": [
+        "17"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "IND",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GISOIN",
+       "numbers": [
+        "15"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "EN_IO2",
+       "numbers": [
+        "14"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VSEL",
+       "numbers": [
+        "13"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VISOOUT",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_out"
+      },
+      {
+       "name": "GND2",
+       "numbers": [
+        "11"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

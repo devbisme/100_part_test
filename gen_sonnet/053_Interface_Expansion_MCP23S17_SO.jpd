@@ -1,0 +1,40 @@
+{ "format": "jpd", "version": 1,
+  "parts": [
+    { "name": "mcp23s17_so", "package": "SOIC-28 wide", "expected_pin_count": 28,
+      "properties": { "Datasheet": "DS20001952C" },
+      "units": [
+        { "name": "IO",
+          "left": [
+            { "name": "GPB0", "numbers": ["1"],  "type": "bidirectional" },
+            { "name": "GPB1", "numbers": ["2"],  "type": "bidirectional" },
+            { "name": "GPB2", "numbers": ["3"],  "type": "bidirectional" },
+            { "name": "GPB3", "numbers": ["4"],  "type": "bidirectional" },
+            { "name": "GPB4", "numbers": ["5"],  "type": "bidirectional" },
+            { "name": "GPB5", "numbers": ["6"],  "type": "bidirectional" },
+            { "name": "GPB6", "numbers": ["7"],  "type": "bidirectional" },
+            { "name": "GPB7", "numbers": ["8"],  "type": "bidirectional" },
+            { "name": "VDD",  "numbers": ["9"],  "type": "power_in" },
+            { "name": "VSS",  "numbers": ["10"], "type": "power_in" },
+            { "name": "CS",   "numbers": ["11"], "type": "input", "style": "input_low" },
+            { "name": "SCK",  "numbers": ["12"], "type": "input", "style": "clock" },
+            { "name": "SI",   "numbers": ["13"], "type": "input" },
+            { "name": "SO",   "numbers": ["14"], "type": "output" }
+          ],
+          "right": [
+            { "name": "GPA7", "numbers": ["28"], "type": "bidirectional" },
+            { "name": "GPA6", "numbers": ["27"], "type": "bidirectional" },
+            { "name": "GPA5", "numbers": ["26"], "type": "bidirectional" },
+            { "name": "GPA4", "numbers": ["25"], "type": "bidirectional" },
+            { "name": "GPA3", "numbers": ["24"], "type": "bidirectional" },
+            { "name": "GPA2", "numbers": ["23"], "type": "bidirectional" },
+            { "name": "GPA1", "numbers": ["22"], "type": "bidirectional" },
+            { "name": "GPA0", "numbers": ["21"], "type": "bidirectional" },
+            { "name": "INTA", "numbers": ["20"], "type": "output" },
+            { "name": "INTB", "numbers": ["19"], "type": "output" },
+            { "name": "RESET","numbers": ["18"], "type": "input", "style": "input_low" },
+            { "name": "A2",   "numbers": ["17"], "type": "input" },
+            { "name": "A1",   "numbers": ["16"], "type": "input" },
+            { "name": "A0",   "numbers": ["15"], "type": "input" }
+          ]
+        }
+      ] } ] }

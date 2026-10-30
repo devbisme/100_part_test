@@ -1,0 +1,117 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "se5004l",
+   "package": "20-pin QFN",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "Skyworks 202393B"
+   },
+   "units": [
+    {
+     "name": "PA",
+     "left": [
+      {
+       "name": "NU",
+       "numbers": [
+        "1"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "2",
+        "4"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "RFin",
+       "numbers": [
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "VREF",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SP1",
+       "numbers": [
+        "6"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "SP2",
+       "numbers": [
+        "7"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "VCC1",
+       "numbers": [
+        "20"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCC2",
+       "numbers": [
+        "8",
+        "19"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VCC3",
+       "numbers": [
+        "9",
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DET",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "RFOUT",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "11",
+        "12",
+        "14",
+        "15",
+        "16",
+        "17"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

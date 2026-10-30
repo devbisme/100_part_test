@@ -1,0 +1,163 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "opa569dwp",
+   "package": "SO-20 PowerPAD (DWP); heat-sink pad unnumbered, omitted",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SBOS264A"
+   },
+   "units": [
+    {
+     "name": "AMP",
+     "left": [
+      {
+       "name": "PowerPAD",
+       "numbers": [
+        "1"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "Parallel_Out_1",
+       "numbers": [
+        "2"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "Current_Limit_Set",
+       "numbers": [
+        "3"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "~{Current_Limit_Flag}",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "-In",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "+In",
+       "numbers": [
+        "6"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "~{Thermal_Flag}",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "Enable",
+       "numbers": [
+        "8"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "Parallel_Out_2",
+       "numbers": [
+        "9"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "PowerPAD",
+       "numbers": [
+        "10"
+       ],
+       "type": "passive"
+      }
+     ],
+     "right": [
+      {
+       "name": "PowerPAD",
+       "numbers": [
+        "20"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "IMONITOR",
+       "numbers": [
+        "19"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "V-",
+       "numbers": [
+        "18"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V-",
+       "numbers": [
+        "17"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "16"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VO",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "VO",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "V+",
+       "numbers": [
+        "13"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V+",
+       "numbers": [
+        "12"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "PowerPAD",
+       "numbers": [
+        "11"
+       ],
+       "type": "passive"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

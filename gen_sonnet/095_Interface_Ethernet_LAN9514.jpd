@@ -1,0 +1,428 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "lan9514",
+   "package": "QFN-64; exposed pad (VSS) unnumbered, omitted",
+   "expected_pin_count": 64,
+   "properties": {
+    "Datasheet": "DS00002306A"
+   },
+   "units": [
+    {
+     "name": "ETH",
+     "left": [
+      {
+       "name": "USBDM2",
+       "numbers": [
+        "1"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP2",
+       "numbers": [
+        "2"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDM3",
+       "numbers": [
+        "3"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP3",
+       "numbers": [
+        "4"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDM4",
+       "numbers": [
+        "6"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP4",
+       "numbers": [
+        "7"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDM5",
+       "numbers": [
+        "8"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP5",
+       "numbers": [
+        "9"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "VBUS_DET",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "nRESET",
+       "numbers": [
+        "12"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "TEST1",
+       "numbers": [
+        "13"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "PRTCTL2",
+       "numbers": [
+        "14"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "PRTCTL3",
+       "numbers": [
+        "16"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "PRTCTL4",
+       "numbers": [
+        "17"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "PRTCTL5",
+       "numbers": [
+        "18"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "nFDX_LED",
+       "numbers": [
+        "20"
+       ],
+       "type": "open_collector",
+       "alternates": [
+        {
+         "name": "GPIO0",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "nLNKA_LED",
+       "numbers": [
+        "21"
+       ],
+       "type": "open_collector",
+       "alternates": [
+        {
+         "name": "GPIO1",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "nSPD_LED",
+       "numbers": [
+        "22"
+       ],
+       "type": "open_collector",
+       "alternates": [
+        {
+         "name": "GPIO2",
+         "type": "bidirectional"
+        }
+       ]
+      },
+      {
+       "name": "EECLK",
+       "numbers": [
+        "23"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "EECS",
+       "numbers": [
+        "24"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "EEDO",
+       "numbers": [
+        "25"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "EEDI",
+       "numbers": [
+        "26"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "nTRST",
+       "numbers": [
+        "28"
+       ],
+       "type": "input",
+       "style": "input_low"
+      },
+      {
+       "name": "TMS",
+       "numbers": [
+        "29"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TDI",
+       "numbers": [
+        "30"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "TDO",
+       "numbers": [
+        "31"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "TCK",
+       "numbers": [
+        "32"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GPIO3",
+       "numbers": [
+        "35"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO4",
+       "numbers": [
+        "36"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO5",
+       "numbers": [
+        "37"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO6",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "GPIO7",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "AUTOMDIX_EN",
+       "numbers": [
+        "41"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "CLK24_EN",
+       "numbers": [
+        "44"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "CLK24_OUT",
+       "numbers": [
+        "45"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "TEST2",
+       "numbers": [
+        "34"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "TEST3",
+       "numbers": [
+        "40"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "TEST4",
+       "numbers": [
+        "47"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "EXRES",
+       "numbers": [
+        "50"
+       ],
+       "type": "passive"
+      },
+      {
+       "name": "RXP",
+       "numbers": [
+        "52"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "RXN",
+       "numbers": [
+        "53"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "TXP",
+       "numbers": [
+        "55"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "TXN",
+       "numbers": [
+        "56"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDM0",
+       "numbers": [
+        "58"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "USBDP0",
+       "numbers": [
+        "59"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "XO",
+       "numbers": [
+        "60"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "XI",
+       "numbers": [
+        "61"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "USBRBIAS",
+       "numbers": [
+        "63"
+       ],
+       "type": "passive"
+      }
+     ],
+     "top": [
+      {
+       "name": "VDD33A",
+       "numbers": [
+        "5",
+        "10",
+        "49",
+        "51",
+        "54",
+        "57",
+        "64"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD33IO",
+       "numbers": [
+        "19",
+        "27",
+        "33",
+        "39",
+        "46"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD18CORE",
+       "numbers": [
+        "15",
+        "38"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD18ETHPLL",
+       "numbers": [
+        "48"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "VDD18USBPLL",
+       "numbers": [
+        "62"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

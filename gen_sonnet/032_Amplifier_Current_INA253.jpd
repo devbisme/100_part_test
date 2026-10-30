@@ -1,0 +1,139 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "ina253",
+   "package": "TSSOP-20 (PW)",
+   "expected_pin_count": 20,
+   "properties": {
+    "Datasheet": "SLOS954A"
+   },
+   "units": [
+    {
+     "name": "AMP",
+     "left": [
+      {
+       "name": "IS-",
+       "numbers": [
+        "1",
+        "2",
+        "3"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SH-",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "IN-",
+       "numbers": [
+        "5"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "GND",
+       "numbers": [
+        "6"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "DNC1",
+       "numbers": [
+        "7"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "8"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "VS",
+       "numbers": [
+        "9"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "REF2",
+       "numbers": [
+        "10"
+       ],
+       "type": "input"
+      }
+     ],
+     "right": [
+      {
+       "name": "IS+",
+       "numbers": [
+        "20",
+        "19",
+        "18"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "SH+",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "IN+",
+       "numbers": [
+        "16"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "15"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "DNC2",
+       "numbers": [
+        "14"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "OUT",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "NC",
+       "numbers": [
+        "12"
+       ],
+       "type": "no_connect"
+      },
+      {
+       "name": "REF1",
+       "numbers": [
+        "11"
+       ],
+       "type": "input"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

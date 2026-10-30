@@ -1,0 +1,588 @@
+{
+ "format": "jpd",
+ "version": 1,
+ "parts": [
+  {
+   "name": "hd44780u",
+   "package": "FP-80B (QFP-80)",
+   "expected_pin_count": 80,
+   "properties": {
+    "Datasheet": "Hitachi HD44780U"
+   },
+   "units": [
+    {
+     "name": "LCD",
+     "left": [
+      {
+       "name": "RS",
+       "numbers": [
+        "36"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "R/W",
+       "numbers": [
+        "37"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "E",
+       "numbers": [
+        "38"
+       ],
+       "type": "input"
+      },
+      {
+       "name": "DB0",
+       "numbers": [
+        "39"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB1",
+       "numbers": [
+        "40"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB2",
+       "numbers": [
+        "41"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB3",
+       "numbers": [
+        "42"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB4",
+       "numbers": [
+        "43"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB5",
+       "numbers": [
+        "44"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB6",
+       "numbers": [
+        "45"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "DB7",
+       "numbers": [
+        "46"
+       ],
+       "type": "bidirectional"
+      },
+      {
+       "name": "CL1",
+       "numbers": [
+        "31"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "CL2",
+       "numbers": [
+        "32"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "M",
+       "numbers": [
+        "34"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "D",
+       "numbers": [
+        "35"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "OSC1",
+       "numbers": [
+        "24"
+       ],
+       "type": "input",
+       "style": "clock"
+      },
+      {
+       "name": "OSC2",
+       "numbers": [
+        "25"
+       ],
+       "type": "output"
+      }
+     ],
+     "right": [
+      {
+       "name": "COM1",
+       "numbers": [
+        "47"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM2",
+       "numbers": [
+        "48"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM3",
+       "numbers": [
+        "49"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM4",
+       "numbers": [
+        "50"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM5",
+       "numbers": [
+        "51"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM6",
+       "numbers": [
+        "52"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM7",
+       "numbers": [
+        "53"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM8",
+       "numbers": [
+        "54"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM9",
+       "numbers": [
+        "55"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM10",
+       "numbers": [
+        "56"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM11",
+       "numbers": [
+        "57"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM12",
+       "numbers": [
+        "58"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM13",
+       "numbers": [
+        "59"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM14",
+       "numbers": [
+        "60"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM15",
+       "numbers": [
+        "61"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "COM16",
+       "numbers": [
+        "62"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG1",
+       "numbers": [
+        "22"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG2",
+       "numbers": [
+        "21"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG3",
+       "numbers": [
+        "20"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG4",
+       "numbers": [
+        "19"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG5",
+       "numbers": [
+        "18"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG6",
+       "numbers": [
+        "17"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG7",
+       "numbers": [
+        "16"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG8",
+       "numbers": [
+        "15"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG9",
+       "numbers": [
+        "14"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG10",
+       "numbers": [
+        "13"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG11",
+       "numbers": [
+        "12"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG12",
+       "numbers": [
+        "11"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG13",
+       "numbers": [
+        "10"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG14",
+       "numbers": [
+        "9"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG15",
+       "numbers": [
+        "8"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG16",
+       "numbers": [
+        "7"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG17",
+       "numbers": [
+        "6"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG18",
+       "numbers": [
+        "5"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG19",
+       "numbers": [
+        "4"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG20",
+       "numbers": [
+        "3"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG21",
+       "numbers": [
+        "2"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG22",
+       "numbers": [
+        "1"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG23",
+       "numbers": [
+        "80"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG24",
+       "numbers": [
+        "79"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG25",
+       "numbers": [
+        "78"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG26",
+       "numbers": [
+        "77"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG27",
+       "numbers": [
+        "76"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG28",
+       "numbers": [
+        "75"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG29",
+       "numbers": [
+        "74"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG30",
+       "numbers": [
+        "73"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG31",
+       "numbers": [
+        "72"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG32",
+       "numbers": [
+        "71"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG33",
+       "numbers": [
+        "70"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG34",
+       "numbers": [
+        "69"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG35",
+       "numbers": [
+        "68"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG36",
+       "numbers": [
+        "67"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG37",
+       "numbers": [
+        "66"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG38",
+       "numbers": [
+        "65"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG39",
+       "numbers": [
+        "64"
+       ],
+       "type": "output"
+      },
+      {
+       "name": "SEG40",
+       "numbers": [
+        "63"
+       ],
+       "type": "output"
+      }
+     ],
+     "top": [
+      {
+       "name": "VCC",
+       "numbers": [
+        "33"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V1",
+       "numbers": [
+        "26"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V2",
+       "numbers": [
+        "27"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V3",
+       "numbers": [
+        "28"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V4",
+       "numbers": [
+        "29"
+       ],
+       "type": "power_in"
+      },
+      {
+       "name": "V5",
+       "numbers": [
+        "30"
+       ],
+       "type": "power_in"
+      }
+     ],
+     "bottom": [
+      {
+       "name": "GND",
+       "numbers": [
+        "23"
+       ],
+       "type": "power_in"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1667 @@
+(kicad_symbol_lib
+  (version 20241209)
+  (generator "kicad_symbol_editor")
+  (generator_version "8.0")
+  (symbol "tms470r1b768"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at -59.69 63.49999999999999 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Value" "tms470r1b768"
+      (at -59.69 60.959999999999994 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide no)))
+    (property "Footprint" ""
+      (at -59.69 60.324999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Datasheet" "SPNS108B"
+      (at -59.69 60.324999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes)))
+    (property "Description" ""
+      (at -59.69 60.324999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_keywords" ""
+      (at -59.69 60.324999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_locked" ""
+      (at -59.69 60.324999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "ki_fp_filters" ""
+      (at -59.69 60.324999999999996 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (symbol "tms470r1b768_1_1"
+      (rectangle
+        (start -59.69 -59.69)
+        (end 59.69 59.69)
+        (stroke
+          (width 0.254)
+          (type solid))
+        (fill
+          (type background)))
+      (pin bidirectional line
+        (at -66.04 43.18 0)
+        (length 6.35)
+        (name "~{SPI1ENA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 40.64 0)
+        (length 6.35)
+        (name "~{SPI1SCS}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 38.1 0)
+        (length 6.35)
+        (name "SPI1SIMO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 35.56 0)
+        (length 6.35)
+        (name "SPI1SOMI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 33.02 0)
+        (length 6.35)
+        (name "SPI1CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 30.480000000000004 0)
+        (length 6.35)
+        (name "~{SPI4ENA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 27.940000000000005 0)
+        (length 6.35)
+        (name "~{SPI4SCS}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 25.400000000000006 0)
+        (length 6.35)
+        (name "SPI4SIMO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "8"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 22.860000000000007 0)
+        (length 6.35)
+        (name "SPI4SOMI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "9"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 20.320000000000007 0)
+        (length 6.35)
+        (name "SPI4CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "10"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -66.04 17.78000000000001 0)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "11"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at -66.04 15.240000000000009 0)
+        (length 6.35)
+        (name "OSCOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "12"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -66.04 12.70000000000001 0)
+        (length 6.35)
+        (name "OSCIN"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "13"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -66.04 10.16000000000001 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "14"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 7.620000000000011 0)
+        (length 6.35)
+        (name "~{RST}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "15"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -66.04 5.080000000000011 0)
+        (length 6.35)
+        (name "VSSIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "16"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -66.04 2.5400000000000107 0)
+        (length 6.35)
+        (name "VCCIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "17"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 1.0658141036401503e-14 0)
+        (length 6.35)
+        (name "GIOD[3]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "18"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -2.5399999999999894 0)
+        (length 6.35)
+        (name "GIOD[2]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "19"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -5.079999999999989 0)
+        (length 6.35)
+        (name "GIOD[1]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "20"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -7.6199999999999894 0)
+        (length 6.35)
+        (name "GIOD[0]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "21"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -10.15999999999999 0)
+        (length 6.35)
+        (name "HET[17]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "22"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -12.699999999999989 0)
+        (length 6.35)
+        (name "HET[16]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "23"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -15.239999999999988 0)
+        (length 6.35)
+        (name "HET[15]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "24"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -17.779999999999987 0)
+        (length 6.35)
+        (name "HET[14]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "25"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -20.319999999999986 0)
+        (length 6.35)
+        (name "HET[13]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "26"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -22.859999999999985 0)
+        (length 6.35)
+        (name "HET[12]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "27"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -25.399999999999984 0)
+        (length 6.35)
+        (name "HET[11]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "28"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -27.939999999999984 0)
+        (length 6.35)
+        (name "HET[10]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "29"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -66.04 -30.479999999999983 0)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "30"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -66.04 -33.01999999999998 0)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "31"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -66.04 -35.55999999999998 0)
+        (length 6.35)
+        (name "~{PORRST}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "32"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -66.04 -38.09999999999998 0)
+        (length 6.35)
+        (name "GIOA[7]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "33"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT7" bidirectional line))
+      (pin bidirectional line
+        (at -66.04 -40.63999999999998 0)
+        (length 6.35)
+        (name "GIOA[6]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "34"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT6" bidirectional line))
+      (pin bidirectional line
+        (at -66.04 -43.17999999999998 0)
+        (length 6.35)
+        (name "GIOA[5]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "35"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT5" bidirectional line))
+      (pin bidirectional line
+        (at -66.04 -45.71999999999998 0)
+        (length 6.35)
+        (name "GIOA[4]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "36"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT4" bidirectional line))
+      (pin input line
+        (at 66.04 43.18 180)
+        (length 6.35)
+        (name "ADIN[0]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "108"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 40.64 180)
+        (length 6.35)
+        (name "ADIN[1]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "107"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 38.1 180)
+        (length 6.35)
+        (name "ADIN[2]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "106"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 35.56 180)
+        (length 6.35)
+        (name "ADIN[3]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "105"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 33.02 180)
+        (length 6.35)
+        (name "ADIN[4]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "104"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 30.480000000000004 180)
+        (length 6.35)
+        (name "ADIN[15]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "103"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 27.940000000000005 180)
+        (length 6.35)
+        (name "ADIN[5]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "102"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 25.400000000000006 180)
+        (length 6.35)
+        (name "ADIN[6]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "101"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 22.860000000000007 180)
+        (length 6.35)
+        (name "ADIN[7]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "100"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 20.320000000000007 180)
+        (length 6.35)
+        (name "ADEVT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "99"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 17.78000000000001 180)
+        (length 6.35)
+        (name "~{SPI3ENA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "98"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 15.240000000000009 180)
+        (length 6.35)
+        (name "~{SPI3SCS}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "97"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 12.70000000000001 180)
+        (length 6.35)
+        (name "SPI3SIMO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "96"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 10.16000000000001 180)
+        (length 6.35)
+        (name "SPI3SOMI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "95"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 7.620000000000011 180)
+        (length 6.35)
+        (name "SPI3CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "94"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 66.04 5.080000000000011 180)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "93"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 66.04 2.5400000000000107 180)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "92"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 1.0658141036401503e-14 180)
+        (length 6.35)
+        (name "SCI1RX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "91"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -2.5399999999999894 180)
+        (length 6.35)
+        (name "SCI1TX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "90"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -5.079999999999989 180)
+        (length 6.35)
+        (name "SCI1CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "89"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -7.6199999999999894 180)
+        (length 6.35)
+        (name "CAN1HTX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "88"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -10.15999999999999 180)
+        (length 6.35)
+        (name "CAN1HRX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "87"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 66.04 -12.699999999999989 180)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "86"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 66.04 -15.239999999999988 180)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "85"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -17.779999999999987 180)
+        (length 6.35)
+        (name "GIOB[7]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "84"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -20.319999999999986 180)
+        (length 6.35)
+        (name "CLKOUT"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "83"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 66.04 -22.859999999999985 180)
+        (length 6.35)
+        (name "VCCIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "82"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 66.04 -25.399999999999984 180)
+        (length 6.35)
+        (name "VSSIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "81"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -27.939999999999984 180)
+        (length 6.35)
+        (name "HET[9]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "80"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -30.479999999999983 180)
+        (length 6.35)
+        (name "HET[8]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "79"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -33.01999999999998 180)
+        (length 6.35)
+        (name "CAN3HTX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "78"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 66.04 -35.55999999999998 180)
+        (length 6.35)
+        (name "CAN3HRX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "77"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 -38.09999999999998 180)
+        (length 6.35)
+        (name "TCK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "76"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin output line
+        (at 66.04 -40.63999999999998 180)
+        (length 6.35)
+        (name "TDO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "75"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 -43.17999999999998 180)
+        (length 6.35)
+        (name "TDI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "74"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 66.04 -45.71999999999998 180)
+        (length 6.35)
+        (name "PLLDIS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "73"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -44.45 66.04 270)
+        (length 6.35)
+        (name "GIOC[2]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "144"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -41.910000000000004 66.04 270)
+        (length 6.35)
+        (name "GIOC[1]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "143"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -39.370000000000005 66.04 270)
+        (length 6.35)
+        (name "HET[7]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "142"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -36.830000000000005 66.04 270)
+        (length 6.35)
+        (name "HET[6]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "141"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -34.290000000000006 66.04 270)
+        (length 6.35)
+        (name "HET[5]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "140"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -31.750000000000007 66.04 270)
+        (length 6.35)
+        (name "HET[4]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "139"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -29.210000000000008 66.04 270)
+        (length 6.35)
+        (name "HET[3]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "138"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -26.67000000000001 66.04 270)
+        (length 6.35)
+        (name "HET[2]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "137"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -24.13000000000001 66.04 270)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "136"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -21.59000000000001 66.04 270)
+        (length 6.35)
+        (name "VCCP"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "135"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -19.05000000000001 66.04 270)
+        (length 6.35)
+        (name "FLTP1"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "134"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin no_connect line
+        (at -16.510000000000012 66.04 270)
+        (length 6.35)
+        (name "FLTP2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "133"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -13.970000000000013 66.04 270)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "132"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -11.430000000000014 66.04 270)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "131"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -8.890000000000015 66.04 270)
+        (length 6.35)
+        (name "HET[1]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "130"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -6.350000000000015 66.04 270)
+        (length 6.35)
+        (name "HET[0]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "129"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.8100000000000147 66.04 270)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "128"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.2700000000000147 66.04 270)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "127"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 1.2699999999999854 66.04 270)
+        (length 6.35)
+        (name "HET[27]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "126"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 3.8099999999999854 66.04 270)
+        (length 6.35)
+        (name "HET[26]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "125"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 6.349999999999985 66.04 270)
+        (length 6.35)
+        (name "HET[25]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "124"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 8.889999999999986 66.04 270)
+        (length 6.35)
+        (name "HET[23]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "123"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 11.429999999999986 66.04 270)
+        (length 6.35)
+        (name "GIOC[0]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "122"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 13.969999999999985 66.04 270)
+        (length 6.35)
+        (name "TMS2"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "121"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 16.509999999999984 66.04 270)
+        (length 6.35)
+        (name "TMS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "120"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 19.049999999999983 66.04 270)
+        (length 6.35)
+        (name "VSSAD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "119"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 21.589999999999982 66.04 270)
+        (length 6.35)
+        (name "VCCAD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "118"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 24.12999999999998 66.04 270)
+        (length 6.35)
+        (name "ADREFLO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "117"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 26.66999999999998 66.04 270)
+        (length 6.35)
+        (name "ADREFHI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "116"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 29.20999999999998 66.04 270)
+        (length 6.35)
+        (name "ADIN[8]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "115"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 31.74999999999998 66.04 270)
+        (length 6.35)
+        (name "ADIN[12]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "114"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 34.28999999999998 66.04 270)
+        (length 6.35)
+        (name "ADIN[9]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "113"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 36.82999999999998 66.04 270)
+        (length 6.35)
+        (name "ADIN[13]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "112"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 39.369999999999976 66.04 270)
+        (length 6.35)
+        (name "ADIN[10]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "111"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 41.909999999999975 66.04 270)
+        (length 6.35)
+        (name "ADIN[14]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "110"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at 44.449999999999974 66.04 270)
+        (length 6.35)
+        (name "ADIN[11]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "109"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -44.45 -66.04 90)
+        (length 6.35)
+        (name "~{TRST}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "37"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin input line
+        (at -41.910000000000004 -66.04 90)
+        (length 6.35)
+        (name "TEST"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "38"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -39.370000000000005 -66.04 90)
+        (length 6.35)
+        (name "GIOA[0]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "39"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT0" bidirectional line))
+      (pin bidirectional line
+        (at -36.830000000000005 -66.04 90)
+        (length 6.35)
+        (name "GIOA[1]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "40"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT1" bidirectional line)
+        (alternate "ECLK" bidirectional line))
+      (pin bidirectional line
+        (at -34.290000000000006 -66.04 90)
+        (length 6.35)
+        (name "GIOA[2]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "41"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT2" bidirectional line))
+      (pin bidirectional line
+        (at -31.750000000000007 -66.04 90)
+        (length 6.35)
+        (name "GIOA[3]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "42"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (alternate "INT3" bidirectional line))
+      (pin bidirectional line
+        (at -29.210000000000008 -66.04 90)
+        (length 6.35)
+        (name "SCI2RX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "43"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -26.67000000000001 -66.04 90)
+        (length 6.35)
+        (name "SCI2TX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "44"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -24.13000000000001 -66.04 90)
+        (length 6.35)
+        (name "SCI2CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "45"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -21.59000000000001 -66.04 90)
+        (length 6.35)
+        (name "~{SPI5SCS}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "46"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -19.05000000000001 -66.04 90)
+        (length 6.35)
+        (name "HET[28]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "47"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -16.510000000000012 -66.04 90)
+        (length 6.35)
+        (name "HET[29]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "48"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -13.970000000000013 -66.04 90)
+        (length 6.35)
+        (name "HET[30]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "49"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -11.430000000000014 -66.04 90)
+        (length 6.35)
+        (name "HET[31]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "50"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at -8.890000000000015 -66.04 90)
+        (length 6.35)
+        (name "HET[24]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "51"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -6.350000000000015 -66.04 90)
+        (length 6.35)
+        (name "VSSIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "52"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -3.8100000000000147 -66.04 90)
+        (length 6.35)
+        (name "VCCIO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "53"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at -1.2700000000000147 -66.04 90)
+        (length 6.35)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "54"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin power_in line
+        (at 1.2699999999999854 -66.04 90)
+        (length 6.35)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "55"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 3.8099999999999854 -66.04 90)
+        (length 6.35)
+        (name "CAN2HTX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "56"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 6.349999999999985 -66.04 90)
+        (length 6.35)
+        (name "CAN2HRX"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "57"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 8.889999999999986 -66.04 90)
+        (length 6.35)
+        (name "SPI5SIMO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "58"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 11.429999999999986 -66.04 90)
+        (length 6.35)
+        (name "SPI5SOMI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "59"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 13.969999999999985 -66.04 90)
+        (length 6.35)
+        (name "SPI5CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "60"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 16.509999999999984 -66.04 90)
+        (length 6.35)
+        (name "~{SPI5ENA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "61"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 19.049999999999983 -66.04 90)
+        (length 6.35)
+        (name "SPI2CLK"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "62"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 21.589999999999982 -66.04 90)
+        (length 6.35)
+        (name "SPI2SIMO"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "63"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 24.12999999999998 -66.04 90)
+        (length 6.35)
+        (name "SPI2SOMI"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "64"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 26.66999999999998 -66.04 90)
+        (length 6.35)
+        (name "~{SPI2ENA}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "65"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 29.20999999999998 -66.04 90)
+        (length 6.35)
+        (name "~{SPI2SCS}"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "66"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 31.74999999999998 -66.04 90)
+        (length 6.35)
+        (name "HET[22]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "67"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 34.28999999999998 -66.04 90)
+        (length 6.35)
+        (name "HET[21]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "68"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 36.82999999999998 -66.04 90)
+        (length 6.35)
+        (name "HET[20]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "69"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 39.369999999999976 -66.04 90)
+        (length 6.35)
+        (name "HET[19]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "70"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 41.909999999999975 -66.04 90)
+        (length 6.35)
+        (name "HET[18]"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "71"
+          (effects
+            (font
+              (size 1.27 1.27)))))
+      (pin bidirectional line
+        (at 44.449999999999974 -66.04 90)
+        (length 6.35)
+        (name "AWD"
+          (effects
+            (font
+              (size 1.27 1.27))))
+        (number "72"
+          (effects
+            (font
+              (size 1.27 1.27))))))
+    (embedded_fonts no)))
